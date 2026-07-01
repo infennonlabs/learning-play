@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mahjong",
+    "title": "Mahjong",
+    "slug": "mahjong-play",
+    "channelPolicy": "stable",
+    "stablePath": "mahjong-play/",
+    "devPath": null
+  },
+  {
+    "id": "math_solitaire_kids",
+    "title": "Math Solitaire Kids",
+    "slug": "math-solitaire-kids",
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/math-solitaire-kids/"
+  },
+  {
+    "id": "does_it_solve",
+    "title": "Does It Solve",
+    "slug": "does-it-solve",
+    "channelPolicy": "stable",
+    "stablePath": "does-it-solve/",
+    "devPath": null
+  },
+  {
+    "id": "unicorn",
+    "title": "Unicorn",
+    "slug": "unicorn",
+    "channelPolicy": "stable",
+    "stablePath": "unicorn/",
+    "devPath": null
+  },
+  {
+    "id": "make_it",
+    "title": "Make It",
+    "slug": "make-it",
+    "channelPolicy": "stable",
+    "stablePath": "make-it/",
+    "devPath": null
+  },
+  {
+    "id": "memory_match",
+    "title": "Memory Match",
+    "slug": "memory-match",
+    "channelPolicy": "stable",
+    "stablePath": "memory-match/",
+    "devPath": null
+  },
+  {
+    "id": "alpha_kids",
+    "title": "Alpha Kids",
+    "slug": "alpha-kids",
+    "channelPolicy": "stable",
+    "stablePath": "alpha-kids/",
+    "devPath": null
+  },
+  {
+    "id": "sight_word_search",
+    "title": "Sight Word Search",
+    "slug": "sight-word-search",
+    "channelPolicy": "stable",
+    "stablePath": "sight-word-search/",
+    "devPath": null
+  }
+]
