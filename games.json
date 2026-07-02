@@ -40,6 +40,22 @@
     "devPath": null
   },
   {
+    "id": "math_adventures_kids",
+    "title": "Math Adventures Kids",
+    "slug": "math-adventures-kids",
+    "channelPolicy": "stable",
+    "stablePath": "math-adventures-kids/",
+    "devPath": null
+  },
+  {
+    "id": "reading_writing_kids",
+    "title": "Reading Writing Kids",
+    "slug": "reading-writing-kids",
+    "channelPolicy": "stable",
+    "stablePath": "reading-writing-kids/",
+    "devPath": null
+  },
+  {
     "id": "memory_match",
     "title": "Memory Match",
     "slug": "memory-match",
