@@ -31,8 +31,34 @@
 
   <title>does_it_solve</title>
   <link rel="manifest" href="manifest.json">
-</head>
+
+    <style>
+      .learning-play-home-link {
+        position: fixed;
+        top: 16px;
+        left: 16px;
+        z-index: 2147483647;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.88);
+        color: #121212;
+        font: 600 0.95rem -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        text-decoration: none;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+        border: 1px solid rgba(38, 24, 68, 0.10);
+      }
+      .learning-play-home-link:hover {
+        text-decoration: none;
+        transform: translateY(-1px);
+      }
+    </style>
+  </head>
 <body>
+  <a class="learning-play-home-link" href="/learning-play/">Home</a>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
