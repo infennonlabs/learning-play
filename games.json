@@ -3,9 +3,9 @@
     "id": "mahjong",
     "title": "Mahjong",
     "slug": "mahjong-play",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "mahjong-play/",
-    "devPath": null
+    "devPath": "dev/mahjong-play/"
   },
   {
     "id": "math_solitaire_kids",
@@ -19,9 +19,9 @@
     "id": "does_it_solve",
     "title": "Does It Solve",
     "slug": "does-it-solve",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "does-it-solve/",
-    "devPath": null
+    "devPath": "dev/does-it-solve/"
   },
   {
     "id": "unicorn",
@@ -35,48 +35,48 @@
     "id": "make_it",
     "title": "Make It",
     "slug": "make-it",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "make-it/",
-    "devPath": null
+    "devPath": "dev/make-it/"
   },
   {
     "id": "math_adventures_kids",
     "title": "Math Adventures Kids",
     "slug": "math-adventures-kids",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "math-adventures-kids/",
-    "devPath": null
+    "devPath": "dev/math-adventures-kids/"
   },
   {
     "id": "reading_writing_kids",
     "title": "Reading Writing Kids",
     "slug": "reading-writing-kids",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "reading-writing-kids/",
-    "devPath": null
+    "devPath": "dev/reading-writing-kids/"
   },
   {
     "id": "memory_match",
     "title": "Memory Match",
     "slug": "memory-match",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "memory-match/",
-    "devPath": null
+    "devPath": "dev/memory-match/"
   },
   {
     "id": "alpha_kids",
     "title": "Alpha Kids",
     "slug": "alpha-kids",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "alpha-kids/",
-    "devPath": null
+    "devPath": "dev/alpha-kids/"
   },
   {
     "id": "sight_word_search",
     "title": "Sight Word Search",
     "slug": "sight-word-search",
-    "channelPolicy": "stable",
+    "channelPolicy": "both",
     "stablePath": "sight-word-search/",
-    "devPath": null
+    "devPath": "dev/sight-word-search/"
   }
 ]
