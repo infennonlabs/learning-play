@@ -27,9 +27,9 @@
     "id": "unicorn",
     "title": "Unicorn",
     "slug": "unicorn",
-    "channelPolicy": "stable",
-    "stablePath": "unicorn/",
-    "devPath": null
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/unicorn/"
   },
   {
     "id": "make_it",
