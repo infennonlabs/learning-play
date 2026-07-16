@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mahjong",
+    "title": "Mahjong",
+    "slug": "mahjong-play",
+    "channelPolicy": "both",
+    "stablePath": "mahjong-play/",
+    "devPath": "dev/mahjong-play/"
+  },
+  {
+    "id": "math_solitaire_kids",
+    "title": "Math Solitaire Kids",
+    "slug": "math-solitaire-kids",
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/math-solitaire-kids/"
+  },
+  {
+    "id": "does_it_solve",
+    "title": "Does It Solve",
+    "slug": "does-it-solve",
+    "channelPolicy": "both",
+    "stablePath": "does-it-solve/",
+    "devPath": "dev/does-it-solve/"
+  },
+  {
+    "id": "unicorn",
+    "title": "Unicorn",
+    "slug": "unicorn",
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/unicorn/"
+  },
+  {
+    "id": "make_it",
+    "title": "Make It",
+    "slug": "make-it",
+    "channelPolicy": "both",
+    "stablePath": "make-it/",
+    "devPath": "dev/make-it/"
+  },
+  {
+    "id": "math_adventures_kids",
+    "title": "Math Adventures Kids",
+    "slug": "math-adventures-kids",
+    "channelPolicy": "both",
+    "stablePath": "math-adventures-kids/",
+    "devPath": "dev/math-adventures-kids/"
+  },
+  {
+    "id": "reading_writing_kids",
+    "title": "Reading Writing Kids",
+    "slug": "reading-writing-kids",
+    "channelPolicy": "both",
+    "stablePath": "reading-writing-kids/",
+    "devPath": "dev/reading-writing-kids/"
+  },
+  {
+    "id": "memory_match",
+    "title": "Memory Match",
+    "slug": "memory-match",
+    "channelPolicy": "both",
+    "stablePath": "memory-match/",
+    "devPath": "dev/memory-match/"
+  },
+  {
+    "id": "alpha_kids",
+    "title": "Alpha Kids",
+    "slug": "alpha-kids",
+    "channelPolicy": "both",
+    "stablePath": "alpha-kids/",
+    "devPath": "dev/alpha-kids/"
+  },
+  {
+    "id": "sight_word_search",
+    "title": "Sight Word Search",
+    "slug": "sight-word-search",
+    "channelPolicy": "both",
+    "stablePath": "sight-word-search/",
+    "devPath": "dev/sight-word-search/"
+  }
+]
