@@ -67,6 +67,27 @@
         margin: 10px 0 28px;
       }
 
+      .learning-play-overlay {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 2147483647;
+        display: inline-flex;
+        align-items: center;
+      }
+      .learning-play-build-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.88);
+        color: #121212;
+        font: 600 0.85rem -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        box-shadow: var(--shadow);
+        border: 1px solid var(--panel-border);
+      }
+    
       .chip {
         display: inline-flex;
         align-items: center;
@@ -133,11 +154,20 @@
         .shell { width: min(100% - 20px, 980px); padding-top: 24px; }
         .section-head { flex-direction: column; align-items: flex-start; }
 
+        .learning-play-overlay {
+          top: 12px;
+          right: 12px;
+        }
+        .learning-play-build-badge {
+          padding: 8px 12px;
+          font-size: 0.75rem;
+        }
+    
       }
     </style>
   </head>
   <body>
-    
+    <div class="learning-play-overlay"><div class="learning-play-build-badge">Build 238692fdf230 (dev)</div></div>
     <main class="shell">
       <header class="hero">
         <div class="kicker">Learning Play · Learning Play Dev</div>
