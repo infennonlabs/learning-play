@@ -33,11 +33,75 @@
   <link rel="manifest" href="manifest.json">
 
     <style>
+      .learning-play-overlay {
+        position: fixed;
+        top: calc(env(safe-area-inset-top, 0px) + 72px);
+        right: 16px;
+        z-index: 2147483647;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .learning-play-home-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.88);
+        color: #121212;
+        font: 700 1.35rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        text-decoration: none;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+        border: 1px solid rgba(38, 24, 68, 0.10);
+      }
+      .learning-play-home-link:hover {
+        text-decoration: none;
+        transform: translateX(-2px);
+      }
+      .learning-play-home-link:focus-visible {
+        outline: 2px solid #2457e0;
+        outline-offset: 2px;
+      }
+      .learning-play-build-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.88);
+        color: #121212;
+        font: 600 0.85rem -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+        border: 1px solid rgba(38, 24, 68, 0.10);
+      }
       @media (max-width: 640px) {
+        .learning-play-overlay {
+          top: calc(env(safe-area-inset-top, 0px) + 64px);
+          right: 12px;
+          gap: 8px;
+        }
+        .learning-play-home-link {
+          width: 44px;
+          height: 44px;
+          font-size: 1.2rem;
+        }
+        .learning-play-home-link:hover {
+          transform: translateX(-2px);
+        }
+        .learning-play-build-badge {
+          padding: 8px 12px;
+          font-size: 0.75rem;
+        }
       }
     </style>
   </head>
 <body>
+  <div class="learning-play-overlay">
+    <a class="learning-play-home-link" href="/learning-play/dev/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
+    <div class="learning-play-build-badge">Build 889c4040779c (dev)</div>
+  </div>
 
   <!--
     You can customize the "flutter_bootstrap.js" script.
