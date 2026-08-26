@@ -78,5 +78,13 @@
     "channelPolicy": "both",
     "stablePath": "sight-word-search/",
     "devPath": "dev/sight-word-search/"
+  },
+  {
+    "id": "home",
+    "title": "Infennon Labs Home",
+    "slug": "home",
+    "channelPolicy": "both",
+    "stablePath": "home/",
+    "devPath": "dev/home/"
   }
 ]
