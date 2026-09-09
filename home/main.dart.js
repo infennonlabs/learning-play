@@ -21318,7 +21318,7 @@ $iCA:1}
 A.a7X.prototype={
 $1(a){var s=A.c1().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/a804b261645ef8c13eb3d5c44a5c2fb0340c5539/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/06a2e2a110089dff50fe635cffd2a61e1b24fbcd/":s)+a},
 $S:140}
 A.Fi.prototype={
 gjh(){var s=this.b
@@ -69262,7 +69262,7 @@ return new A.Os(q)})
 s($,"ayH","akE",()=>A.aw([B.eg,"Thin",B.eh,"ExtraLight",B.ei,"Light",B.l,"Regular",B.E,"Medium",B.ej,"SemiBold",B.ar,"Bold",B.c1,"ExtraBold",B.aA,"Black"],A.aa("dg"),t.N))
 s($,"avz","aiT",()=>A.iv("^[\\w!#%&'*+\\-.^`|~]+$",!1))
 s($,"awb","aj7",()=>{var q="PreK-2nd"
-return A.d([A.lY(0,"Emphasis on the alphabet and associated words and sounds","Early-PreK",B.AC,!1,"alpha-kids","Alpha Kids"),A.lY(20,"Simple math logical thinking","K-1st",B.As,!1,"does-it-solve","Does It Solve"),A.lY(13,"Fun pattern recognition learning","PreK-5th",B.AA,!1,"mahjong","Mahjong"),A.lY(10,"Critical thinking and spelling through recipe creations",q,B.Ao,!1,"make-it","Make It"),A.lY(11,"Build strong math skills through patterns and problem solving",q,B.Ap,!1,"math-adventures-kids","Math Adventures Kids"),A.lY(12,"Card-flip memory games designed for recognition and recall.",q,B.Av,!1,"memory-match","Memory Match"),A.lY(21,"Read and write with confidence","K-3rd",B.At,!1,"reading-writing-kids","Reading Writing Kids"),A.lY(22,"Word search and spelling practice","K-5th",B.Au,!1,"sight-word-search","Sight Word Search")],A.aa("x<eb>"))})
+return A.d([A.lY(0,"Emphasis on the alphabet and associated words and sounds","Early-PreK",B.AC,!1,"alpha-kids","Alpha Kids"),A.lY(20,"Simple math logical thinking","K-1st",B.As,!1,"does-it-solve","Does It Solve"),A.lY(13,"Fun pattern recognition learning","PreK-5th",B.AA,!1,"tile-match","Tile Match Learning"),A.lY(10,"Critical thinking and spelling through recipe creations",q,B.Ao,!1,"make-it","Make It"),A.lY(11,"Build strong math skills through patterns and problem solving",q,B.Ap,!1,"math-adventures-kids","Math Adventures Kids"),A.lY(12,"Card-flip memory games designed for recognition and recall.",q,B.Av,!1,"memory-match","Memory Match"),A.lY(21,"Read and write with confidence","K-3rd",B.At,!1,"reading-writing-kids","Reading Writing Kids"),A.lY(22,"Word search and spelling practice","K-5th",B.Au,!1,"sight-word-search","Sight Word Search")],A.aa("x<eb>"))})
 s($,"awi","acu",()=>{var q=null
 return A.aX(q,q,!0,"background",new A.TN(),q,new A.TO(),q)})
 s($,"awo","aje",()=>A.aX(new A.U2(),A.br(3,3,4.5,7),!1,"on_background",new A.U3(),null,new A.U4(),null))
