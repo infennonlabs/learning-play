@@ -84073,15 +84073,15 @@ j.push(new A.cF("Final part is a whole number",!i,h))
 h=n.h(s,0)
 i=n.h(s,1)
 g=m===q
-f=g?d:"Part 1 should equal "+A.j(q)+"."
+f=g?d:"Check your arithmetic in part 1."
 j.push(new A.cF("First part is correct ("+(""+h+" "+r+" "+i)+")",g,f))
 f=n.h(s,2)
 g=l===p
-i=g?d:"Part 2 should equal "+A.j(p)+"."
+i=g?d:"Use your part 1 answer carefully in part 2."
 j.push(new A.cF("Second part is correct ("+(A.j(q)+" "+r+" "+f)+")",g,i))
 e=n.gF(s)===4?A.j(p)+" "+r+" "+n.h(s,3):"copy part 2 result"
 n=k===o
-i=n?d:"Final part should equal "+A.j(o)+"."
+i=n?d:"Recheck the final step using your previous result."
 j.push(new A.cF("Final part is correct ("+e+")",n,i))
 return new A.yN(B.b.dj(j,new A.a6z()),j)}}
 A.a6z.prototype={
@@ -84191,7 +84191,7 @@ o=s[2]
 if(o==null)o=""
 if(q==null||p==null)return n
 return new A.SI(q,p,o)},
-a3x(a){var s,r,q,p,o,n,m,l,k,j=" steps and see where you land."
+a3x(a){var s,r,q,p,o,n,m,l,k=" steps and see where you land."
 switch(a.a.a){case 1:s=a.cy
 r=a.db
 if(r==null)r="+"
@@ -84200,12 +84200,9 @@ if(q.gF(s)<3)return A.c(["Solve part 1 with the first two numbers.","Use your pa
 p=q.gF(s)
 o=q.h(s,0)
 n=q.h(s,1)
-m=a.dx
-m=A.j(m==null?"?":m)
-l=q.h(s,2)
-if(p===4){p=a.dy
-q="Final part: "+A.j(p==null?"?":p)+" "+r+" "+q.h(s,3)}else q="Final part: copy your part 2 answer."
-return A.c(["Part 1: "+o+" "+r+" "+n,"Part 2: "+m+" "+r+" "+l,q],t.s)
+m=q.h(s,2)
+q=p===4?"Final part: use your part 2 answer "+r+" "+q.h(s,3):"Final part: copy your part 2 answer."
+return A.c(["Part 1: "+o+" "+r+" "+n,"Part 2: use your part 1 answer "+r+" "+m,q],t.s)
 case 3:q=a.r
 return A.c([q==null?"Find the repeated jump in the sequence.":q,"Compare neighboring numbers to find the step.","Apply the same step one more time."],t.s)
 case 2:q=a.cx
@@ -84215,12 +84212,12 @@ return A.c([q==null?"Move one step at a time through the pattern.":q,"Fill blank
 case 5:return A.c(["Equivalent equations give the same total.","Check each choice quickly in your head.","Pick the equation that matches the original result."],t.s)
 case 6:return A.c(["Read the target number first.","Count emojis in each group one by one.","Select every group that matches exactly."],t.s)
 case 7:return A.c(["Start from a number on the left.","Count each emoji group on the right.","Drag to connect matching quantities. Crossing lines are okay."],t.s)
-case 0:case 8:k=this.Ph(a)
-if(k==null)return A.c(["Read the problem slowly.","Use fingers or draw quick dots.","Check your number one more time."],t.s)
-q=k.c
-if(q==="+")return A.c(["Plus means put groups together.","Start at "+k.a+".","Count up "+k.b+j],t.s)
-if(q==="-")return A.c(["Minus means take away.","Start at "+k.a+".","Count back "+k.b+j],t.s)
-return A.c(["Times means equal groups.","Make "+k.a+" groups with "+k.b+" in each group.","Count each dot one by one."],t.s)}},
+case 0:case 8:l=this.Ph(a)
+if(l==null)return A.c(["Read the problem slowly.","Use fingers or draw quick dots.","Check your number one more time."],t.s)
+q=l.c
+if(q==="+")return A.c(["Plus means put groups together.","Start at "+l.a+".","Count up "+l.b+k],t.s)
+if(q==="-")return A.c(["Minus means take away.","Start at "+l.a+".","Count back "+l.b+k],t.s)
+return A.c(["Times means equal groups.","Make "+l.a+" groups with "+l.b+" in each group.","Count each dot one by one."],t.s)}},
 vG(a,b){if(B.i.k(b)!==a.c)return
 $.X.ok$.push(new A.aih(this,a,b))},
 a3y(a){var s,r=this,q=null,p=a.a
@@ -84427,17 +84424,13 @@ b3=c5.db
 if(b3==null)b3="+"
 B.b.N(g,A.c([A.be("Part 1: "+b2+" "+b3+" "+b1.h(b,1)+" = ?",c2,c2,c2,c2,c2,c2),B.d7],c0))}g.push(A.u1(c1.d,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Solve the first two numbers",c2,c2,c2,c2,c2,c2,c2,c2,"First part",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.e0,c2,B.ar))
 g.push(B.ly)
-if(b1.gF(b)>=3){b2=c5.dx
-b2=A.j(b2==null?"?":b2)
-b3=c5.db
-if(b3==null)b3="+"
-B.b.N(g,A.c([A.be("Part 2: "+b2+" "+b3+" "+b1.h(b,2)+" = ?",c2,c2,c2,c2,c2,c2),B.d7],c0))}g.push(A.u1(c1.e,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Use your first part answer",c2,c2,c2,c2,c2,c2,c2,c2,"Second part",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.e0,c2,B.ar))
+if(b1.gF(b)>=3){b2=c5.db
+if(b2==null)b2="+"
+B.b.N(g,A.c([A.be("Part 2: your part 1 answer "+b2+" "+b1.h(b,2)+" = ?",c2,c2,c2,c2,c2,c2),B.d7],c0))}g.push(A.u1(c1.e,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Use your first part answer",c2,c2,c2,c2,c2,c2,c2,c2,"Second part",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.e0,c2,B.ar))
 g.push(B.ly)
-if(b1.gF(b)===4){b2=c5.dy
-b2=A.j(b2==null?"?":b2)
-b3=c5.db
-if(b3==null)b3="+"
-B.b.N(g,A.c([A.be("Final part: "+b2+" "+b3+" "+b1.h(b,3)+" = ?",c2,c2,c2,c2,c2,c2),B.d7],c0))}else B.b.N(g,A.c([B.Vk,B.d7],c0))
+if(b1.gF(b)===4){b2=c5.db
+if(b2==null)b2="+"
+B.b.N(g,A.c([A.be("Final part: your part 2 answer "+b2+" "+b1.h(b,3)+" = ?",c2,c2,c2,c2,c2,c2),B.d7],c0))}else B.b.N(g,A.c([B.Vk,B.d7],c0))
 g.push(A.u1(c1.f,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Type the final equation answer",c2,c2,c2,c2,c2,c2,c2,c2,"Final part",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.e0,new A.aiM(c1,c4,c5),B.ar))
 b9.push(A.hn(g,B.cP,B.X,B.a4))}else if(h===B.bv)b9.push(A.hn(A.c([A.u1(c1.r,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Example: 8+2+2",c2,c2,c2,c2,c2,c2,c2,c2,"Rewrite expression",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.QT,c2,B.ar),B.ly,A.u1(c1.w,A.os(c2,new A.e8(4,A.cl(16),B.o),c2,c2,c2,c2,c2,c2,!0,c2,c2,c2,c2,c2,c2,B.cO,!0,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,"Type the solved value",c2,c2,c2,c2,c2,c2,c2,c2,"Final answer",!0,!0,!1,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2,c2),B.e0,new A.aiN(c1,c4,c5),B.ar)],c0),B.cP,B.X,B.a4))
 else if(h===B.c3)b9.push(A.mF(B.bo,A.j2(c5.w.length,new A.aiX(c1,c5,k,r,j,c4),!0,t.l7),8,8))
