@@ -80,6 +80,22 @@
     "devPath": "dev/sight-word-search/"
   },
   {
+    "id": "chem_kids",
+    "title": "Chem Kids",
+    "slug": "chemistry",
+    "channelPolicy": "both",
+    "stablePath": "chemistry/",
+    "devPath": "dev/chemistry/"
+  },
+  {
+    "id": "countin_kids",
+    "title": "Countin Kids",
+    "slug": "countin-kids",
+    "channelPolicy": "both",
+    "stablePath": "countin-kids/",
+    "devPath": "dev/countin-kids/"
+  },
+  {
     "id": "home",
     "title": "Infennon Labs Home",
     "slug": "home",
