@@ -24,28 +24,12 @@
     "devPath": "dev/does-it-solve/"
   },
   {
-    "id": "unicorn",
-    "title": "Unicorn",
-    "slug": "unicorn",
-    "channelPolicy": "dev",
-    "stablePath": null,
-    "devPath": "dev/unicorn/"
-  },
-  {
     "id": "make_it",
     "title": "Make It",
     "slug": "make-it",
     "channelPolicy": "both",
     "stablePath": "make-it/",
     "devPath": "dev/make-it/"
-  },
-  {
-    "id": "make_change",
-    "title": "Make Change",
-    "slug": "make-change",
-    "channelPolicy": "both",
-    "stablePath": "make-change/",
-    "devPath": "dev/make-change/"
   },
   {
     "id": "math_adventures_kids",
