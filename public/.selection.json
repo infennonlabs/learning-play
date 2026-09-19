@@ -1,0 +1,10 @@
+[
+  {
+    "id": "home",
+    "title": "Infennon Labs Home",
+    "slug": "home",
+    "localPath": "infennon_labs_home",
+    "repo": "infennonlabs/infennonlabs_web",
+    "channelPolicy": "both"
+  }
+]
