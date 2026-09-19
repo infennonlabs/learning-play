@@ -38622,12 +38622,13 @@ f=o&&n.length!==0?k:0
 e=i&&n.length!==0?k:0
 d=B.c.bC(r*0.9-(h+g+f+e),20,r)
 h=n.length
-c=12
+c=0
 if(h!==0){b=B.h.bC(h,1,8)
 h=n.length
-if(h<=8)a=2
-else a=h<=16?3:4
-for(a0=a;a0<=b;++a0){a1=B.c.j8(n.length/a0)
+if(h<=3)a=1
+else if(h<=8)a=2
+else{h=h<=16?3:4
+a=h}for(a0=a;a0<=b;++a0){a1=B.c.j8(n.length/a0)
 a2=(j-(a0-1)*l)/a0
 a3=(d-(a1-1)*l)/(a1*a8)
 a4=a2<a3?a2:a3
