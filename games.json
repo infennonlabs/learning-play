@@ -40,6 +40,14 @@
     "devPath": "dev/make-it/"
   },
   {
+    "id": "make_change",
+    "title": "Make Change",
+    "slug": "make-change",
+    "channelPolicy": "both",
+    "stablePath": "make-change/",
+    "devPath": "dev/make-change/"
+  },
+  {
     "id": "math_adventures_kids",
     "title": "Math Adventures Kids",
     "slug": "math-adventures-kids",
