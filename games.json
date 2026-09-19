@@ -24,14 +24,6 @@
     "devPath": "dev/does-it-solve/"
   },
   {
-    "id": "unicorn",
-    "title": "Unicorn",
-    "slug": "unicorn",
-    "channelPolicy": "dev",
-    "stablePath": null,
-    "devPath": "dev/unicorn/"
-  },
-  {
     "id": "make_it",
     "title": "Make It",
     "slug": "make-it",
