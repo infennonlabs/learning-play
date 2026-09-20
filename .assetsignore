@@ -1,0 +1,10 @@
+# Exclude VCS and CI metadata from static asset uploads.
+.git
+.git/**
+.github
+.github/**
+
+# Worker source and config are runtime code/config, not static client assets.
+src
+src/**
+wrangler.toml
