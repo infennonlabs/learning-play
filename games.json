@@ -102,5 +102,13 @@
     "channelPolicy": "both",
     "stablePath": "speak-repeat/",
     "devPath": "dev/speak-repeat/"
+  },
+  {
+    "id": "word_blend_kids",
+    "title": "Word Blend Kids",
+    "slug": "contractions",
+    "channelPolicy": "both",
+    "stablePath": "contractions/",
+    "devPath": "dev/contractions/"
   }
 ]
