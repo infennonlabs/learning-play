@@ -106,9 +106,9 @@
   {
     "id": "word_blend_kids",
     "title": "Word Blend Kids",
-    "slug": "word-blend",
+    "slug": "contractions",
     "channelPolicy": "both",
-    "stablePath": "word-blend/",
-    "devPath": "dev/word-blend/"
+    "stablePath": "contractions/",
+    "devPath": "dev/contractions/"
   }
 ]
