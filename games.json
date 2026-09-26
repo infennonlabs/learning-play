@@ -40,6 +40,14 @@
     "devPath": "dev/home/"
   },
   {
+    "id": "centralized_package_sandbox",
+    "title": "Centralized Package Sandbox",
+    "slug": "centralized-package-sandbox",
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/centralized-package-sandbox/"
+  },
+  {
     "id": "mahjong",
     "title": "Mahjong",
     "slug": "mahjong-play",
