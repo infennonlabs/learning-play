@@ -8,6 +8,22 @@
     "devPath": "dev/alpha-kids/"
   },
   {
+    "id": "calendar_kids",
+    "title": "Calendar Kids",
+    "slug": "calendar",
+    "channelPolicy": "both",
+    "stablePath": "calendar/",
+    "devPath": "dev/calendar/"
+  },
+  {
+    "id": "centralized_package_sandbox",
+    "title": "Centralized Package Sandbox",
+    "slug": "centralized-package-sandbox",
+    "channelPolicy": "dev",
+    "stablePath": null,
+    "devPath": "dev/centralized-package-sandbox/"
+  },
+  {
     "id": "chem_kids",
     "title": "Chem Kids",
     "slug": "chemistry",
@@ -38,14 +54,6 @@
     "channelPolicy": "both",
     "stablePath": "home/",
     "devPath": "dev/home/"
-  },
-  {
-    "id": "centralized_package_sandbox",
-    "title": "Centralized Package Sandbox",
-    "slug": "centralized-package-sandbox",
-    "channelPolicy": "dev",
-    "stablePath": null,
-    "devPath": "dev/centralized-package-sandbox/"
   },
   {
     "id": "mahjong",
