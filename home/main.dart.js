@@ -17161,7 +17161,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 anb(a,b){var s=A.Y(b).h("a9<1,co>")
 s=A.V(new A.a9(b,new A.Qy(),s),s.h("an.E"))
-return A.amF(!0,s,a,B.CG,!0,B.zD,null)},
+return A.amF(!0,s,a,B.CH,!0,B.zD,null)},
 aa4(a){var s
 try{a.co()}catch(s){a.EE()}a.w=B.P0
 try{a.bc(A.auD())}catch(s){}},
@@ -21910,7 +21910,7 @@ pe(){var s=this.as
 s===$&&A.b()
 return s},
 pf(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Cz
+if(a<0||b<0)return B.CA
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -33487,7 +33487,7 @@ if(o>0)return s
 return null}}
 A.a36.prototype={
 v(a,b){this.Ef(b,0,b.length,!1)},
-aN(){this.Ef(B.Cy,0,0,!0)}}
+aN(){this.Ef(B.Cz,0,0,!0)}}
 A.a7u.prototype={
 Ef(a,b,c,d){var s=this.b.a3M(a,b,c,d)
 if(s!=null)this.a.jT(s,0,s.length,d)}}
@@ -38396,7 +38396,7 @@ n=o.e
 o=o.cx
 r=q.gY2()
 q.a.toString
-return new A.wt(p,p,p,new A.a4U(),p,p,p,p,p,n,B.EK,p,p,p,B.CH,q.gY9(),o,p,B.LF,s,p,r,p,p,B.kM,!1,!1,p,p,p,new A.lo(q,t.bT))},
+return new A.wt(p,p,p,new A.a4U(),p,p,p,p,p,n,B.EK,p,p,p,B.CI,q.gY9(),o,p,B.LF,s,p,r,p,p,B.kM,!1,!1,p,p,p,new A.lo(q,t.bT))},
 M(a){var s=this.T6(a),r=this.a.to,q=this.d
 q===$&&A.b()
 return new A.v7(r,new A.lq(q,s,null),null)}}
@@ -43104,7 +43104,7 @@ Nv(a){var s=this.b,r=s.a.c.BF(a.a8(0,s.geQ()))
 if(r==null||s.geQ().j(0,B.j))return r
 return new A.jh(r.a.cM(s.geQ()),r.b,r.c)},
 qV(){var s,r,q=this.b,p=q.geQ()
-if(!isFinite(p.a)||!isFinite(p.b))return B.CE
+if(!isFinite(p.a)||!isFinite(p.b))return B.CF
 s=q.f
 if(s==null){s=q.a.c.qV()
 q.f=s}if(p.j(0,B.j))r=s
@@ -50379,7 +50379,7 @@ break
 case 1:return A.O(q,r)}})
 return A.P($async$we,r)},
 V_(a,b){var s,r,q,p
-if(a===b)return B.CD
+if(a===b)return B.CE
 s=A.d([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.jk(B.cW,a)
@@ -51649,7 +51649,7 @@ A.jH.prototype={}
 A.DG.prototype={
 ig(a,b){var s,r,q,p,o,n=$.a3.aa$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.r,r=0;r<2;++r){q=B.Cv[r]
+for(s=t.r,r=0;r<2;++r){q=B.Cw[r]
 p=n.e
 p.toString
 o=A.a9z(p,q,s)
@@ -54977,7 +54977,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.K(b)!==A.v(s))return!1
 return b instanceof A.bJ&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cm(null,null)},
-gq(a){return A.I(this.a,this.b,null,this.d,A.b7(B.CF),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gq(a){return A.I(this.a,this.b,null,this.d,A.b7(B.CG),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.ts(B.h.kQ(this.a,16).toUpperCase(),5,"0")+")"}}
 A.t9.prototype={
 bu(a){return!this.w.j(0,a.w)}}
@@ -55543,7 +55543,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.tT(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rn(a1),B.CB,e===!0,d,c,b,a3,A.aou(a2))
+a=new A.tT(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.rn(a1),B.CC,e===!0,d,c,b,a3,A.aou(a2))
 if(!a.j(0,a0.e))a0.aU(new A.a5a(a0,a))},
 JV(){if(this.d==null)this.lz()},
 JX(){this.lz()},
@@ -55856,7 +55856,7 @@ r.I(0,s.MQ(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.CI[p]
+for(;!1;++p){o=B.CJ[p]
 n=l.c
 n.toString
 m=new A.eU(o.yv(n),null,!0,B.iX,B.aR,new A.mR(new ($.NA())(B.aR)),B.aR)
@@ -56199,7 +56199,7 @@ M(a){var s,r,q=this,p=null,o=q.gWE(),n=A.nB(a),m=q.be$,l=q.d
 l===$&&A.b()
 s=q.a.ay
 if(l.gbq()==null){r=q.gDt()
-r=J.nJ(r.slice(0),A.Y(r).c)}else r=B.CA
+r=J.nJ(r.slice(0),A.Y(r).c)}else r=B.CB
 return new A.lq(p,new A.cL(new A.WE(q,a),A.tF(B.bz,new A.A0(!1,A.aa8(A.BR(!0,p,A.a26(m,new A.o4(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),p,n),p),o,q.gYt(),p,p,o),p,t.w3),p)}}
 A.WD.prototype={
 $1(a){var s,r=this.a
@@ -61251,7 +61251,7 @@ r.qx()
 return s.aO()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gwg(),p=0;p<s.length;s.length===r||(0,A.t)(s),++p)s[p].P(q)
-o.b=B.CC
+o.b=B.CD
 o.y=!1
 o.dJ()},
 cp(a,b){return a.j6(b)},
@@ -63123,7 +63123,7 @@ return A.M(A.zy(A.eh("https://infennonlabs.com/"+a.d+"/",0,null)),$async$qh)
 case 2:return A.O(null,r)}})
 return A.P($async$qh,r)},
 M(a){var s=null,r=t.w,q=t.E
-return new A.v3(A.Fv(B.dH,A.d([B.OM,A.apT(new A.Ev(new A.Fh(B.zT,A.j9(A.d([B.P8,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),new A.xP(B.CM,this.gZ0(),s),A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),B.OL,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),B.OT,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*1.5,s),B.P9],q),B.cN,B.al),s),1180,s),!0)],q),B.f7),s)}}
+return new A.v3(A.Fv(B.dH,A.d([B.OM,A.apT(new A.Ev(new A.Fh(B.zT,A.j9(A.d([B.P8,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),new A.xP(B.Cv,this.gZ0(),s),A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),B.OL,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*3,s),B.OT,A.dA(s,A.m3(A.bi(a,B.ae,r).w.a.a)*1.5,s),B.P9],q),B.cN,B.al),s),1180,s),!0)],q),B.f7),s)}}
 A.a5l.prototype={
 y8(a,b,c){return b}}
 A.GE.prototype={
@@ -66486,7 +66486,7 @@ B.xB=new A.a29()
 B.O=new A.a2c()
 B.bZ=new A.a2e()
 B.co=new A.G5(0,0,0,0)
-B.CB=s([],A.aa("x<avZ>"))
+B.CC=s([],A.aa("x<avZ>"))
 B.Q2=new A.a2i()
 B.au={}
 B.pO=new A.bk(B.au,[],t.li)
@@ -66996,68 +66996,68 @@ B.EX=new A.hq(B.ym,B.yn)
 B.Cq=s([B.EZ,B.F1,B.EY,B.F_,B.F2,B.F0,B.EX],A.aa("x<hq>"))
 B.Cs=s([35,30,20,25,30,35,30,25,25],t.n)
 B.Cu=s(["click","scroll"],t.s)
-B.wH=new A.n0()
-B.id=new A.ET(1,"page")
-B.ie=new A.ec(B.an,B.id)
-B.Cv=s([B.wH,B.ie],A.aa("x<aC>"))
-B.CD=s([],t.QP)
-B.kS=s([],A.aa("x<avI>"))
-B.CG=s([],t.p)
-B.CE=s([],t.ER)
-B.CH=s([],t.tc)
-B.ev=s([],t.jl)
-B.CA=s([],t.wi)
-B.CI=s([],A.aa("x<af7<@>>"))
-B.hA=s([],t.AO)
-B.CC=s([],t.D1)
-B.eu=s([],t.V)
-B.hz=s([],t.s)
-B.a7=s([],t.oU)
-B.Cz=s([],t.Lx)
-B.Q9=s([],t.E)
-B.Cy=s([],t.t)
-B.kR=s([],t.ee)
-B.CF=s([],t.XS)
 B.AI=new A.bJ(984246,"MaterialIcons",!1)
-B.GQ=new A.bQ("Alpha Kids","Emphasis on the alphabet and associated words and sounds","alpha-kids",B.AI,"Early-PreK",0,!1)
+B.GP=new A.bQ("Alpha Kids","Emphasis on the alphabet and associated words and sounds","alpha-kids",B.AI,"Early-PreK",0,!1)
 B.AK=new A.bJ(984351,"MaterialIcons",!1)
 B.GO=new A.bQ("Calendar Kids","Learn days, months, and seasons through guided play","calendar",B.AK,"Early-PreK",1,!1)
 B.Au=new A.bJ(61503,"MaterialIcons",!1)
-B.GX=new A.bQ("Does It Solve","Simple math logical thinking","does-it-solve",B.Au,"K-1st",14,!1)
+B.GW=new A.bQ("Does It Solve","Simple math logical thinking","does-it-solve",B.Au,"K-1st",14,!1)
 B.AH=new A.bJ(63428,"MaterialIcons",!1)
 B.GM=new A.bQ("Tile Match Learning","Fun pattern recognition learning","tile-match",B.AH,"PreK-5th",13,!1)
 B.Aq=new A.bJ(61189,"MaterialIcons",!1)
-B.GR=new A.bQ("Make It","Critical thinking and spelling through recipe creations","make-it",B.Aq,"PreK-2nd",11,!1)
+B.GQ=new A.bQ("Make It","Critical thinking and spelling through recipe creations","make-it",B.Aq,"PreK-2nd",11,!1)
 B.Ar=new A.bJ(61200,"MaterialIcons",!1)
-B.GU=new A.bQ("Math Adventures Kids","Build strong math skills through patterns and problem solving","math-adventure",B.Ar,"K-1st",15,!1)
+B.GT=new A.bQ("Math Adventures Kids","Build strong math skills through patterns and problem solving","math-adventure",B.Ar,"K-1st",15,!1)
 B.AB=new A.bJ(62454,"MaterialIcons",!1)
 B.GN=new A.bQ("Memory Match","Card-flip memory games designed for recognition and recall.","memory-match",B.AB,"PreK-2nd",12,!1)
 B.Aw=new A.bJ(61890,"MaterialIcons",!1)
-B.GS=new A.bQ("Reading Writing Kids","Read and write with confidence","reading-writing",B.Aw,"K-3rd",23,!1)
+B.GR=new A.bQ("Reading Writing Kids","Read and write with confidence","reading-writing",B.Aw,"K-3rd",23,!1)
 B.Az=new A.bJ(62283,"MaterialIcons",!1)
 B.H_=new A.bQ("Sight Word Search","Word search and spelling practice","sight-word",B.Az,"K-5th",24,!1)
 B.Ay=new A.bJ(62269,"MaterialIcons",!1)
-B.GW=new A.bQ("Chem Kids","Chemistry exploration and periodic table learning","chemistry",B.Ay,"5th",999,!1)
+B.GV=new A.bQ("Chem Kids","Chemistry exploration and periodic table learning","chemistry",B.Ay,"5th",999,!1)
 B.AL=new A.bJ(984634,"MaterialIcons",!1)
-B.GY=new A.bQ("Countin Kids","Learn counting through playful number activities","counting",B.AL,"PreK-K",9,!1)
+B.GX=new A.bQ("Countin Kids","Learn counting through playful number activities","counting",B.AL,"PreK-K",9,!1)
 B.Ax=new A.bJ(62195,"MaterialIcons",!1)
-B.GZ=new A.bQ("Speak Repeat","Pronoun and speech practice through listen-and-repeat play","speak-repeat",B.Ax,"Early-PreK",2,!1)
+B.GY=new A.bQ("Speak Repeat","Pronoun and speech practice through listen-and-repeat play","speak-repeat",B.Ax,"Early-PreK",2,!1)
 B.Ap=new A.bJ(61103,"MaterialIcons",!1)
-B.GP=new A.bQ("Grammar Adventures Kids","Grammar and sentence skills through playful challenges","grammar",B.Ap,"K-3rd",21,!1)
+B.GZ=new A.bQ("Grammar Adventures Kids","Grammar and sentence skills through playful challenges","grammar",B.Ap,"K-2nd",21,!1)
 B.AA=new A.bJ(62404,"MaterialIcons",!1)
-B.GV=new A.bQ("Word Blend Kids","Word blending and phonics practice","contractions",B.AA,"K-2nd",22,!1)
+B.GU=new A.bQ("Word Blend Kids","Word blending and phonics practice","contractions",B.AA,"K-2nd",22,!1)
 B.Av=new A.bJ(61543,"MaterialIcons",!1)
-B.GT=new A.bQ("Math Solitaire Kids","Math practice blended with card-style puzzle play.","math-solitaire-kids",B.Av,"2nd-5th",24,!0)
-B.CM=s([B.GQ,B.GO,B.GX,B.GM,B.GR,B.GU,B.GN,B.GS,B.H_,B.GW,B.GY,B.GZ,B.GP,B.GV,B.GT],A.aa("x<bQ>"))
+B.GS=new A.bQ("Math Solitaire Kids","Math practice blended with card-style puzzle play.","math-solitaire-kids",B.Av,"2nd-5th",24,!0)
+B.Cv=s([B.GP,B.GO,B.GW,B.GM,B.GQ,B.GT,B.GN,B.GR,B.H_,B.GV,B.GX,B.GY,B.GZ,B.GU,B.GS],A.aa("x<bQ>"))
+B.wH=new A.n0()
+B.id=new A.ET(1,"page")
+B.ie=new A.ec(B.an,B.id)
+B.Cw=s([B.wH,B.ie],A.aa("x<aC>"))
+B.CE=s([],t.QP)
+B.kS=s([],A.aa("x<avI>"))
+B.CH=s([],t.p)
+B.CF=s([],t.ER)
+B.CI=s([],t.tc)
+B.ev=s([],t.jl)
+B.CB=s([],t.wi)
+B.CJ=s([],A.aa("x<af7<@>>"))
+B.hA=s([],t.AO)
+B.CD=s([],t.D1)
+B.eu=s([],t.V)
+B.hz=s([],t.s)
+B.a7=s([],t.oU)
+B.CA=s([],t.Lx)
+B.Q9=s([],t.E)
+B.Cz=s([],t.t)
+B.kR=s([],t.ee)
+B.CG=s([],t.XS)
 B.cW=s([B.bq,B.bf,B.dI,B.dJ,B.fn],t.QP)
 B.zc=new A.y(0.1411764705882353,0.06666666666666667,0.1450980392156863,0.21568627450980393,B.f)
 B.Ft=new A.p(0,10)
 B.wB=new A.f0(0,B.dL,B.zc,B.Ft,22)
 B.CR=s([B.wB],t.sq)
 B.BS=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.Cw=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.Cx=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.C1=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.CU=s([B.BS,B.Cw,B.C1],t.zg)
+B.CU=s([B.BS,B.Cx,B.C1],t.zg)
 B.CV=s([45,95,45,20,45,90,45,45,45],t.n)
 B.CW=s([120,120,20,45,20,15,20,120,120],t.n)
 B.c6=new A.eH(0,"controlModifier")
@@ -67626,7 +67626,7 @@ B.Bs=s([4294968072,null,null,8589935161],t.Z)
 B.Ck=s([8589934850,8589934850,8589934851,null],t.Z)
 B.pS=new A.cB(["*",B.Bv,"+",B.Bw,"-",B.Bx,".",B.By,"/",B.Bz,"0",B.BA,"1",B.BB,"2",B.BD,"3",B.BE,"4",B.BF,"5",B.BG,"6",B.BH,"7",B.BI,"8",B.BJ,"9",B.BL,"Alt",B.Ch,"AltGraph",B.Bk,"ArrowDown",B.Bl,"ArrowLeft",B.Bm,"ArrowRight",B.Bn,"ArrowUp",B.Bo,"Clear",B.Bt,"Control",B.Ci,"Delete",B.Bj,"End",B.Bp,"Enter",B.Bi,"Home",B.Bq,"Insert",B.Bu,"Meta",B.Cj,"PageDown",B.Br,"PageUp",B.Bs,"Shift",B.Ck],A.aa("cB<z,L<n?>>"))
 B.BK=s([B.l_,null,null,B.pG],t.L)
-B.CJ=s([B.ps,null,null,B.pH],t.L)
+B.CK=s([B.ps,null,null,B.pH],t.L)
 B.C6=s([B.pt,null,null,B.pI],t.L)
 B.Cm=s([B.pu,null,null,B.bC],t.L)
 B.Bc=s([B.pv,null,null,B.pJ],t.L)
@@ -67638,8 +67638,8 @@ B.CP=s([B.pA,null,null,B.bE],t.L)
 B.BQ=s([B.pB,null,null,B.hM],t.L)
 B.Bf=s([B.pC,null,null,B.bF],t.L)
 B.BY=s([B.pD,null,null,B.d8],t.L)
-B.CK=s([B.pE,null,null,B.bG],t.L)
-B.CL=s([B.pF,null,null,B.d9],t.L)
+B.CL=s([B.pE,null,null,B.bG],t.L)
+B.CM=s([B.pF,null,null,B.d9],t.L)
 B.BT=s([B.d4,B.d4,B.eC,null],t.L)
 B.CT=s([B.ey,null,B.ey,null],t.L)
 B.C7=s([B.aN,null,null,B.bD],t.L)
@@ -67655,9 +67655,9 @@ B.Cb=s([B.bB,null,null,B.d8],t.L)
 B.CO=s([B.d1,null,null,B.hL],t.L)
 B.BV=s([B.d5,B.d5,B.eD,null],t.L)
 B.Cc=s([B.d_,null,null,B.d7],t.L)
-B.Cx=s([B.d0,null,null,B.d9],t.L)
+B.Cy=s([B.d0,null,null,B.d9],t.L)
 B.BW=s([B.c5,B.c5,B.d3,null],t.L)
-B.EL=new A.cB(["*",B.BK,"+",B.CJ,"-",B.C6,".",B.Cm,"/",B.Bc,"0",B.CS,"1",B.CQ,"2",B.BR,"3",B.CY,"4",B.CP,"5",B.BQ,"6",B.Bf,"7",B.BY,"8",B.CK,"9",B.CL,"Alt",B.BT,"AltGraph",B.CT,"ArrowDown",B.C7,"ArrowLeft",B.C8,"ArrowRight",B.C9,"ArrowUp",B.CX,"Clear",B.CN,"Control",B.BU,"Delete",B.Ct,"End",B.Ca,"Enter",B.BP,"Home",B.Cb,"Insert",B.CO,"Meta",B.BV,"PageDown",B.Cc,"PageUp",B.Cx,"Shift",B.BW],A.aa("cB<z,L<e?>>"))
+B.EL=new A.cB(["*",B.BK,"+",B.CK,"-",B.C6,".",B.Cm,"/",B.Bc,"0",B.CS,"1",B.CQ,"2",B.BR,"3",B.CY,"4",B.CP,"5",B.BQ,"6",B.Bf,"7",B.BY,"8",B.CL,"9",B.CM,"Alt",B.BT,"AltGraph",B.CT,"ArrowDown",B.C7,"ArrowLeft",B.C8,"ArrowRight",B.C9,"ArrowUp",B.CX,"Clear",B.CN,"Control",B.BU,"Delete",B.Ct,"End",B.Ca,"Enter",B.BP,"Home",B.Cb,"Insert",B.CO,"Meta",B.BV,"PageDown",B.Cc,"PageUp",B.Cy,"Shift",B.BW],A.aa("cB<z,L<e?>>"))
 B.Fn={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.pT=new A.bk(B.Fn,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Fm={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
