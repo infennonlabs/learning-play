@@ -48,6 +48,14 @@
     "devPath": "dev/does-it-solve/"
   },
   {
+    "id": "grammar_adventures_kids",
+    "title": "Grammar Adventures Kids",
+    "slug": "grammar",
+    "channelPolicy": "both",
+    "stablePath": "grammar/",
+    "devPath": "dev/grammar/"
+  },
+  {
     "id": "home",
     "title": "Infennon Labs Home",
     "slug": "home",
