@@ -71688,7 +71688,7 @@ ai(){return new A.rD(A.a3k(),this.$ti.h("rD<1>"))}}
 A.rD.prototype={
 tD(){var s=0,r=A.O(t.H),q
 var $async$tD=A.P(function(a,b){if(a===1)return A.L(b,r)
-for(;;)switch(s){case 0:q=A.fs("/home",0,null)
+for(;;)switch(s){case 0:q=A.fs("https://infennonlabs.com/home",0,null)
 s=2
 return A.K(A.Rf(q,"_self"),$async$tD)
 case 2:return A.M(null,r)}})
@@ -78288,7 +78288,7 @@ s($,"aHo","asW",()=>A.Y8(A.bN([B.iU],t.W)))
 s($,"aGE","asq",()=>A.Y8(A.bN([B.iV],t.W)))
 s($,"aHg","asT",()=>A.Y8(A.bN([B.iW],t.W)))
 s($,"aI7","ati",()=>new A.a16(A.r(t.N,A.ag("ar<cf?>?(cf?)"))))
-s($,"aGc","as6",()=>A.fs("/home",0,null))
+s($,"aGc","as6",()=>A.fs("https://infennonlabs.com/home",0,null))
 s($,"aGb","as5",()=>A.PK(null,"contact@infennonlabs.com",null,"mailto"))
 s($,"aEm","akh",()=>{var q=null
 return A.bb(q,q,!0,"background",new A.Yg(),q,new A.Yh(),q)})

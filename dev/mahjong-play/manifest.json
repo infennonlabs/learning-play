@@ -1,6 +1,6 @@
 {
-    "name": "mahjong_game",
-    "short_name": "mahjong_game",
+    "name": "Tile Match Learning",
+    "short_name": "Tile Match Learning",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
