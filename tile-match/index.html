@@ -28,6 +28,39 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
+  <script>
+    (() => {
+      const glyph = "🧩";
+      const isEmoji = true;
+      const drawTabIcon = () => {
+        const size = 64;
+        const canvas = document.createElement("canvas");
+        canvas.width = size;
+        canvas.height = size;
+        const context = canvas.getContext("2d");
+        if (!context) {
+          return;
+        }
+        context.fillStyle = "#1A8E5F";
+        context.fillRect(0, 0, size, size);
+        context.strokeStyle = "rgba(255, 255, 255, 0.32)";
+        context.lineWidth = 3;
+        context.strokeRect(1.5, 1.5, size - 3, size - 3);
+        context.fillStyle = "#FFFFFF";
+        context.textAlign = "center";
+        context.textBaseline = "middle";
+        context.font = isEmoji
+          ? '44px "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif'
+          : "900 46px Arial, sans-serif";
+        context.fillText(glyph, size / 2, size / 2 + (isEmoji ? 1 : 2));
+        const favicon = document.querySelector('link[rel="icon"][type="image/png"]');
+        if (favicon) {
+          favicon.href = canvas.toDataURL("image/png");
+        }
+      };
+      drawTabIcon();
+    })();
+  </script>
 
   <title>Tile Match Learning</title>
   <link rel="manifest" href="manifest.json">
