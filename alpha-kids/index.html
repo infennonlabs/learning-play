@@ -27,7 +27,41 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  >
   <link rel="icon" type="image/png" href="favicon.png"/>
+  <script>
+    (() => {
+      const iconName = "abc";
+      const drawTabIcon = () => {
+        const size = 64;
+        const canvas = document.createElement("canvas");
+        canvas.width = size;
+        canvas.height = size;
+        const context = canvas.getContext("2d");
+        if (!context) {
+          return;
+        }
+        context.fillStyle = "#0F2231";
+        context.textAlign = "center";
+        context.textBaseline = "middle";
+        context.font = '56px "Material Icons"';
+        context.fillText(iconName, size / 2, size / 2 + 2);
+        const favicon = document.querySelector('link[rel="icon"][type="image/png"]');
+        if (favicon) {
+          favicon.href = canvas.toDataURL("image/png");
+        }
+      };
+
+      if (document.fonts?.load) {
+        document.fonts.load('56px "Material Icons"').then(drawTabIcon);
+      } else {
+        drawTabIcon();
+      }
+    })();
+  </script>
 
   <title>alpha_kids</title>
   <link rel="manifest" href="manifest.json">
@@ -100,7 +134,7 @@
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 3264098978f5 (stable)</div>
+    <div class="learning-play-build-badge">Build 336cdaff4bf0 (stable)</div>
   </div>
 
   <script src="flutter_bootstrap.js" async></script>
