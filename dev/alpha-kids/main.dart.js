@@ -22836,6 +22836,7 @@ n=o.a
 m=o.b
 o=d.$1(m)
 l=c.$1(m)
+if(l==null)l=""
 k=a.$1(m)
 j=b.$2(m,n)
 if(j==null)j=A.amL(n)
@@ -23030,7 +23031,7 @@ $iG_:1}
 A.afT.prototype={
 $1(a){var s=A.ck().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/af7e796e161ae0bb1ff0758c71a7105418bd9ded/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/692136cb6582dbfc5af3fb33c2515a069f2f66d0/":s)+a},
 $S:104}
 A.ID.prototype={
 gkB(){var s=this.b
