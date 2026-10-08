@@ -48,6 +48,14 @@
     "devPath": "dev/does-it-solve/"
   },
   {
+    "id": "emergency_kids",
+    "title": "Emergency Kids",
+    "slug": "emergency-response",
+    "channelPolicy": "both",
+    "stablePath": "emergency-response/",
+    "devPath": "dev/emergency-response/"
+  },
+  {
     "id": "grammar_adventures_kids",
     "title": "Grammar Adventures Kids",
     "slug": "grammar",
