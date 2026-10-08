@@ -112,6 +112,14 @@
     "devPath": "dev/memory-match/"
   },
   {
+    "id": "pumpkin_carver",
+    "title": "Pumpkin Carving",
+    "slug": "pumpkin-carving",
+    "channelPolicy": "both",
+    "stablePath": "pumpkin-carving/",
+    "devPath": "dev/pumpkin-carving/"
+  },
+  {
     "id": "reading_writing_kids",
     "title": "Reading Writing Kids",
     "slug": "reading-writing-kids",
