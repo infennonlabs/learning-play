@@ -112,6 +112,14 @@
     "devPath": "dev/memory-match/"
   },
   {
+    "id": "piano_synth_demo",
+    "title": "Piano Practice",
+    "slug": "piano-practice",
+    "channelPolicy": "both",
+    "stablePath": "piano-practice/",
+    "devPath": "dev/piano-practice/"
+  },
+  {
     "id": "pumpkin_carver",
     "title": "Pumpkin Carving",
     "slug": "pumpkin-carving",
