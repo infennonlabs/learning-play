@@ -114,10 +114,10 @@
   {
     "id": "piano_synth_demo",
     "title": "Piano Practice",
-    "slug": "piano-practice",
+    "slug": "piano",
     "channelPolicy": "both",
-    "stablePath": "piano-practice/",
-    "devPath": "dev/piano-practice/"
+    "stablePath": "piano/",
+    "devPath": "dev/piano/"
   },
   {
     "id": "pumpkin_carver",
