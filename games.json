@@ -32,6 +32,14 @@
     "devPath": "dev/chemistry/"
   },
   {
+    "id": "cooking_kids",
+    "title": "Cooking Kids",
+    "slug": "cooking",
+    "channelPolicy": "both",
+    "stablePath": "cooking/",
+    "devPath": "dev/cooking/"
+  },
+  {
     "id": "countin_kids",
     "title": "Countin Kids",
     "slug": "countin-kids",
