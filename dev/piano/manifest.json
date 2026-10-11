@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Play piano by ear with songs, chords, and matching music symbols.",
+    "description": "Play piano by ear with songs, chords, and matching music symbols",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -1,11 +1,11 @@
 {
-    "name": "word_blend_kids",
-    "short_name": "word_blend_kids",
+    "name": "Word Blend Kids",
+    "short_name": "Word Blend Kids",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Build and match word joiners",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

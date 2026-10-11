@@ -1,11 +1,11 @@
 {
-    "name": "chem_kids",
-    "short_name": "chem_kids",
+    "name": "Chem Kids",
+    "short_name": "Chem Kids",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Chemistry exploration and periodic table learning",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -1,11 +1,11 @@
 {
-    "name": "speak_repeat",
-    "short_name": "speak_repeat",
+    "name": "Speak Repeat",
+    "short_name": "Speak Repeat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Pronoun and speech practice through listen-and-repeat play",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

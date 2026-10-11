@@ -1,11 +1,11 @@
 {
-    "name": "make_it",
-    "short_name": "make_it",
+    "name": "Make It",
+    "short_name": "Make It",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Critical thinking and spelling through recipe creations",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

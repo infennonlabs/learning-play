@@ -1,11 +1,11 @@
 {
-    "name": "does_it_solve",
-    "short_name": "does_it_solve",
+    "name": "Does It Solve",
+    "short_name": "Does It Solve",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Simple math logical thinking",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

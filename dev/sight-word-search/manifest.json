@@ -1,11 +1,11 @@
 {
-    "name": "sight_word_search",
-    "short_name": "sight_word_search",
+    "name": "Sight Word Search",
+    "short_name": "Sight Word Search",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Word search and spelling practice",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
