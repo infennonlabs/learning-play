@@ -120,6 +120,14 @@
     "devPath": "dev/memory-match/"
   },
   {
+    "id": "paint_by_number",
+    "title": "Paint by Number",
+    "slug": "coloring",
+    "channelPolicy": "both",
+    "stablePath": "coloring/",
+    "devPath": "dev/coloring/"
+  },
+  {
     "id": "piano_synth_demo",
     "title": "Piano Practice",
     "slug": "piano",
