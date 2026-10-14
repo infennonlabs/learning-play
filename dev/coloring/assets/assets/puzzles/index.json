@@ -1,0 +1,68 @@
+[
+ {
+  "id": "cupcake",
+  "title": "Cupcake",
+  "tier": "easy",
+  "regions": 11
+ },
+ {
+  "id": "sun",
+  "title": "Happy Sun",
+  "tier": "easy",
+  "regions": 11
+ },
+ {
+  "id": "turtle",
+  "title": "Turtle",
+  "tier": "easy",
+  "regions": 12
+ },
+ {
+  "id": "fish",
+  "title": "Fish",
+  "tier": "medium",
+  "regions": 13
+ },
+ {
+  "id": "butterfly",
+  "title": "Butterfly",
+  "tier": "medium",
+  "regions": 14
+ },
+ {
+  "id": "icecream",
+  "title": "Ice Cream",
+  "tier": "medium",
+  "regions": 14
+ },
+ {
+  "id": "balloon",
+  "title": "Hot Air Balloon",
+  "tier": "medium",
+  "regions": 16
+ },
+ {
+  "id": "rocket",
+  "title": "Rocket",
+  "tier": "medium",
+  "regions": 16
+ },
+ {
+  "id": "owl",
+  "title": "Owl",
+  "tier": "hard",
+  "regions": 18
+ },
+ {
+  "id": "dino",
+  "title": "Dinosaur",
+  "tier": "hard",
+  "regions": 20
+ },
+ {
+  "id": "castle",
+  "title": "Castle",
+  "tier": "hard",
+  "regions": 21
+ }
+]
