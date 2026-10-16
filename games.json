@@ -32,6 +32,14 @@
     "devPath": "dev/chemistry/"
   },
   {
+    "id": "clockwork",
+    "title": "Clockwork",
+    "slug": "clockwork",
+    "channelPolicy": "both",
+    "stablePath": "clockwork/",
+    "devPath": "dev/clockwork/"
+  },
+  {
     "id": "cooking_kids",
     "title": "Cooking Kids",
     "slug": "cooking",
