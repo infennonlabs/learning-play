@@ -1,10 +1,10 @@
 {
     "name": "Sight Word Search",
-    "short_name": "Sight Word Search",
+    "short_name": "Word Search",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#E6B800",
+    "theme_color": "#E6B800",
     "description": "Word search and spelling practice",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,

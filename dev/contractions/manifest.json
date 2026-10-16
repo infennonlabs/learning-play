@@ -1,10 +1,10 @@
 {
     "name": "Word Blend Kids",
-    "short_name": "Word Blend Kids",
+    "short_name": "Word Blend",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#3FBF9F",
+    "theme_color": "#3FBF9F",
     "description": "Build and match word joiners",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,

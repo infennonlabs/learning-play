@@ -1,10 +1,10 @@
 {
     "name": "Grammar Adventures Kids",
-    "short_name": "Grammar Adventures Kids",
+    "short_name": "Grammar",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#D6457F",
+    "theme_color": "#D6457F",
     "description": "Grammar and sentence skills through playful challenges",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,

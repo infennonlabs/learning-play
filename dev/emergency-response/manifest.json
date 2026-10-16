@@ -1,10 +1,10 @@
 {
     "name": "Emergency Kids",
-    "short_name": "Emergency Kids",
+    "short_name": "Emergency",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#E8473B",
+    "theme_color": "#E8473B",
     "description": "Learn what to do in an emergency through guided practice",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,

@@ -20,6 +20,21 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Emphasis on the alphabet and associated words and sounds">
 
+  <!-- Link preview (Slack, iMessage, social) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Infennon Labs">
+  <meta property="og:title" content="Alpha Kids">
+  <meta property="og:description" content="Emphasis on the alphabet and associated words and sounds">
+  <meta property="og:url" content="https://infennonlabs.com/alpha-kids/">
+  <meta property="og:image" content="https://infennonlabs.com/alpha-kids/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alpha Kids">
+  <meta name="twitter:description" content="Emphasis on the alphabet and associated words and sounds">
+  <meta name="twitter:image" content="https://infennonlabs.com/alpha-kids/share.jpg">
+  <meta name="theme-color" content="#27A56F">
+
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -28,35 +43,6 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-  <script>
-    (() => {
-      const drawTabIcon = () => {
-        const size = 64;
-        const canvas = document.createElement("canvas");
-        canvas.width = size;
-        canvas.height = size;
-        const context = canvas.getContext("2d");
-        if (!context) {
-          return;
-        }
-        context.fillStyle = "#1A8E5F";
-        context.fillRect(0, 0, size, size);
-        context.strokeStyle = "rgba(255, 255, 255, 0.32)";
-        context.lineWidth = 3;
-        context.strokeRect(1.5, 1.5, size - 3, size - 3);
-        context.fillStyle = "#FFFFFF";
-        context.textAlign = "center";
-        context.textBaseline = "middle";
-        context.font = "900 46px Arial, sans-serif";
-        context.fillText("A", size / 2, size / 2 + 2);
-        const favicon = document.querySelector('link[rel="icon"][type="image/png"]');
-        if (favicon) {
-          favicon.href = canvas.toDataURL("image/png");
-        }
-      };
-      drawTabIcon();
-    })();
-  </script>
 
   <title>Alpha Kids</title>
   <link rel="manifest" href="manifest.json">
@@ -129,7 +115,7 @@
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/dev/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 256cc76e29b6 (dev)</div>
+    <div class="learning-play-build-badge">Build d9706df3f403 (dev)</div>
   </div>
 
   <script src="flutter_bootstrap.js" async></script>

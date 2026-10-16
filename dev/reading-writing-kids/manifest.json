@@ -1,10 +1,10 @@
 {
     "name": "Reading Writing Kids",
-    "short_name": "Reading Writing Kids",
+    "short_name": "Read Write",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#7A5230",
+    "theme_color": "#7A5230",
     "description": "Read and write with confidence",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
