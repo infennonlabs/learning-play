@@ -88,6 +88,14 @@
     "devPath": "dev/mahjong-play/"
   },
   {
+    "id": "make_change",
+    "title": "Make Change",
+    "slug": "make-change",
+    "channelPolicy": "both",
+    "stablePath": "make-change/",
+    "devPath": "dev/make-change/"
+  },
+  {
     "id": "make_it",
     "title": "Make It",
     "slug": "make-it",
