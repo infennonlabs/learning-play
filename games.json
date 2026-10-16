@@ -8,6 +8,14 @@
     "devPath": "dev/alpha-kids/"
   },
   {
+    "id": "anatomy_kids",
+    "title": "Anatomy Kids",
+    "slug": "anatomy",
+    "channelPolicy": "both",
+    "stablePath": "anatomy/",
+    "devPath": "dev/anatomy/"
+  },
+  {
     "id": "calendar_kids",
     "title": "Calendar Kids",
     "slug": "calendar",
