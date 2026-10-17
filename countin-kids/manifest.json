@@ -1,11 +1,11 @@
 {
-    "name": "countin_kids",
-    "short_name": "countin_kids",
+    "name": "Countin Kids",
+    "short_name": "Countin Kids",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#38A8F0",
+    "theme_color": "#38A8F0",
+    "description": "Learn counting through playful number activities",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

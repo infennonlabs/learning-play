@@ -1,11 +1,11 @@
 {
-    "name": "make_change",
-    "short_name": "make_change",
+    "name": "Make Change",
+    "short_name": "Make Change",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#2F6FDE",
+    "theme_color": "#2F6FDE",
+    "description": "Count coins and bills, group rolls and make change",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

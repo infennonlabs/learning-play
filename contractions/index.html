@@ -18,51 +18,33 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Build and match word joiners">
+
+  <!-- Link preview (Slack, iMessage, social) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Infennon Labs">
+  <meta property="og:title" content="Word Blend Kids">
+  <meta property="og:description" content="Build and match word joiners">
+  <meta property="og:url" content="https://infennonlabs.com/contractions/">
+  <meta property="og:image" content="https://infennonlabs.com/contractions/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Word Blend Kids">
+  <meta name="twitter:description" content="Build and match word joiners">
+  <meta name="twitter:image" content="https://infennonlabs.com/contractions/share.jpg">
+  <meta name="theme-color" content="#3FBF9F">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="word_blend_kids">
+  <meta name="apple-mobile-web-app-title" content="Word Blend Kids">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-  <script>
-    (() => {
-      const glyph = "🧋";
-      const isEmoji = true;
-      const drawTabIcon = () => {
-        const size = 64;
-        const canvas = document.createElement("canvas");
-        canvas.width = size;
-        canvas.height = size;
-        const context = canvas.getContext("2d");
-        if (!context) {
-          return;
-        }
-        context.fillStyle = "#1A8E5F";
-        context.fillRect(0, 0, size, size);
-        context.strokeStyle = "rgba(255, 255, 255, 0.32)";
-        context.lineWidth = 3;
-        context.strokeRect(1.5, 1.5, size - 3, size - 3);
-        context.fillStyle = "#FFFFFF";
-        context.textAlign = "center";
-        context.textBaseline = "middle";
-        context.font = isEmoji
-          ? '44px "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif'
-          : "900 46px Arial, sans-serif";
-        context.fillText(glyph, size / 2, size / 2 + (isEmoji ? 1 : 2));
-        const favicon = document.querySelector('link[rel="icon"][type="image/png"]');
-        if (favicon) {
-          favicon.href = canvas.toDataURL("image/png");
-        }
-      };
-      drawTabIcon();
-    })();
-  </script>
 
-  <title>word_blend_kids</title>
+  <title>Word Blend Kids</title>
   <link rel="manifest" href="manifest.json">
 
     <style>
@@ -133,7 +115,7 @@
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 3b7e6bf68d10 (stable)</div>
+    <div class="learning-play-build-badge">Build 974007230443 (stable)</div>
   </div>
 
   <!--

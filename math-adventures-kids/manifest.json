@@ -1,11 +1,11 @@
 {
-    "name": "math_adventures_kids",
-    "short_name": "math_adventures_kids",
+    "name": "Math Adventures Kids",
+    "short_name": "Math Adventures",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#17B6D6",
+    "theme_color": "#17B6D6",
+    "description": "Build strong math skills through patterns and problem solving",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
