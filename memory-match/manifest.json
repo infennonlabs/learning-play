@@ -1,11 +1,11 @@
 {
-    "name": "memory_match",
-    "short_name": "memory_match",
+    "name": "Memory Match",
+    "short_name": "Memory Match",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F2766B",
+    "theme_color": "#F2766B",
+    "description": "Card-flip memory games designed for recognition and recall",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

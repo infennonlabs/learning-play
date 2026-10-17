@@ -1,11 +1,11 @@
 {
-    "name": "pumpkin_carver",
-    "short_name": "pumpkin_carver",
+    "name": "Pumpkin Carving",
+    "short_name": "Pumpkin",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F28C1E",
+    "theme_color": "#F28C1E",
+    "description": "Carve a pumpkin by finger, then light it up for the night",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

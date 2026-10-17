@@ -1,11 +1,11 @@
 {
-    "name": "reading_writing_kids",
-    "short_name": "reading_writing_kids",
+    "name": "Reading Writing Kids",
+    "short_name": "Read Write",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#7A5230",
+    "theme_color": "#7A5230",
+    "description": "Read and write with confidence",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

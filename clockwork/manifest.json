@@ -3,9 +3,9 @@
     "short_name": "Clockwork",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Clockwork: learn the parts of a clock and how to tell time.",
+    "background_color": "#4B6A9B",
+    "theme_color": "#4B6A9B",
+    "description": "Learn the parts of a clock and how to tell time",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
