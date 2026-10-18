@@ -80,6 +80,14 @@
     "devPath": "dev/emergency-response/"
   },
   {
+    "id": "farm_kids",
+    "title": "Farm Kids",
+    "slug": "farming",
+    "channelPolicy": "both",
+    "stablePath": "farming/",
+    "devPath": "dev/farming/"
+  },
+  {
     "id": "grammar_adventures_kids",
     "title": "Grammar Adventures Kids",
     "slug": "grammar",
