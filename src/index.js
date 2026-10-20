@@ -5,7 +5,7 @@ export default {
       return env.ASSETS.fetch(new Request(new URL("/home/ads.txt", url), request));
     }
     if (url.pathname === "/" || url.pathname === "") {
-      return env.ASSETS.fetch(new Request(new URL("/home/index.html", url), request));
+      return env.ASSETS.fetch(new Request(new URL("/home/", url), request));
     }
     return env.ASSETS.fetch(request);
   }
