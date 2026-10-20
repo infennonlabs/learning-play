@@ -18,11 +18,12 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="InfennonLabs makes free early learning games for ages 3-12, from PreK through 5th grade. Alphabet, counting, math, reading and more. No subscription.">
+  <meta name="description" content="Free early learning games for kids ages 3-12, PreK through 5th grade. No subscription required. Alphabet, counting, math, reading, science and more.">
+  <meta name="robots" content="max-image-preview:large, max-snippet:-1">
   <meta name="google-adsense-account" content="ca-pub-8017542409324420">
   <meta name="theme-color" content="#0B5E8B">
   <meta property="og:title" content="InfennonLabs: Free Early Learning Games for Kids">
-  <meta property="og:description" content="InfennonLabs makes free early learning games for ages 3-12, from PreK through 5th grade. Alphabet, counting, math, reading and more. No subscription.">
+  <meta property="og:description" content="Free early learning games for kids ages 3-12, PreK through 5th grade. No subscription required. Alphabet, counting, math, reading, science and more.">
   <meta property="og:type" content="website">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -38,14 +39,54 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png"/>
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8017542409324420"
-    crossorigin="anonymous"></script>
+  <script>
+    // Keep Flutter's internal font-measurement text out of search-result snippets.
+    // Google only honors data-nosnippet on span/div/section, so wrap the <p> Flutter adds.
+    (function () {
+      var TEXT = 'flutter typography measurement';
+      function wrap(node) {
+        if (node.nodeType !== 1 || node.tagName !== 'P' || node.textContent !== TEXT) return;
+        var parent = node.parentNode;
+        if (!parent || (parent.hasAttribute && parent.hasAttribute('data-nosnippet'))) return;
+        var span = document.createElement('span');
+        span.setAttribute('data-nosnippet', '');
+        span.style.display = 'contents';
+        parent.insertBefore(span, node);
+        span.appendChild(node);
+      }
+      var observer = new MutationObserver(function (records) {
+        records.forEach(function (record) { record.addedNodes.forEach(wrap); });
+      });
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+      setTimeout(function () { observer.disconnect(); }, 60000);
+    })();
+  </script>
+  <script>
+    // Load Google AdSense after Flutter's first frame so it does not compete with app startup
+    // (it added ~1.1s to first paint on mobile). Same script and publisher ID as before; ad
+    // units queued by adsbygoogle.push() run when it arrives. The google-adsense-account meta
+    // tag above and ads.txt are unchanged.
+    (function () {
+      var loaded = false;
+      function loadAds() {
+        if (loaded) return;
+        loaded = true;
+        var script = document.createElement('script');
+        script.async = true;
+        script.crossOrigin = 'anonymous';
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8017542409324420';
+        document.head.appendChild(script);
+      }
+      // Flutter dispatches this on window after the first frame renders.
+      window.addEventListener('flutter-first-frame', function () { setTimeout(loadAds, 1500); }, { once: true });
+      // Fallback if the event never fires (older engine, load error): 10s after window load.
+      window.addEventListener('load', function () { setTimeout(loadAds, 10000); }, { once: true });
+    })();
+  </script>
 
-  <title>InfennonLabs: Free Early Learning Games for Kids (PreK-5th)</title>
+  <title>Free Learning Games for Kids, No Subscription Required</title>
   <link rel="manifest" href="manifest.json">
-  <script type="application/ld+json" id="seo-site-jsonld">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://infennonlabs.com/#organization", "name": "InfennonLabs", "alternateName": "Infennon Labs", "url": "https://infennonlabs.com/", "logo": "https://infennonlabs.com/home/icons/Icon-512.png"}, {"@type": "WebSite", "@id": "https://infennonlabs.com/#website", "name": "InfennonLabs", "alternateName": "Infennon Labs", "url": "https://infennonlabs.com/", "inLanguage": "en", "publisher": {"@id": "https://infennonlabs.com/#organization"}}]}</script>
+  <script type="application/ld+json" id="seo-site-jsonld">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://infennonlabs.com/#organization", "name": "InfennonLabs", "url": "https://infennonlabs.com/", "logo": "https://infennonlabs.com/home/icons/Icon-512.png", "image": ["https://infennonlabs.com/home/share.jpg", "https://infennonlabs.com/home/share-square.jpg"]}, {"@type": "WebSite", "@id": "https://infennonlabs.com/#website", "name": "InfennonLabs", "url": "https://infennonlabs.com/", "inLanguage": "en", "publisher": {"@id": "https://infennonlabs.com/#organization"}}]}</script>
 
     <style>
       .learning-play-overlay {
@@ -111,12 +152,11 @@
         }
       }
     </style>
-    <meta name="robots" content="noindex, nofollow">
-</head>
+  </head>
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 47744ef22d1b (stable)</div>
+    <div class="learning-play-build-badge">Build 2e87febd022b (stable)</div>
   </div>
 
 <div id="seo-content" style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">
