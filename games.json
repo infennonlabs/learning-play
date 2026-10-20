@@ -97,7 +97,7 @@
   },
   {
     "id": "home",
-    "title": "Infennon Labs Home",
+    "title": "InfennonLabs Home",
     "slug": "home",
     "channelPolicy": "both",
     "stablePath": "home/",
