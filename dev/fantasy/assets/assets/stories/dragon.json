@@ -1,0 +1,238 @@
+{
+ "id": "dragon",
+ "title": "Dragon's Keep",
+ "background": "backgrounds/dragon.jpg",
+ "start": "start",
+ "restBeat": "camp",
+ "beats": {
+  "start": {
+   "text": {
+    "1": "The castle is big and warm.",
+    "2": "The castle is big and warm. Is that smoke?",
+    "3": "You walk up to Dragon's Keep. The castle is big and warm, and a little puff of smoke floats from the tower.",
+    "4": "You walk up to the gates of Dragon's Keep. The stone walls feel warm, and a little puff of smoke curls out of the tallest tower."
+   },
+   "choices": [
+    {
+     "emoji": "🚪",
+     "label": {
+      "1": "Knock",
+      "3": "Knock on the door"
+     },
+     "next": "hall",
+     "feedback": {
+      "1": "Knock, knock!",
+      "3": "Knock, knock! The big door creaks open."
+     }
+    },
+    {
+     "emoji": "🪜",
+     "label": {
+      "1": "Climb the wall",
+      "3": "Climb the wall"
+     },
+     "next": "wall",
+     "effects": {
+      "hearts": -1
+     },
+     "feedback": {
+      "1": "Oof! A bump!",
+      "3": "Oof! The stones are hot and you slip a little."
+     }
+    }
+   ]
+  },
+  "hall": {
+   "text": {
+    "1": "A long hall. Hot lava!",
+    "2": "A long hall. A river of lava glows beside it.",
+    "3": "Inside is a long hall. A river of glowing lava runs beside the floor, so you stay on the stone path.",
+    "4": "Inside is a long stone hall. A river of glowing lava runs beside the floor, so you stay carefully on the narrow stone path."
+   },
+   "choices": [
+    {
+     "emoji": "🐢",
+     "label": {
+      "1": "Walk on the path",
+      "3": "Stay on the path"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     }
+    },
+    {
+     "emoji": "🪵",
+     "label": {
+      "1": "Use a log",
+      "3": "Use a log as a bridge"
+     },
+     "next": "boss",
+     "setFlag": "log_friend",
+     "feedback": {
+      "1": "Good thinking!",
+      "3": "Good thinking! The log makes a safe little bridge."
+     }
+    }
+   ]
+  },
+  "wall": {
+   "text": {
+    "1": "You are up on the wall.",
+    "2": "You are up on the wall. You can see the whole land.",
+    "3": "You are up on the wall. From here you can see the whole land, and a tiny village far below.",
+    "4": "You are high up on the wall. From here you can see the whole land, and a tiny village waving flags far below."
+   },
+   "choices": [
+    {
+     "emoji": "👀",
+     "label": {
+      "1": "Look around",
+      "3": "Look around"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     }
+    },
+    {
+     "emoji": "🏃",
+     "label": {
+      "1": "Hurry on",
+      "3": "Hurry to the tower"
+     },
+     "next": "boss"
+    }
+   ]
+  },
+  "boss": {
+   "text": {
+    "1": "A red dragon sneezes!",
+    "2": "A red dragon sneezes. Achoo! Sparks fly.",
+    "3": "In the tower is a big red dragon. It sneezes, and tiny sparks fly everywhere. It has a cold.",
+    "4": "In the tower sits a big red dragon with watery eyes. It sneezes, and a shower of tiny sparks flies across the room. The poor dragon has a cold."
+   },
+   "choices": [
+    {
+     "emoji": "🍵",
+     "label": {
+      "1": "Give tea",
+      "3": "Give the dragon warm tea"
+     },
+     "next": "quiz",
+     "effects": {
+      "food": -1
+     },
+     "setFlag": "dragon_friend",
+     "feedback": {
+      "1": "Ahh! Better!",
+      "3": "The dragon sips the tea and sighs. \"Ahh, much better!\""
+     }
+    },
+    {
+     "emoji": "🧣",
+     "label": {
+      "1": "Give a scarf",
+      "3": "Wrap it in a scarf"
+     },
+     "next": "quiz",
+     "setFlag": "dragon_friend",
+     "feedback": {
+      "1": "So cozy!",
+      "3": "The dragon snuggles into the scarf and smiles."
+     }
+    }
+   ],
+   "art": "bosses/dragon.png"
+  },
+  "quiz": {
+   "text": {
+    "1": "What was wrong with the dragon?",
+    "2": "What was wrong with the dragon?",
+    "3": "What was wrong with the dragon in the tower?",
+    "4": "What was wrong with the dragon in the tower?"
+   },
+   "choices": [
+    {
+     "emoji": "🤧",
+     "label": {
+      "1": "A cold",
+      "3": "It had a cold"
+     },
+     "next": "done",
+     "correct": true,
+     "feedback": {
+      "1": "Yes! Good job!",
+      "3": "That's right!"
+     }
+    },
+    {
+     "emoji": "😴",
+     "label": {
+      "1": "Sleepy",
+      "3": "It was sleepy"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    },
+    {
+     "emoji": "😡",
+     "label": {
+      "1": "Mad",
+      "3": "It was mad at you"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    }
+   ],
+   "quiz": true
+  },
+  "camp": {
+   "text": {
+    "1": "You rest in a cool room.",
+    "2": "Your friend helps you to a cool room. You rest and feel better!",
+    "3": "Your travel friend helps you into a cool, quiet room. You rest and drink some water, and soon you feel strong again.",
+    "4": "Your travel friend helps you into a cool, quiet room away from the heat. You rest and drink cold water, and soon you feel strong again."
+   },
+   "choices": [
+    {
+     "emoji": "🏰",
+     "label": {
+      "1": "Go on",
+      "3": "Go back to the castle"
+     },
+     "next": "start"
+    },
+    {
+     "emoji": "🍎",
+     "label": {
+      "1": "Snack",
+      "3": "Have a snack"
+     },
+     "next": "start",
+     "effects": {
+      "food": 1
+     }
+    }
+   ]
+  },
+  "done": {
+   "text": {
+    "1": "Frozen Citadel is next!",
+    "2": "The dragon waves bye! The Frozen Citadel is next.",
+    "3": "The dragon waves goodbye with a puff of warm air. Far to the north, you can see a snowy white castle. It is the Frozen Citadel.",
+    "4": "The dragon waves goodbye with a happy puff of warm air that melts the snow off your hat. Far to the north, a snowy white castle shines in the sun. It is the Frozen Citadel."
+   },
+   "choices": [],
+   "end": true
+  }
+ }
+}

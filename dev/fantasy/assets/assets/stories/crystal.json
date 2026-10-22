@@ -1,0 +1,239 @@
+{
+ "id": "crystal",
+ "title": "The Crystal Caverns",
+ "background": "backgrounds/crystal.jpg",
+ "start": "start",
+ "restBeat": "camp",
+ "beats": {
+  "start": {
+   "text": {
+    "1": "It is dark in the cave.",
+    "2": "It is dark in the cave. Pretty crystals glow on the walls.",
+    "3": "You step into the Crystal Caverns. It is dark, but glowing crystals light up the walls in pink and blue.",
+    "4": "You step into the Crystal Caverns, where the air is cool and still. Glowing crystals light the walls in soft pink and blue, and every sound echoes back."
+   },
+   "choices": [
+    {
+     "emoji": "💎",
+     "label": {
+      "1": "Grab a crystal",
+      "3": "Pick up a glowing crystal"
+     },
+     "next": "lamp",
+     "effects": {
+      "magic": 1
+     }
+    },
+    {
+     "emoji": "🎵",
+     "label": {
+      "1": "Hum a tune",
+      "3": "Hum a little tune"
+     },
+     "next": "echo",
+     "setFlag": "echo_friend",
+     "feedback": {
+      "1": "The cave hums back!",
+      "3": "The cave hums your tune back to you!"
+     }
+    }
+   ]
+  },
+  "lamp": {
+   "text": {
+    "1": "The crystal is a lamp!",
+    "2": "The crystal glows like a lamp. Now you can see the path.",
+    "3": "The crystal glows brighter in your hand, like a little lamp. Now you can see the path ahead.",
+    "4": "The crystal glows brighter in your hand, like a tiny lantern. Its light shows you a path winding deeper into the mountain."
+   },
+   "choices": [
+    {
+     "emoji": "🌟",
+     "label": {
+      "1": "Go on",
+      "3": "Follow the path"
+     },
+     "next": "boss"
+    },
+    {
+     "emoji": "🪨",
+     "label": {
+      "1": "Climb the rocks",
+      "3": "Climb over the rocks"
+     },
+     "next": "boss",
+     "effects": {
+      "hearts": -1
+     },
+     "feedback": {
+      "1": "Ouch! A bump.",
+      "3": "Ouch! You bump your knee, but it is only a small bump."
+     }
+    }
+   ]
+  },
+  "echo": {
+   "text": {
+    "1": "A tiny bat hears you!",
+    "2": "A tiny bat hears your song. It flies down to say hi.",
+    "3": "Your song echoes through the cave, and a tiny bat flutters down to say hello. It likes your tune.",
+    "4": "Your song echoes through the cave until a tiny bat flutters down from the ceiling. It tilts its head, as if it wants to hear the tune again."
+   },
+   "choices": [
+    {
+     "emoji": "🦇",
+     "label": {
+      "1": "Sing again",
+      "3": "Sing it again"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     },
+     "setFlag": "bat_friend",
+     "feedback": {
+      "1": "The bat dances!",
+      "3": "The bat spins in the air and dances!"
+     }
+    },
+    {
+     "emoji": "👋",
+     "label": {
+      "1": "Wave bye",
+      "3": "Wave and walk on"
+     },
+     "next": "boss"
+    }
+   ]
+  },
+  "boss": {
+   "text": {
+    "1": "A big gem giant blocks the way.",
+    "2": "A big gem giant sits in the path. It is a Crystal Golem! It looks shy.",
+    "3": "A big giant made of gems sits in the path. It is a Crystal Golem, and it looks shy. It hides its face behind its hands.",
+    "4": "In the middle of the tunnel sits a giant made of sparkling gems. It is a Crystal Golem, and it looks very shy, hiding its face behind two huge stone hands."
+   },
+   "choices": [
+    {
+     "emoji": "🍎",
+     "label": {
+      "1": "Share a snack",
+      "3": "Share a snack"
+     },
+     "next": "quiz",
+     "effects": {
+      "food": -1
+     },
+     "setFlag": "golem_friend",
+     "feedback": {
+      "1": "The Golem smiles!",
+      "3": "The Golem peeks out and gives you a big smile!"
+     }
+    },
+    {
+     "emoji": "👋",
+     "label": {
+      "1": "Say hi",
+      "3": "Say hello kindly"
+     },
+     "next": "quiz",
+     "setFlag": "golem_friend",
+     "feedback": {
+      "1": "The Golem waves!",
+      "3": "The Golem waves a shy little wave."
+     }
+    }
+   ],
+   "art": "bosses/golem.png"
+  },
+  "quiz": {
+   "text": {
+    "1": "What was the giant made of?",
+    "2": "What was the giant made of?",
+    "3": "What was the giant in the cave made of?",
+    "4": "What was the giant in the cave made of?"
+   },
+   "choices": [
+    {
+     "emoji": "💎",
+     "label": {
+      "1": "Gems",
+      "3": "Gems"
+     },
+     "next": "done",
+     "correct": true,
+     "feedback": {
+      "1": "Yes! Good job!",
+      "3": "That's right!"
+     }
+    },
+    {
+     "emoji": "🧁",
+     "label": {
+      "1": "Cake",
+      "3": "Cake"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    },
+    {
+     "emoji": "☁️",
+     "label": {
+      "1": "Clouds",
+      "3": "Clouds"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    }
+   ],
+   "quiz": true
+  },
+  "camp": {
+   "text": {
+    "1": "You rest on a soft rock.",
+    "2": "Your friend helps you rest on a soft rock. Now you feel better!",
+    "3": "Your travel friend helps you to a soft, glowing rock. You rest for a while, and soon you feel strong again.",
+    "4": "Your travel friend helps you to a smooth, glowing rock where you can sit. You rest and nibble a snack, and soon you feel strong again."
+   },
+   "choices": [
+    {
+     "emoji": "🔦",
+     "label": {
+      "1": "Go on",
+      "3": "Go back to the path"
+     },
+     "next": "start"
+    },
+    {
+     "emoji": "🍎",
+     "label": {
+      "1": "Snack",
+      "3": "Have a snack"
+     },
+     "next": "start",
+     "effects": {
+      "food": 1
+     }
+    }
+   ]
+  },
+  "done": {
+   "text": {
+    "1": "Dragon's Keep is next!",
+    "2": "You are through the caverns! Dragon's Keep is next.",
+    "3": "You are through the Crystal Caverns! The tunnel opens up, and you can see a big stone castle far away. It is Dragon's Keep.",
+    "4": "You are through the Crystal Caverns! The tunnel opens to warm daylight, and far across the valley you see a big stone castle with a red flag. It is Dragon's Keep."
+   },
+   "choices": [],
+   "end": true
+  }
+ }
+}

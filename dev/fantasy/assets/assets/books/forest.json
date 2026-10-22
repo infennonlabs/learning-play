@@ -1,0 +1,272 @@
+{
+ "id": "forest",
+ "title": "Pip and the Glowing Acorn",
+ "emoji": "🌲",
+ "background": "backgrounds/forest.jpg",
+ "blurb": "A little fox finds a glowing acorn and brings the light back to the forest.",
+ "cast": "Pip, a small orange fox cub with a bushy tail and a green scarf; Wren, a tiny blue songbird; Bram, a friendly brown beaver",
+ "cover": "forest/cover.jpg",
+ "coverArt": "A small orange fox cub with a green scarf holding a glowing golden acorn in an enchanted forest at dusk, glowing mushrooms, a tiny blue bird on his shoulder",
+ "chapters": [
+  {
+   "title": "A Light in the Leaves",
+   "pages": [
+    {
+     "img": "forest/c1p1.jpg",
+     "art": "Pip the fox cub walking on a mossy forest path at dusk, the forest looks dim and sleepy",
+     "text": {
+      "1": "Pip is a little fox.",
+      "2": "Pip is a little fox. He lives in the big forest.",
+      "3": "Pip is a little orange fox. He lives in the Enchanted Forest with his mom and dad.",
+      "4": "Pip is a little orange fox with a bushy tail and a green scarf. He lives in the Enchanted Forest, where the trees are so tall they tickle the clouds."
+     }
+    },
+    {
+     "img": "forest/c1p2.jpg",
+     "art": "The forest lanterns and glowing mushrooms flickering and going dim, Pip looking worried",
+     "text": {
+      "1": "The lights go dim.",
+      "2": "The forest lights go dim. One by one, they blink out.",
+      "3": "One evening, the glowing mushrooms start to flicker. One by one, the forest lights go out.",
+      "4": "One evening, the glowing mushrooms along the path begin to flicker. One by one, the lights of the Enchanted Forest blink out, and the woods grow dark and quiet."
+     }
+    },
+    {
+     "img": "forest/c1p3.jpg",
+     "art": "Pip noticing a tiny golden glow under a big green leaf",
+     "text": {
+      "1": "Pip sees a glow.",
+      "2": "Pip sees a little glow. It is under a big leaf.",
+      "3": "Then Pip sees something shining under a big green leaf. It is small and gold, and it is warm.",
+      "4": "Then Pip spots something shining under a big green leaf. It is small and golden, and when he gets close he can feel that it is warm, like a cup of cocoa."
+     }
+    },
+    {
+     "img": "forest/c1p4.jpg",
+     "art": "Pip lifting a leaf to reveal a glowing golden acorn",
+     "text": {
+      "1": "It is an acorn!",
+      "2": "It is a gold acorn! It glows like a tiny sun.",
+      "3": "Pip lifts the leaf. It is an acorn, and it glows like a tiny sun!",
+      "4": "Pip gently lifts the leaf. Underneath sits an acorn, golden and glowing like a tiny sun, humming a very soft song."
+     }
+    },
+    {
+     "img": "forest/c1p5.jpg",
+     "art": "Pip holding the glowing acorn close with wide eyes, golden light on his face",
+     "text": {
+      "1": "Pip picks it up.",
+      "2": "Pip picks it up. It is warm and soft.",
+      "3": "Pip picks up the acorn. It tickles his paws, and the light makes his fur look like gold.",
+      "4": "Pip carefully picks up the acorn. It tickles his paws, and the light turns his orange fur to gold and chases the shadows from his face."
+     }
+    },
+    {
+     "img": "forest/c1p6.jpg",
+     "art": "The acorn light stretching down a dark path like a glowing arrow",
+     "text": {
+      "1": "The glow points the way.",
+      "2": "The glow shines down the path. It wants Pip to follow.",
+      "3": "The acorn's light stretches down the path like an arrow. It seems to want Pip to follow.",
+      "4": "Suddenly the acorn's light stretches down the path like a glowing arrow. It seems to be asking Pip to follow, and Pip, who is brave when he has to be, nods and says, \"Okay.\""
+     }
+    }
+   ]
+  },
+  {
+   "title": "Follow the Glow",
+   "pages": [
+    {
+     "img": "forest/c2p1.jpg",
+     "art": "Pip following the golden light through tall dark trees",
+     "text": {
+      "1": "Pip walks and walks.",
+      "2": "Pip follows the glow. He walks and walks.",
+      "3": "Pip follows the light deeper into the forest. The trees get taller and the path gets narrow.",
+      "4": "Pip follows the light deeper into the forest. The trees grow taller, the path grows narrow, and every little sound makes his ears twitch."
+     }
+    },
+    {
+     "img": "forest/c2p2.jpg",
+     "art": "A small blue songbird tangled in a long green vine on a low branch",
+     "text": {
+      "1": "A bird calls, \"Help!\"",
+      "2": "A little bird calls, \"Help!\" She is stuck in a vine.",
+      "3": "\"Help!\" calls a small blue bird. Her wing is tangled in a long green vine.",
+      "4": "\"Help, please!\" calls a small blue bird named Wren. Her wing is tangled in a long, curly vine, and she cannot fly no matter how hard she flaps."
+     }
+    },
+    {
+     "img": "forest/c2p3.jpg",
+     "art": "Pip carefully untangling the vine with his paws while Wren watches",
+     "text": {
+      "1": "Pip helps her.",
+      "2": "Pip helps. He pulls the vine, slow and gentle.",
+      "3": "Pip climbs up and works the vine loose, slowly and gently, so he will not hurt her wing.",
+      "4": "Pip climbs up the branch and works the vine loose, one loop at a time. He is slow and gentle, because a hurt wing is a hard thing to fix."
+     }
+    },
+    {
+     "img": "forest/c2p4.jpg",
+     "art": "Wren free and flying a happy loop around Pip, feathers sparkling",
+     "text": {
+      "1": "Wren is free!",
+      "2": "Wren is free! She flies a happy loop.",
+      "3": "Pop! The vine comes off. Wren zooms into the air and does a happy loop-de-loop.",
+      "4": "Pop! The last loop slips free. Wren zooms into the air and does a happy loop-de-loop, so fast that her feathers sparkle blue and silver."
+     }
+    },
+    {
+     "img": "forest/c2p5.jpg",
+     "art": "Wren landing on Pip's shoulder, amazed at the glowing acorn",
+     "text": {
+      "1": "Wren sees the acorn.",
+      "2": "Wren sees the acorn. \"Wow!\" she says.",
+      "3": "Wren lands on Pip's shoulder and sees the acorn. \"That is a Lightseed!\" she says.",
+      "4": "Wren lands on Pip's shoulder and gasps when she sees the acorn. \"That is a Lightseed!\" she says. \"My grandmother told me stories about it, but I never thought I would see one.\""
+     }
+    },
+    {
+     "img": "forest/c2p6.jpg",
+     "art": "Pip and Wren walking together, a giant dark oak tree far ahead in the distance",
+     "text": {
+      "1": "Now they go together.",
+      "2": "Now they go together. A big tree is ahead.",
+      "3": "\"Let us go together,\" says Wren. Far ahead, they see a giant oak tree standing in the dark.",
+      "4": "\"Let me come with you,\" says Wren. \"I know the way to the Great Oak.\" Far ahead they can see it: a giant tree standing in the dark, as quiet as a sleeping bear."
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Wobbly Bridge",
+   "pages": [
+    {
+     "img": "forest/c3p1.jpg",
+     "art": "A rushing river in a ravine with an old rope bridge, Pip and Wren at the edge",
+     "text": {
+      "1": "A river is in the way.",
+      "2": "A river is in the way. There is a bridge.",
+      "3": "The path ends at a rushing river. A rope bridge hangs across it.",
+      "4": "The path ends at a rushing river. Across the water, a rope bridge hangs between two cliffs, swaying gently in the wind."
+     }
+    },
+    {
+     "img": "forest/c3p2.jpg",
+     "art": "Pip stepping onto the wooden bridge, planks swinging, nervous face",
+     "text": {
+      "1": "The bridge wobbles!",
+      "2": "Pip steps on. The bridge wobbles!",
+      "3": "Pip puts one paw on the bridge. It wobbles! His tummy wobbles too.",
+      "4": "Pip puts one paw on the first plank. The whole bridge wobbles, and his tummy wobbles right along with it."
+     }
+    },
+    {
+     "img": "forest/c3p3.jpg",
+     "art": "Wren fluttering right beside Pip's face, encouraging",
+     "text": {
+      "1": "Wren says, \"Go slow.\"",
+      "2": "Wren says, \"Go slow. Look at me.\"",
+      "3": "\"Go slow,\" says Wren. \"Look at me, not at the water. One step at a time.\"",
+      "4": "\"Go slow,\" says Wren, fluttering right beside him. \"Look at me, not at the water. One step at a time, and you will be fine.\""
+     }
+    },
+    {
+     "img": "forest/c3p4.jpg",
+     "art": "A missing plank leaving a gap in the middle of the rope bridge, water far below",
+     "text": {
+      "1": "Oh no! A plank is gone.",
+      "2": "Oh no! A plank is gone. There is a big gap.",
+      "3": "Halfway across, a plank is missing. There is a big gap, and the water is far below.",
+      "4": "Halfway across, Pip stops. A plank is missing, leaving a gap as wide as a pumpkin, and the river is far, far below."
+     }
+    },
+    {
+     "img": "forest/c3p5.jpg",
+     "art": "Bram the brown beaver swimming up with a flat log and sliding it into the gap in the bridge",
+     "text": {
+      "1": "A beaver brings a log.",
+      "2": "A beaver swims up. He has a log!",
+      "3": "\"I can help!\" calls a beaver named Bram. He swims up with a flat log and pushes it into the gap.",
+      "4": "\"I can fix that!\" calls a beaver named Bram, paddling up the river. He heaves a flat log up and slides it neatly into the gap, as if he built bridges every day."
+     }
+    },
+    {
+     "img": "forest/c3p6.jpg",
+     "art": "Pip and Wren safely across the bridge waving thank you to Bram below",
+     "text": {
+      "1": "They get across!",
+      "2": "They get across! \"Thank you, Bram!\"",
+      "3": "Pip walks across, one slow step at a time. On the other side, he waves. \"Thank you, Bram!\"",
+      "4": "Pip tiptoes across, one slow step at a time, and finally jumps onto solid ground. He turns and waves. \"Thank you, Bram! You are a great bridge builder!\""
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Great Oak",
+   "pages": [
+    {
+     "img": "forest/c4p1.jpg",
+     "art": "A giant dark ancient oak tree with a hollow at its base, Pip small in front of it",
+     "text": {
+      "1": "The Great Oak is big.",
+      "2": "The Great Oak is big. It is dark and still.",
+      "3": "The Great Oak is the biggest tree Pip has ever seen. Its leaves are dark and its branches are still.",
+      "4": "The Great Oak is the biggest tree Pip has ever seen. It is as wide as a house, but its leaves are dark, and not one firefly is dancing around it."
+     }
+    },
+    {
+     "img": "forest/c4p2.jpg",
+     "art": "A small round hollow at the base of the oak with soft soil, shaped for an acorn",
+     "text": {
+      "1": "There is a hole.",
+      "2": "There is a little hole in the tree. It is shaped like an acorn.",
+      "3": "At the bottom of the trunk is a little hollow. It is just the right size for the acorn.",
+      "4": "At the bottom of the trunk is a little round hollow with soft, rich soil. It looks to be exactly the right size and shape for a small golden acorn."
+     }
+    },
+    {
+     "img": "forest/c4p3.jpg",
+     "art": "Pip hesitating, holding the glowing acorn close to his chest while Wren nudges him",
+     "text": {
+      "1": "Pip does not want to let go.",
+      "2": "Pip does not want to let go. It is so pretty.",
+      "3": "Pip does not want to let go. The acorn is warm, and he loves its light.",
+      "4": "Pip does not want to let go. The acorn is warm and bright, and he has loved its light all night. But he thinks about the dark forest, and he knows what to do."
+     }
+    },
+    {
+     "img": "forest/c4p4.jpg",
+     "art": "Pip gently planting the glowing acorn in the hollow of the oak, Wren watching",
+     "text": {
+      "1": "Pip plants the acorn.",
+      "2": "Pip plants the acorn. He pats the soil.",
+      "3": "Pip sets the acorn in the hollow. He pats the soil around it, soft and slow.",
+      "4": "Pip sets the acorn into the hollow and pats the soil around it, soft and slow. \"Grow well,\" he whispers. \"The whole forest needs you.\""
+     }
+    },
+    {
+     "img": "forest/c4p5.jpg",
+     "art": "Golden light bursting through the oak branches, glowing mushrooms and lanterns lighting up everywhere",
+     "text": {
+      "1": "Light! Light everywhere!",
+      "2": "Light! The tree glows. The lights come back!",
+      "3": "The Great Oak glows from root to leaf. Then, far away, the mushrooms and lanterns light up again.",
+      "4": "The Great Oak glows from its roots to its highest leaf. Then, far away, one by one, the mushrooms and lanterns of the Enchanted Forest light up again, like stars coming out."
+     }
+    },
+    {
+     "img": "forest/c4p6.jpg",
+     "art": "Pip, Wren and Bram and other forest animals celebrating under the glowing oak on a warm night",
+     "text": {
+      "1": "The forest is happy.",
+      "2": "The forest is happy. Pip is happy too.",
+      "3": "All the forest animals come to cheer, even Bram. Pip smiles. He is the happiest fox in the forest.",
+      "4": "Animals from all over the forest come out to cheer, even Bram, who paddled all the way upriver. Pip smiles and leans on his friend Wren. Tonight he is the happiest fox in the whole Enchanted Forest."
+     }
+    }
+   ]
+  }
+ ]
+}
