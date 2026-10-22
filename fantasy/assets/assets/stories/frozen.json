@@ -6,6 +6,7 @@
  "restBeat": "camp",
  "beats": {
   "start": {
+   "art": "quest/frozen/start.webp",
    "text": {
     "1": "Brrr! It is so cold.",
     "2": "Brrr! It is so cold. Snow falls all around.",
@@ -40,6 +41,7 @@
    ]
   },
   "ice": {
+   "art": "quest/frozen/ice.webp",
    "text": {
     "1": "The path is ice!",
     "2": "The path is made of ice. Whee!",
@@ -73,6 +75,7 @@
    ]
   },
   "snowman": {
+   "art": "quest/frozen/snowman.webp",
    "text": {
     "1": "The snowman waves!",
     "2": "The snowman waves at you. It is alive!",
@@ -142,6 +145,7 @@
    "art": "bosses/yeti.png"
   },
   "quiz": {
+   "art": "quest/frozen/quiz.webp",
    "text": {
     "1": "What did the yeti lose?",
     "2": "What did the yeti lose?",
@@ -192,6 +196,7 @@
    "quiz": true
   },
   "camp": {
+   "art": "quest/frozen/camp.webp",
    "text": {
     "1": "You rest by a warm fire.",
     "2": "Your friend helps you to a warm fire. You rest and feel better!",
@@ -221,6 +226,7 @@
    ]
   },
   "done": {
+   "art": "quest/frozen/done.webp",
    "text": {
     "1": "The Sky Tower is next!",
     "2": "The yeti waves bye! The Sky Tower is next.",

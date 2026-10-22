@@ -6,6 +6,7 @@
  "restBeat": "camp",
  "beats": {
   "start": {
+   "art": "quest/crystal/start.webp",
    "text": {
     "1": "It is dark in the cave.",
     "2": "It is dark in the cave. Pretty crystals glow on the walls.",
@@ -40,6 +41,7 @@
    ]
   },
   "lamp": {
+   "art": "quest/crystal/lamp.webp",
    "text": {
     "1": "The crystal is a lamp!",
     "2": "The crystal glows like a lamp. Now you can see the path.",
@@ -73,6 +75,7 @@
    ]
   },
   "echo": {
+   "art": "quest/crystal/echo.webp",
    "text": {
     "1": "A tiny bat hears you!",
     "2": "A tiny bat hears your song. It flies down to say hi.",
@@ -147,6 +150,7 @@
    "art": "bosses/golem.png"
   },
   "quiz": {
+   "art": "quest/crystal/quiz.webp",
    "text": {
     "1": "What was the giant made of?",
     "2": "What was the giant made of?",
@@ -197,6 +201,7 @@
    "quiz": true
   },
   "camp": {
+   "art": "quest/crystal/camp.webp",
    "text": {
     "1": "You rest on a soft rock.",
     "2": "Your friend helps you rest on a soft rock. Now you feel better!",
@@ -226,6 +231,7 @@
    ]
   },
   "done": {
+   "art": "quest/crystal/done.webp",
    "text": {
     "1": "Dragon's Keep is next!",
     "2": "You are through the caverns! Dragon's Keep is next.",

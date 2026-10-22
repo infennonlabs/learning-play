@@ -5,14 +5,14 @@
  "background": "backgrounds/forest.jpg",
  "blurb": "A little fox finds a glowing acorn and brings the light back to the forest.",
  "cast": "Pip, a small orange fox cub with a bushy tail and a green scarf; Wren, a tiny blue songbird; Bram, a friendly brown beaver",
- "cover": "forest/cover.jpg",
+ "cover": "forest/cover.webp",
  "coverArt": "A small orange fox cub with a green scarf holding a glowing golden acorn in an enchanted forest at dusk, glowing mushrooms, a tiny blue bird on his shoulder",
  "chapters": [
   {
    "title": "A Light in the Leaves",
    "pages": [
     {
-     "img": "forest/c1p1.jpg",
+     "img": "forest/c1p1.webp",
      "art": "Pip the fox cub walking on a mossy forest path at dusk, the forest looks dim and sleepy",
      "text": {
       "1": "Pip is a little fox.",
@@ -22,7 +22,7 @@
      }
     },
     {
-     "img": "forest/c1p2.jpg",
+     "img": "forest/c1p2.webp",
      "art": "The forest lanterns and glowing mushrooms flickering and going dim, Pip looking worried",
      "text": {
       "1": "The lights go dim.",
@@ -32,7 +32,7 @@
      }
     },
     {
-     "img": "forest/c1p3.jpg",
+     "img": "forest/c1p3.webp",
      "art": "Pip noticing a tiny golden glow under a big green leaf",
      "text": {
       "1": "Pip sees a glow.",
@@ -42,7 +42,7 @@
      }
     },
     {
-     "img": "forest/c1p4.jpg",
+     "img": "forest/c1p4.webp",
      "art": "Pip lifting a leaf to reveal a glowing golden acorn",
      "text": {
       "1": "It is an acorn!",
@@ -52,7 +52,7 @@
      }
     },
     {
-     "img": "forest/c1p5.jpg",
+     "img": "forest/c1p5.webp",
      "art": "Pip holding the glowing acorn close with wide eyes, golden light on his face",
      "text": {
       "1": "Pip picks it up.",
@@ -62,7 +62,7 @@
      }
     },
     {
-     "img": "forest/c1p6.jpg",
+     "img": "forest/c1p6.webp",
      "art": "The acorn light stretching down a dark path like a glowing arrow",
      "text": {
       "1": "The glow points the way.",
@@ -77,7 +77,7 @@
    "title": "Follow the Glow",
    "pages": [
     {
-     "img": "forest/c2p1.jpg",
+     "img": "forest/c2p1.webp",
      "art": "Pip following the golden light through tall dark trees",
      "text": {
       "1": "Pip walks and walks.",
@@ -87,7 +87,7 @@
      }
     },
     {
-     "img": "forest/c2p2.jpg",
+     "img": "forest/c2p2.webp",
      "art": "A small blue songbird tangled in a long green vine on a low branch",
      "text": {
       "1": "A bird calls, \"Help!\"",
@@ -97,7 +97,7 @@
      }
     },
     {
-     "img": "forest/c2p3.jpg",
+     "img": "forest/c2p3.webp",
      "art": "Pip carefully untangling the vine with his paws while Wren watches",
      "text": {
       "1": "Pip helps her.",
@@ -107,7 +107,7 @@
      }
     },
     {
-     "img": "forest/c2p4.jpg",
+     "img": "forest/c2p4.webp",
      "art": "Wren free and flying a happy loop around Pip, feathers sparkling",
      "text": {
       "1": "Wren is free!",
@@ -117,7 +117,7 @@
      }
     },
     {
-     "img": "forest/c2p5.jpg",
+     "img": "forest/c2p5.webp",
      "art": "Wren landing on Pip's shoulder, amazed at the glowing acorn",
      "text": {
       "1": "Wren sees the acorn.",
@@ -127,7 +127,7 @@
      }
     },
     {
-     "img": "forest/c2p6.jpg",
+     "img": "forest/c2p6.webp",
      "art": "Pip and Wren walking together, a giant dark oak tree far ahead in the distance",
      "text": {
       "1": "Now they go together.",
@@ -142,7 +142,7 @@
    "title": "The Wobbly Bridge",
    "pages": [
     {
-     "img": "forest/c3p1.jpg",
+     "img": "forest/c3p1.webp",
      "art": "A rushing river in a ravine with an old rope bridge, Pip and Wren at the edge",
      "text": {
       "1": "A river is in the way.",
@@ -152,7 +152,7 @@
      }
     },
     {
-     "img": "forest/c3p2.jpg",
+     "img": "forest/c3p2.webp",
      "art": "Pip stepping onto the wooden bridge, planks swinging, nervous face",
      "text": {
       "1": "The bridge wobbles!",
@@ -162,7 +162,7 @@
      }
     },
     {
-     "img": "forest/c3p3.jpg",
+     "img": "forest/c3p3.webp",
      "art": "Wren fluttering right beside Pip's face, encouraging",
      "text": {
       "1": "Wren says, \"Go slow.\"",
@@ -172,7 +172,7 @@
      }
     },
     {
-     "img": "forest/c3p4.jpg",
+     "img": "forest/c3p4.webp",
      "art": "A missing plank leaving a gap in the middle of the rope bridge, water far below",
      "text": {
       "1": "Oh no! A plank is gone.",
@@ -182,7 +182,7 @@
      }
     },
     {
-     "img": "forest/c3p5.jpg",
+     "img": "forest/c3p5.webp",
      "art": "Bram the brown beaver swimming up with a flat log and sliding it into the gap in the bridge",
      "text": {
       "1": "A beaver brings a log.",
@@ -192,7 +192,7 @@
      }
     },
     {
-     "img": "forest/c3p6.jpg",
+     "img": "forest/c3p6.webp",
      "art": "Pip and Wren safely across the bridge waving thank you to Bram below",
      "text": {
       "1": "They get across!",
@@ -207,7 +207,7 @@
    "title": "The Great Oak",
    "pages": [
     {
-     "img": "forest/c4p1.jpg",
+     "img": "forest/c4p1.webp",
      "art": "A giant dark ancient oak tree with a hollow at its base, Pip small in front of it",
      "text": {
       "1": "The Great Oak is big.",
@@ -217,7 +217,7 @@
      }
     },
     {
-     "img": "forest/c4p2.jpg",
+     "img": "forest/c4p2.webp",
      "art": "A small round hollow at the base of the oak with soft soil, shaped for an acorn",
      "text": {
       "1": "There is a hole.",
@@ -227,7 +227,7 @@
      }
     },
     {
-     "img": "forest/c4p3.jpg",
+     "img": "forest/c4p3.webp",
      "art": "Pip hesitating, holding the glowing acorn close to his chest while Wren nudges him",
      "text": {
       "1": "Pip does not want to let go.",
@@ -237,7 +237,7 @@
      }
     },
     {
-     "img": "forest/c4p4.jpg",
+     "img": "forest/c4p4.webp",
      "art": "Pip gently planting the glowing acorn in the hollow of the oak, Wren watching",
      "text": {
       "1": "Pip plants the acorn.",
@@ -247,7 +247,7 @@
      }
     },
     {
-     "img": "forest/c4p5.jpg",
+     "img": "forest/c4p5.webp",
      "art": "Golden light bursting through the oak branches, glowing mushrooms and lanterns lighting up everywhere",
      "text": {
       "1": "Light! Light everywhere!",
@@ -257,7 +257,7 @@
      }
     },
     {
-     "img": "forest/c4p6.jpg",
+     "img": "forest/c4p6.webp",
      "art": "Pip, Wren and Bram and other forest animals celebrating under the glowing oak on a warm night",
      "text": {
       "1": "The forest is happy.",

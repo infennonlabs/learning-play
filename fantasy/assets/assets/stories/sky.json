@@ -6,6 +6,7 @@
  "restBeat": "camp",
  "beats": {
   "start": {
+   "art": "quest/sky/start.webp",
    "text": {
     "1": "A tall tower in the sky.",
     "2": "A very tall tower floats in the sky. Stairs go up and up.",
@@ -39,6 +40,7 @@
    ]
   },
   "clouds": {
+   "art": "quest/sky/clouds.webp",
    "text": {
     "1": "You walk on clouds.",
     "2": "You walk on soft clouds. They feel like pillows.",
@@ -72,6 +74,7 @@
    ]
   },
   "balloon": {
+   "art": "quest/sky/balloon.webp",
    "text": {
     "1": "The balloon lands.",
     "2": "The balloon lands on a balcony. You are almost there!",
@@ -138,6 +141,7 @@
    "art": "bosses/wizard.png"
   },
   "quiz": {
+   "art": "quest/sky/quiz.webp",
    "text": {
     "1": "How did the wizard feel?",
     "2": "How did the wizard feel?",
@@ -188,6 +192,7 @@
    "quiz": true
   },
   "camp": {
+   "art": "quest/sky/camp.webp",
    "text": {
     "1": "You rest on a cloud.",
     "2": "Your friend helps you to a soft cloud. You rest and feel better!",
@@ -217,6 +222,7 @@
    ]
   },
   "done": {
+   "art": "quest/sky/done.webp",
    "text": {
     "1": "You did it! You saved the realms!",
     "2": "You did it! The wizard is happy. You saved the realms!",

@@ -6,6 +6,7 @@
   "restBeat": "camp",
   "beats": {
     "start": {
+      "art": "quest/forest/start.webp",
       "text": {
         "1": "You walk into a big forest.",
         "2": "You walk into a big, green forest. The trees look magic!",
@@ -18,6 +19,7 @@
       ]
     },
     "berries": {
+      "art": "quest/forest/berries.webp",
       "text": {
         "1": "Yum! Red berries!",
         "2": "You find red berries. Yum! You put some in your bag.",
@@ -30,6 +32,7 @@
       ]
     },
     "fork": {
+      "art": "quest/forest/fork.webp",
       "text": {
         "1": "The path splits in two.",
         "2": "The path splits in two. One way has a bridge. One way has paw prints.",
@@ -42,6 +45,7 @@
       ]
     },
     "bridge": {
+      "art": "quest/forest/bridge.webp",
       "text": {
         "1": "The bridge wobbles!",
         "2": "The bridge wobbles and creaks. Oh no!",
@@ -54,6 +58,7 @@
       ]
     },
     "fox": {
+      "art": "quest/forest/fox.webp",
       "text": {
         "1": "A little fox is lost!",
         "2": "You find a little fox. It looks lost and sad.",
@@ -66,6 +71,7 @@
       ]
     },
     "treant": {
+      "art": "quest/forest/treant.webp",
       "art": "bosses/treant.png",
       "text": {
         "1": "A big tree is asleep. It blocks the path.",
@@ -79,6 +85,7 @@
       ]
     },
     "quiz": {
+      "art": "quest/forest/quiz.webp",
       "quiz": true,
       "text": {
         "1": "Who was asleep on the path?",
@@ -93,6 +100,7 @@
       ]
     },
     "camp": {
+      "art": "quest/forest/camp.webp",
       "text": {
         "1": "You rest by a fire. Now you feel better!",
         "2": "Your friend helps you to a cozy fire. You rest, and now you feel better!",
@@ -105,6 +113,7 @@
       ]
     },
     "done": {
+      "art": "quest/forest/done.webp",
       "end": true,
       "text": {
         "1": "You did it! Crystal Caverns is next!",
