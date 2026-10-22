@@ -1,0 +1,234 @@
+{
+ "id": "frozen",
+ "title": "The Frozen Citadel",
+ "background": "backgrounds/frozen.jpg",
+ "start": "start",
+ "restBeat": "camp",
+ "beats": {
+  "start": {
+   "text": {
+    "1": "Brrr! It is so cold.",
+    "2": "Brrr! It is so cold. Snow falls all around.",
+    "3": "Brrr! The Frozen Citadel is very cold. Soft snow falls all around, and your breath makes little clouds.",
+    "4": "Brrr! The Frozen Citadel is bitterly cold. Soft snow drifts down all around you, and every breath makes a little cloud in the air."
+   },
+   "choices": [
+    {
+     "emoji": "🧥",
+     "label": {
+      "1": "Put on a coat",
+      "3": "Put on a warm coat"
+     },
+     "next": "ice",
+     "effects": {
+      "hearts": 1
+     }
+    },
+    {
+     "emoji": "⛄",
+     "label": {
+      "1": "Make a snowman",
+      "3": "Build a snowman"
+     },
+     "next": "snowman",
+     "setFlag": "snowman_friend",
+     "feedback": {
+      "1": "Ta-da!",
+      "3": "Ta-da! The snowman looks happy."
+     }
+    }
+   ]
+  },
+  "ice": {
+   "text": {
+    "1": "The path is ice!",
+    "2": "The path is made of ice. Whee!",
+    "3": "The path ahead is made of shiny ice. It is slippery, but it looks like a fun slide.",
+    "4": "The path ahead is a long sheet of shiny ice, as smooth as glass. It is slippery, but it winds downhill like a fun slide."
+   },
+   "choices": [
+    {
+     "emoji": "🛷",
+     "label": {
+      "1": "Slide",
+      "3": "Slide down it"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     },
+     "feedback": {
+      "1": "Wheee!",
+      "3": "Wheee! You zoom all the way down!"
+     }
+    },
+    {
+     "emoji": "🐾",
+     "label": {
+      "1": "Walk slowly",
+      "3": "Walk slowly"
+     },
+     "next": "boss"
+    }
+   ]
+  },
+  "snowman": {
+   "text": {
+    "1": "The snowman waves!",
+    "2": "The snowman waves at you. It is alive!",
+    "3": "Your snowman waves its stick arm! It is alive, and it wants to come with you.",
+    "4": "To your surprise, your snowman waves its stick arm and blinks its button eyes. It is alive, and it wants to come along on your adventure."
+   },
+   "choices": [
+    {
+     "emoji": "⛄",
+     "label": {
+      "1": "Yes, come!",
+      "3": "Invite it along"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     }
+    },
+    {
+     "emoji": "👋",
+     "label": {
+      "1": "Say bye",
+      "3": "Say goodbye kindly"
+     },
+     "next": "boss"
+    }
+   ]
+  },
+  "boss": {
+   "text": {
+    "1": "A big yeti sits and cries.",
+    "2": "A big yeti sits in the snow. It is crying. It lost its hat!",
+    "3": "A big furry yeti sits in the snow, crying. Its warm hat blew away, and now its ears are cold.",
+    "4": "A big furry yeti sits alone in the snow, crying huge icy tears. Its favorite warm hat blew away in the wind, and now its ears are freezing."
+   },
+   "choices": [
+    {
+     "emoji": "🔍",
+     "label": {
+      "1": "Find the hat",
+      "3": "Look for the hat"
+     },
+     "next": "quiz",
+     "setFlag": "yeti_friend",
+     "feedback": {
+      "1": "Found it!",
+      "3": "You find the hat in a snowbank, and the yeti cheers!"
+     }
+    },
+    {
+     "emoji": "🧶",
+     "label": {
+      "1": "Give your hat",
+      "3": "Give it your hat"
+     },
+     "next": "quiz",
+     "effects": {
+      "hearts": -1
+     },
+     "setFlag": "yeti_friend",
+     "feedback": {
+      "1": "So kind!",
+      "3": "The yeti hugs you. You feel a little chilly, but happy."
+     }
+    }
+   ],
+   "art": "bosses/yeti.png"
+  },
+  "quiz": {
+   "text": {
+    "1": "What did the yeti lose?",
+    "2": "What did the yeti lose?",
+    "3": "What did the yeti lose in the snow?",
+    "4": "What did the yeti lose in the snow?"
+   },
+   "choices": [
+    {
+     "emoji": "🎩",
+     "label": {
+      "1": "A hat",
+      "3": "A hat"
+     },
+     "next": "done",
+     "correct": true,
+     "feedback": {
+      "1": "Yes! Good job!",
+      "3": "That's right!"
+     }
+    },
+    {
+     "emoji": "👟",
+     "label": {
+      "1": "A shoe",
+      "3": "A shoe"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    },
+    {
+     "emoji": "🍪",
+     "label": {
+      "1": "A cookie",
+      "3": "A cookie"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    }
+   ],
+   "quiz": true
+  },
+  "camp": {
+   "text": {
+    "1": "You rest by a warm fire.",
+    "2": "Your friend helps you to a warm fire. You rest and feel better!",
+    "3": "Your travel friend helps you to a cozy fire in an ice cave. You drink warm cocoa, and soon you feel strong again.",
+    "4": "Your travel friend helps you into a cozy ice cave with a crackling fire. You sip warm cocoa until the shivers go away, and soon you feel strong again."
+   },
+   "choices": [
+    {
+     "emoji": "❄️",
+     "label": {
+      "1": "Go on",
+      "3": "Go back out in the snow"
+     },
+     "next": "start"
+    },
+    {
+     "emoji": "🍎",
+     "label": {
+      "1": "Snack",
+      "3": "Have a snack"
+     },
+     "next": "start",
+     "effects": {
+      "food": 1
+     }
+    }
+   ]
+  },
+  "done": {
+   "text": {
+    "1": "The Sky Tower is next!",
+    "2": "The yeti waves bye! The Sky Tower is next.",
+    "3": "The yeti waves goodbye with its new hat. Above the clouds, a tall tower sparkles. It is the Wizard's Sky Tower.",
+    "4": "The yeti waves goodbye, its hat pulled snugly over its ears. High above the clouds, a tall tower sparkles in the sunlight. It is the Wizard's Sky Tower."
+   },
+   "choices": [],
+   "end": true
+  }
+ }
+}

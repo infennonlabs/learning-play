@@ -1,0 +1,272 @@
+{
+ "id": "crystal",
+ "title": "Luma and the Singing Crystal",
+ "emoji": "💎",
+ "background": "backgrounds/crystal.jpg",
+ "blurb": "A little mole follows a faint hum to bring the song back to the Crystal Caverns.",
+ "cast": "Luma, a small round purple mole girl with a tiny mining helmet that has a lamp; Bix, a little round gray bat with big ears",
+ "cover": "crystal/cover.jpg",
+ "coverArt": "A small purple mole with a tiny helmet lamp standing in a glowing crystal cavern of purple and teal gems, a little round bat flying beside her",
+ "chapters": [
+  {
+   "title": "The Quiet Cave",
+   "pages": [
+    {
+     "img": "crystal/c1p1.jpg",
+     "art": "Luma the mole standing in a glowing crystal cavern of purple and teal crystals",
+     "text": {
+      "1": "Luma is a mole.",
+      "2": "Luma is a little mole. She lives in a cave.",
+      "3": "Luma is a little purple mole with a tiny lamp on her helmet. She lives in the Crystal Caverns.",
+      "4": "Luma is a little purple mole with a tiny lamp on her helmet. She lives in the Crystal Caverns, where giant gems glow purple and teal and sing a soft song all day."
+     }
+    },
+    {
+     "img": "crystal/c1p2.jpg",
+     "art": "The crystals dim and silent, Luma pressing her ear against a pale crystal",
+     "text": {
+      "1": "The crystals are quiet.",
+      "2": "Today the crystals are quiet. No song!",
+      "3": "But today, the crystals are quiet. No song, no hum, not even a tiny ping.",
+      "4": "But today, something is wrong. The crystals are silent. There is no song, no hum, not even a tiny ping, and the glow looks pale."
+     }
+    },
+    {
+     "img": "crystal/c1p3.jpg",
+     "art": "Luma holding a tiny pale crystal in her paws, sad face",
+     "text": {
+      "1": "Luma is sad.",
+      "2": "Luma is sad. She wants the song back.",
+      "3": "Luma feels sad. The cave is not the same without its music, and her heart feels quiet, too.",
+      "4": "Luma feels very sad. The cavern is not the same without its music, and without it her own heart feels quiet, too. \"I have to fix this,\" she says."
+     }
+    },
+    {
+     "img": "crystal/c1p4.jpg",
+     "art": "Luma packing a small bag with a sandwich and a coil of rope, helmet lamp lit",
+     "text": {
+      "1": "Luma packs a bag.",
+      "2": "Luma packs a bag. She takes a rope and a snack.",
+      "3": "Luma packs a small bag with a rope, a snack, and her best lamp. She is ready for an adventure.",
+      "4": "Luma packs a small bag with a coil of rope, a jam sandwich, and an extra lamp. A good explorer, her grandma always says, is a prepared explorer."
+     }
+    },
+    {
+     "img": "crystal/c1p5.jpg",
+     "art": "A dark tunnel with soft glowing musical swirls drifting out of it",
+     "text": {
+      "1": "What is that sound?",
+      "2": "She hears a hum. It comes from a dark tunnel.",
+      "3": "Then Luma hears it: a faint, faraway hum, coming from a dark tunnel at the bottom of the cave.",
+      "4": "Then Luma hears it: a faint, faraway hum drifting out of a dark tunnel at the very bottom of the cave. It is the only song left, and it is calling to her."
+     }
+    },
+    {
+     "img": "crystal/c1p6.jpg",
+     "art": "Luma stepping into a tunnel entrance, her small lamp lighting the way",
+     "text": {
+      "1": "In she goes.",
+      "2": "In she goes. Her lamp lights the way.",
+      "3": "Luma takes a big breath and steps into the tunnel. Her little lamp makes a circle of light around her.",
+      "4": "Luma takes a deep breath and steps into the tunnel. Her little lamp makes a bright circle on the rock, and she follows the hum, step by careful step."
+     }
+    }
+   ]
+  },
+  {
+   "title": "Bix the Bat",
+   "pages": [
+    {
+     "img": "crystal/c2p1.jpg",
+     "art": "Luma walking in a long dark tunnel with tiny glittering crystals in the walls",
+     "text": {
+      "1": "It is dark in here.",
+      "2": "The tunnel is dark. The walls sparkle a little.",
+      "3": "The tunnel is very dark and very long. Tiny crystals in the walls sparkle in her lamplight.",
+      "4": "The tunnel is dark and long and a little bit cold. Tiny crystals sparkle in the walls whenever her lamplight touches them, like stars that are shy."
+     }
+    },
+    {
+     "img": "crystal/c2p2.jpg",
+     "art": "A round little gray bat hanging upside down from the tunnel ceiling with his eyes covered by his ears",
+     "text": {
+      "1": "Someone is up there.",
+      "2": "Someone is hanging up there. It is a little bat.",
+      "3": "Luma shines her lamp up. A little round bat is hanging upside down from the ceiling.",
+      "4": "Luma shines her lamp up high. A little round bat is hanging upside down from the ceiling with his big ears folded over his eyes, and he looks quite lonely."
+     }
+    },
+    {
+     "img": "crystal/c2p3.jpg",
+     "art": "Bix the bat opening one eye and speaking to Luma, ears perked",
+     "text": {
+      "1": "\"Hello,\" says the bat.",
+      "2": "\"Hello,\" says the bat. \"I am Bix.\"",
+      "3": "\"Hello,\" says the bat. \"I am Bix. Please do not shine that so bright. It hurts my eyes!\"",
+      "4": "\"Hello,\" says the bat, opening one eye. \"I am Bix. Could you please turn your lamp down a little? Bright lights hurt my eyes.\""
+     }
+    },
+    {
+     "img": "crystal/c2p4.jpg",
+     "art": "Luma covering her lamp with a little cloth so the light is soft and golden, Bix smiling",
+     "text": {
+      "1": "Luma dims her lamp.",
+      "2": "Luma makes her lamp dim. \"Sorry, Bix!\"",
+      "3": "Luma puts a little cloth over her lamp so the light is soft. \"Sorry, Bix,\" she says.",
+      "4": "Luma ties a little cloth over her lamp so the light turns soft and golden. \"I am sorry, Bix,\" she says. \"I did not know. Is that better?\""
+     }
+    },
+    {
+     "img": "crystal/c2p5.jpg",
+     "art": "Bix flapping down to hover beside Luma and pointing deeper into the cave",
+     "text": {
+      "1": "Bix knows the way.",
+      "2": "Bix knows the way. He can hear the song.",
+      "3": "Bix flutters down. \"I can hear the song too,\" he says. \"I know where it comes from.\"",
+      "4": "Bix flutters down beside her. \"I can hear the song too,\" he says. \"Bats hear everything. It comes from the Heart Cave, and I can take you there.\""
+     }
+    },
+    {
+     "img": "crystal/c2p6.jpg",
+     "art": "Luma walking and Bix flying ahead, with soft echo rings drawn around Bix",
+     "text": {
+      "1": "They go together.",
+      "2": "They go together. Bix flies. Luma walks.",
+      "3": "So Luma walks and Bix flies. Bix sends out little squeaks, and the echoes show him where to go.",
+      "4": "So Luma walks while Bix flies ahead. He sends out tiny squeaks, and the echoes tell him where the walls are, so they never bump into anything."
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Crystal Bridge",
+   "pages": [
+    {
+     "img": "crystal/c3p1.jpg",
+     "art": "A huge cavern with a deep glowing gap and a thin bridge of clear crystal across it",
+     "text": {
+      "1": "A deep gap!",
+      "2": "A deep gap is in the cave. A crystal bridge is over it.",
+      "3": "They come to a huge gap in the floor. A thin bridge of clear crystal stretches across it.",
+      "4": "They come to a huge gap in the cavern floor. Over it stretches a thin bridge made of clear crystal, so slim it looks like frozen glass."
+     }
+    },
+    {
+     "img": "crystal/c3p2.jpg",
+     "art": "Luma testing the crystal bridge with one paw, a tiny crack glowing, nervous",
+     "text": {
+      "1": "Luma steps. Crack!",
+      "2": "Luma steps on the bridge. Crack! It is not safe.",
+      "3": "Luma tests it with one paw. Crack! A tiny line shows in the crystal. It is not safe for two.",
+      "4": "Luma tests it with one paw. Crack! A tiny line zigzags through the crystal. \"It is too thin,\" she says. \"I do not think it would hold both of us.\""
+     }
+    },
+    {
+     "img": "crystal/c3p3.jpg",
+     "art": "Luma holding her coil of rope while Bix looks up at big rock spikes hanging from the ceiling, both thinking",
+     "text": {
+      "1": "They think.",
+      "2": "They stop and think. Luma has a rope!",
+      "3": "They stop and think. Then Luma looks at her rope, and Bix looks at the big rock spikes above.",
+      "4": "They sit and think. Then Luma looks at her rope, and Bix looks up at the big stone spikes hanging from the ceiling. They both have the same idea at once."
+     }
+    },
+    {
+     "img": "crystal/c3p4.jpg",
+     "art": "Bix flying across the gap carrying the end of the rope and looping it around a rock on the far side",
+     "text": {
+      "1": "Bix flies with the rope.",
+      "2": "Bix flies across with the rope. He ties it tight.",
+      "3": "Bix takes the end of the rope and flies across. He loops it around a rock and pulls it tight.",
+      "4": "Bix takes the end of the rope in his feet and flies across the gap. He loops it around a sturdy rock and pulls it tight, and the rope hums like a harp string."
+     }
+    },
+    {
+     "img": "crystal/c3p5.jpg",
+     "art": "Luma holding the rope like a handrail and walking carefully across the crystal bridge",
+     "text": {
+      "1": "Luma holds the rope.",
+      "2": "Luma holds the rope. She goes one step at a time.",
+      "3": "Luma holds the rope like a handrail. She walks very slowly, and the crystal does not crack.",
+      "4": "Luma holds the rope like a handrail and walks very slowly, placing each paw lightly on the crystal. It creaks, but this time it holds."
+     }
+    },
+    {
+     "img": "crystal/c3p6.jpg",
+     "art": "Luma on the far side bumping paw to wing with Bix, a bigger glowing cavern ahead",
+     "text": {
+      "1": "They did it!",
+      "2": "They did it! \"Teamwork!\" says Bix.",
+      "3": "Luma makes it across. \"We did it!\" she cheers. \"Great teamwork,\" says Bix, and they bump paw and wing.",
+      "4": "Luma makes it safely across. \"We did it!\" she cheers. \"That is what teams are for,\" says Bix, and they bump paw to wing."
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Heart Cave",
+   "pages": [
+    {
+     "img": "crystal/c4p1.jpg",
+     "art": "A round cave with a giant gray cracked crystal in the center, quiet and dull",
+     "text": {
+      "1": "A big crystal.",
+      "2": "A big crystal sits in the middle. It is gray and still.",
+      "3": "In the middle of the Heart Cave stands a giant crystal. It is gray and cracked, and it hums so softly.",
+      "4": "In the middle of the Heart Cave stands the biggest crystal Luma has ever seen. It is gray and cracked, and its song is so soft she has to hold her breath to hear it."
+     }
+    },
+    {
+     "img": "crystal/c4p2.jpg",
+     "art": "Luma peering closely at a small dull chip of rock stuck in a crack of the big crystal",
+     "text": {
+      "1": "Luma sees a chip.",
+      "2": "Luma sees a little chip stuck in the crack.",
+      "3": "Luma looks closely. A little rock chip is stuck in the biggest crack, and it blocks the song.",
+      "4": "Luma looks closely and sees it: a little chip of dull rock wedged in the biggest crack, blocking the song the way a pebble can block a whistle."
+     }
+    },
+    {
+     "img": "crystal/c4p3.jpg",
+     "art": "Luma pulling the chip out with both paws while Bix tugs with his feet, both about to tumble",
+     "text": {
+      "1": "Pull, pull, pull!",
+      "2": "Luma pulls. Bix helps. Pull, pull, pull!",
+      "3": "Luma pulls with both paws. Bix pulls too. Pull, pull, POP! The chip comes out.",
+      "4": "Luma pulls with both paws, and Bix tugs with his feet. Pull, pull, pull, POP! The chip flies out, and they both tumble over in a heap."
+     }
+    },
+    {
+     "img": "crystal/c4p4.jpg",
+     "art": "The giant crystal glowing brighter with rings of light and music notes spreading outward",
+     "text": {
+      "1": "The crystal sings!",
+      "2": "The crystal sings! Light spreads out.",
+      "3": "The big crystal begins to glow. A sweet song fills the whole cave, and the light spreads out in rings.",
+      "4": "The great crystal begins to glow, starting at the crack and spreading outward in shining rings. A sweet song fills the cave, and it is louder than ever."
+     }
+    },
+    {
+     "img": "crystal/c4p5.jpg",
+     "art": "All the crystals in the cavern glowing purple and teal again with music notes floating, Luma and Bix amazed",
+     "text": {
+      "1": "All the crystals sing!",
+      "2": "All the crystals sing! The cave is bright again.",
+      "3": "One by one, every crystal in the Crystal Caverns glows again and joins the song. It sounds like a hundred tiny bells.",
+      "4": "One by one, every crystal in the caverns glows and joins in, high notes and low notes together. It sounds like a hundred tiny bells and one huge, happy drum."
+     }
+    },
+    {
+     "img": "crystal/c4p6.jpg",
+     "art": "Luma and Bix sitting side by side in a cozy cave nook listening to the singing crystals",
+     "text": {
+      "1": "Luma is happy.",
+      "2": "Luma is happy. Bix will stay with her.",
+      "3": "Luma is so happy. Bix decides to stay in the Crystal Caverns, and now she has a friend for every song.",
+      "4": "Luma is happier than she has ever been. Bix decides to move into the Crystal Caverns, and now Luma has a friend to share every song with."
+     }
+    }
+   ]
+  }
+ ]
+}

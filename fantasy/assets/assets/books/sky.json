@@ -1,0 +1,272 @@
+{
+ "id": "sky",
+ "title": "Milo's Moon Letters",
+ "emoji": "🌙",
+ "background": "backgrounds/sky.jpg",
+ "blurb": "A young wizard and his cloud puppy chase four lost letters that spell MOON.",
+ "cast": "Milo, a young wizard apprentice with a starry purple hat that is too big for him; Nimbus, a fluffy little cloud puppy with floppy ears and sleepy eyes",
+ "cover": "sky/cover.jpg",
+ "coverArt": "A young wizard in a big starry purple hat riding a fluffy cloud puppy through a starry sky past floating islands and a glowing moon, glowing golden letters floating around them",
+ "chapters": [
+  {
+   "title": "The Missing Letters",
+   "pages": [
+    {
+     "img": "sky/c1p1.jpg",
+     "art": "Milo the young wizard in a big starry hat in the Wizard's Sky Tower high above purple clouds",
+     "text": {
+      "1": "Milo is a wizard.",
+      "2": "Milo is a little wizard. He lives in a sky tower.",
+      "3": "Milo is a young wizard with a big starry hat. He lives in the Sky Tower, high above the clouds.",
+      "4": "Milo is a young wizard who wears a starry hat that is much too big for him. He lives in the Sky Tower, high above the clouds, where the moon feels close enough to touch."
+     }
+    },
+    {
+     "img": "sky/c1p2.jpg",
+     "art": "Four big glowing golden letters spelling MOON on top of a tower roof against a night sky",
+     "text": {
+      "1": "The moon needs letters.",
+      "2": "The moon has a sign. It spells MOON.",
+      "3": "Every night, four glowing letters on the tower roof spell the word MOON. They help the moon find its way home.",
+      "4": "Every night, four big glowing letters on the tower roof spell the word MOON. The old wizards say the letters are how the moon finds its way home."
+     }
+    },
+    {
+     "img": "sky/c1p3.jpg",
+     "art": "The four golden letters M O O N blown off the roof by a gust of wind and flying away in four directions, Milo gasping",
+     "text": {
+      "1": "Oh no! They fly away!",
+      "2": "Oh no! The letters fly away in a gust of wind.",
+      "3": "But tonight, a big gust of wind blows the four letters off the roof. They tumble away across the sky.",
+      "4": "But tonight, a mighty gust of wind blows all four letters off the roof. They tumble through the sky in four different directions, glowing as they go."
+     }
+    },
+    {
+     "img": "sky/c1p4.jpg",
+     "art": "A fluffy little cloud shaped like a puppy with floppy ears and a wagging tail floating up to Milo and licking his nose",
+     "text": {
+      "1": "A puppy cloud!",
+      "2": "A little cloud puppy floats up. His name is Nimbus.",
+      "3": "A fluffy cloud floats up to Milo. It has ears and a tail! \"Woof,\" says Nimbus the cloud puppy.",
+      "4": "A fluffy little cloud drifts up to Milo. It has floppy ears and a wagging tail! \"Woof,\" says Nimbus the cloud puppy, and he licks Milo's nose with a cool, damp puff."
+     }
+    },
+    {
+     "img": "sky/c1p5.jpg",
+     "art": "Milo pointing at a glowing golden letter M shining on a faraway floating island, Nimbus looking too",
+     "text": {
+      "1": "Look! An M!",
+      "2": "Look! Milo sees an M. It is far away.",
+      "3": "\"Look!\" says Milo. Far away, on a floating island, something shines. It is the letter M.",
+      "4": "\"Look!\" says Milo, pointing. Far away, on a little floating island, something glows silver and gold. It is the letter M, standing up all by itself."
+     }
+    },
+    {
+     "img": "sky/c1p6.jpg",
+     "art": "Milo riding on the back of Nimbus the big fluffy cloud puppy, flying across the starry sky toward a floating island",
+     "text": {
+      "1": "Up and away!",
+      "2": "Up and away! Milo rides on Nimbus.",
+      "3": "Nimbus gets bigger and bigger, until Milo can ride on his back. Up and away they go!",
+      "4": "Nimbus puffs up bigger and bigger until Milo can climb on his back like a pony. \"Up and away!\" says Milo, and they zoom off across the sky."
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Owl's Riddle",
+   "pages": [
+    {
+     "img": "sky/c2p1.jpg",
+     "art": "A small floating island with silver grass and a golden letter M stuck high in a tree, a big gray owl sitting on it",
+     "text": {
+      "1": "Here is the M.",
+      "2": "Here is the island. The M is in a tree.",
+      "3": "They land on a small floating island. The letter M is stuck high in a tree, and an owl is sitting on it.",
+      "4": "They land on a small floating island covered in silver grass. The letter M is stuck high in a tree, and a big gray owl is sitting right on top of it."
+     }
+    },
+    {
+     "img": "sky/c2p2.jpg",
+     "art": "A big gray owl with round glasses blinking slowly",
+     "text": {
+      "1": "\"Hoo are you?\"",
+      "2": "\"Hoo are you?\" asks the owl.",
+      "3": "\"Hoo are you?\" asks the owl, blinking slowly. \"And why do you want my letter?\"",
+      "4": "\"Hoo are you?\" asks the owl, blinking slowly behind round glasses. \"And why do you want my letter? I found it fair and square.\""
+     }
+    },
+    {
+     "img": "sky/c2p3.jpg",
+     "art": "Milo explaining and gesturing toward a far-off tower with a moonless dark sky above",
+     "text": {
+      "1": "Milo tells her.",
+      "2": "Milo tells her. \"The moon is lost without it.\"",
+      "3": "Milo explains about the Sky Tower and the moon. \"Without the letters, the moon cannot find its way home,\" he says.",
+      "4": "Milo tells her about the Sky Tower and the moon. \"Without the letters, the moon cannot find its way home,\" he says, \"and then the night will be dark for everyone.\""
+     }
+    },
+    {
+     "img": "sky/c2p4.jpg",
+     "art": "The owl thinking with a wing on her chin, a glowing question mark floating above her",
+     "text": {
+      "1": "The owl has a riddle.",
+      "2": "The owl has a riddle. \"Answer, and it is yours.\"",
+      "3": "\"I will give it to you,\" says the owl, \"if you can answer my riddle. What has a face and two hands, but no eyes and no fingers?\"",
+      "4": "\"I will give you the letter,\" says the owl, \"if you can answer my riddle. What has a face and two hands, but no eyes and no fingers?\""
+     }
+    },
+    {
+     "img": "sky/c2p5.jpg",
+     "art": "Milo and Nimbus thinking hard and then noticing a big old clock on the island, their eyes lighting up",
+     "text": {
+      "1": "Milo thinks.",
+      "2": "Milo thinks hard. He looks at a clock.",
+      "3": "Milo thinks and thinks. Then he sees the great clock on the island, ticking away beside them.",
+      "4": "Milo thinks and thinks, and Nimbus tilts his head. Then Milo sees the old clock on the island, ticking beside them, and his eyes light up."
+     }
+    },
+    {
+     "img": "sky/c2p6.jpg",
+     "art": "The owl delighted handing the glowing golden letter M to Milo, Nimbus wagging his tail",
+     "text": {
+      "1": "A clock!",
+      "2": "\"A clock!\" says Milo. The owl gives him the M.",
+      "3": "\"A clock!\" says Milo. \"Hoo-ray!\" hoots the owl, and she hands him the glowing letter M.",
+      "4": "\"A clock!\" says Milo. \"Hoo-ray, you are right!\" hoots the owl, and she gently hands him the glowing letter M. \"Take good care of it.\""
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Cloud Maze",
+   "pages": [
+    {
+     "img": "sky/c3p1.jpg",
+     "art": "A huge maze of puffy white clouds with twisting paths, Milo and Nimbus flying toward it",
+     "text": {
+      "1": "A cloud maze.",
+      "2": "A big cloud maze! It is hard to see.",
+      "3": "Next, they fly into a giant maze made of fluffy clouds. The paths twist and turn, and it is hard to see.",
+      "4": "Next, the pair flies into a giant maze made of fluffy white clouds. The paths twist and turn in every direction, and it is hard to tell which way is out."
+     }
+    },
+    {
+     "img": "sky/c3p2.jpg",
+     "art": "Milo lost in the cloud maze with his hat over his eyes, Nimbus looking around",
+     "text": {
+      "1": "Which way?",
+      "2": "Which way? They go left. They go right.",
+      "3": "They go left. They go right. They go around in a circle and end up in the very same spot.",
+      "4": "They go left, then right, then left again. After a while they find themselves right back where they started, and Milo's hat has slid down over his eyes."
+     }
+    },
+    {
+     "img": "sky/c3p3.jpg",
+     "art": "Nimbus sniffing the air with his tail wagging, a golden glimmer far down a cloud path",
+     "text": {
+      "1": "Nimbus sniffs.",
+      "2": "Nimbus sniffs. He smells something sweet.",
+      "3": "Nimbus sniffs the air. His tail wags faster. \"Woof!\" he says. He can smell something sweet.",
+      "4": "Nimbus sniffs the air, and his tail begins to wag faster and faster. \"Woof!\" He can smell something sweet and sparkly, far down one of the twisty paths."
+     }
+    },
+    {
+     "img": "sky/c3p4.jpg",
+     "art": "Nimbus leading Milo through a path in the cloud maze toward a glowing golden letter O",
+     "text": {
+      "1": "Follow Nimbus.",
+      "2": "They follow Nimbus. He knows the way.",
+      "3": "Milo follows Nimbus, turn after turn. Soon a golden letter O glows in the cloud ahead.",
+      "4": "Milo trusts his puppy and follows Nimbus around every twist and turn. Soon a golden letter O glows in the middle of a cloud, round as a coin."
+     }
+    },
+    {
+     "img": "sky/c3p5.jpg",
+     "art": "A second golden letter O hanging from the end of a tiny rainbow, Milo jumping to catch it",
+     "text": {
+      "1": "Another O!",
+      "2": "Another O! It hangs on a rainbow.",
+      "3": "And there is more! Another O hangs at the end of a tiny rainbow. Milo jumps and catches it.",
+      "4": "And that is not all. Another golden O hangs from the end of a tiny rainbow. Milo stretches up high and, with a hop, catches it in both hands."
+     }
+    },
+    {
+     "img": "sky/c3p6.jpg",
+     "art": "Milo holding three glowing golden letters M, O and O in his arms, Nimbus proud beside him",
+     "text": {
+      "1": "M, O, O!",
+      "2": "Now he has M, O, and O. Just one more!",
+      "3": "Milo now has three letters: M, O, and O. They look like the start of a word. \"Just one more,\" he says.",
+      "4": "Milo now holds three glowing letters: M, O, and O. He can almost read the word already. \"Just one more letter to go,\" he says, and Nimbus barks happily."
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Last Letter",
+   "pages": [
+    {
+     "img": "sky/c4p1.jpg",
+     "art": "A starry night sky with a big stormy gray cloud in the distance and a faint glow inside it",
+     "text": {
+      "1": "Where is N?",
+      "2": "Where is the N? Milo looks high and low.",
+      "3": "Milo looks high. He looks low. Where could the N be? Then he sees a faint glow inside a stormy cloud.",
+      "4": "Milo looks high and low and all around. Where could the N be? Then he sees a faint glow near the top of a big, grumbly storm cloud."
+     }
+    },
+    {
+     "img": "sky/c4p2.jpg",
+     "art": "A grumpy dark thundercloud with a glowing golden letter N inside its tummy and tiny lightning flickers",
+     "text": {
+      "1": "A grumpy cloud.",
+      "2": "A grumpy storm cloud has the N. Boom!",
+      "3": "A grumpy storm cloud has swallowed the letter N. It rumbles and grumbles, and little flashes of lightning flicker around it.",
+      "4": "A grumpy storm cloud has swallowed the letter N! It rumbles and grumbles, and little flashes of lightning flicker as it sulks all alone."
+     }
+    },
+    {
+     "img": "sky/c4p3.jpg",
+     "art": "Milo with a kind face talking to a grumpy dark storm cloud that looks lonely",
+     "text": {
+      "1": "Why so grumpy?",
+      "2": "\"Why so grumpy?\" asks Milo.",
+      "3": "\"Why are you so grumpy?\" asks Milo. \"Nobody wants to play with a storm cloud,\" the cloud grumbles.",
+      "4": "\"Why are you so grumpy?\" asks Milo, kindly. \"Because nobody wants to play with a storm cloud,\" it grumbles. \"They all say I am too loud and too dark.\""
+     }
+    },
+    {
+     "img": "sky/c4p4.jpg",
+     "art": "Nimbus the cloud puppy bumping playfully against the storm cloud, wagging his tail",
+     "text": {
+      "1": "Nimbus plays.",
+      "2": "Nimbus plays. He bumps the grumpy cloud.",
+      "3": "Nimbus does not mind. He bumps right up to the storm cloud, wags his tail, and woofs, \"Play with me!\"",
+      "4": "Nimbus does not mind at all. He bumps right up to the storm cloud, wags his tail, and woofs, \"Play with me!\" It is the way that cloud puppies say hello."
+     }
+    },
+    {
+     "img": "sky/c4p5.jpg",
+     "art": "The storm cloud smiling and laughing as it rolls with Nimbus, a gentle rainbow forming and the golden letter N popping out",
+     "text": {
+      "1": "The cloud smiles.",
+      "2": "The cloud smiles. Pop! Out comes the N!",
+      "3": "The storm cloud starts to smile. Then it laughs a rumbly laugh, and pop! Out comes the letter N.",
+      "4": "The storm cloud begins to smile. Then it laughs a deep, rumbly laugh that shakes the sky, and pop! Out tumbles the glowing letter N, right into Milo's hands."
+     }
+    },
+    {
+     "img": "sky/c4p6.jpg",
+     "art": "Milo and Nimbus back at the Sky Tower roof with the four golden letters M O O N glowing again and a big smiling moon rising behind them",
+     "text": {
+      "1": "MOON!",
+      "2": "Milo puts the letters up. M-O-O-N. MOON!",
+      "3": "Milo flies home and puts the letters on the roof: M, O, O, N. The great moon rises, round and bright.",
+      "4": "Milo flies home and sets the four letters back on the roof: M, O, O, N. The great moon rises behind them, round and bright and glad to be home."
+     }
+    }
+   ]
+  }
+ ]
+}

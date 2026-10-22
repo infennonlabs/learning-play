@@ -1,0 +1,272 @@
+{
+ "id": "dragon",
+ "title": "Ember's First Flame",
+ "emoji": "🐉",
+ "background": "backgrounds/dragon.jpg",
+ "blurb": "A little dragon who cannot make fire learns that giggles and friends can light up a whole castle.",
+ "cast": "Ember, a small cute red dragon with tiny wings and a round belly; Tobin, a young castle squire wearing a shiny helmet that is too big for him",
+ "cover": "dragon/cover.jpg",
+ "coverArt": "A small cute red dragon with tiny wings smiling beside a young squire in an oversized helmet in a warm torch-lit stone castle hall",
+ "chapters": [
+  {
+   "title": "A Sneeze of Sparkles",
+   "pages": [
+    {
+     "img": "dragon/c1p1.jpg",
+     "art": "Ember the small red dragon sitting in a big stone castle hall with torches along the walls",
+     "text": {
+      "1": "Ember is a dragon.",
+      "2": "Ember is a little dragon. She lives in a castle.",
+      "3": "Ember is a little red dragon with tiny wings. She lives in Dragon's Keep, a big stone castle full of torches.",
+      "4": "Ember is a little red dragon with tiny wings and a round belly. She lives in Dragon's Keep, a huge stone castle where torches glow along every wall."
+     }
+    },
+    {
+     "img": "dragon/c1p2.jpg",
+     "art": "Big grown-up dragons breathing fire to light torches while little Ember watches",
+     "text": {
+      "1": "Big dragons make fire.",
+      "2": "The big dragons make fire. Whoosh!",
+      "3": "Every dragon in the keep can breathe fire to light the torches. Whoosh! It is the family job.",
+      "4": "Every dragon in the keep can breathe fire to light the torches at night. Whoosh! Whoosh! It is the family job, and everyone says Ember will do it soon."
+     }
+    },
+    {
+     "img": "dragon/c1p3.jpg",
+     "art": "Ember taking a huge breath with puffed cheeks and blowing out sparkles and bubbles instead of fire",
+     "text": {
+      "1": "Ember tries. Pfft!",
+      "2": "Ember tries. Out come... sparkles!",
+      "3": "Ember takes a giant breath and blows. But no fire comes out. Only a puff of sparkles!",
+      "4": "Ember takes the biggest breath of her whole life and blows. But no fire comes out. Only a puff of sparkly, glittery bubbles floats into the air."
+     }
+    },
+    {
+     "img": "dragon/c1p4.jpg",
+     "art": "Other young dragons giggling kindly while Ember looks embarrassed with pink cheeks",
+     "text": {
+      "1": "Ember feels bad.",
+      "2": "Ember feels bad. She wants real fire.",
+      "3": "The other dragons giggle. Ember's cheeks turn pink. She wants real fire, just like them.",
+      "4": "The other dragons giggle, though not unkindly. Ember's cheeks turn pink anyway. She wants to make real fire more than anything in the world."
+     }
+    },
+    {
+     "img": "dragon/c1p5.jpg",
+     "art": "Ember sitting alone on a high castle wall at dusk with unlit torches in the courtyard far below",
+     "text": {
+      "1": "Ember goes outside.",
+      "2": "Ember goes out alone. The sun is going down.",
+      "3": "Ember walks out to the high wall and sits alone. The sun is going down, and the torches below are still dark.",
+      "4": "Ember slips away to the high castle wall and sits all alone. The sun is sinking, and she notices that down in the courtyard, the torches are still dark."
+     }
+    },
+    {
+     "img": "dragon/c1p6.jpg",
+     "art": "Tobin the squire in an oversized helmet waving up at Ember from the courtyard",
+     "text": {
+      "1": "\"Hello!\" says a boy.",
+      "2": "\"Hello!\" says a boy. His helmet is too big!",
+      "3": "\"Hello up there!\" calls a boy in a helmet that is much too big. \"I am Tobin! Are you okay?\"",
+      "4": "\"Hello up there!\" calls a boy in a shiny helmet that is much too big for him. \"I am Tobin, the new squire! Are you okay? You look sad.\""
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Cold Keep",
+   "pages": [
+    {
+     "img": "dragon/c2p1.jpg",
+     "art": "A stone courtyard where every torch is unlit, cold blue evening, breath showing in the air",
+     "text": {
+      "1": "It is cold.",
+      "2": "It is cold in the keep. The torches are out!",
+      "3": "That night, the wind blows through the keep and puts out all the torches. It gets cold and dark.",
+      "4": "That night, a wild wind sweeps through Dragon's Keep and blows out every single torch. The halls grow cold and dark, and everyone is shivering."
+     }
+    },
+    {
+     "img": "dragon/c2p2.jpg",
+     "art": "Big dragons in blankets coughing little gray smoke rings, sick with a cold",
+     "text": {
+      "1": "The big dragons are sick.",
+      "2": "The big dragons are sick. They cannot make fire.",
+      "3": "The big dragons have all caught a cold. When they try to breathe fire, they can only cough.",
+      "4": "Worse still, the big dragons have all caught a cold. When they try to light the torches, they can only cough, and tiny gray smoke rings drift out."
+     }
+    },
+    {
+     "img": "dragon/c2p3.jpg",
+     "art": "Tobin handing Ember an unlit torch, encouraging her with a big smile",
+     "text": {
+      "1": "Tobin has a plan.",
+      "2": "Tobin has a plan. \"You can do it, Ember!\"",
+      "3": "\"You can do it, Ember!\" says Tobin. \"Just try, even if it is a little bit.\"",
+      "4": "\"I think you can do it, Ember,\" says Tobin. \"You do not have to be perfect. Just try, even if it is only a little bit.\""
+     }
+    },
+    {
+     "img": "dragon/c2p4.jpg",
+     "art": "Ember taking a slow breath as a tiny orange spark pops out of her nose",
+     "text": {
+      "1": "Ember tries again.",
+      "2": "Ember tries again. A tiny spark pops out!",
+      "3": "Ember breathes in slowly. Pop! A tiny orange spark flies out and then disappears.",
+      "4": "Ember breathes in slowly and thinks of something warm. Pop! A tiny orange spark jumps out, flickers for a second, and then fades away."
+     }
+    },
+    {
+     "img": "dragon/c2p5.jpg",
+     "art": "Tobin cheering and jumping with his helmet slipping over his eyes, Ember looking surprised",
+     "text": {
+      "1": "A spark!",
+      "2": "\"A spark!\" says Tobin. \"Do it again!\"",
+      "3": "\"A spark! You did make a spark!\" cheers Tobin. \"That is the start of fire!\"",
+      "4": "\"A spark!\" cheers Tobin, jumping up and down so hard his helmet slips over his eyes. \"That is how every fire starts, Ember. Just one little spark!\""
+     }
+    },
+    {
+     "img": "dragon/c2p6.jpg",
+     "art": "Ember smiling with determination in the dim night castle",
+     "text": {
+      "1": "Ember smiles.",
+      "2": "Ember smiles. She will keep trying.",
+      "3": "For the first time all day, Ember smiles. She will keep trying until the keep is warm again.",
+      "4": "For the first time all day, Ember smiles. She is not done yet. She will keep on trying until the whole keep is warm again."
+     }
+    }
+   ]
+  },
+  {
+   "title": "Try, Try Again",
+   "pages": [
+    {
+     "img": "dragon/c3p1.jpg",
+     "art": "Ember puffing out a little cloud of gray smoke while Tobin holds an unlit torch",
+     "text": {
+      "1": "Puff! Only smoke.",
+      "2": "Ember tries. Puff! Only smoke.",
+      "3": "Ember tries again. Puff! This time she makes a little cloud of smoke. It is closer, but it is not fire.",
+      "4": "Ember tries again. Puff! This time she makes a little gray cloud of smoke. It is closer than before, but it is still not fire."
+     }
+    },
+    {
+     "img": "dragon/c3p2.jpg",
+     "art": "Ember scrunching her face as a bigger spark lands on a torch and Tobin ducks",
+     "text": {
+      "1": "Pop! A spark!",
+      "2": "Pop! A spark lands on the torch. It goes out.",
+      "3": "Pop! A bigger spark lands on the torch, glows for a moment, and goes out. \"Almost!\" says Tobin.",
+      "4": "Pop! A bigger spark lands on the torch and glows for a moment, but a draft puffs it out. \"Almost!\" says Tobin. \"That was so close!\""
+     }
+    },
+    {
+     "img": "dragon/c3p3.jpg",
+     "art": "Ember slumped and tired while Tobin sits beside her sharing warm bread",
+     "text": {
+      "1": "Ember is tired.",
+      "2": "Ember is tired. Tobin shares his bread.",
+      "3": "Ember feels tired and a little bit grumpy. Tobin sits next to her and shares his warm bread.",
+      "4": "Ember feels tired and a little bit grumpy. Tobin sits next to her and shares his warm bread. \"Resting is part of trying,\" he says."
+     }
+    },
+    {
+     "img": "dragon/c3p4.jpg",
+     "art": "Tobin making a very silly face with his tongue out and helmet on sideways, Ember starting to giggle",
+     "text": {
+      "1": "Tobin is silly.",
+      "2": "Tobin makes a silly face. Ember giggles.",
+      "3": "Tobin makes his silliest face, with his tongue out and his helmet on sideways. Ember starts to giggle.",
+      "4": "Tobin pulls his silliest face, with his tongue out and his helmet on sideways. Ember bursts out giggling, and she cannot stop."
+     }
+    },
+    {
+     "img": "dragon/c3p5.jpg",
+     "art": "Ember giggling with a small warm flame hiccuping out of her mouth, surprised",
+     "text": {
+      "1": "Hic! A flame!",
+      "2": "She giggles. Hic! A little flame comes out!",
+      "3": "Ember giggles so hard that she hiccups. And out of her mouth pops a real little flame!",
+      "4": "Ember giggles so hard that she gets the hiccups. Hic! And out of her mouth pops a real, warm, flickering little flame, the first one ever."
+     }
+    },
+    {
+     "img": "dragon/c3p6.jpg",
+     "art": "Ember and Tobin staring in amazement at a small flame floating in the air between them",
+     "text": {
+      "1": "Fire!",
+      "2": "Fire! Ember made fire!",
+      "3": "They both stare at the flame. \"Fire!\" they shout together. \"Ember, you made fire!\"",
+      "4": "They both stare at the little flame dancing in the air. \"Fire!\" they shout together. \"Ember, you made fire! It was giggles, not trying!\""
+     }
+    }
+   ]
+  },
+  {
+   "title": "The Warm Keep",
+   "pages": [
+    {
+     "img": "dragon/c4p1.jpg",
+     "art": "Ember lighting the first torch with a gentle golden flame while Tobin watches",
+     "text": {
+      "1": "Light the torch.",
+      "2": "Ember lights the first torch. Whoosh!",
+      "3": "Ember aims carefully at the first torch and giggles again. Whoosh! The torch lights with a warm glow.",
+      "4": "Ember aims carefully at the first torch and thinks of Tobin's silly face. Whoosh! A warm, golden flame leaps out and lights the torch."
+     }
+    },
+    {
+     "img": "dragon/c4p2.jpg",
+     "art": "Ember and Tobin running down a long hall lighting torches one by one with warm glow spreading",
+     "text": {
+      "1": "Light, light, light!",
+      "2": "They run down the hall. Light, light, light!",
+      "3": "They run all down the hall together. Ember lights one torch after another while Tobin cheers.",
+      "4": "They run all the way down the great hall together. Ember lights one torch after another, and Tobin cheers as the keep glows brighter at every step."
+     }
+    },
+    {
+     "img": "dragon/c4p3.jpg",
+     "art": "The big dragons waking up and smiling in the warm torchlight",
+     "text": {
+      "1": "The dragons wake up.",
+      "2": "The big dragons wake up. They feel warm.",
+      "3": "The warm light wakes up the big dragons. They stretch and smile, and their colds feel a little better.",
+      "4": "The warm light wakes the big dragons, and they stretch and smile. The glow makes their sore throats feel better already."
+     }
+    },
+    {
+     "img": "dragon/c4p4.jpg",
+     "art": "Ember's mom and dad dragons giving Ember a proud hug",
+     "text": {
+      "1": "Mom is proud.",
+      "2": "Mom and Dad are proud. They hug Ember.",
+      "3": "Ember's mom and dad give her a great big hug. \"We are so proud of you,\" they say.",
+      "4": "Ember's mom and dad wrap her in a great big hug. \"We are so proud of you,\" they say. \"You did not give up, and that is what matters most.\""
+     }
+    },
+    {
+     "img": "dragon/c4p5.jpg",
+     "art": "A cozy feast table in the great hall with Ember and Tobin seated side by side and candles glowing",
+     "text": {
+      "1": "Time to eat.",
+      "2": "Time to eat! Ember sits with Tobin.",
+      "3": "The whole castle has a feast to say thank you. Ember sits right next to her new friend Tobin.",
+      "4": "The whole castle holds a feast that night to say thank you. Ember gets the seat of honor, and she insists that Tobin sit right next to her."
+     }
+    },
+    {
+     "img": "dragon/c4p6.jpg",
+     "art": "Ember and Tobin sitting on the high castle wall at night with the warm lit castle windows glowing below and stars above",
+     "text": {
+      "1": "Good night, Keep.",
+      "2": "The keep is warm and bright. Good night!",
+      "3": "Ember and Tobin look out from the high wall. The whole keep glows below. \"Good night, Dragon's Keep,\" says Ember.",
+      "4": "Ember and Tobin sit on the high wall and look at the glowing keep below them. \"Good night, Dragon's Keep,\" says Ember. \"Tomorrow, I will do it again.\""
+     }
+    }
+   ]
+  }
+ ]
+}
