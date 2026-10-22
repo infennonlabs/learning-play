@@ -1,0 +1,230 @@
+{
+ "id": "sky",
+ "title": "The Wizard's Sky Tower",
+ "background": "backgrounds/sky.jpg",
+ "start": "start",
+ "restBeat": "camp",
+ "beats": {
+  "start": {
+   "text": {
+    "1": "A tall tower in the sky.",
+    "2": "A very tall tower floats in the sky. Stairs go up and up.",
+    "3": "A very tall tower floats in the sky. A long stair winds up and up past the clouds, and you start to climb.",
+    "4": "A very tall tower floats among the clouds. A long spiral stair winds up and up toward the top, and you take a deep breath and start to climb."
+   },
+   "choices": [
+    {
+     "emoji": "🪜",
+     "label": {
+      "1": "Climb",
+      "3": "Climb the stairs"
+     },
+     "next": "clouds"
+    },
+    {
+     "emoji": "🎈",
+     "label": {
+      "1": "Ride a balloon",
+      "3": "Ride a balloon"
+     },
+     "next": "balloon",
+     "effects": {
+      "magic": 1
+     },
+     "feedback": {
+      "1": "Up, up, up!",
+      "3": "Up, up, up you go, floating past the clouds!"
+     }
+    }
+   ]
+  },
+  "clouds": {
+   "text": {
+    "1": "You walk on clouds.",
+    "2": "You walk on soft clouds. They feel like pillows.",
+    "3": "Part of the stair is covered in clouds. They feel as soft as pillows, and you bounce a little with every step.",
+    "4": "Part of the stair is hidden in soft clouds. They feel as springy as pillows, and you bounce a little with every step you take."
+   },
+   "choices": [
+    {
+     "emoji": "🤸",
+     "label": {
+      "1": "Bounce",
+      "3": "Bounce up"
+     },
+     "next": "boss"
+    },
+    {
+     "emoji": "🐢",
+     "label": {
+      "1": "Walk",
+      "3": "Walk carefully"
+     },
+     "next": "boss",
+     "effects": {
+      "food": 1
+     },
+     "feedback": {
+      "1": "You find a snack!",
+      "3": "You find a snack tucked in the clouds!"
+     }
+    }
+   ]
+  },
+  "balloon": {
+   "text": {
+    "1": "The balloon lands.",
+    "2": "The balloon lands on a balcony. You are almost there!",
+    "3": "The balloon drifts to a stop on a high balcony. You are almost at the top!",
+    "4": "The balloon drifts gently to a stop on a high balcony. You step off, and you can see that you are almost at the very top of the tower!"
+   },
+   "choices": [
+    {
+     "emoji": "🚪",
+     "label": {
+      "1": "Open the door",
+      "3": "Open the door"
+     },
+     "next": "boss"
+    },
+    {
+     "emoji": "🔭",
+     "label": {
+      "1": "Look first",
+      "3": "Look through the telescope"
+     },
+     "next": "boss",
+     "effects": {
+      "magic": 1
+     }
+    }
+   ]
+  },
+  "boss": {
+   "text": {
+    "1": "A wizard is all alone.",
+    "2": "A wizard sits alone. He looks sad. He has no friends.",
+    "3": "At the top sits a wizard in a tall purple hat. He looks very sad. He has been alone in the tower for a long time.",
+    "4": "At the very top sits a wizard in a tall purple hat. People call him the Dark Sorcerer, but he only looks sad and lonely. He has been all alone in his tower for a very long time."
+   },
+   "choices": [
+    {
+     "emoji": "🤝",
+     "label": {
+      "1": "Be his friend",
+      "3": "Be his friend"
+     },
+     "next": "quiz",
+     "setFlag": "wizard_friend",
+     "feedback": {
+      "1": "He smiles!",
+      "3": "The wizard smiles his first smile in years!"
+     }
+    },
+    {
+     "emoji": "🎵",
+     "label": {
+      "1": "Sing a song",
+      "3": "Sing him a song"
+     },
+     "next": "quiz",
+     "setFlag": "wizard_friend",
+     "feedback": {
+      "1": "He claps!",
+      "3": "The wizard claps along and laughs."
+     }
+    }
+   ],
+   "art": "bosses/wizard.png"
+  },
+  "quiz": {
+   "text": {
+    "1": "How did the wizard feel?",
+    "2": "How did the wizard feel?",
+    "3": "How did the wizard feel at the top of the tower?",
+    "4": "How did the wizard feel at the top of the tower?"
+   },
+   "choices": [
+    {
+     "emoji": "😢",
+     "label": {
+      "1": "Lonely",
+      "3": "Lonely"
+     },
+     "next": "done",
+     "correct": true,
+     "feedback": {
+      "1": "Yes! Good job!",
+      "3": "That's right!"
+     }
+    },
+    {
+     "emoji": "😡",
+     "label": {
+      "1": "Angry",
+      "3": "Angry"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    },
+    {
+     "emoji": "😴",
+     "label": {
+      "1": "Sleepy",
+      "3": "Sleepy"
+     },
+     "next": "",
+     "correct": false,
+     "feedback": {
+      "1": "Try again!",
+      "3": "Not quite. Think about the story."
+     }
+    }
+   ],
+   "quiz": true
+  },
+  "camp": {
+   "text": {
+    "1": "You rest on a cloud.",
+    "2": "Your friend helps you to a soft cloud. You rest and feel better!",
+    "3": "Your travel friend helps you onto a soft, fluffy cloud. You rest for a while, and soon you feel strong again.",
+    "4": "Your travel friend helps you onto a wide, fluffy cloud beside the stairs. You rest, nibble a snack, and watch the sky, and soon you feel strong again."
+   },
+   "choices": [
+    {
+     "emoji": "🪜",
+     "label": {
+      "1": "Go on",
+      "3": "Go back to the stairs"
+     },
+     "next": "start"
+    },
+    {
+     "emoji": "🍎",
+     "label": {
+      "1": "Snack",
+      "3": "Have a snack"
+     },
+     "next": "start",
+     "effects": {
+      "food": 1
+     }
+    }
+   ]
+  },
+  "done": {
+   "text": {
+    "1": "You did it! You saved the realms!",
+    "2": "You did it! The wizard is happy. You saved the realms!",
+    "3": "You did it! The wizard is not lonely anymore, and he throws a big party. You saved the realms with kindness!",
+    "4": "You did it! The wizard is not lonely anymore, and he throws a big party at the top of the world with all your new friends. You saved the realms with kindness. The end!"
+   },
+   "choices": [],
+   "end": true
+  }
+ }
+}

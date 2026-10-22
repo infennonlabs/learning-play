@@ -206,5 +206,13 @@
     "channelPolicy": "both",
     "stablePath": "contractions/",
     "devPath": "dev/contractions/"
+  },
+  {
+    "id": "realm_breaker",
+    "title": "Realm Breaker",
+    "slug": "fantasy",
+    "channelPolicy": "both",
+    "stablePath": "fantasy/",
+    "devPath": "dev/fantasy/"
   }
 ]

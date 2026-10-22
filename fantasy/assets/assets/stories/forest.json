@@ -1,0 +1,118 @@
+{
+  "id": "forest",
+  "title": "The Enchanted Forest",
+  "background": "backgrounds/forest.jpg",
+  "start": "start",
+  "restBeat": "camp",
+  "beats": {
+    "start": {
+      "text": {
+        "1": "You walk into a big forest.",
+        "2": "You walk into a big, green forest. The trees look magic!",
+        "3": "You step into the Enchanted Forest. The trees are tall and green, and a soft light glows between them.",
+        "4": "You step into the Enchanted Forest, where the trees are tall and the air smells like pine. A soft, golden light glows between the branches, and somewhere nearby a bird is singing."
+      },
+      "choices": [
+        {"emoji": "✨", "label": {"1": "Follow the glow", "3": "Follow the glowing light"}, "next": "fork"},
+        {"emoji": "🍓", "label": {"1": "Pick berries", "3": "Stop to pick some berries"}, "next": "berries"}
+      ]
+    },
+    "berries": {
+      "text": {
+        "1": "Yum! Red berries!",
+        "2": "You find red berries. Yum! You put some in your bag.",
+        "3": "You find a bush full of red berries. They taste sweet, and you tuck some into your bag for later.",
+        "4": "Behind a mossy log you find a bush full of plump red berries. They taste sweet and juicy, and you tuck a handful into your bag for later."
+      },
+      "choices": [
+        {"emoji": "👣", "label": {"1": "Keep going", "3": "Keep walking"}, "next": "fork", "effects": {"food": 1}},
+        {"emoji": "😋", "label": {"1": "Eat more", "3": "Eat a few more"}, "next": "fork", "effects": {"hearts": 1}, "feedback": {"1": "Your tummy is happy!", "3": "Your tummy is full and you feel strong."}}
+      ]
+    },
+    "fork": {
+      "text": {
+        "1": "The path splits in two.",
+        "2": "The path splits in two. One way has a bridge. One way has paw prints.",
+        "3": "The path splits in two. One way leads to a wobbly bridge. The other has little paw prints in the mud.",
+        "4": "Ahead, the path splits in two. To the left, a wobbly wooden bridge crosses a sparkling stream. To the right, a trail of tiny paw prints winds into the ferns."
+      },
+      "choices": [
+        {"emoji": "🌉", "label": {"1": "Bridge", "3": "Cross the bridge"}, "next": "bridge"},
+        {"emoji": "🐾", "label": {"1": "Paw prints", "3": "Follow the paw prints"}, "next": "fox"}
+      ]
+    },
+    "bridge": {
+      "text": {
+        "1": "The bridge wobbles!",
+        "2": "The bridge wobbles and creaks. Oh no!",
+        "3": "The wooden bridge wobbles and creaks under your feet. The water below is sparkling.",
+        "4": "The old wooden bridge wobbles and creaks with every step. Far below, the stream sparkles, and a few silver fish dart between the rocks."
+      },
+      "choices": [
+        {"emoji": "🐢", "label": {"1": "Go slow", "3": "Cross slowly"}, "next": "treant", "feedback": {"1": "You made it!", "3": "Step by step, you make it across."}},
+        {"emoji": "🏃", "label": {"1": "Run", "3": "Run across"}, "next": "treant", "effects": {"hearts": -1}, "feedback": {"1": "Splash! You got wet.", "3": "Splash! You slip and get soaked, but you laugh and keep going."}}
+      ]
+    },
+    "fox": {
+      "text": {
+        "1": "A little fox is lost!",
+        "2": "You find a little fox. It looks lost and sad.",
+        "3": "At the end of the trail you find a little fox. It is lost, and its tail is drooping.",
+        "4": "At the end of the trail, curled under a fern, you find a little fox. It is lost, and its fluffy tail is drooping low."
+      },
+      "choices": [
+        {"emoji": "🦊", "label": {"1": "Help it", "3": "Help the fox"}, "next": "treant", "effects": {"magic": 1}, "setFlag": "fox_friend", "feedback": {"1": "The fox is your friend!", "3": "The fox hops into your arms. You have a new friend!"}},
+        {"emoji": "👣", "label": {"1": "Walk on", "3": "Keep walking"}, "next": "treant"}
+      ]
+    },
+    "treant": {
+      "art": "bosses/treant.png",
+      "text": {
+        "1": "A big tree is asleep. It blocks the path.",
+        "2": "A giant tree is asleep on the path. It is a Treant! It blocks the way.",
+        "3": "A giant tree lies asleep across the path. It is a Treant, and it is snoring so loudly that the leaves shake.",
+        "4": "Across the path lies a giant tree with a sleepy, wrinkled face. It is a Treant, snoring so loudly that the leaves rattle, and its branches block the whole way."
+      },
+      "choices": [
+        {"emoji": "👋", "label": {"1": "Say hello", "3": "Say hello softly"}, "next": "quiz", "setFlag": "treant_friend", "feedback": {"1": "The Treant smiles!", "3": "The Treant opens one eye and smiles. \"A friend!\" it says."}},
+        {"emoji": "🤫", "label": {"1": "Tiptoe", "3": "Tiptoe around it"}, "next": "quiz", "effects": {"food": -1}, "feedback": {"1": "Shh! You made it past.", "3": "Shh! You sneak around, but a snack falls out of your bag."}}
+      ]
+    },
+    "quiz": {
+      "quiz": true,
+      "text": {
+        "1": "Who was asleep on the path?",
+        "2": "Who was asleep on the path?",
+        "3": "Who was asleep across the path?",
+        "4": "Who was snoring across the path in the forest?"
+      },
+      "choices": [
+        {"emoji": "🌳", "label": {"1": "A tree", "3": "A Treant"}, "next": "done", "correct": true, "feedback": {"1": "Yes! A Treant!", "3": "That's right. It was a Treant!"}},
+        {"emoji": "🐉", "label": {"1": "A dragon", "3": "A dragon"}, "next": "", "correct": false, "feedback": {"1": "Try again!", "3": "Not quite. Think about the big tree."}},
+        {"emoji": "🐻", "label": {"1": "A bear", "3": "A bear"}, "next": "", "correct": false, "feedback": {"1": "Try again!", "3": "Not quite. Think about the big tree."}}
+      ]
+    },
+    "camp": {
+      "text": {
+        "1": "You rest by a fire. Now you feel better!",
+        "2": "Your friend helps you to a cozy fire. You rest, and now you feel better!",
+        "3": "Your travel friend helps you to a cozy campfire. You rest and eat a warm snack, and soon you feel strong again.",
+        "4": "Your travel friend helps you to a cozy campfire. You rest, eat a warm snack, and listen to the crackling logs until you feel strong again."
+      },
+      "choices": [
+        {"emoji": "🔥", "label": {"1": "Go on", "3": "Get back on the path"}, "next": "fork"},
+        {"emoji": "🍓", "label": {"1": "Snack", "3": "Have another snack"}, "next": "fork", "effects": {"food": 1}}
+      ]
+    },
+    "done": {
+      "end": true,
+      "text": {
+        "1": "You did it! Crystal Caverns is next!",
+        "2": "You made it through the forest! The Crystal Caverns are next.",
+        "3": "You made it through the Enchanted Forest! Ahead, a cave glitters. The Crystal Caverns are next.",
+        "4": "You made it through the Enchanted Forest! Beyond the last tree, a cave mouth glitters with colored light. The Crystal Caverns are your next stop."
+      },
+      "choices": []
+    }
+  }
+}
