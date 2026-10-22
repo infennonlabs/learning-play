@@ -1,0 +1,35 @@
+{
+    "name": "Comic Kids",
+    "short_name": "Comic Kids",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#E0413A",
+    "theme_color": "#E0413A",
+    "description": "Build your own comic book pages with heroes, scenes and speech bubbles, then write the story",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

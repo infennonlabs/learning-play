@@ -48,6 +48,14 @@
     "devPath": "dev/clockwork/"
   },
   {
+    "id": "comic_kids",
+    "title": "Comic Kids",
+    "slug": "comicbook",
+    "channelPolicy": "both",
+    "stablePath": "comicbook/",
+    "devPath": "dev/comicbook/"
+  },
+  {
     "id": "cooking_kids",
     "title": "Cooking Kids",
     "slug": "cooking",
@@ -184,6 +192,14 @@
     "devPath": "dev/reading-writing-kids/"
   },
   {
+    "id": "realm_breaker",
+    "title": "Realm Breaker",
+    "slug": "fantasy",
+    "channelPolicy": "both",
+    "stablePath": "fantasy/",
+    "devPath": "dev/fantasy/"
+  },
+  {
     "id": "sight_word_search",
     "title": "Sight Word Search",
     "slug": "sight-word-search",
@@ -206,13 +222,5 @@
     "channelPolicy": "both",
     "stablePath": "contractions/",
     "devPath": "dev/contractions/"
-  },
-  {
-    "id": "realm_breaker",
-    "title": "Realm Breaker",
-    "slug": "fantasy",
-    "channelPolicy": "both",
-    "stablePath": "fantasy/",
-    "devPath": "dev/fantasy/"
   }
 ]
