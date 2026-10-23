@@ -5,14 +5,14 @@
  "background": "backgrounds/dragon.jpg",
  "blurb": "A little dragon who cannot make fire learns that giggles and friends can light up a whole castle.",
  "cast": "Ember, a small cute red dragon with tiny wings and a round belly; Tobin, a young castle squire wearing a shiny helmet that is too big for him",
- "cover": "dragon/cover.jpg",
+ "cover": "dragon/cover.webp",
  "coverArt": "A small cute red dragon with tiny wings smiling beside a young squire in an oversized helmet in a warm torch-lit stone castle hall",
  "chapters": [
   {
    "title": "A Sneeze of Sparkles",
    "pages": [
     {
-     "img": "dragon/c1p1.jpg",
+     "img": "dragon/c1p1.webp",
      "art": "Ember the small red dragon sitting in a big stone castle hall with torches along the walls",
      "text": {
       "1": "Ember is a dragon.",
@@ -22,7 +22,7 @@
      }
     },
     {
-     "img": "dragon/c1p2.jpg",
+     "img": "dragon/c1p2.webp",
      "art": "Big grown-up dragons breathing fire to light torches while little Ember watches",
      "text": {
       "1": "Big dragons make fire.",
@@ -32,7 +32,7 @@
      }
     },
     {
-     "img": "dragon/c1p3.jpg",
+     "img": "dragon/c1p3.webp",
      "art": "Ember taking a huge breath with puffed cheeks and blowing out sparkles and bubbles instead of fire",
      "text": {
       "1": "Ember tries. Pfft!",
@@ -42,7 +42,7 @@
      }
     },
     {
-     "img": "dragon/c1p4.jpg",
+     "img": "dragon/c1p4.webp",
      "art": "Other young dragons giggling kindly while Ember looks embarrassed with pink cheeks",
      "text": {
       "1": "Ember feels bad.",
@@ -52,7 +52,7 @@
      }
     },
     {
-     "img": "dragon/c1p5.jpg",
+     "img": "dragon/c1p5.webp",
      "art": "Ember sitting alone on a high castle wall at dusk with unlit torches in the courtyard far below",
      "text": {
       "1": "Ember goes outside.",
@@ -62,7 +62,7 @@
      }
     },
     {
-     "img": "dragon/c1p6.jpg",
+     "img": "dragon/c1p6.webp",
      "art": "Tobin the squire in an oversized helmet waving up at Ember from the courtyard",
      "text": {
       "1": "\"Hello!\" says a boy.",
@@ -77,7 +77,7 @@
    "title": "The Cold Keep",
    "pages": [
     {
-     "img": "dragon/c2p1.jpg",
+     "img": "dragon/c2p1.webp",
      "art": "A stone courtyard where every torch is unlit, cold blue evening, breath showing in the air",
      "text": {
       "1": "It is cold.",
@@ -87,7 +87,7 @@
      }
     },
     {
-     "img": "dragon/c2p2.jpg",
+     "img": "dragon/c2p2.webp",
      "art": "Big dragons in blankets coughing little gray smoke rings, sick with a cold",
      "text": {
       "1": "The big dragons are sick.",
@@ -97,7 +97,7 @@
      }
     },
     {
-     "img": "dragon/c2p3.jpg",
+     "img": "dragon/c2p3.webp",
      "art": "Tobin handing Ember an unlit torch, encouraging her with a big smile",
      "text": {
       "1": "Tobin has a plan.",
@@ -107,7 +107,7 @@
      }
     },
     {
-     "img": "dragon/c2p4.jpg",
+     "img": "dragon/c2p4.webp",
      "art": "Ember taking a slow breath as a tiny orange spark pops out of her nose",
      "text": {
       "1": "Ember tries again.",
@@ -117,7 +117,7 @@
      }
     },
     {
-     "img": "dragon/c2p5.jpg",
+     "img": "dragon/c2p5.webp",
      "art": "Tobin cheering and jumping with his helmet slipping over his eyes, Ember looking surprised",
      "text": {
       "1": "A spark!",
@@ -127,7 +127,7 @@
      }
     },
     {
-     "img": "dragon/c2p6.jpg",
+     "img": "dragon/c2p6.webp",
      "art": "Ember smiling with determination in the dim night castle",
      "text": {
       "1": "Ember smiles.",
@@ -142,7 +142,7 @@
    "title": "Try, Try Again",
    "pages": [
     {
-     "img": "dragon/c3p1.jpg",
+     "img": "dragon/c3p1.webp",
      "art": "Ember puffing out a little cloud of gray smoke while Tobin holds an unlit torch",
      "text": {
       "1": "Puff! Only smoke.",
@@ -152,7 +152,7 @@
      }
     },
     {
-     "img": "dragon/c3p2.jpg",
+     "img": "dragon/c3p2.webp",
      "art": "Ember scrunching her face as a bigger spark lands on a torch and Tobin ducks",
      "text": {
       "1": "Pop! A spark!",
@@ -162,7 +162,7 @@
      }
     },
     {
-     "img": "dragon/c3p3.jpg",
+     "img": "dragon/c3p3.webp",
      "art": "Ember slumped and tired while Tobin sits beside her sharing warm bread",
      "text": {
       "1": "Ember is tired.",
@@ -172,7 +172,7 @@
      }
     },
     {
-     "img": "dragon/c3p4.jpg",
+     "img": "dragon/c3p4.webp",
      "art": "Tobin making a very silly face with his tongue out and helmet on sideways, Ember starting to giggle",
      "text": {
       "1": "Tobin is silly.",
@@ -182,7 +182,7 @@
      }
     },
     {
-     "img": "dragon/c3p5.jpg",
+     "img": "dragon/c3p5.webp",
      "art": "Ember giggling with a small warm flame hiccuping out of her mouth, surprised",
      "text": {
       "1": "Hic! A flame!",
@@ -192,7 +192,7 @@
      }
     },
     {
-     "img": "dragon/c3p6.jpg",
+     "img": "dragon/c3p6.webp",
      "art": "Ember and Tobin staring in amazement at a small flame floating in the air between them",
      "text": {
       "1": "Fire!",
@@ -207,7 +207,7 @@
    "title": "The Warm Keep",
    "pages": [
     {
-     "img": "dragon/c4p1.jpg",
+     "img": "dragon/c4p1.webp",
      "art": "Ember lighting the first torch with a gentle golden flame while Tobin watches",
      "text": {
       "1": "Light the torch.",
@@ -217,7 +217,7 @@
      }
     },
     {
-     "img": "dragon/c4p2.jpg",
+     "img": "dragon/c4p2.webp",
      "art": "Ember and Tobin running down a long hall lighting torches one by one with warm glow spreading",
      "text": {
       "1": "Light, light, light!",
@@ -227,7 +227,7 @@
      }
     },
     {
-     "img": "dragon/c4p3.jpg",
+     "img": "dragon/c4p3.webp",
      "art": "The big dragons waking up and smiling in the warm torchlight",
      "text": {
       "1": "The dragons wake up.",
@@ -237,7 +237,7 @@
      }
     },
     {
-     "img": "dragon/c4p4.jpg",
+     "img": "dragon/c4p4.webp",
      "art": "Ember's mom and dad dragons giving Ember a proud hug",
      "text": {
       "1": "Mom is proud.",
@@ -247,7 +247,7 @@
      }
     },
     {
-     "img": "dragon/c4p5.jpg",
+     "img": "dragon/c4p5.webp",
      "art": "A cozy feast table in the great hall with Ember and Tobin seated side by side and candles glowing",
      "text": {
       "1": "Time to eat.",
@@ -257,7 +257,7 @@
      }
     },
     {
-     "img": "dragon/c4p6.jpg",
+     "img": "dragon/c4p6.webp",
      "art": "Ember and Tobin sitting on the high castle wall at night with the warm lit castle windows glowing below and stars above",
      "text": {
       "1": "Good night, Keep.",

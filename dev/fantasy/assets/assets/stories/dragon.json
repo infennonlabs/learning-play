@@ -6,6 +6,7 @@
  "restBeat": "camp",
  "beats": {
   "start": {
+   "art": "quest/dragon/start.webp",
    "text": {
     "1": "The castle is big and warm.",
     "2": "The castle is big and warm. Is that smoke?",
@@ -43,6 +44,7 @@
    ]
   },
   "hall": {
+   "art": "quest/dragon/hall.webp",
    "text": {
     "1": "A long hall. Hot lava!",
     "2": "A long hall. A river of lava glows beside it.",
@@ -77,6 +79,7 @@
    ]
   },
   "wall": {
+   "art": "quest/dragon/wall.webp",
    "text": {
     "1": "You are up on the wall.",
     "2": "You are up on the wall. You can see the whole land.",
@@ -146,6 +149,7 @@
    "art": "bosses/dragon.png"
   },
   "quiz": {
+   "art": "quest/dragon/quiz.webp",
    "text": {
     "1": "What was wrong with the dragon?",
     "2": "What was wrong with the dragon?",
@@ -196,6 +200,7 @@
    "quiz": true
   },
   "camp": {
+   "art": "quest/dragon/camp.webp",
    "text": {
     "1": "You rest in a cool room.",
     "2": "Your friend helps you to a cool room. You rest and feel better!",
@@ -225,6 +230,7 @@
    ]
   },
   "done": {
+   "art": "quest/dragon/done.webp",
    "text": {
     "1": "Frozen Citadel is next!",
     "2": "The dragon waves bye! The Frozen Citadel is next.",

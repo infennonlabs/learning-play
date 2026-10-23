@@ -5,14 +5,14 @@
  "background": "backgrounds/frozen.jpg",
  "blurb": "A brave girl and a lost penguin climb the Ice Tower to bring back the colored lights of the sky.",
  "cast": "Nova, a small girl in a red parka with a big pom-pom hat; Pico, a fluffy round penguin chick with a yellow scarf; Grandpa, a kind old man with a white beard",
- "cover": "frozen/cover.jpg",
+ "cover": "frozen/cover.webp",
  "coverArt": "A small girl in a red parka and pom-pom hat holding a little lamp beside a fluffy penguin chick in a yellow scarf, an icy tower and aurora lights behind them",
  "chapters": [
   {
    "title": "The Dark Sky",
    "pages": [
     {
-     "img": "frozen/c1p1.jpg",
+     "img": "frozen/c1p1.webp",
      "art": "Nova standing in the snowy village at the foot of a tall ice tower citadel at evening, sky gray",
      "text": {
       "1": "Nova lives in snow.",
@@ -22,7 +22,7 @@
      }
     },
     {
-     "img": "frozen/c1p2.jpg",
+     "img": "frozen/c1p2.webp",
      "art": "A dark plain night sky without any aurora, villagers looking up in surprise",
      "text": {
       "1": "The sky is dark.",
@@ -32,7 +32,7 @@
      }
     },
     {
-     "img": "frozen/c1p3.jpg",
+     "img": "frozen/c1p3.webp",
      "art": "Grandpa with a white beard pointing out the window at a faraway ice tower, Nova listening",
      "text": {
       "1": "Grandpa has an idea.",
@@ -42,7 +42,7 @@
      }
     },
     {
-     "img": "frozen/c1p4.jpg",
+     "img": "frozen/c1p4.webp",
      "art": "Nova pulling on her boots and big wooly mittens with a determined face",
      "text": {
       "1": "Nova will go.",
@@ -52,7 +52,7 @@
      }
     },
     {
-     "img": "frozen/c1p5.jpg",
+     "img": "frozen/c1p5.webp",
      "art": "Grandpa handing Nova a small copper lamp with a tiny glowing flame",
      "text": {
       "1": "A gift.",
@@ -62,7 +62,7 @@
      }
     },
     {
-     "img": "frozen/c1p6.jpg",
+     "img": "frozen/c1p6.webp",
      "art": "Nova walking out into the falling snow toward a tall faraway ice tower",
      "text": {
       "1": "Off she goes.",
@@ -77,7 +77,7 @@
    "title": "Pico the Penguin",
    "pages": [
     {
-     "img": "frozen/c2p1.jpg",
+     "img": "frozen/c2p1.webp",
      "art": "Nova trudging through deep snow, a line of small footprints behind her",
      "text": {
       "1": "Crunch, crunch.",
@@ -87,7 +87,7 @@
      }
     },
     {
-     "img": "frozen/c2p2.jpg",
+     "img": "frozen/c2p2.webp",
      "art": "A small fluffy penguin chick in a yellow scarf shivering behind a snowdrift, lost",
      "text": {
       "1": "Who is that?",
@@ -97,7 +97,7 @@
      }
     },
     {
-     "img": "frozen/c2p3.jpg",
+     "img": "frozen/c2p3.webp",
      "art": "Nova holding her warm little lamp close to the penguin chick who stops shivering and fluffs up",
      "text": {
       "1": "Nova helps.",
@@ -107,7 +107,7 @@
      }
     },
     {
-     "img": "frozen/c2p4.jpg",
+     "img": "frozen/c2p4.webp",
      "art": "Pico the penguin chick introducing himself with a flipper raised and a big smile",
      "text": {
       "1": "\"I am Pico!\"",
@@ -117,7 +117,7 @@
      }
     },
     {
-     "img": "frozen/c2p5.jpg",
+     "img": "frozen/c2p5.webp",
      "art": "Nova holding out her mitten to Pico's flipper, inviting him along",
      "text": {
       "1": "Come with me.",
@@ -127,7 +127,7 @@
      }
     },
     {
-     "img": "frozen/c2p6.jpg",
+     "img": "frozen/c2p6.webp",
      "art": "Nova walking beside Pico who waddles and slides on his belly through the snow, laughing",
      "text": {
       "1": "Waddle, waddle.",
@@ -142,7 +142,7 @@
    "title": "The Frozen Slide",
    "pages": [
     {
-     "img": "frozen/c3p1.jpg",
+     "img": "frozen/c3p1.webp",
      "art": "A steep hill of smooth blue ice with the Ice Tower rising beyond it",
      "text": {
       "1": "A big ice hill.",
@@ -152,7 +152,7 @@
      }
     },
     {
-     "img": "frozen/c3p2.jpg",
+     "img": "frozen/c3p2.webp",
      "art": "Nova slipping and sliding backward down the ice hill with snow flying while Pico laughs",
      "text": {
       "1": "Whoops! Slip!",
@@ -162,7 +162,7 @@
      }
     },
     {
-     "img": "frozen/c3p3.jpg",
+     "img": "frozen/c3p3.webp",
      "art": "Pico grinning proudly and pointing at himself, Nova looking at the ice hill thoughtfully",
      "text": {
       "1": "Pico has an idea.",
@@ -172,7 +172,7 @@
      }
     },
     {
-     "img": "frozen/c3p4.jpg",
+     "img": "frozen/c3p4.webp",
      "art": "Pico lying on his belly scooting up the ice hill with Nova holding on to his scarf",
      "text": {
       "1": "Hold on tight!",
@@ -182,7 +182,7 @@
      }
     },
     {
-     "img": "frozen/c3p5.jpg",
+     "img": "frozen/c3p5.webp",
      "art": "Nova and Pico whooshing down a long curvy ice slide on the other side of the hill, snow flying behind",
      "text": {
       "1": "Wheee!",
@@ -192,7 +192,7 @@
      }
     },
     {
-     "img": "frozen/c3p6.jpg",
+     "img": "frozen/c3p6.webp",
      "art": "Nova and Pico landing in a soft snowbank at the foot of the tall Ice Tower, laughing",
      "text": {
       "1": "Plop!",
@@ -207,7 +207,7 @@
    "title": "The Snow Lantern",
    "pages": [
     {
-     "img": "frozen/c4p1.jpg",
+     "img": "frozen/c4p1.webp",
      "art": "A tall spiral ice staircase inside the tower glowing faintly blue, Nova and Pico climbing",
      "text": {
       "1": "Up, up, up.",
@@ -217,7 +217,7 @@
      }
     },
     {
-     "img": "frozen/c4p2.jpg",
+     "img": "frozen/c4p2.webp",
      "art": "At the top of the tower a big clear ice lantern, frosty and dark with a frozen wick",
      "text": {
       "1": "The lantern is cold.",
@@ -227,7 +227,7 @@
      }
     },
     {
-     "img": "frozen/c4p3.jpg",
+     "img": "frozen/c4p3.webp",
      "art": "Nova opening her little copper lamp, the tiny flame glowing warm and gold, Pico watching",
      "text": {
       "1": "Nova has a flame.",
@@ -237,7 +237,7 @@
      }
     },
     {
-     "img": "frozen/c4p4.jpg",
+     "img": "frozen/c4p4.webp",
      "art": "Nova touching her tiny flame to the wick of the big ice lantern as light begins to spread",
      "text": {
       "1": "She lights it.",
@@ -247,7 +247,7 @@
      }
     },
     {
-     "img": "frozen/c4p5.jpg",
+     "img": "frozen/c4p5.webp",
      "art": "Ribbons of green, pink and blue northern lights spreading across the sky above the icy citadel, Nova and Pico watching in awe",
      "text": {
       "1": "The lights are back!",
@@ -257,7 +257,7 @@
      }
     },
     {
-     "img": "frozen/c4p6.jpg",
+     "img": "frozen/c4p6.webp",
      "art": "A penguin family waddling across the snow toward Pico under the colorful northern lights, Nova smiling",
      "text": {
       "1": "Pico finds his family!",
