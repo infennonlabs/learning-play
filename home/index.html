@@ -84,6 +84,19 @@
   </script>
 
   <title>Free Learning Games for Kids, No Subscription Required</title>
+  <script id="seo-title-lock">
+    // Flutter sets document.title at runtime (MaterialApp title) and Google indexes the rendered
+    // title, so keep the SEO title above in place. Runs before the app starts.
+    (function () {
+      var t = document.title;
+      try { Object.defineProperty(document, 'title', { configurable: true, get: function () { return t; }, set: function () {} }); } catch (e) {}
+      var n = document.querySelector('title');
+      if (n && window.MutationObserver) {
+        new MutationObserver(function () { if (n.textContent !== t) n.textContent = t; })
+          .observe(n, { childList: true, characterData: true, subtree: true });
+      }
+    })();
+  </script>
   <link rel="manifest" href="manifest.json">
   <script type="application/ld+json" id="seo-site-jsonld">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://infennonlabs.com/#organization", "name": "InfennonLabs", "url": "https://infennonlabs.com/", "logo": "https://infennonlabs.com/home/icons/Icon-512.png", "image": ["https://infennonlabs.com/home/share.jpg", "https://infennonlabs.com/home/share-square.jpg"]}, {"@type": "WebSite", "@id": "https://infennonlabs.com/#website", "name": "InfennonLabs", "url": "https://infennonlabs.com/", "inLanguage": "en", "publisher": {"@id": "https://infennonlabs.com/#organization"}}]}</script>
   <link rel="canonical" href="https://infennonlabs.com/">
