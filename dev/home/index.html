@@ -85,6 +85,19 @@
   </script>
 
   <title>Free Learning Games for Kids, No Subscription Required</title>
+  <script id="seo-title-lock">
+    // Flutter sets document.title at runtime (MaterialApp title) and Google indexes the rendered
+    // title, so keep the SEO title above in place. Runs before the app starts.
+    (function () {
+      var t = document.title;
+      try { Object.defineProperty(document, 'title', { configurable: true, get: function () { return t; }, set: function () {} }); } catch (e) {}
+      var n = document.querySelector('title');
+      if (n && window.MutationObserver) {
+        new MutationObserver(function () { if (n.textContent !== t) n.textContent = t; })
+          .observe(n, { childList: true, characterData: true, subtree: true });
+      }
+    })();
+  </script>
   <link rel="manifest" href="manifest.json">
 
     <style>
@@ -155,7 +168,7 @@
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/dev/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 2af857d4d026 (dev)</div>
+    <div class="learning-play-build-badge">Build 397f6a2720b5 (dev)</div>
   </div>
 
   <!--

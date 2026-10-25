@@ -16,6 +16,14 @@
     "devPath": "dev/anatomy/"
   },
   {
+    "id": "arcade_lab",
+    "title": "Arcade Lab",
+    "slug": "arcade",
+    "channelPolicy": "both",
+    "stablePath": "arcade/",
+    "devPath": "dev/arcade/"
+  },
+  {
     "id": "calendar_kids",
     "title": "Calendar Kids",
     "slug": "calendar",
