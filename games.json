@@ -216,6 +216,14 @@
     "devPath": "dev/sight-word-search/"
   },
   {
+    "id": "slice_it",
+    "title": "Slice It",
+    "slug": "slice",
+    "channelPolicy": "both",
+    "stablePath": "slice/",
+    "devPath": "dev/slice/"
+  },
+  {
     "id": "speak_repeat",
     "title": "Speak Repeat",
     "slug": "speak-repeat",
