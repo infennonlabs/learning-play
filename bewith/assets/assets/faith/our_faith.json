@@ -1,0 +1,168 @@
+{
+  "book": "Our Faith",
+  "assetFolder": "faith",
+  "status": "draft: text needs review; narration recorded, art pending",
+  "stories": [
+    {
+      "id": "faith_trinity",
+      "order": 1,
+      "title": "One God, Three Persons",
+      "reference": "Matthew 28:19",
+      "pages": [
+        {
+          "id": "trinity_one_god",
+          "art": null,
+          "text": "There is one God. God is three Persons: the Father, the Son, and the Holy Spirit. We call this the Trinity.",
+          "keywords": ["God", "Trinity"]
+        },
+        {
+          "id": "trinity_persons",
+          "art": null,
+          "text": "God the Father made us and loves us. God the Son is Jesus, who came to be with us. God the Holy Spirit helps us to love and to pray.",
+          "keywords": ["Father", "Jesus", "Spirit"]
+        },
+        {
+          "id": "trinity_cross",
+          "art": null,
+          "text": "We make the Sign of the Cross to show we belong to God. In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+          "keywords": ["cross", "Amen"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "When you make the Sign of the Cross, you remember that God is always with you.",
+        "criterion": "trinity"
+      }
+    },
+    {
+      "id": "faith_celebrate_jesus",
+      "order": 2,
+      "title": "We Celebrate Jesus",
+      "reference": "Luke 2; John 20",
+      "pages": [
+        {
+          "id": "jesus_christmas",
+          "art": null,
+          "text": "Jesus is God's Son. He came to us as a baby at Christmas. The Church celebrates His birth every year.",
+          "keywords": ["Jesus", "Christmas", "baby"]
+        },
+        {
+          "id": "jesus_teaches",
+          "art": null,
+          "text": "Jesus grew up. He taught us to love God and to love each other. He helped the sick and was kind to everyone.",
+          "keywords": ["love", "kind"]
+        },
+        {
+          "id": "jesus_easter",
+          "art": null,
+          "text": "At Easter, we celebrate that Jesus rose from the dead. Jesus is alive, and He is with us always.",
+          "keywords": ["Easter", "alive"]
+        },
+        {
+          "id": "jesus_church_year",
+          "art": null,
+          "text": "All year long, the Church remembers the life and teachings of Jesus. Advent and Christmas, Lent and Easter help us follow Him.",
+          "keywords": ["Advent", "Lent", "Church"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "The Church celebrates Jesus all year long. What is your favorite way to celebrate Jesus?",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "faith_mary",
+      "order": 3,
+      "title": "Mary, the Mother of Jesus",
+      "reference": "Luke 1:26-38",
+      "pages": [
+        {
+          "id": "mary_chosen",
+          "art": null,
+          "text": "Mary is the mother of Jesus. God chose Mary to be the mother of His Son. Mary said yes to God.",
+          "keywords": ["Mary", "mother", "Jesus"]
+        },
+        {
+          "id": "mary_loves",
+          "art": null,
+          "text": "Mary loved Jesus and took care of Him. Mary is our mother in heaven too, and she prays for us.",
+          "keywords": ["heaven", "prays"]
+        },
+        {
+          "id": "mary_hail",
+          "art": null,
+          "text": "We pray the Hail Mary to ask Mary to pray for us. You can find it in the Prayer mode.",
+          "keywords": ["Hail", "Mary"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Mary said yes to God. How can you say yes to God today?",
+        "criterion": "mary_mother_of_jesus"
+      }
+    },
+    {
+      "id": "faith_mass",
+      "order": 4,
+      "title": "We Gather at Mass",
+      "reference": "Luke 22:19",
+      "pages": [
+        {
+          "id": "mass_gather",
+          "art": null,
+          "text": "On Sunday, God's family comes together at Mass. We sing, we pray, and we listen to God's Word.",
+          "keywords": ["Mass", "Sunday", "pray"]
+        },
+        {
+          "id": "mass_jesus_with_us",
+          "art": null,
+          "text": "At Mass, the priest does what Jesus did at the Last Supper. The bread and wine become the Body and Blood of Jesus.",
+          "keywords": ["priest", "bread", "wine"]
+        },
+        {
+          "id": "mass_go",
+          "art": null,
+          "text": "At Mass, we celebrate that Jesus is with us. Then we go home and share His love with other people.",
+          "keywords": ["love", "share"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus is with us at Mass. How can you be ready to meet Jesus at Mass?",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    },
+    {
+      "id": "faith_great_commandment",
+      "order": 5,
+      "title": "Love as Jesus Did",
+      "reference": "Matthew 22:34-40",
+      "pages": [
+        {
+          "id": "love_first",
+          "art": null,
+          "text": "Someone asked Jesus, \"What is the greatest commandment?\" Jesus said, \"Love God with all your heart.\"",
+          "keywords": ["love", "God", "heart"]
+        },
+        {
+          "id": "love_second",
+          "art": null,
+          "text": "Jesus said the second is just like it: \"Love your neighbor as you love yourself.\"",
+          "keywords": ["neighbor", "love"]
+        },
+        {
+          "id": "love_like_jesus",
+          "art": null,
+          "text": "We love others the way Jesus did. We share, we help, we forgive, and we are kind.",
+          "keywords": ["share", "help", "forgive", "kind"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Who can you be kind to today? How can you treat them the way Jesus would?",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}

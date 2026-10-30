@@ -24,6 +24,22 @@
     "devPath": "dev/arcade/"
   },
   {
+    "id": "be_with_god",
+    "title": "Be With God",
+    "slug": "bewith",
+    "channelPolicy": "both",
+    "stablePath": "bewith/",
+    "devPath": "dev/bewith/"
+  },
+  {
+    "id": "book_fixers",
+    "title": "Book Fixers",
+    "slug": "editor",
+    "channelPolicy": "both",
+    "stablePath": "editor/",
+    "devPath": "dev/editor/"
+  },
+  {
     "id": "calendar_kids",
     "title": "Calendar Kids",
     "slug": "calendar",
