@@ -1,0 +1,110 @@
+{
+  "book": "Genesis",
+  "order": 1,
+  "stories": [
+    {
+      "id": "genesis_creation",
+      "order": 1,
+      "title": "God Makes the World",
+      "reference": "Genesis 1:1-25",
+      "pages": [
+        {
+          "id": "creation_light",
+          "art": "light",
+          "text": "In the very beginning, there was only darkness. Then God said, \"Let there be light!\" And light came shining in. God saw that the light was good.",
+          "keywords": ["God", "darkness", "light"]
+        },
+        {
+          "id": "creation_land_sea",
+          "art": "sea_sky",
+          "text": "God made the wide blue sky and the deep sea. He made dry land, with soft grass, bright flowers, and tall trees. God saw that it was good.",
+          "keywords": ["sky", "sea", "land", "trees"]
+        },
+        {
+          "id": "creation_sun_moon",
+          "art": "sun_moon",
+          "text": "God made the bright sun to shine by day. He made the moon and the twinkling stars to shine at night. God saw that it was good.",
+          "keywords": ["sun", "moon", "stars"]
+        },
+        {
+          "id": "creation_animals",
+          "art": "animals",
+          "text": "God filled the sea with fish and the sky with birds. He made animals to walk on the land, big and small. God saw that it was good.",
+          "keywords": ["fish", "birds", "animals"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God made everything, and God said it was good. What is something God made that you are thankful for?"
+      }
+    },
+    {
+      "id": "genesis_adam_eve",
+      "order": 2,
+      "title": "Adam and Eve",
+      "reference": "Genesis 1:26-2:25",
+      "pages": [
+        {
+          "id": "adam_eve_garden",
+          "art": "adam_eve",
+          "text": "Then God made a man, Adam, and a woman, Eve. God made them to be like Him. They could love, and think, and care for the world. God gave them a beautiful garden to live in.",
+          "keywords": ["Adam", "Eve", "garden", "love"]
+        },
+        {
+          "id": "adam_eve_rest",
+          "art": "rest",
+          "text": "God looked at everything He had made. It was very good! On the seventh day, God rested, and He made that day holy.",
+          "keywords": ["seventh", "rested", "holy"]
+        },
+        {
+          "id": "adam_eve_trust",
+          "art": "adam_eve",
+          "text": "Adam and Eve walked and talked with God. They were happy. God told them, \"You may eat from every tree in the garden, except one. Trust Me, and stay away from that tree.\"",
+          "keywords": ["trust", "tree", "God"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Made like God",
+        "text": "God made people to be like Him. You can love, you can think, and you can be kind. How can you show you are made in God's image today?",
+        "criterion": "image_and_likeness"
+      }
+    },
+    {
+      "id": "genesis_forbidden_fruit",
+      "order": 3,
+      "title": "The Tree in the Garden",
+      "reference": "Genesis 3:1-24",
+      "pages": [
+        {
+          "id": "fruit_serpent",
+          "art": "tree_serpent",
+          "text": "One day a sly serpent spoke to Eve. \"Go ahead, eat the fruit,\" he said. \"God does not want you to be wise.\" But that was not true.",
+          "keywords": ["serpent", "fruit", "wise"]
+        },
+        {
+          "id": "fruit_choice",
+          "art": "eating",
+          "text": "Eve looked at the fruit. It looked so yummy! She took a bite and shared it with Adam. They forgot to trust God.",
+          "keywords": ["fruit", "bite", "trust"]
+        },
+        {
+          "id": "fruit_hiding",
+          "art": "hiding",
+          "text": "That evening, Adam and Eve heard God walking in the garden. They felt sorry and afraid, so they hid among the trees. God called, \"Where are you?\"",
+          "keywords": ["hid", "sorry", "afraid", "trees"]
+        },
+        {
+          "id": "fruit_leaving",
+          "art": "leaving",
+          "text": "God still loved them. He made them clothes and promised to send help one day. But Adam and Eve had to leave the garden. God did not leave them alone.",
+          "keywords": ["love", "promise", "garden"]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Adam and Eve were sorry, and God still loved them. When we make a wrong choice, we can say we are sorry, and God still loves us.",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}
