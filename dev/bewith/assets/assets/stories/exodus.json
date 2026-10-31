@@ -1,0 +1,341 @@
+{
+  "book": "Exodus",
+  "order": 2,
+  "stories": [
+    {
+      "id": "exodus_baby_moses",
+      "order": 1,
+      "title": "Baby Moses",
+      "reference": "Exodus 1-2",
+      "pages": [
+        {
+          "id": "moses_hide",
+          "art": "moses_hiding",
+          "text": "A cruel king in Egypt made God's people, the Israelites, work very hard. One mother hid her baby boy to keep him safe.",
+          "keywords": [
+            "Egypt",
+            "Israelites",
+            "baby"
+          ]
+        },
+        {
+          "id": "moses_basket",
+          "art": "moses_basket",
+          "text": "When she could not hide him any longer, she made a basket boat and set it in the river. His big sister Miriam watched over him.",
+          "keywords": [
+            "basket",
+            "river",
+            "Miriam"
+          ]
+        },
+        {
+          "id": "moses_princess",
+          "art": "moses_princess",
+          "text": "The king's daughter found the baby and loved him. She named him Moses. Miriam found his own mother to take care of him.",
+          "keywords": [
+            "daughter",
+            "Moses",
+            "mother"
+          ]
+        },
+        {
+          "id": "moses_grows",
+          "art": "moses_grows",
+          "text": "Moses grew up in the king's palace, but he never forgot God's people. He saw how hard they worked, and he wanted to help.",
+          "keywords": [
+            "palace",
+            "people",
+            "help"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God watched over baby Moses and kept him safe. God watches over every one of us, too."
+      }
+    },
+    {
+      "id": "exodus_burning_bush",
+      "order": 2,
+      "title": "The Burning Bush",
+      "reference": "Exodus 3-4",
+      "pages": [
+        {
+          "id": "bush_sheep",
+          "art": "bush_sheep",
+          "text": "Moses was a shepherd now, caring for sheep far from Egypt. One day he saw a bush on fire, but it did not burn up.",
+          "keywords": [
+            "shepherd",
+            "bush",
+            "fire"
+          ]
+        },
+        {
+          "id": "bush_voice",
+          "art": "bush_holy",
+          "text": "God spoke from the bush: \"Moses, take off your sandals. This is holy ground. I have seen my people suffer. I will send you to set them free.\"",
+          "keywords": [
+            "sandals",
+            "holy",
+            "free"
+          ]
+        },
+        {
+          "id": "bush_afraid",
+          "art": "bush_afraid",
+          "text": "Moses said, \"Who am I? I cannot speak well.\" God said, \"I will be with you.\" God also sent Moses' brother Aaron to help him.",
+          "keywords": [
+            "speak",
+            "Aaron",
+            "help"
+          ]
+        },
+        {
+          "id": "bush_go",
+          "art": "bush_go",
+          "text": "Moses trusted God and went back to Egypt with Aaron. God is always with His people, and He is always with us.",
+          "keywords": [
+            "trusted",
+            "Egypt",
+            "always"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Moses felt too small for a big job, but God said, \"I will be with you.\" God helps us when things feel too big."
+      }
+    },
+    {
+      "id": "exodus_passover",
+      "order": 3,
+      "title": "The Passover",
+      "reference": "Exodus 5-12",
+      "pages": [
+        {
+          "id": "passover_pharaoh",
+          "art": "passover_pharaoh",
+          "text": "Moses and Aaron told Pharaoh, \"Let God's people go!\" But Pharaoh said no. So God sent signs to show His power, and still Pharaoh would not listen.",
+          "keywords": [
+            "Pharaoh",
+            "signs",
+            "listen"
+          ]
+        },
+        {
+          "id": "passover_lamb",
+          "art": "passover_meal",
+          "text": "God told each family to share a special meal of roasted lamb and flat bread. They marked their doorways to show they trusted God.",
+          "keywords": [
+            "lamb",
+            "bread",
+            "doorways"
+          ]
+        },
+        {
+          "id": "passover_night",
+          "art": "passover_night",
+          "text": "That night, God passed over the homes with marked doors and kept those families safe. This is why it is called the Passover.",
+          "keywords": [
+            "night",
+            "passed",
+            "Passover"
+          ]
+        },
+        {
+          "id": "passover_free",
+          "art": "passover_free",
+          "text": "At last Pharaoh said, \"Go!\" The Israelites packed up and left Egypt. They were free after many long years as slaves.",
+          "keywords": [
+            "free",
+            "packed",
+            "slaves"
+          ]
+        },
+        {
+          "id": "passover_remember",
+          "art": "passover_meal",
+          "text": "God told His people to celebrate the Passover every year to remember how He saved them. One day, Jesus would be called the Lamb of God.",
+          "keywords": [
+            "celebrate",
+            "remember",
+            "Jesus"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "At Mass, we remember how Jesus saves us, just as the Israelites remembered how God saved them at the Passover.",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    },
+    {
+      "id": "exodus_red_sea",
+      "order": 4,
+      "title": "Crossing the Red Sea",
+      "reference": "Exodus 14",
+      "pages": [
+        {
+          "id": "sea_trapped",
+          "art": "sea_trapped",
+          "text": "The Israelites came to a big sea, and Pharaoh's army was chasing them! The people were scared. Moses said, \"Do not be afraid. God will save us.\"",
+          "keywords": [
+            "scared",
+            "army",
+            "afraid"
+          ]
+        },
+        {
+          "id": "sea_cloud",
+          "art": "sea_cloud",
+          "text": "A tall cloud stood between the people and the army all night. Moses stretched his staff out over the sea.",
+          "keywords": [
+            "cloud",
+            "night",
+            "staff"
+          ]
+        },
+        {
+          "id": "sea_cross",
+          "art": "sea_cross",
+          "text": "God sent a strong wind, and the water split apart! The people walked across on dry ground with walls of water on both sides.",
+          "keywords": [
+            "wind",
+            "dry",
+            "walls"
+          ]
+        },
+        {
+          "id": "sea_safe",
+          "art": "sea_safe",
+          "text": "When everyone was safe on the other side, Miriam played her tambourine. The people sang, \"Thank you, God! You have saved us!\"",
+          "keywords": [
+            "safe",
+            "tambourine",
+            "sang"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "When the people were afraid, God made a way for them. We can trust God when we are scared."
+      }
+    },
+    {
+      "id": "exodus_commandments",
+      "order": 5,
+      "title": "Manna and the Ten Commandments",
+      "reference": "Exodus 16, 19-20",
+      "pages": [
+        {
+          "id": "manna_hungry",
+          "art": "manna_hungry",
+          "text": "In the desert, the people were hungry and grumbled. But God said, \"I will send bread from heaven for you.\"",
+          "keywords": [
+            "desert",
+            "hungry",
+            "bread"
+          ]
+        },
+        {
+          "id": "manna_bread",
+          "art": "manna_bread",
+          "text": "Each morning, white flakes called manna covered the ground. The people gathered just enough for each day and thanked God.",
+          "keywords": [
+            "manna",
+            "morning",
+            "thanked"
+          ]
+        },
+        {
+          "id": "sinai_mountain",
+          "art": "sinai_mountain",
+          "text": "Then God called Moses up Mount Sinai. The mountain shook with thunder, and a cloud covered the top. God was very near.",
+          "keywords": [
+            "Sinai",
+            "thunder",
+            "cloud"
+          ]
+        },
+        {
+          "id": "commandments_stone",
+          "art": "commandments_tablets",
+          "text": "God gave Moses ten rules, the Ten Commandments, written on stone. They show us how to love God and how to love one another.",
+          "keywords": [
+            "commandments",
+            "stone",
+            "love"
+          ]
+        },
+        {
+          "id": "commandments_love",
+          "art": "commandments_tablets",
+          "text": "The rules say: love God most of all, keep Sunday holy, respect your parents, tell the truth, and be kind and fair to everyone.",
+          "keywords": [
+            "Sunday",
+            "parents",
+            "truth"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God gives us the Ten Commandments to show us how to love Him and our neighbors. Jesus said the greatest commandment is to love God and love others.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "exodus_golden_calf",
+      "order": 6,
+      "title": "The Golden Calf",
+      "reference": "Exodus 32",
+      "pages": [
+        {
+          "id": "calf_wait",
+          "art": "calf_wait",
+          "text": "Moses stayed on the mountain a long time. The people got tired of waiting and said to Aaron, \"Make us a god we can see!\"",
+          "keywords": [
+            "waiting",
+            "Aaron",
+            "Moses"
+          ]
+        },
+        {
+          "id": "calf_gold",
+          "art": "calf_gold",
+          "text": "Aaron collected their gold and made a golden calf. The people bowed down to it instead of God. They forgot that God had just saved them.",
+          "keywords": [
+            "gold",
+            "calf",
+            "bowed"
+          ]
+        },
+        {
+          "id": "calf_moses",
+          "art": "calf_moses",
+          "text": "Moses came down and saw the calf. He was very sad. The people had done wrong, so Moses prayed and asked God to forgive them.",
+          "keywords": [
+            "sad",
+            "wrong",
+            "forgive"
+          ]
+        },
+        {
+          "id": "calf_forgiven",
+          "art": "calf_forgiven",
+          "text": "God listened to Moses and forgave His people. God is always ready to forgive when we are truly sorry.",
+          "keywords": [
+            "listened",
+            "forgave",
+            "sorry"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Only God is worth our deepest love. When we choose wrong, we can say we are sorry, and God forgives us.",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}

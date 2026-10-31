@@ -12,25 +12,42 @@
           "id": "creation_light",
           "art": "light",
           "text": "In the very beginning, there was only darkness. Then God said, \"Let there be light!\" And light came shining in. God saw that the light was good.",
-          "keywords": ["God", "darkness", "light"]
+          "keywords": [
+            "God",
+            "darkness",
+            "light"
+          ]
         },
         {
           "id": "creation_land_sea",
           "art": "sea_sky",
           "text": "God made the wide blue sky and the deep sea. He made dry land, with soft grass, bright flowers, and tall trees. God saw that it was good.",
-          "keywords": ["sky", "sea", "land", "trees"]
+          "keywords": [
+            "sky",
+            "sea",
+            "land",
+            "trees"
+          ]
         },
         {
           "id": "creation_sun_moon",
           "art": "sun_moon",
           "text": "God made the bright sun to shine by day. He made the moon and the twinkling stars to shine at night. God saw that it was good.",
-          "keywords": ["sun", "moon", "stars"]
+          "keywords": [
+            "sun",
+            "moon",
+            "stars"
+          ]
         },
         {
           "id": "creation_animals",
           "art": "animals",
           "text": "God filled the sea with fish and the sky with birds. He made animals to walk on the land, big and small. God saw that it was good.",
-          "keywords": ["fish", "birds", "animals"]
+          "keywords": [
+            "fish",
+            "birds",
+            "animals"
+          ]
         }
       ],
       "thinkAboutIt": {
@@ -47,20 +64,35 @@
         {
           "id": "adam_eve_garden",
           "art": "adam_eve",
-          "text": "Then God made a man, Adam, and a woman, Eve. God made them to be like Him. They could love, and think, and care for the world. God gave them a beautiful garden to live in.",
-          "keywords": ["Adam", "Eve", "garden", "love"]
+          "text": "Then God made a man, Adam, and a woman, Eve. God made them to be like Him. They could love, and think, and care for the world. God blessed them and gave them a beautiful garden.",
+          "keywords": [
+            "Adam",
+            "Eve",
+            "garden",
+            "love",
+            "blessed"
+          ]
         },
         {
           "id": "adam_eve_rest",
           "art": "rest",
-          "text": "God looked at everything He had made. It was very good! On the seventh day, God rested, and He made that day holy.",
-          "keywords": ["seventh", "rested", "holy"]
+          "text": "God looked at everything He had made. It was very good! On the seventh day, God rested. He blessed that day and made it holy, a day to rest and thank Him.",
+          "keywords": [
+            "seventh",
+            "rested",
+            "holy",
+            "blessed"
+          ]
         },
         {
           "id": "adam_eve_trust",
           "art": "adam_eve",
           "text": "Adam and Eve walked and talked with God. They were happy. God told them, \"You may eat from every tree in the garden, except one. Trust Me, and stay away from that tree.\"",
-          "keywords": ["trust", "tree", "God"]
+          "keywords": [
+            "trust",
+            "tree",
+            "God"
+          ]
         }
       ],
       "thinkAboutIt": {
@@ -79,30 +111,654 @@
           "id": "fruit_serpent",
           "art": "tree_serpent",
           "text": "One day a sly serpent spoke to Eve. \"Go ahead, eat the fruit,\" he said. \"God does not want you to be wise.\" But that was not true.",
-          "keywords": ["serpent", "fruit", "wise"]
+          "keywords": [
+            "serpent",
+            "fruit",
+            "wise"
+          ]
         },
         {
           "id": "fruit_choice",
           "art": "eating",
           "text": "Eve looked at the fruit. It looked so yummy! She took a bite and shared it with Adam. They forgot to trust God.",
-          "keywords": ["fruit", "bite", "trust"]
+          "keywords": [
+            "fruit",
+            "bite",
+            "trust"
+          ]
         },
         {
           "id": "fruit_hiding",
           "art": "hiding",
           "text": "That evening, Adam and Eve heard God walking in the garden. They felt sorry and afraid, so they hid among the trees. God called, \"Where are you?\"",
-          "keywords": ["hid", "sorry", "afraid", "trees"]
+          "keywords": [
+            "hid",
+            "sorry",
+            "afraid",
+            "trees"
+          ]
         },
         {
           "id": "fruit_leaving",
           "art": "leaving",
-          "text": "God still loved them. He made them clothes and promised to send help one day. But Adam and Eve had to leave the garden. God did not leave them alone.",
-          "keywords": ["love", "promise", "garden"]
+          "text": "God still loved them. He promised to send a Savior one day to make things right. He made them clothes, but they had to leave the garden. God did not leave them alone.",
+          "keywords": [
+            "love",
+            "promise",
+            "Savior",
+            "garden"
+          ]
         }
       ],
       "thinkAboutIt": {
         "title": "Think about it",
         "text": "Adam and Eve were sorry, and God still loved them. When we make a wrong choice, we can say we are sorry, and God still loves us.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "genesis_cain_abel",
+      "order": 4,
+      "title": "Cain and Abel",
+      "reference": "Genesis 4:1-16",
+      "pages": [
+        {
+          "id": "cain_brothers",
+          "art": "cain_abel",
+          "text": "Adam and Eve had two sons, Cain and Abel. Cain grew crops in the fields. Abel took care of the sheep.",
+          "keywords": [
+            "Cain",
+            "Abel",
+            "sheep"
+          ]
+        },
+        {
+          "id": "cain_gifts",
+          "art": "cain_abel",
+          "text": "Both brothers brought a gift to God. Abel gave his very best lamb. Cain did not give his best, and God was not pleased.",
+          "keywords": [
+            "gift",
+            "lamb",
+            "best"
+          ]
+        },
+        {
+          "id": "cain_angry",
+          "art": "cain_angry",
+          "text": "Cain felt angry and jealous. God told him, \"Choose to do what is right.\" But Cain did not listen.",
+          "keywords": [
+            "angry",
+            "jealous",
+            "listen"
+          ]
+        },
+        {
+          "id": "cain_sin",
+          "art": "cain_angry",
+          "text": "Cain was so angry that he hurt his brother, and Abel died. This was a terrible sin. God asked, \"Where is your brother?\"",
+          "keywords": [
+            "sin",
+            "brother"
+          ]
+        },
+        {
+          "id": "cain_leaves",
+          "art": "cain_leaves",
+          "text": "Cain was sorry, but he had to leave his home. Even then, God cared for him and put a mark on him to keep him safe.",
+          "keywords": [
+            "sorry",
+            "mark",
+            "safe"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Cain let anger and jealousy grow in his heart. God wants us to love our brothers and sisters and to share our very best with Him.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "genesis_noah",
+      "order": 5,
+      "title": "Noah and the Ark",
+      "reference": "Genesis 6:5-9:17",
+      "pages": [
+        {
+          "id": "noah_good",
+          "art": "noah_good",
+          "text": "People forgot about God, and the world was full of sadness. But Noah was a good man who listened to God.",
+          "keywords": [
+            "Noah",
+            "good",
+            "listened"
+          ]
+        },
+        {
+          "id": "noah_build",
+          "art": "noah_build",
+          "text": "God said, \"Build a big boat called an ark. I will keep your family safe.\" Noah trusted God and built the ark.",
+          "keywords": [
+            "ark",
+            "boat",
+            "trusted"
+          ]
+        },
+        {
+          "id": "noah_animals",
+          "art": "noah_animals",
+          "text": "Two by two, the animals came to the ark: lions, birds, sheep and more. Noah's family went inside, and God closed the door.",
+          "keywords": [
+            "animals",
+            "family",
+            "door"
+          ]
+        },
+        {
+          "id": "noah_flood",
+          "art": "noah_flood",
+          "text": "Rain fell for forty days and forty nights. Water covered the land, but the ark floated safely. God took care of everyone inside.",
+          "keywords": [
+            "rain",
+            "forty",
+            "floated"
+          ]
+        },
+        {
+          "id": "noah_dove",
+          "art": "noah_dove",
+          "text": "At last the rain stopped. Noah sent out a dove. She came back with an olive leaf, so Noah knew the land was drying.",
+          "keywords": [
+            "dove",
+            "olive",
+            "leaf"
+          ]
+        },
+        {
+          "id": "noah_land",
+          "art": "noah_land",
+          "text": "Noah and his family stepped out onto dry land. Noah built an altar and thanked God for keeping them safe.",
+          "keywords": [
+            "dry",
+            "altar",
+            "thanked"
+          ]
+        },
+        {
+          "id": "noah_rainbow",
+          "art": "noah_rainbow",
+          "text": "God set a rainbow in the sky. \"This is my promise,\" He said. \"I will never flood the whole earth again.\"",
+          "keywords": [
+            "rainbow",
+            "promise",
+            "sky"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "A rainbow reminds us that God keeps His promises. Noah listened to God and trusted Him, and God took care of his family."
+      }
+    },
+    {
+      "id": "genesis_babel",
+      "order": 6,
+      "title": "The Tower of Babel",
+      "reference": "Genesis 11:1-9",
+      "pages": [
+        {
+          "id": "babel_build",
+          "art": "babel_tower",
+          "text": "Long ago, everyone spoke the same language. They said, \"Let us build a tower up to the sky, and everyone will say how great we are!\"",
+          "keywords": [
+            "language",
+            "tower",
+            "sky"
+          ]
+        },
+        {
+          "id": "babel_words",
+          "art": "babel_confused",
+          "text": "The builders were proud and forgot to thank God. So God changed their words, and they could not understand one another.",
+          "keywords": [
+            "proud",
+            "words",
+            "understand"
+          ]
+        },
+        {
+          "id": "babel_scatter",
+          "art": "babel_scatter",
+          "text": "The builders could not work together anymore. They spread out across the earth, and the tower was never finished.",
+          "keywords": [
+            "builders",
+            "earth",
+            "finished"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Being proud pulls us away from God and from each other. When we are humble and thankful, we can work together and love one another.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "genesis_abraham",
+      "order": 7,
+      "title": "Abraham and Sarah",
+      "reference": "Genesis 12-21",
+      "pages": [
+        {
+          "id": "abraham_call",
+          "art": "abraham_call",
+          "text": "God said to Abraham, \"Leave your home and go to the land I will show you.\" Abraham trusted God and set out with his wife Sarah.",
+          "keywords": [
+            "Abraham",
+            "Sarah",
+            "trusted"
+          ]
+        },
+        {
+          "id": "abraham_travel",
+          "art": "abraham_travel",
+          "text": "Abraham and Sarah traveled far with their sheep and their tents. God was with them every step of the way.",
+          "keywords": [
+            "traveled",
+            "tents",
+            "sheep"
+          ]
+        },
+        {
+          "id": "abraham_stars",
+          "art": "abraham_stars",
+          "text": "One night God said, \"Look up at the stars! Your family will be as many as the stars.\" Abraham believed God.",
+          "keywords": [
+            "stars",
+            "family",
+            "believed"
+          ]
+        },
+        {
+          "id": "abraham_visitors",
+          "art": "abraham_visitors",
+          "text": "Abraham and Sarah were very old and had no child. Three visitors came to their tent. One said, \"Next year Sarah will have a son.\" Sarah laughed!",
+          "keywords": [
+            "visitors",
+            "tent",
+            "son"
+          ]
+        },
+        {
+          "id": "abraham_isaac",
+          "art": "abraham_isaac",
+          "text": "God kept His promise. Sarah had a baby boy, and they named him Isaac. Their hearts were full of joy.",
+          "keywords": [
+            "promise",
+            "Isaac",
+            "joy"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God keeps His promises, even when we have to wait a long time. Abraham trusted God, and God blessed his family."
+      }
+    },
+    {
+      "id": "genesis_isaac",
+      "order": 8,
+      "title": "Abraham Trusts God",
+      "reference": "Genesis 22:1-19",
+      "pages": [
+        {
+          "id": "isaac_test",
+          "art": "isaac_mountain",
+          "text": "When Isaac was a boy, God tested Abraham's faith. God asked Abraham to offer Isaac on a mountain. Abraham was sad, but he trusted God.",
+          "keywords": [
+            "tested",
+            "faith",
+            "mountain"
+          ]
+        },
+        {
+          "id": "isaac_lamb",
+          "art": "isaac_mountain",
+          "text": "Isaac asked, \"Father, where is the lamb?\" Abraham answered, \"God will provide.\" They climbed the mountain together.",
+          "keywords": [
+            "lamb",
+            "provide",
+            "climbed"
+          ]
+        },
+        {
+          "id": "isaac_angel",
+          "art": "isaac_ram",
+          "text": "Just then an angel called, \"Stop! Do not hurt the boy!\" God saw that Abraham loved Him most of all. A ram was caught in the bushes nearby.",
+          "keywords": [
+            "angel",
+            "ram",
+            "bushes"
+          ]
+        },
+        {
+          "id": "isaac_blessed",
+          "art": "isaac_ram",
+          "text": "Isaac was safe. Abraham named the place \"God provides.\" God promised to bless Abraham's family, and through them, all the world.",
+          "keywords": [
+            "safe",
+            "provides",
+            "bless"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Abraham trusted God more than anything. God always takes care of us, even when we do not understand."
+      }
+    },
+    {
+      "id": "genesis_rebekah",
+      "order": 9,
+      "title": "Rebekah at the Well",
+      "reference": "Genesis 24",
+      "pages": [
+        {
+          "id": "rebekah_servant",
+          "art": "rebekah_servant",
+          "text": "Abraham wanted a good wife for his son Isaac. He sent his servant to find her. The servant prayed, \"God, please show me the right woman.\"",
+          "keywords": [
+            "servant",
+            "wife",
+            "prayed"
+          ]
+        },
+        {
+          "id": "rebekah_well",
+          "art": "rebekah_well",
+          "text": "At the well, a young woman named Rebekah gave him a drink. She said, \"I will give water to your camels too!\" She was kind and strong.",
+          "keywords": [
+            "well",
+            "camels",
+            "kind"
+          ]
+        },
+        {
+          "id": "rebekah_isaac",
+          "art": "rebekah_isaac",
+          "text": "Rebekah said yes and traveled home with the servant. When she met Isaac, they were married, and Isaac loved her.",
+          "keywords": [
+            "married",
+            "traveled",
+            "loved"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Rebekah was kind to a stranger without being asked. When we are kind and help others, we show God's love.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "genesis_jacob_esau",
+      "order": 10,
+      "title": "Jacob and Esau",
+      "reference": "Genesis 25-28",
+      "pages": [
+        {
+          "id": "jacob_twins",
+          "art": "jacob_twins",
+          "text": "Isaac and Rebekah had twin sons, Esau and Jacob. Esau loved to hunt outdoors. Jacob liked to stay near the tents.",
+          "keywords": [
+            "twin",
+            "Esau",
+            "Jacob"
+          ]
+        },
+        {
+          "id": "jacob_trick",
+          "art": "jacob_trick",
+          "text": "When Isaac was old, Jacob tricked him to get the blessing meant for Esau. It was not honest, and Esau was very angry.",
+          "keywords": [
+            "tricked",
+            "blessing",
+            "honest"
+          ]
+        },
+        {
+          "id": "jacob_runs",
+          "art": "jacob_stone",
+          "text": "Jacob ran away to be safe. That night he was all alone. He lay down on the ground with a stone for a pillow.",
+          "keywords": [
+            "alone",
+            "stone",
+            "pillow"
+          ]
+        },
+        {
+          "id": "jacob_ladder",
+          "art": "jacob_ladder",
+          "text": "Jacob dreamed of a ladder reaching up to heaven, with angels going up and down. God said, \"I am with you. I will not leave you.\"",
+          "keywords": [
+            "ladder",
+            "heaven",
+            "angels"
+          ]
+        },
+        {
+          "id": "jacob_wakes",
+          "art": "jacob_wakes",
+          "text": "Jacob woke up and said, \"God is truly here!\" He set up the stone to remember the place and promised to follow God.",
+          "keywords": [
+            "woke",
+            "remember",
+            "follow"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jacob did something wrong, but God did not leave him alone. When we are sorry and want to do better, God is still with us."
+      }
+    },
+    {
+      "id": "genesis_jacob_family",
+      "order": 11,
+      "title": "Jacob's Big Family",
+      "reference": "Genesis 29-30",
+      "pages": [
+        {
+          "id": "family_rachel",
+          "art": "family_rachel",
+          "text": "Jacob traveled to a faraway land and met Rachel at a well. He loved her and worked for her father Laban for many years.",
+          "keywords": [
+            "Rachel",
+            "well",
+            "worked"
+          ]
+        },
+        {
+          "id": "family_leah",
+          "art": "family_leah",
+          "text": "Jacob married Leah and Rachel, the two daughters of Laban. He worked for Laban for many years, and God watched over him.",
+          "keywords": [
+            "Leah",
+            "married",
+            "watched"
+          ]
+        },
+        {
+          "id": "family_sons",
+          "art": "family_sons",
+          "text": "Jacob's family grew and grew. He had twelve sons, who became the twelve tribes of Israel. God was keeping His promise to Abraham.",
+          "keywords": [
+            "twelve",
+            "sons",
+            "promise"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God kept His promise to Abraham. Jacob's family grew into a great people who belonged to God."
+      }
+    },
+    {
+      "id": "genesis_wrestle",
+      "order": 12,
+      "title": "Jacob Wrestles with the Angel",
+      "reference": "Genesis 32-33",
+      "pages": [
+        {
+          "id": "wrestle_afraid",
+          "art": "wrestle_afraid",
+          "text": "On the way home, Jacob was afraid to meet his brother Esau. He sent gifts ahead and prayed, \"God, please keep my family safe.\"",
+          "keywords": [
+            "afraid",
+            "prayed",
+            "safe"
+          ]
+        },
+        {
+          "id": "wrestle_night",
+          "art": "wrestle_night",
+          "text": "That night, Jacob was alone. A mysterious man wrestled with him until sunrise. Jacob said, \"I will not let go until you bless me.\"",
+          "keywords": [
+            "wrestled",
+            "sunrise",
+            "bless"
+          ]
+        },
+        {
+          "id": "wrestle_name",
+          "art": "wrestle_name",
+          "text": "God gave Jacob a new name: Israel, which means one who struggles with God. Jacob limped, but he walked on with new strength.",
+          "keywords": [
+            "Israel",
+            "name",
+            "limped"
+          ]
+        },
+        {
+          "id": "wrestle_esau",
+          "art": "wrestle_esau",
+          "text": "Esau ran to meet Jacob and hugged him tight. The brothers forgave each other and were friends again.",
+          "keywords": [
+            "Esau",
+            "hugged",
+            "forgave"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jacob prayed when he was afraid, and God heard him. Forgiving someone makes a family strong.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "genesis_joseph_coat",
+      "order": 13,
+      "title": "Joseph and the Colorful Coat",
+      "reference": "Genesis 37-39",
+      "pages": [
+        {
+          "id": "joseph_coat",
+          "art": "joseph_coat",
+          "text": "Jacob loved Joseph very much and gave him a beautiful, colorful coat. Joseph's brothers were jealous.",
+          "keywords": [
+            "Joseph",
+            "coat",
+            "jealous"
+          ]
+        },
+        {
+          "id": "joseph_dream",
+          "art": "joseph_dream",
+          "text": "Joseph dreamed that his brothers bowed down to him. When he told them, they became even more jealous.",
+          "keywords": [
+            "dreamed",
+            "bowed",
+            "brothers"
+          ]
+        },
+        {
+          "id": "joseph_sold",
+          "art": "joseph_sold",
+          "text": "One day the brothers sold Joseph to travelers going to Egypt. They told their father that Joseph was gone. Jacob cried and cried.",
+          "keywords": [
+            "sold",
+            "Egypt",
+            "cried"
+          ]
+        },
+        {
+          "id": "joseph_prison",
+          "art": "joseph_prison",
+          "text": "In Egypt, Joseph worked hard, but he was put in prison for something he did not do. Even there, God was with him.",
+          "keywords": [
+            "prison",
+            "worked",
+            "God"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Joseph's brothers were jealous and unkind, but God never forgot Joseph. God is with us even when things seem very hard."
+      }
+    },
+    {
+      "id": "genesis_joseph_egypt",
+      "order": 14,
+      "title": "Joseph in Egypt",
+      "reference": "Genesis 40-47",
+      "pages": [
+        {
+          "id": "egypt_dreams",
+          "art": "egypt_pharaoh",
+          "text": "The king of Egypt, called Pharaoh, had strange dreams. Joseph said, \"God will tell you what they mean. Seven good years will come, then seven years of hunger.\"",
+          "keywords": [
+            "Pharaoh",
+            "dreams",
+            "hunger"
+          ]
+        },
+        {
+          "id": "egypt_grain",
+          "art": "egypt_grain",
+          "text": "Pharaoh made Joseph a great leader. Joseph stored grain in big barns during the good years, so Egypt would have food.",
+          "keywords": [
+            "leader",
+            "grain",
+            "barns"
+          ]
+        },
+        {
+          "id": "egypt_brothers",
+          "art": "egypt_brothers",
+          "text": "When the hunger came, Joseph's brothers traveled to Egypt to buy food. They did not know the leader was their brother Joseph!",
+          "keywords": [
+            "traveled",
+            "food",
+            "brother"
+          ]
+        },
+        {
+          "id": "egypt_forgive",
+          "art": "egypt_forgive",
+          "text": "Joseph forgave his brothers. \"You meant to hurt me, but God turned it into good,\" he said. He hugged them and welcomed his whole family to Egypt.",
+          "keywords": [
+            "forgave",
+            "hugged",
+            "family"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Joseph chose to forgive his brothers. Jesus teaches us to forgive too, and to treat others with love.",
         "criterion": "great_commandment"
       }
     }

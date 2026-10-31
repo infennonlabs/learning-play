@@ -1,0 +1,366 @@
+{
+  "book": "John",
+  "order": 17,
+  "stories": [
+    {
+      "id": "john_cana",
+      "order": 1,
+      "title": "The Wedding at Cana",
+      "reference": "John 2:1-11",
+      "pages": [
+        {
+          "id": "cana_wedding",
+          "art": "cana_wedding",
+          "text": "Jesus, Mary and His friends were invited to a wedding party in a town called Cana. Everyone was happy and enjoying the feast.",
+          "keywords": [
+            "wedding",
+            "Cana",
+            "feast"
+          ]
+        },
+        {
+          "id": "cana_wine",
+          "art": "cana_mary",
+          "text": "Then the wine ran out. Mary told Jesus, \"They have no wine.\" Mary said to the servants, \"Do whatever He tells you.\"",
+          "keywords": [
+            "wine",
+            "Mary",
+            "servants"
+          ]
+        },
+        {
+          "id": "cana_jars",
+          "art": "cana_jars",
+          "text": "Jesus told the servants, \"Fill the big stone jars with water.\" They filled them to the top. \"Now take some to the master of the feast,\" He said.",
+          "keywords": [
+            "jars",
+            "water",
+            "feast"
+          ]
+        },
+        {
+          "id": "cana_miracle",
+          "art": "cana_miracle",
+          "text": "The water had become the best wine! This was Jesus' first miracle. His friends believed in Him. Mary always leads us to Jesus.",
+          "keywords": [
+            "miracle",
+            "best",
+            "believed"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Mary noticed what the family needed and told Jesus. We can ask Mary to pray for us, and she leads us to Jesus.",
+        "criterion": "mary_mother_of_jesus"
+      }
+    },
+    {
+      "id": "john_five_thousand",
+      "order": 2,
+      "title": "Jesus Feeds the Crowd",
+      "reference": "John 6:1-14",
+      "pages": [
+        {
+          "id": "five_crowd",
+          "art": "five_crowd",
+          "text": "A huge crowd followed Jesus to a grassy hillside. They listened to Him all day, and it was getting late. They were hungry, and there was no food.",
+          "keywords": [
+            "crowd",
+            "hungry",
+            "hillside"
+          ]
+        },
+        {
+          "id": "five_boy",
+          "art": "five_boy",
+          "text": "A boy said, \"I have five loaves of bread and two small fish. You can have them.\" Andrew said, \"That is not enough for so many!\"",
+          "keywords": [
+            "boy",
+            "loaves",
+            "fish"
+          ]
+        },
+        {
+          "id": "five_blessing",
+          "art": "five_blessing",
+          "text": "Jesus told everyone to sit down. He took the bread and fish, looked up to heaven, gave thanks and began to break them.",
+          "keywords": [
+            "sit",
+            "thanks",
+            "break"
+          ]
+        },
+        {
+          "id": "five_eat",
+          "art": "five_eat",
+          "text": "His friends handed out the food, and everyone ate until they were full! There were about five thousand people.",
+          "keywords": [
+            "ate",
+            "full",
+            "five"
+          ]
+        },
+        {
+          "id": "five_baskets",
+          "art": "five_baskets",
+          "text": "Afterward, the friends gathered twelve baskets of leftovers. Jesus fed all those people with one boy's small gift. Jesus does great things with what we share.",
+          "keywords": [
+            "baskets",
+            "leftovers",
+            "gift"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "A boy shared his lunch, and Jesus made it enough for everyone. When we share, Jesus does wonderful things.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "john_bread_of_life",
+      "order": 3,
+      "title": "The Bread of Life",
+      "reference": "John 6:22-69",
+      "pages": [
+        {
+          "id": "life_crowd",
+          "art": "life_crowd",
+          "text": "The next day, the crowd came looking for Jesus again. Jesus said, \"You are looking for me because you ate bread and were full. Work for food that lasts forever.\"",
+          "keywords": [
+            "crowd",
+            "bread",
+            "forever"
+          ]
+        },
+        {
+          "id": "life_bread",
+          "art": "life_bread",
+          "text": "Jesus said, \"I am the bread of life. Whoever comes to me will never be hungry. I am the living bread from heaven. Whoever eats this bread will live forever.\"",
+          "keywords": [
+            "living",
+            "heaven",
+            "bread"
+          ]
+        },
+        {
+          "id": "life_communion",
+          "art": "life_communion",
+          "text": "Jesus said the bread is His Body. Some people walked away, but Peter said, \"Lord, to whom shall we go? You have the words of eternal life.\" At Mass, we receive Jesus in Holy Communion.",
+          "keywords": [
+            "Peter",
+            "Communion",
+            "Mass"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "At Mass, Jesus gives us Himself in Holy Communion. He is the Bread of Life.",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    },
+    {
+      "id": "john_lazarus",
+      "order": 4,
+      "title": "Jesus Raises Lazarus",
+      "reference": "John 11:1-44",
+      "pages": [
+        {
+          "id": "lazarus_sick",
+          "art": "lazarus_family",
+          "text": "Jesus had good friends in Bethany: Mary, Martha and their brother Lazarus. When Lazarus became very sick, the sisters sent a message to Jesus.",
+          "keywords": [
+            "Bethany",
+            "Martha",
+            "Lazarus"
+          ]
+        },
+        {
+          "id": "lazarus_late",
+          "art": "lazarus_martha",
+          "text": "Jesus came, but Lazarus had died four days before. Martha said, \"Lord, if you had been here, my brother would not have died.\" Jesus said, \"I am the resurrection and the life.\"",
+          "keywords": [
+            "died",
+            "four",
+            "resurrection"
+          ]
+        },
+        {
+          "id": "lazarus_cry",
+          "art": "lazarus_weeps",
+          "text": "Jesus saw Mary and the others crying, and He wept, too. He loved His friend very much.",
+          "keywords": [
+            "wept",
+            "loved",
+            "crying"
+          ]
+        },
+        {
+          "id": "lazarus_tomb",
+          "art": "lazarus_tomb",
+          "text": "At the tomb, Jesus said, \"Take away the stone.\" He prayed to His Father and then called out in a loud voice, \"Lazarus, come out!\"",
+          "keywords": [
+            "tomb",
+            "stone",
+            "Lazarus"
+          ]
+        },
+        {
+          "id": "lazarus_alive",
+          "art": "lazarus_alive",
+          "text": "Lazarus walked out, alive! Everyone was amazed. Jesus has power over death, and one day He will bring everyone who loves Him to heaven.",
+          "keywords": [
+            "alive",
+            "power",
+            "heaven"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus loves His friends and has power over death. He is the resurrection and the life.",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "john_resurrection",
+      "order": 5,
+      "title": "Jesus Is Alive!",
+      "reference": "John 20:1-18",
+      "pages": [
+        {
+          "id": "risen_sunday",
+          "art": "risen_tomb",
+          "text": "Early on Sunday morning, Mary Magdalene and the other women went to the tomb. The stone was rolled away! An angel said, \"Do not be afraid. Jesus is not here. He is risen!\"",
+          "keywords": [
+            "Sunday",
+            "tomb",
+            "angel"
+          ]
+        },
+        {
+          "id": "risen_run",
+          "art": "risen_run",
+          "text": "The women ran to tell the apostles. Peter and John raced to the tomb and found only the burial cloths. Jesus was gone!",
+          "keywords": [
+            "ran",
+            "Peter",
+            "cloths"
+          ]
+        },
+        {
+          "id": "risen_mary",
+          "art": "risen_mary",
+          "text": "Mary stood outside the tomb crying. A man asked, \"Why are you crying?\" Then He said, \"Mary!\" She knew His voice. It was Jesus!",
+          "keywords": [
+            "crying",
+            "voice",
+            "Jesus"
+          ]
+        },
+        {
+          "id": "risen_joy",
+          "art": "risen_joy",
+          "text": "Jesus was alive! Mary ran to tell the apostles, \"I have seen the Lord!\" Easter is the happiest day, because Jesus rose from the dead.",
+          "keywords": [
+            "alive",
+            "Easter",
+            "Lord"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "On Easter, we celebrate that Jesus is alive! He is with us always.",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "john_thomas",
+      "order": 6,
+      "title": "Thomas Believes",
+      "reference": "John 20:19-29",
+      "pages": [
+        {
+          "id": "thomas_doubt",
+          "art": "thomas_room",
+          "text": "On Easter evening, Jesus appeared to His friends in a locked room. But Thomas was not there. When they told him, Thomas said, \"I will not believe unless I see Him myself.\"",
+          "keywords": [
+            "locked",
+            "Thomas",
+            "believe"
+          ]
+        },
+        {
+          "id": "thomas_see",
+          "art": "thomas_hands",
+          "text": "A week later, Jesus came again. He said, \"Peace be with you.\" Then He said to Thomas, \"Do not doubt, but believe. Look at my hands.\"",
+          "keywords": [
+            "Peace",
+            "doubt",
+            "hands"
+          ]
+        },
+        {
+          "id": "thomas_lord",
+          "art": "thomas_kneel",
+          "text": "Thomas said, \"My Lord and my God!\" Jesus said, \"Blessed are those who have not seen and still believe.\" That means us!",
+          "keywords": [
+            "Lord",
+            "Blessed",
+            "believe"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "We have not seen Jesus with our eyes, but we believe in Him. Faith is a gift from God."
+      }
+    },
+    {
+      "id": "john_feed_sheep",
+      "order": 7,
+      "title": "Feed My Sheep",
+      "reference": "John 21:1-19",
+      "pages": [
+        {
+          "id": "sheep21_fish",
+          "art": "sheep21_fish",
+          "text": "Peter and his friends fished all night and caught nothing. In the morning, a man on the shore said, \"Throw your net on the right side!\" The net filled with fish!",
+          "keywords": [
+            "fished",
+            "net",
+            "shore"
+          ]
+        },
+        {
+          "id": "sheep21_breakfast",
+          "art": "sheep21_breakfast",
+          "text": "John said, \"It is the Lord!\" Peter jumped into the water and swam to shore. Jesus had a fire ready and cooked breakfast for His friends.",
+          "keywords": [
+            "Lord",
+            "breakfast",
+            "fire"
+          ]
+        },
+        {
+          "id": "sheep21_love",
+          "art": "sheep21_peter",
+          "text": "Jesus asked Peter three times, \"Do you love me?\" Peter said, \"Yes, Lord, You know I love You.\" Jesus said, \"Feed my sheep.\" Peter was forgiven and given a great job.",
+          "keywords": [
+            "love",
+            "sheep",
+            "forgiven"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus forgave Peter and trusted him to lead. Jesus forgives us, too, and asks us to love others.",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}
