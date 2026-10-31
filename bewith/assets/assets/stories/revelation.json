@@ -1,0 +1,91 @@
+{
+  "book": "Revelation",
+  "order": 21,
+  "stories": [
+    {
+      "id": "revelation_door",
+      "order": 1,
+      "title": "Jesus Knocks at the Door",
+      "reference": "Revelation 3:20",
+      "pages": [
+        {
+          "id": "knock_door",
+          "art": "knock_door",
+          "text": "Near the end of the Bible, Jesus says, \"Look! I am standing at the door, knocking. If you hear my voice and open the door, I will come in and share a meal with you.\"",
+          "keywords": [
+            "Jesus",
+            "door",
+            "knocking"
+          ]
+        },
+        {
+          "id": "knock_open",
+          "art": "knock_open",
+          "text": "Jesus is always ready to be close to us. We open the door of our hearts when we pray, listen and say yes to Him.",
+          "keywords": [
+            "hearts",
+            "pray",
+            "listen"
+          ]
+        },
+        {
+          "id": "knock_meal",
+          "art": "knock_meal",
+          "text": "When we open the door, Jesus comes in and is our friend. At Mass, we share a meal with Him, and He gives us Himself.",
+          "keywords": [
+            "friend",
+            "Mass",
+            "meal"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus is knocking at the door of our hearts. We can open it with prayer and by going to Mass.",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    },
+    {
+      "id": "revelation_new_heaven",
+      "order": 2,
+      "title": "God Makes All Things New",
+      "reference": "Revelation 21:1-5",
+      "pages": [
+        {
+          "id": "new_sky",
+          "art": "new_city",
+          "text": "At the very end of the Bible, John saw a new heaven and a new earth, shining and beautiful. God lives there with His people.",
+          "keywords": [
+            "heaven",
+            "earth",
+            "shining"
+          ]
+        },
+        {
+          "id": "new_tears",
+          "art": "new_tears",
+          "text": "A voice said, \"God will wipe away every tear from their eyes. There will be no more death, no more sadness, and no more pain.\"",
+          "keywords": [
+            "tear",
+            "sadness",
+            "pain"
+          ]
+        },
+        {
+          "id": "new_all",
+          "art": "new_all",
+          "text": "God said, \"Look, I make all things new!\" One day, everyone who loves God will be with Him forever in heaven. God loves you and wants to be with you.",
+          "keywords": [
+            "new",
+            "forever",
+            "loves"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God promises a happy place with no more tears. He wants all of us to be with Him forever."
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "book": "Acts",
+  "order": 18,
+  "stories": [
+    {
+      "id": "acts_ascension",
+      "order": 1,
+      "title": "Jesus Goes Up to Heaven",
+      "reference": "Acts 1:1-14; Matthew 28",
+      "pages": [
+        {
+          "id": "ascension_promise",
+          "art": "ascension_mount",
+          "text": "For forty days after Easter, Jesus showed His friends He was alive. He told them, \"Wait in Jerusalem. The Holy Spirit will come and give you power.\"",
+          "keywords": [
+            "forty",
+            "Jerusalem",
+            "Spirit"
+          ]
+        },
+        {
+          "id": "ascension_up",
+          "art": "ascension_up",
+          "text": "On a mountain, Jesus said, \"Go and teach all people. Baptize them in the name of the Father, and of the Son, and of the Holy Spirit. I am with you always.\" Then He went up into heaven.",
+          "keywords": [
+            "Baptize",
+            "always",
+            "heaven"
+          ]
+        },
+        {
+          "id": "ascension_angels",
+          "art": "ascension_wait",
+          "text": "Two angels said, \"Why do you stand looking at the sky? Jesus will come back.\" The friends went back to Jerusalem and prayed together.",
+          "keywords": [
+            "angels",
+            "sky",
+            "prayed"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus said, \"I am with you always.\" We are baptized in the name of the Father, the Son and the Holy Spirit.",
+        "criterion": "trinity"
+      }
+    },
+    {
+      "id": "acts_pentecost",
+      "order": 2,
+      "title": "The Holy Spirit Comes",
+      "reference": "Acts 2",
+      "pages": [
+        {
+          "id": "pentecost_wait",
+          "art": "pentecost_room",
+          "text": "The apostles and Mary waited in Jerusalem and prayed together. Fifty days after Easter, they were all in one room.",
+          "keywords": [
+            "apostles",
+            "Mary",
+            "prayed"
+          ]
+        },
+        {
+          "id": "pentecost_fire",
+          "art": "pentecost_fire",
+          "text": "Suddenly there was a sound like a strong wind. Tongues of fire rested on each of them, and the Holy Spirit filled them with courage and joy.",
+          "keywords": [
+            "wind",
+            "fire",
+            "Spirit"
+          ]
+        },
+        {
+          "id": "pentecost_speak",
+          "art": "pentecost_street",
+          "text": "The friends went outside and told everyone about Jesus. People from many countries heard them in their own languages and were amazed!",
+          "keywords": [
+            "countries",
+            "languages",
+            "amazed"
+          ]
+        },
+        {
+          "id": "pentecost_church",
+          "art": "pentecost_baptism",
+          "text": "That day, three thousand people were baptized. This was the birthday of the Church! The Holy Spirit still helps us today.",
+          "keywords": [
+            "baptized",
+            "birthday",
+            "Church"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "At Pentecost, the Holy Spirit came, and the Church began. The Holy Spirit helps us be brave and love others.",
+        "criterion": "trinity"
+      }
+    },
+    {
+      "id": "acts_saul_paul",
+      "order": 3,
+      "title": "Saul Meets Jesus",
+      "reference": "Acts 9:1-19",
+      "pages": [
+        {
+          "id": "saul_hates",
+          "art": "saul_road",
+          "text": "Saul did not believe in Jesus. He wanted to stop Jesus' followers. He set off for the city of Damascus to find them.",
+          "keywords": [
+            "Saul",
+            "Damascus",
+            "followers"
+          ]
+        },
+        {
+          "id": "saul_light",
+          "art": "saul_light",
+          "text": "On the road, a bright light flashed from the sky, and Saul fell to the ground. A voice said, \"Saul, why are you hurting me?\" Saul asked, \"Who are You?\" \"I am Jesus.\"",
+          "keywords": [
+            "light",
+            "voice",
+            "Jesus"
+          ]
+        },
+        {
+          "id": "saul_blind",
+          "art": "saul_house",
+          "text": "Saul could not see. His friends led him into Damascus. For three days he did not eat or drink, but he prayed.",
+          "keywords": [
+            "three",
+            "prayed",
+            "Damascus"
+          ]
+        },
+        {
+          "id": "saul_paul",
+          "art": "saul_ananias",
+          "text": "A follower named Ananias prayed for Saul. Saul could see again, and he was baptized. He took the name Paul and told everyone about Jesus.",
+          "keywords": [
+            "Ananias",
+            "baptized",
+            "Paul"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus changed Saul's heart, and Paul became a great missionary. Jesus can change hearts, too.",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "acts_first_christians",
+      "order": 4,
+      "title": "The First Christians",
+      "reference": "Acts 2:42-47; 4:32-35",
+      "pages": [
+        {
+          "id": "first_pray",
+          "art": "first_meal",
+          "text": "The first followers of Jesus met often to pray, to listen to the apostles and to share bread together, the way Jesus had asked.",
+          "keywords": [
+            "pray",
+            "apostles",
+            "bread"
+          ]
+        },
+        {
+          "id": "first_share",
+          "art": "first_share",
+          "text": "They shared everything they had. If someone needed food, others sold what they owned and gave to the poor, so no one went without.",
+          "keywords": [
+            "shared",
+            "food",
+            "poor"
+          ]
+        },
+        {
+          "id": "first_joy",
+          "art": "first_joy",
+          "text": "They were glad and thanked God, and more and more people joined them. We are the same Church today, sharing and praying together.",
+          "keywords": [
+            "glad",
+            "Church",
+            "together"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "The first Christians prayed, shared and cared for each other. We do the same in the Church today.",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}

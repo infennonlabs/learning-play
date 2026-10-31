@@ -1,0 +1,50 @@
+{
+  "book": "1 Corinthians",
+  "order": 19,
+  "stories": [
+    {
+      "id": "corinthians_love",
+      "order": 1,
+      "title": "Love Is Patient and Kind",
+      "reference": "1 Corinthians 13",
+      "pages": [
+        {
+          "id": "love_patient",
+          "art": "love_letter",
+          "text": "Saint Paul wrote a letter to a church. He said, \"Love is patient. Love is kind. Love is not jealous or proud or rude.\"",
+          "keywords": [
+            "Paul",
+            "letter",
+            "patient"
+          ]
+        },
+        {
+          "id": "love_forgive",
+          "art": "love_kind",
+          "text": "\"Love does not keep a list of wrongs. Love is happy with the truth. Love never gives up and always hopes.\"",
+          "keywords": [
+            "wrongs",
+            "truth",
+            "hopes"
+          ]
+        },
+        {
+          "id": "love_forever",
+          "art": "love_forever",
+          "text": "\"Faith, hope and love will last. And the greatest of these is love.\" God is love, and He teaches us to love one another.",
+          "keywords": [
+            "Faith",
+            "hope",
+            "greatest"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Love is patient and kind. Jesus teaches us to love God and to love one another.",
+        "criterion": "great_commandment"
+      }
+    }
+  ],
+  "assetFolder": "corinthians"
+}

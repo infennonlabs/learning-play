@@ -1,0 +1,49 @@
+{
+  "book": "Isaiah",
+  "order": 11,
+  "stories": [
+    {
+      "id": "isaiah_promise",
+      "order": 1,
+      "title": "A Child Is Coming",
+      "reference": "Isaiah 7, 9",
+      "pages": [
+        {
+          "id": "isaiah_dark",
+          "art": "isaiah_scroll",
+          "text": "Long ago, God's people walked in darkness and were sad. God sent the prophet Isaiah to give them hope.",
+          "keywords": [
+            "Isaiah",
+            "prophet",
+            "hope"
+          ]
+        },
+        {
+          "id": "isaiah_child",
+          "art": "isaiah_star",
+          "text": "Isaiah said, \"A young woman will have a baby boy, and His name will be Emmanuel, which means God with us. He will be called Prince of Peace.\"",
+          "keywords": [
+            "Emmanuel",
+            "baby",
+            "peace"
+          ]
+        },
+        {
+          "id": "isaiah_light",
+          "art": "isaiah_light",
+          "text": "\"The people who walked in darkness have seen a great light!\" Isaiah told them. Hundreds of years later, that promise came true when Jesus was born.",
+          "keywords": [
+            "light",
+            "darkness",
+            "Jesus"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God promised to send a Savior, and He kept His promise. At Christmas, we celebrate that Jesus is God with us.",
+        "criterion": "church_celebrates_jesus"
+      }
+    }
+  ]
+}
