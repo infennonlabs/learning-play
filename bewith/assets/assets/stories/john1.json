@@ -1,0 +1,50 @@
+{
+  "book": "1 John",
+  "order": 20,
+  "stories": [
+    {
+      "id": "john1_god_is_love",
+      "order": 1,
+      "title": "God Is Love",
+      "reference": "1 John 4:7-21",
+      "pages": [
+        {
+          "id": "god_love",
+          "art": "john_writes",
+          "text": "Saint John, one of Jesus' friends, wrote a letter, too. He said, \"God is love. God showed His love by sending His Son into the world.\"",
+          "keywords": [
+            "John",
+            "letter",
+            "Son"
+          ]
+        },
+        {
+          "id": "god_first",
+          "art": "john_hands",
+          "text": "\"We love because God loved us first.\" Jesus gave His life for us, and that is how we know how much God loves us.",
+          "keywords": [
+            "first",
+            "life",
+            "loves"
+          ]
+        },
+        {
+          "id": "god_others",
+          "art": "john_others",
+          "text": "\"If we love one another, God lives in us.\" We can show God's love to the people around us every day.",
+          "keywords": [
+            "lives",
+            "another",
+            "day"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God made us in His image, and God is love. When we love one another, we show who God is.",
+        "criterion": "image_and_likeness"
+      }
+    }
+  ],
+  "assetFolder": "john1"
+}

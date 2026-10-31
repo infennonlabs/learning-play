@@ -1,0 +1,48 @@
+{
+  "book": "Psalms",
+  "order": 10,
+  "stories": [
+    {
+      "id": "psalms_shepherd",
+      "order": 1,
+      "title": "The Lord Is My Shepherd",
+      "reference": "Psalm 23",
+      "pages": [
+        {
+          "id": "psalm_shepherd",
+          "art": "psalm_shepherd",
+          "text": "David, a shepherd, wrote a song: \"The Lord is my shepherd. I have everything I need.\" A good shepherd cares for every sheep.",
+          "keywords": [
+            "shepherd",
+            "sheep",
+            "song"
+          ]
+        },
+        {
+          "id": "psalm_waters",
+          "art": "psalm_waters",
+          "text": "\"He lets me rest in green pastures. He leads me beside quiet waters. He gives me strength.\"",
+          "keywords": [
+            "pastures",
+            "waters",
+            "strength"
+          ]
+        },
+        {
+          "id": "psalm_valley",
+          "art": "psalm_valley",
+          "text": "\"Even when I walk through a dark valley, I will not be afraid, because You are with me. Your goodness and love will follow me all my life.\"",
+          "keywords": [
+            "valley",
+            "afraid",
+            "love"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God takes care of us like a good shepherd. Jesus said, \"I am the Good Shepherd.\" We can talk to Him in prayer."
+      }
+    }
+  ]
+}

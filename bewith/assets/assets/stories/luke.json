@@ -1,0 +1,610 @@
+{
+  "book": "Luke",
+  "order": 16,
+  "stories": [
+    {
+      "id": "luke_annunciation",
+      "order": 1,
+      "title": "The Angel Visits Mary",
+      "reference": "Luke 1:26-38",
+      "pages": [
+        {
+          "id": "ann_mary",
+          "art": "ann_mary",
+          "text": "In the town of Nazareth lived a young woman named Mary. She loved God and prayed every day.",
+          "keywords": [
+            "Mary",
+            "Nazareth",
+            "prayed"
+          ]
+        },
+        {
+          "id": "ann_gabriel",
+          "art": "ann_gabriel",
+          "text": "One day the angel Gabriel appeared and said, \"Hail, Mary, full of grace! The Lord is with you. Do not be afraid.\"",
+          "keywords": [
+            "Gabriel",
+            "grace",
+            "afraid"
+          ]
+        },
+        {
+          "id": "ann_son",
+          "art": "ann_gabriel",
+          "text": "The angel said, \"You will have a baby boy, and you will name Him Jesus. He will be the Son of God.\" Mary asked how this could be, and Gabriel told her God's power would do it.",
+          "keywords": [
+            "Jesus",
+            "Son",
+            "Gabriel"
+          ]
+        },
+        {
+          "id": "ann_yes",
+          "art": "ann_yes",
+          "text": "Mary said, \"I am the Lord's servant. Let it be done to me as you say.\" Mary said yes to God. We say the Hail Mary to remember the angel's words.",
+          "keywords": [
+            "yes",
+            "servant",
+            "Hail"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Mary trusted God and said yes. She is the Mother of Jesus, and we honor her when we pray the Hail Mary.",
+        "criterion": "mary_mother_of_jesus"
+      }
+    },
+    {
+      "id": "luke_visitation",
+      "order": 2,
+      "title": "Mary Visits Elizabeth",
+      "reference": "Luke 1:39-56",
+      "pages": [
+        {
+          "id": "visit_journey",
+          "art": "visit_hills",
+          "text": "Mary hurried to visit her cousin Elizabeth, who was also going to have a baby. It was a long walk over the hills.",
+          "keywords": [
+            "Elizabeth",
+            "hurried",
+            "hills"
+          ]
+        },
+        {
+          "id": "visit_greeting",
+          "art": "visit_embrace",
+          "text": "When Elizabeth saw Mary, her baby jumped for joy! Elizabeth said, \"Blessed are you among women, and blessed is the child you carry!\"",
+          "keywords": [
+            "baby",
+            "joy",
+            "blessed"
+          ]
+        },
+        {
+          "id": "visit_song",
+          "art": "visit_song",
+          "text": "Mary sang a song of joy: \"My soul praises the Lord! God has done great things for me.\" Mary stayed for three months to help Elizabeth.",
+          "keywords": [
+            "sang",
+            "praises",
+            "three"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Elizabeth's words are part of the Hail Mary. Mary was happy to help her cousin and to praise God.",
+        "criterion": "mary_mother_of_jesus"
+      }
+    },
+    {
+      "id": "luke_birth",
+      "order": 3,
+      "title": "Jesus Is Born",
+      "reference": "Luke 2:1-7",
+      "pages": [
+        {
+          "id": "birth_census",
+          "art": "birth_journey",
+          "text": "The emperor ordered everyone to be counted. So Mary and Joseph traveled to Joseph's hometown, Bethlehem. Mary was about to have her baby.",
+          "keywords": [
+            "Joseph",
+            "Bethlehem",
+            "traveled"
+          ]
+        },
+        {
+          "id": "birth_inn",
+          "art": "birth_inn",
+          "text": "In Bethlehem, every inn was full. Joseph and Mary found a stable where animals stayed. It was quiet and warm.",
+          "keywords": [
+            "inn",
+            "stable",
+            "animals"
+          ]
+        },
+        {
+          "id": "birth_born",
+          "art": "birth_nativity",
+          "text": "That night, Mary gave birth to her baby boy and named Him Jesus. She wrapped Him in cloths and laid Him in a manger, a feeding box for animals.",
+          "keywords": [
+            "Jesus",
+            "manger",
+            "wrapped"
+          ]
+        },
+        {
+          "id": "birth_love",
+          "art": "birth_nativity",
+          "text": "Mary and Joseph looked at the baby with love. God had come to be with us. Jesus is God's Son, born to save us.",
+          "keywords": [
+            "love",
+            "God",
+            "save"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "At Christmas, we celebrate that Jesus is born. He is God's Son, and He came to be with us.",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "luke_shepherds",
+      "order": 4,
+      "title": "The Shepherds",
+      "reference": "Luke 2:8-20",
+      "pages": [
+        {
+          "id": "shepherds_field",
+          "art": "shepherds_field",
+          "text": "That night, shepherds were watching their sheep on a hill near Bethlehem. Suddenly an angel appeared, and bright light shone all around them. They were very afraid.",
+          "keywords": [
+            "shepherds",
+            "angel",
+            "afraid"
+          ]
+        },
+        {
+          "id": "shepherds_news",
+          "art": "shepherds_news",
+          "text": "The angel said, \"Do not be afraid! Good news! Today a Savior is born in Bethlehem. You will find a baby in a manger.\" Then many angels sang, \"Glory to God in the highest!\"",
+          "keywords": [
+            "Savior",
+            "manger",
+            "Glory"
+          ]
+        },
+        {
+          "id": "shepherds_visit",
+          "art": "shepherds_visit",
+          "text": "The shepherds hurried to Bethlehem and found Mary, Joseph and the baby, just as the angel had said. They told everyone and praised God.",
+          "keywords": [
+            "hurried",
+            "found",
+            "praised"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "The shepherds were the first to hear the good news about Jesus. We can share good news about Jesus, too.",
+        "criterion": "church_celebrates_jesus"
+      }
+    },
+    {
+      "id": "luke_presentation",
+      "order": 5,
+      "title": "Simeon and Anna",
+      "reference": "Luke 2:22-38",
+      "pages": [
+        {
+          "id": "present_temple",
+          "art": "present_temple",
+          "text": "When Jesus was forty days old, Mary and Joseph took Him to the temple in Jerusalem to give thanks to God, as God's law asked.",
+          "keywords": [
+            "temple",
+            "Jerusalem",
+            "thanks"
+          ]
+        },
+        {
+          "id": "present_simeon",
+          "art": "present_simeon",
+          "text": "An old man named Simeon had waited all his life to see God's Savior. He held baby Jesus and said, \"Now I have seen the Savior with my own eyes!\"",
+          "keywords": [
+            "Simeon",
+            "Savior",
+            "held"
+          ]
+        },
+        {
+          "id": "present_anna",
+          "art": "present_anna",
+          "text": "An old woman named Anna, who prayed in the temple day and night, saw Jesus, too. She thanked God and told everyone about Him.",
+          "keywords": [
+            "Anna",
+            "prayed",
+            "thanked"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Simeon and Anna waited and prayed for a long time. God answers prayer in His own time."
+      }
+    },
+    {
+      "id": "luke_boy_jesus",
+      "order": 6,
+      "title": "Jesus in the Temple",
+      "reference": "Luke 2:41-52",
+      "pages": [
+        {
+          "id": "temple_trip",
+          "art": "temple_caravan",
+          "text": "Every year, Mary and Joseph took Jesus to Jerusalem for a big feast. When Jesus was twelve, they went again with their family and friends.",
+          "keywords": [
+            "feast",
+            "Jerusalem",
+            "twelve"
+          ]
+        },
+        {
+          "id": "temple_lost",
+          "art": "temple_teachers",
+          "text": "On the way home, they could not find Jesus! They looked for three days. At last they found Him in the temple, listening to the teachers and asking questions.",
+          "keywords": [
+            "looked",
+            "temple",
+            "questions"
+          ]
+        },
+        {
+          "id": "temple_home",
+          "art": "temple_home",
+          "text": "Jesus said, \"Did you not know I must be in my Father's house?\" Then He went home with them, obeyed them and grew in wisdom.",
+          "keywords": [
+            "Father",
+            "obeyed",
+            "wisdom"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Even as a boy, Jesus called God His Father. Jesus loves God the Father, and He obeyed Mary and Joseph.",
+        "criterion": "trinity"
+      }
+    },
+    {
+      "id": "luke_good_samaritan",
+      "order": 7,
+      "title": "The Good Samaritan",
+      "reference": "Luke 10:25-37",
+      "pages": [
+        {
+          "id": "samaritan_question",
+          "art": "samaritan_teacher",
+          "text": "A teacher asked Jesus, \"Who is my neighbor?\" Jesus answered with a story.",
+          "keywords": [
+            "teacher",
+            "neighbor",
+            "story"
+          ]
+        },
+        {
+          "id": "samaritan_robbed",
+          "art": "samaritan_robbed",
+          "text": "A man was traveling when robbers hurt him and left him by the road. A priest and a temple helper saw him, but they walked right past.",
+          "keywords": [
+            "robbers",
+            "road",
+            "priest"
+          ]
+        },
+        {
+          "id": "samaritan_helps",
+          "art": "samaritan_helps",
+          "text": "Then a man from Samaria came by. He felt sorry for the hurt man, bandaged his wounds and took him on his donkey to an inn.",
+          "keywords": [
+            "Samaria",
+            "bandaged",
+            "donkey"
+          ]
+        },
+        {
+          "id": "samaritan_neighbor",
+          "art": "samaritan_inn",
+          "text": "The Samaritan paid the innkeeper to care for him. Jesus asked, \"Who was the neighbor?\" The teacher said, \"The one who showed mercy.\" Jesus said, \"Go and do the same.\"",
+          "keywords": [
+            "innkeeper",
+            "mercy",
+            "neighbor"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus teaches us to be a neighbor to everyone who needs help, even people we do not know.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "luke_prodigal_son",
+      "order": 8,
+      "title": "The Loving Father",
+      "reference": "Luke 15:11-32",
+      "pages": [
+        {
+          "id": "prodigal_ask",
+          "art": "prodigal_leaves",
+          "text": "Jesus told a story about a father with two sons. The younger son said, \"Father, give me my share of the money.\" The father gave it to him, and the son left for a faraway land.",
+          "keywords": [
+            "father",
+            "sons",
+            "money"
+          ]
+        },
+        {
+          "id": "prodigal_spend",
+          "art": "prodigal_pigs",
+          "text": "The son spent all his money on silly things. Soon he had nothing, and he was hungry. He got a job feeding pigs.",
+          "keywords": [
+            "spent",
+            "hungry",
+            "pigs"
+          ]
+        },
+        {
+          "id": "prodigal_home",
+          "art": "prodigal_walk",
+          "text": "The son thought, \"My father's workers have food. I will go home and say I am sorry.\" He started the long walk back.",
+          "keywords": [
+            "sorry",
+            "home",
+            "walk"
+          ]
+        },
+        {
+          "id": "prodigal_hug",
+          "art": "prodigal_hug",
+          "text": "While he was still far away, his father saw him and ran to him! He hugged and kissed his son. \"Father, I am sorry,\" said the son.",
+          "keywords": [
+            "ran",
+            "hugged",
+            "father"
+          ]
+        },
+        {
+          "id": "prodigal_feast",
+          "art": "prodigal_feast",
+          "text": "The father said, \"Let us celebrate! My son was lost, and now he is found!\" God is like that father. He is always happy when we come back to Him.",
+          "keywords": [
+            "celebrate",
+            "lost",
+            "found"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God is like the loving father. When we say we are sorry, God welcomes us with joy.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "luke_zacchaeus",
+      "order": 9,
+      "title": "Zacchaeus Climbs a Tree",
+      "reference": "Luke 19:1-10",
+      "pages": [
+        {
+          "id": "zach_small",
+          "art": "zach_taxes",
+          "text": "Zacchaeus was a short man who collected taxes in Jericho. Many people did not like him because he took too much money.",
+          "keywords": [
+            "Zacchaeus",
+            "short",
+            "taxes"
+          ]
+        },
+        {
+          "id": "zach_tree",
+          "art": "zach_tree",
+          "text": "Jesus was coming to town! Zacchaeus wanted to see Him, but the crowd was too tall. So he ran ahead and climbed a tree.",
+          "keywords": [
+            "Jesus",
+            "crowd",
+            "tree"
+          ]
+        },
+        {
+          "id": "zach_look",
+          "art": "zach_look",
+          "text": "Jesus stopped under the tree, looked up and said, \"Zacchaeus, come down! I want to stay at your house today.\"",
+          "keywords": [
+            "stopped",
+            "house",
+            "down"
+          ]
+        },
+        {
+          "id": "zach_change",
+          "art": "zach_change",
+          "text": "Zacchaeus was so happy! He said, \"I will give half of what I have to the poor and pay back anyone I cheated.\" Jesus said, \"Today salvation has come to this house.\"",
+          "keywords": [
+            "happy",
+            "poor",
+            "cheated"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus loved Zacchaeus before he changed. When Jesus is our friend, we want to be kind and fair to others.",
+        "criterion": "great_commandment"
+      }
+    },
+    {
+      "id": "luke_teach_us_to_pray",
+      "order": 10,
+      "title": "Jesus Teaches Us to Pray",
+      "reference": "Luke 11:1-4",
+      "pages": [
+        {
+          "id": "pray_ask",
+          "art": "pray_alone",
+          "text": "Jesus often went off alone to pray to His Father. One day, His friends asked, \"Lord, teach us to pray.\"",
+          "keywords": [
+            "pray",
+            "Father",
+            "friends"
+          ]
+        },
+        {
+          "id": "pray_our",
+          "art": "pray_friends",
+          "text": "Jesus said, \"When you pray, say: Our Father, who art in heaven, hallowed be Thy name.\" This is the Our Father, and Jesus gave it to us.",
+          "keywords": [
+            "Father",
+            "heaven",
+            "name"
+          ]
+        },
+        {
+          "id": "pray_daily",
+          "art": "pray_friends",
+          "text": "Jesus taught us to ask God for what we need, to forgive others, and to trust that our Father in heaven hears us. Prayer is talking to God and listening to God.",
+          "keywords": [
+            "ask",
+            "forgive",
+            "listening"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Jesus taught us the Our Father. Prayer is talking to God and listening to God."
+      }
+    },
+    {
+      "id": "luke_last_supper",
+      "order": 11,
+      "title": "The Last Supper",
+      "reference": "Luke 22:7-20; John 13",
+      "pages": [
+        {
+          "id": "supper_room",
+          "art": "supper_room",
+          "text": "It was almost time for the Passover meal. Jesus sent two friends to prepare a big upstairs room. That evening, Jesus sat down to eat with His twelve apostles.",
+          "keywords": [
+            "Passover",
+            "room",
+            "apostles"
+          ]
+        },
+        {
+          "id": "supper_bread",
+          "art": "supper_bread",
+          "text": "Jesus took bread, gave thanks, broke it and gave it to them. He said, \"This is my Body, given for you. Do this in memory of me.\"",
+          "keywords": [
+            "bread",
+            "Body",
+            "memory"
+          ]
+        },
+        {
+          "id": "supper_cup",
+          "art": "supper_cup",
+          "text": "Then Jesus took a cup of wine and said, \"This is my Blood, poured out for you.\" The apostles drank from the cup.",
+          "keywords": [
+            "cup",
+            "Blood",
+            "wine"
+          ]
+        },
+        {
+          "id": "supper_feet",
+          "art": "supper_feet",
+          "text": "Jesus also showed them how to love. He washed His friends' feet like a servant. He said, \"Love one another as I have loved you.\"",
+          "keywords": [
+            "washed",
+            "feet",
+            "love"
+          ]
+        },
+        {
+          "id": "supper_mass",
+          "art": "supper_mass",
+          "text": "At every Mass, the priest does what Jesus did at the Last Supper. Jesus is truly with us in the Eucharist.",
+          "keywords": [
+            "Mass",
+            "priest",
+            "Eucharist"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "At Mass, we gather to remember the Last Supper. Jesus is with us in the Eucharist.",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    },
+    {
+      "id": "luke_emmaus",
+      "order": 12,
+      "title": "The Road to Emmaus",
+      "reference": "Luke 24:13-35",
+      "pages": [
+        {
+          "id": "emmaus_walk",
+          "art": "emmaus_walk",
+          "text": "Two friends of Jesus walked sadly to a town called Emmaus. Jesus had died, and they did not understand what was happening.",
+          "keywords": [
+            "friends",
+            "Emmaus",
+            "walked"
+          ]
+        },
+        {
+          "id": "emmaus_stranger",
+          "art": "emmaus_stranger",
+          "text": "A stranger joined them on the road and explained what the Scriptures said about Jesus. They did not know it was Jesus Himself!",
+          "keywords": [
+            "stranger",
+            "Scriptures",
+            "road"
+          ]
+        },
+        {
+          "id": "emmaus_bread",
+          "art": "emmaus_bread",
+          "text": "That evening they asked Him to stay. At supper, He took bread, blessed it and broke it. Then they knew Him!",
+          "keywords": [
+            "supper",
+            "bread",
+            "blessed"
+          ]
+        },
+        {
+          "id": "emmaus_joy",
+          "art": "emmaus_joy",
+          "text": "Jesus disappeared, but their hearts were full of joy. They ran back to Jerusalem to tell everyone, \"Jesus is alive! We knew Him in the breaking of the bread!\"",
+          "keywords": [
+            "alive",
+            "joy",
+            "Jerusalem"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "The friends met Jesus in God's Word and in the breaking of the bread. We meet Jesus the same way at Mass.",
+        "criterion": "mass_jesus_is_with_us"
+      }
+    }
+  ]
+}

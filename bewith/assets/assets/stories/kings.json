@@ -1,0 +1,121 @@
+{
+  "book": "1 Kings",
+  "order": 7,
+  "stories": [
+    {
+      "id": "kings_solomon",
+      "order": 1,
+      "title": "Wise King Solomon",
+      "reference": "1 Kings 3, 6",
+      "pages": [
+        {
+          "id": "solomon_ask",
+          "art": "solomon_ask",
+          "text": "David's son Solomon became king. God said, \"Ask for anything you want.\" Solomon asked, \"Please give me a wise and loving heart.\"",
+          "keywords": [
+            "Solomon",
+            "wise",
+            "heart"
+          ]
+        },
+        {
+          "id": "solomon_gift",
+          "art": "solomon_ask",
+          "text": "God was pleased with Solomon's answer. He gave him great wisdom, and also riches and honor.",
+          "keywords": [
+            "pleased",
+            "wisdom",
+            "riches"
+          ]
+        },
+        {
+          "id": "solomon_baby",
+          "art": "solomon_baby",
+          "text": "Two women both said a baby was theirs. Solomon called for a sword. One mother cried, \"No! Give her the baby, just keep him safe!\" Solomon knew she was the true mother.",
+          "keywords": [
+            "women",
+            "sword",
+            "mother"
+          ]
+        },
+        {
+          "id": "solomon_temple",
+          "art": "solomon_temple",
+          "text": "Solomon built a beautiful temple for God in Jerusalem, with gold and cedar wood. It was a special house where people came to pray.",
+          "keywords": [
+            "temple",
+            "Jerusalem",
+            "pray"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Solomon asked God for wisdom and a loving heart. We can ask God to help us choose well and love others."
+      }
+    },
+    {
+      "id": "kings_elijah",
+      "order": 2,
+      "title": "Elijah and the Fire from Heaven",
+      "reference": "1 Kings 17-18",
+      "pages": [
+        {
+          "id": "elijah_ravens",
+          "art": "elijah_ravens",
+          "text": "A wicked king named Ahab did not follow God. God's prophet Elijah told him there would be no rain. God took care of Elijah and sent ravens to bring him bread and meat.",
+          "keywords": [
+            "prophet",
+            "ravens",
+            "bread"
+          ]
+        },
+        {
+          "id": "elijah_widow",
+          "art": "elijah_widow",
+          "text": "Elijah met a poor widow who had only a little flour and oil. She shared it with him, and God kept her jar of flour and her oil from running out.",
+          "keywords": [
+            "widow",
+            "flour",
+            "oil"
+          ]
+        },
+        {
+          "id": "elijah_carmel",
+          "art": "elijah_carmel",
+          "text": "On Mount Carmel, Elijah asked the people, \"Who will you follow, God or false gods?\" The false prophets prayed all day, but nothing happened.",
+          "keywords": [
+            "Carmel",
+            "follow",
+            "prayed"
+          ]
+        },
+        {
+          "id": "elijah_fire",
+          "art": "elijah_fire",
+          "text": "Then Elijah prayed to the one true God. Fire came down from heaven! The people fell on their faces and said, \"The Lord is God!\"",
+          "keywords": [
+            "fire",
+            "heaven",
+            "prayed"
+          ]
+        },
+        {
+          "id": "elijah_rain",
+          "art": "elijah_rain",
+          "text": "Then Elijah prayed for rain. A tiny cloud grew bigger and bigger, and at last the rain came and watered the dry land.",
+          "keywords": [
+            "rain",
+            "cloud",
+            "land"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "God is the one true God. He cared for Elijah and for the poor widow, and He cares for us."
+      }
+    }
+  ],
+  "assetFolder": "kings"
+}

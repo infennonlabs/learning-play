@@ -1,0 +1,59 @@
+{
+  "book": "Ruth",
+  "order": 5,
+  "stories": [
+    {
+      "id": "ruth_ruth",
+      "order": 1,
+      "title": "Ruth and Naomi",
+      "reference": "Ruth 1-4",
+      "pages": [
+        {
+          "id": "ruth_leaves",
+          "art": "ruth_leaves",
+          "text": "Naomi's family had a very sad time, and she wanted to go home to Bethlehem. Her daughter-in-law Ruth said, \"Where you go, I will go.\"",
+          "keywords": [
+            "Naomi",
+            "Ruth",
+            "Bethlehem"
+          ]
+        },
+        {
+          "id": "ruth_gleans",
+          "art": "ruth_gleans",
+          "text": "In Bethlehem they were hungry. Ruth went to a barley field to pick up leftover grain. The field belonged to a kind man named Boaz.",
+          "keywords": [
+            "barley",
+            "grain",
+            "Boaz"
+          ]
+        },
+        {
+          "id": "ruth_boaz",
+          "art": "ruth_boaz",
+          "text": "Boaz saw how kind Ruth was to Naomi. He gave her extra food and made sure she was safe in his fields.",
+          "keywords": [
+            "kind",
+            "food",
+            "safe"
+          ]
+        },
+        {
+          "id": "ruth_family",
+          "art": "ruth_family",
+          "text": "Later, Ruth and Boaz were married, and Naomi was happy again. Ruth's great-grandson was King David. One day, Jesus would be born in David's family.",
+          "keywords": [
+            "married",
+            "David",
+            "Jesus"
+          ]
+        }
+      ],
+      "thinkAboutIt": {
+        "title": "Think about it",
+        "text": "Ruth was loyal and kind to Naomi, even when it was hard. Jesus teaches us to love others the same way.",
+        "criterion": "great_commandment"
+      }
+    }
+  ]
+}
