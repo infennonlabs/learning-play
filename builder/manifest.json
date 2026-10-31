@@ -1,0 +1,35 @@
+{
+    "name": "Brick Builder",
+    "short_name": "Bricks",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#E5483B",
+    "theme_color": "#E5483B",
+    "description": "Build cities, pirate islands and moon bases from colorful bricks",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

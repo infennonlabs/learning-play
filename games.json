@@ -40,6 +40,14 @@
     "devPath": "dev/editor/"
   },
   {
+    "id": "brick_builder",
+    "title": "Brick Builder",
+    "slug": "builder",
+    "channelPolicy": "both",
+    "stablePath": "builder/",
+    "devPath": "dev/builder/"
+  },
+  {
     "id": "calendar_kids",
     "title": "Calendar Kids",
     "slug": "calendar",
