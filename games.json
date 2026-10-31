@@ -176,6 +176,14 @@
     "devPath": "dev/math-solitaire-kids/"
   },
   {
+    "id": "measure_it",
+    "title": "Measure Market",
+    "slug": "measure-it",
+    "channelPolicy": "both",
+    "stablePath": "measure-it/",
+    "devPath": "dev/measure-it/"
+  },
+  {
     "id": "memory_match",
     "title": "Memory Match",
     "slug": "memory-match",
