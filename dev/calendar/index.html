@@ -116,9 +116,41 @@
 <body>
   <div class="learning-play-overlay">
     <a class="learning-play-home-link" href="/learning-play/dev/" aria-label="Back to Learning Home" title="Home"><span aria-hidden="true">&#8962;</span></a>
-    <div class="learning-play-build-badge">Build 77cff878bc37 (dev)</div>
+    <div class="learning-play-build-badge">Build 15417e718b59 (dev)</div>
   </div>
 
+  <!-- Shown while the engine downloads; removed on Flutter's first frame. -->
+  <div id="splash" role="status" aria-live="polite">
+    <img src="icons/Icon-192.png" alt="" width="112" height="112">
+    <div class="splash-title">Calendar Kids</div>
+    <div class="splash-spinner"></div>
+    <div class="splash-note">Getting ready&hellip;</div>
+  </div>
+  <style>
+    #splash {
+      position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 14px; color: #fff;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif; text-align: center;
+      background: linear-gradient(180deg, #1FA3A8, #127479); transition: opacity .35s ease;
+    }
+    #splash img { border-radius: 26px; box-shadow: 0 6px 24px rgba(0,0,0,.3); }
+    #splash .splash-title { font-size: 30px; font-weight: 800; text-shadow: 0 2px 8px rgba(0,0,0,.3); }
+    #splash .splash-note { font-size: 15px; opacity: .9; }
+    #splash .splash-spinner {
+      width: 34px; height: 34px; border-radius: 50%;
+      border: 4px solid rgba(255,255,255,.3); border-top-color: #fff;
+      animation: splash-spin 0.9s linear infinite;
+    }
+    @keyframes splash-spin { to { transform: rotate(360deg); } }
+  </style>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('splash');
+      if (!s) return;
+      s.style.opacity = '0';
+      setTimeout(function () { s.remove(); }, 400);
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
