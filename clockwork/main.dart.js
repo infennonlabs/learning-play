@@ -74943,7 +74943,7 @@ s=r.r
 if(!(s!=null&&s.a!=null))r.SQ(!0)}},
 l(){this.guw().l()
 this.Yc()},
-H(a){var s,r,q,p,o,n,m=null,l=this.a,k=l.Q,j=k==null,i=j?1.0208333333333333:1,h=A.amb(j?"assets/ludo/clock_analog_blank.png":"assets/ludo/clock_minutes_blank.png",B.lo),g=l.w
+H(a){var s,r,q,p,o,n,m=null,l=this.a,k=l.Q,j=k==null,i=j?1.0208333333333333:1,h=A.amb(j?"assets/ludo/clock_analog_blank.webp":"assets/ludo/clock_minutes_blank.webp",B.lo),g=l.w
 if(g==null){j=l.c
 j=B.e.a_(j.a,12)*30+j.b*0.5}else j=g
 g=l.x
@@ -75166,7 +75166,7 @@ A.vA.prototype={
 H(a){var s=this.c,r=B.d.f4(B.e.k(s.b),2,"0")
 return new A.mE(1,A.l5(new A.W7(this,""+s.a+":"+r)),null)}}
 A.W7.prototype={
-$2(a,b){var s=null,r=b.b,q=b.d,p=A.a3Q(0,A.amb("assets/ludo/clock_digital_blank.png",B.lo)),o=t.p,n=A.c([A.ba(this.b,s,s,s,B.PM,s)],o)
+$2(a,b){var s=null,r=b.b,q=b.d,p=A.a3Q(0,A.amb("assets/ludo/clock_digital_blank.webp",B.lo)),o=t.p,n=A.c([A.ba(this.b,s,s,s,B.PM,s)],o)
 return A.hK(B.b4,A.c([p,A.xY(s,A.dK(A.hm(new A.bT(B.fE,A.c2(n,B.r,B.q,B.R),s),B.c4),s,s),0.3400000000000001*q,s,0.19*r,s,0.345*q,0.6200000000000001*r)],o),B.c_)},
 $S:92}
 A.n0.prototype={
@@ -75202,7 +75202,7 @@ A.ng.prototype={
 F(){return"FoldSide."+this.b}}
 A.GS.prototype={
 H(a){var s=this,r=s.c,q=B.d.f4(B.e.k(r.b),2,"0"),p=s.d,o=s.e
-return A.ce(A.c([A.d8(A.at4("assets/ludo/clock_fold_hour_side.png",B.ca,B.iO,p.m(0,B.ch),B.Vu,"HOURS",s.f,!0,o===B.ch,""+r.a,B.MO),1),A.d8(A.at4("assets/ludo/clock_fold_minute_side.png",B.bT,B.B,p.m(0,B.cZ),B.Vo,"MINUTES",s.r,!0,o===B.cZ,q,B.MN),1)],t.p),B.b7,B.q,B.M,0)}}
+return A.ce(A.c([A.d8(A.at4("assets/ludo/clock_fold_hour_side.webp",B.ca,B.iO,p.m(0,B.ch),B.Vu,"HOURS",s.f,!0,o===B.ch,""+r.a,B.MO),1),A.d8(A.at4("assets/ludo/clock_fold_minute_side.webp",B.bT,B.B,p.m(0,B.cZ),B.Vo,"MINUTES",s.r,!0,o===B.cZ,q,B.MN),1)],t.p),B.b7,B.q,B.M,0)}}
 A.OY.prototype={
 H(a){var s=this,r=null,q=s.z,p=q?0.5:1,o=A.eQ(28),n=s.y?A.c([new A.d4(2,B.br,A.ah(200,B.ir.t()>>>16&255,B.ir.t()>>>8&255,B.ir.t()&255),B.j,24)],t.sq):r
 q=A.c([new A.y9(new A.mE(1,A.FY(A.l5(new A.afR(s)),new A.cn(r,r,r,o,n,r,B.ai),B.dZ),r),q,r)],t.p)

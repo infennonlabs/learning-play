@@ -290,11 +290,11 @@ avD(a){var s,r,q,p=new Float32Array(16)
 for(s=0;s<4;++s)for(r=s*4,q=0;q<4;++q)p[q*4+s]=a[r+q]
 return p},
 aox(a){var s,r,q,p=new Float32Array(9)
-for(s=a.length,r=0;r<9;++r){q=B.nG[r]
+for(s=a.length,r=0;r<9;++r){q=B.nH[r]
 if(q<s)p[r]=a[q]
 else p[r]=0}return p},
 aJg(a){var s,r,q,p=new Float32Array(9)
-for(s=a.length,r=0;r<9;++r){q=B.nG[r]
+for(s=a.length,r=0;r<9;++r){q=B.nH[r]
 if(q<s)p[r]=a[q]
 else p[r]=0}return p},
 TD(a){var s=new Float32Array(2)
@@ -382,7 +382,7 @@ break
 default:s=null}s=A.Y(s,t.N)
 return s},
 aFY(){var s=A.cB().b,r=s==null?null:s.canvasKitVariant
-s=A.aIm(A.aAs(B.Je,r==null?"auto":r))
+s=A.aIm(A.aAs(B.Jg,r==null?"auto":r))
 return new A.a6(s,new A.ak0(),A.Z(s).h("a6<1,z>"))},
 aHA(a,b){return b+a},
 Tv(){var s=0,r=A.O(t.m),q,p,o,n
@@ -1558,10 +1558,10 @@ return s},
 anY(a){var s=!1
 if($.aY().gci()===B.au||$.aY().gci()===B.bp)if(a!=null)s=a===".SF Pro Text"||a===".SF Pro Display"||a===".SF UI Text"||a===".SF UI Display"
 return s},
-au3(){if(A.avj())return B.nH
+au3(){if(A.avj())return B.nI
 if($.aY().gci()===B.au||$.aY().gci()===B.bp)return B.IP
 throw A.h(A.aw("Should only be called on Mac or iOS."))},
-aH2(){if(A.avj())return B.nH
+aH2(){if(A.avj())return B.nI
 if($.aY().gci()===B.au||$.aY().gci()===B.bp)return A.au3()
 return B.IM},
 auV(a,b){var s,r,q,p,o=new A.cq("")
@@ -11143,7 +11143,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.bd(s,200)
 r=A.bd(A.WU(l,B.nK,B.IS),24)
-q=A.bd(A.WU(l,B.nK,B.Jn),32)
+q=A.bd(A.WU(l,B.nK,B.Jq),32)
 p=A.bd(l.a,10)
 o=A.bd(l.a,12)
 l.d===$&&A.a()
@@ -18742,7 +18742,7 @@ r.toString
 A.hk(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.lH(s,r,B.J8[A.ef(q)])},
+return new A.lH(s,r,B.J9[A.ef(q)])},
 zN:function zN(a,b){this.a=a
 this.b=b},
 lH:function lH(a,b,c){this.a=a
@@ -20391,7 +20391,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aAh(a,b){var s=A.Z(b).h("a6<1,d0>")
 s=A.Y(new A.a6(b,new A.X3(),s),s.h("az.E"))
-return A.azC(!0,s,a,B.Jw,!0,B.Em,null)},
+return A.azC(!0,s,a,B.JA,!0,B.Em,null)},
 amb(a){var s
 try{a.de()}catch(s){a.JW()}a.w=B.Zg
 try{a.bG(A.aIj())}catch(s){}},
@@ -20981,7 +20981,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 aB9(a,b){var s
-if(a===b)return new A.Fl(B.Jz)
+if(a===b)return new A.Fl(B.JD)
 s=A.c([],t.fJ)
 A.c2()
 a.ln(new A.a_6(b,A.as(t.u),s))
@@ -24111,7 +24111,7 @@ _.d=d
 _.e=-1
 _.f=null},
 a99:function a99(a){this.a=a},
-arm(a){return B.K6[B.i.bq(a,7)]},
+arm(a){return B.K8[B.i.bq(a,7)]},
 fE:function fE(a,b){this.a=a
 this.b=b},
 o_:function o_(a,b,c,d,e,f,g,h,i,j){var _=this
@@ -24675,7 +24675,7 @@ if(q!==p){if(q<p){o=B.c.iP(A.Zu(q)-0.5)
 n=B.c.hl(A.Zu(a[r])-0.5)}else{o=B.c.hl(A.Zu(q)-0.5)
 n=B.c.iP(A.Zu(a[r])-0.5)}for(m=0;m<8;++m)if(Math.abs(n-o)<=1)break
 else{l=B.c.iP((o+n)/2)
-k=B.K9[l]
+k=B.Kb[l]
 q=c[r]
 j=(k-q)/(a[r]-q)
 q=c[0]
@@ -25680,7 +25680,7 @@ ti(){var s=this.as
 s===$&&A.a()
 return s},
 tj(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.JE
+if(a<0||b<0)return B.JI
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -25699,7 +25699,7 @@ l.push(new A.et(n[0],n[1],n[2],n[3],B.jP[m]))}return l},
 dD(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.J9[J.a9(s.affinity.value)]
+r=B.Ja[J.a9(s.affinity.value)]
 return new A.an(J.a9(s.pos),r)},
 GG(a){var s=this.a
 s===$&&A.a()
@@ -25929,7 +25929,7 @@ break}return s},
 j(a,b){if(b==null)return!1
 if(!(b instanceof A.eD))return!1
 return b.a.j(0,this.a)&&b.b===this.b&&A.fR(null,null)},
-gu(a){return A.Q(B.BD,this.a,this.b,A.bm(B.Jy),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.Q(B.BD,this.a,this.b,A.bm(B.JC),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $ijM:1}
 A.v9.prototype={
 OV(a,b){var s=this.Jo(a),r=A.aI(new A.V2(this,b,s))
@@ -26470,7 +26470,7 @@ p.toString
 p=p>0}else p=!1
 if(p)return q}o=this.a1w(a,b)
 if(o.length===1)return B.b.gT(o)
-for(r=0;r<7;++r){q=A.aqo(o,new A.Y_(B.IV[r]))
+for(r=0;r<7;++r){q=A.aqo(o,new A.Y_(B.IW[r]))
 if(q!=null)return q}return B.b.gT(o)},
 a2a(a){var s,r,q
 if(B.hc.ad(a)){s=B.hc.i(0,a)
@@ -31074,7 +31074,7 @@ a20(){var s=this,r=s.r
 if(r==null){r=s.r=new A.ER(s.c)
 r.d=new A.XD(s)}return r},
 FQ(a){var s,r,q,p,o,n,m=this
-if(B.b.m(B.K5,a.type)){s=m.a20()
+if(B.b.m(B.K6,a.type)){s=m.a20()
 s.toString
 r=m.c.$0()
 q=r.b
@@ -31087,7 +31087,7 @@ if(m.f!==B.nn){m.f=B.nn
 m.LM()}}return m.d.a.V1(a)},
 LM(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-V0(a){if(B.b.m(B.Jq,a))return this.f===B.fQ
+V0(a){if(B.b.m(B.Jt,a))return this.f===B.fQ
 return!1}}
 A.XE.prototype={
 $0(){return new A.ih(Date.now(),0,!1)},
@@ -37772,7 +37772,7 @@ if(o>0)return s
 return null}}
 A.abx.prototype={
 E(a,b){this.Jl(b,0,b.length,!1)},
-bD(){this.Jl(B.Ju,0,0,!0)}}
+bD(){this.Jl(B.Jy,0,0,!0)}}
 A.ajv.prototype={
 Jl(a,b,c,d){var s=this.b.adP(a,b,c,d)
 if(s!=null)this.a.lT(s,0,s.length,d)}}
@@ -39768,7 +39768,7 @@ $S:22}
 A.acs.prototype={
 $1(a){var s=this.a
 s.a.toString
-return new A.ly("Chem Kids","Choose a Mode",A.aBM(new A.acm(),new A.acn(),new A.aco(),new A.acp(),B.K2,t.Is),new A.acq(a),new A.acr(s,a),!0,!1,!0,!0,!0,null,t.yF)},
+return new A.ly("Chem Kids","Choose a Mode",A.aBM(new A.acm(),new A.acn(),new A.aco(),new A.acp(),B.K3,t.Is),new A.acq(a),new A.acr(s,a),!0,!1,!0,!0,!0,null,t.yF)},
 $S:303}
 A.acr.prototype={
 $0(){A.df(this.b,!1).j_(A.qX(new A.ack(this.a),null,t.H))},
@@ -40089,7 +40089,7 @@ break
 case 1:n=a0*0.85
 m=n/0.769
 l=e.d.c!==B.ab?0.18+0.82*B.E_.a5(e.e):0.18
-q.push(A.ep(d,A.anm(B.dH,new A.eX(new A.eD(e.f,B.b8),A.eI("assets/experiments/balloon.png",B.ax,d),d),l),m,d,a2+a0/2-n/2,d,a1+a*0.02-m+6,n))
+q.push(A.ep(d,A.anm(B.dH,new A.eX(new A.eD(e.f,B.b8),A.eI("assets/experiments/balloon.webp",B.ax,d),d),l),m,d,a2+a0/2-n/2,d,a1+a*0.02-m+6,n))
 break
 case 3:B.b.K(q,e.a50(s))
 break
@@ -40099,7 +40099,7 @@ if(B.b.m(c.b,"nail")){m=a*0.62
 n=m*0.461
 r=A.o(B.j,B.Ct,c.c!==B.ab?B.co.a5(e.e):0)
 r.toString
-k.push(A.ep(d,A.aEh(-0.3,new A.eX(new A.eD(r,B.b8),A.eI("assets/experiments/nail.png",B.ax,d),d)),m,d,a2+a0/2-n/2,d,a1+a*0.28,n))}if(c.c!==B.ab)k.push(e.Ju(Math.max(1,B.c.hl(e.e*5))))
+k.push(A.ep(d,A.aEh(-0.3,new A.eX(new A.eD(r,B.b8),A.eI("assets/experiments/nail.webp",B.ax,d),d)),m,d,a2+a0/2-n/2,d,a1+a*0.28,n))}if(c.c!==B.ab)k.push(e.Ju(Math.max(1,B.c.hl(e.e*5))))
 B.b.K(q,k)
 break
 case 5:B.b.K(q,e.a76(s))
@@ -40128,7 +40128,7 @@ g=a2+a0*0.51
 f=a1+a*0.02
 a1=m*1.8
 k.push(A.ep(d,A.W2(d,new A.bX(d,d,d,d,d,new A.k2(B.a0,0.5,B.ca,d,0,A.c([c.cJ(0.45*B.c.cc(i,0,1)),c.cJ(0)],t.g),d,d),B.fc),B.fH),a1,d,g-m*0.9,d,f-m*1.1,a1))
-k.push(A.ep(d,A.anm(B.dH,new A.eX(new A.eD(c,B.b8),A.eI("assets/experiments/flame.png",B.ax,d),d),i*(1+0.05*r)),m,d,g-n/2,d,f-m+8,n))}B.b.K(q,k)
+k.push(A.ep(d,A.anm(B.dH,new A.eX(new A.eD(c,B.b8),A.eI("assets/experiments/flame.webp",B.ax,d),d),i*(1+0.05*r)),m,d,g-n/2,d,f-m+8,n))}B.b.K(q,k)
 break}return A.zJ(B.dG,q,B.a6,B.eQ)},
 a5x(){var s,r,q,p,o,n,m,l,k,j=this,i="water",h="warm_water",g=j.c.f
 switch(g.a){case 1:case 2:s=j.a63()
@@ -40197,11 +40197,11 @@ b=j.b
 j=j.d
 a=e/c
 a0=Math.min(1,h*6)
-o.push(new A.fb(r+b*s*0.5*g-e/2,p-j*f+h*h*q*0.55*(0.4+i)-a/2,a1,a1,a1,a1,new A.jT(a0,new A.b9(e,a,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/"+(d?"foam_b":"foam_a")+".png",B.ax,a1),a1),a1),a1),a1))}for(q=J.bb($.ay9()),k=(k-0.05)/0.95;q.q();){n=q.gJ()
+o.push(new A.fb(r+b*s*0.5*g-e/2,p-j*f+h*h*q*0.55*(0.4+i)-a/2,a1,a1,a1,a1,new A.jT(a0,new A.b9(e,a,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/"+(d?"foam_b":"foam_a")+".webp",B.ax,a1),a1),a1),a1),a1))}for(q=J.bb($.ay9()),k=(k-0.05)/0.95;q.q();){n=q.gJ()
 h=B.c.cc(k,0,1)
 if(h<=0||h>=1)continue
 e=16*n.c
-o.push(new A.fb(r+n.a*s*0.9*h-e/2,p-n.b*190*h+260*h*h,a1,a1,a1,a1,new A.jT(1-h,new A.b9(e,e/0.72,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/drop.png",B.ax,a1),a1),a1),a1),a1))}return o},
+o.push(new A.fb(r+n.a*s*0.9*h-e/2,p-n.b*190*h+260*h*h,a1,a1,a1,a1,new A.jT(1-h,new A.b9(e,e/0.72,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/drop.webp",B.ax,a1),a1),a1),a1),a1))}return o},
 a_W(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=null
 if(this.d.c===B.ab)return B.cy
 s=a3.c
@@ -40224,13 +40224,13 @@ a0=B.bt.a5(g)
 i=i.d
 a1=f/e
 c=Math.min(1,c)
-o.push(new A.fb(r+a*s*0.12+b*s*0.3*(g*0.5+d)-f/2,p-l*a0*(0.55+i/200)+d*q*0.7-a1/2,a2,a2,a2,a2,new A.jT(c,new A.b9(f,a1,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/"+(h?"foam_b":"foam_a")+".png",B.ax,a2),a2),a2),a2),a2))}return o},
+o.push(new A.fb(r+a*s*0.12+b*s*0.3*(g*0.5+d)-f/2,p-l*a0*(0.55+i/200)+d*q*0.7-a1/2,a2,a2,a2,a2,new A.jT(c,new A.b9(f,a1,new A.eX(new A.eD(m,B.b8),A.eI("assets/experiments/"+(h?"foam_b":"foam_a")+".webp",B.ax,a2),a2),a2),a2),a2))}return o},
 a50(a){var s,r,q,p,o,n,m,l,k=null
 if(this.d.c===B.ab)return B.cy
 s=A.c([],t.p)
 for(r=a.c,q=a.a+r/2,p=a.b-20,o=a.d,n=this.e,m=0;m<5;++m){l=B.c.cc((n-m*0.03)/0.18,0,1)
 if(l<=0||l>=1)continue
-s.push(new A.fb(q+(m-2)*r*0.07-7,p+l*o*0.5,k,k,k,k,new A.b9(14,19.444444444444446,new A.eX(new A.eD(B.mG,B.b8),A.eI("assets/experiments/drop.png",B.ax,k),k),k),k))}return s},
+s.push(new A.fb(q+(m-2)*r*0.07-7,p+l*o*0.5,k,k,k,k,new A.b9(14,19.444444444444446,new A.eX(new A.eD(B.mG,B.b8),A.eI("assets/experiments/drop.webp",B.ax,k),k),k),k))}return s},
 Ju(a){var s=null,r=B.j.cJ(0.9),q=A.d_(20)
 return A.ep(s,A.dt(s,A.aC("Day "+a,s,s,s,B.WU,s),B.q,s,s,new A.bX(r,s,s,q,s,s,B.a4),s,s,s,B.EU,s,s,s),s,s,12,s,12,s)},
 a76(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=h.d
@@ -40254,7 +40254,7 @@ a0s(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=A.c([],t.p),c=f.d
 if(B.b.m(c.b,"stick")){s=a.d
 r=s*0.88
 q=r*0.059
-d.push(A.ep(e,A.eI("assets/experiments/skewer.png",B.Ac,e),r,e,a.a+a.c/2-q/2,e,a.b+s*0.04,q))}if(c.c!==B.ab){for(c=f.f,s=a.b,p=a.d,o=a.a+a.c/2,n=f.e,m=0;m<10;++m){l=B.c.cc((n-m*0.06)/0.35,0,1)
+d.push(A.ep(e,A.eI("assets/experiments/skewer.webp",B.Ac,e),r,e,a.a+a.c/2-q/2,e,a.b+s*0.04,q))}if(c.c!==B.ab){for(c=f.f,s=a.b,p=a.d,o=a.a+a.c/2,n=f.e,m=0;m<10;++m){l=B.c.cc((n-m*0.06)/0.35,0,1)
 if(l<=0)continue
 k=m&1
 j=k===0?-1:1
@@ -40262,7 +40262,7 @@ i=k===1
 k=B.i.bq(m,3)
 q=(20+k*6)*B.bt.a5(l)
 h=q/(i?0.903:0.49)
-g=A.eI("assets/experiments/"+(i?"crystal_a":"crystal_b")+".png",B.ax,e)
+g=A.eI("assets/experiments/"+(i?"crystal_a":"crystal_b")+".webp",B.ax,e)
 d.push(new A.fb(o+j*(6+q*0.4)-q/2,s+p*(0.42+0.48*m/9)-h/2,e,e,e,e,new A.iZ(A.asL(j*(0.45+k*0.1)),B.a0,!0,e,new A.b9(q,h,new A.eX(new A.eD(c,B.b8),g,e),e),e),e))}d.push(f.Ju(Math.max(1,B.c.hl(n*5))))}return d},
 a62(a){var s,r,q=null,p=this.d,o=B.i.bq(p.d,7),n=A.c([],t.g)
 for(s=0;s<3;++s)n.push(A.aJ(B.ef[B.i.bq(o+s*2,7)].b))
@@ -40271,7 +40271,7 @@ return A.ep(q,A.vI(q,q,q,new A.OB(n,r,p.c!==B.ab?this.e:0,q),B.a2),a.d,q,a.a,q,a
 a5w(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=A.c([],t.p),c=f.c.e.e,b=c.b,a=c.a
 if(f.d.c!==B.ab){s=f.e
 r=B.c.cc(s/0.08,0,1)
-if(r<1)d.push(A.ep(e,A.r8(A.eI("assets/experiments/fizz_tablet.png",B.ax,e),1-r*0.4),23,e,a0.a+a0.c/2-15,e,a0.b-20+r*a0.d*0.45,30))
+if(r<1)d.push(A.ep(e,A.r8(A.eI("assets/experiments/fizz_tablet.webp",B.ax,e),1-r*0.4),23,e,a0.a+a0.c/2-15,e,a0.b-20+r*a0.d*0.45,30))
 q=a0.b
 p=a0.d
 o=q+p*b
@@ -40282,7 +40282,7 @@ j=b*(0.45+0.1*B.i.bq(l,3))
 i=0.5+0.5*Math.sin(6.283185307179586*(m+k)-1.5707963267948966)
 h=j/2
 g=o-h
-d.push(new A.fb(a+Math.sin(6.283185307179586*(q+k))*b*0.12-h,g+(n+h-g)*(i*i*(3-2*i))-h,e,e,e,e,new A.jT(Math.min(1,s),new A.b9(j,j/1.048,new A.eX(new A.eD(p,B.b8),A.eI("assets/experiments/blob.png",B.ax,e),e),e),e),e))}}return d}}
+d.push(new A.fb(a+Math.sin(6.283185307179586*(q+k))*b*0.12-h,g+(n+h-g)*(i*i*(3-2*i))-h,e,e,e,e,new A.jT(Math.min(1,s),new A.b9(j,j/1.048,new A.eX(new A.eD(p,B.b8),A.eI("assets/experiments/blob.webp",B.ax,e),e),e),e),e))}}return d}}
 A.XK.prototype={
 $1(a){return a.a===this.a},
 $S:50}
@@ -40352,7 +40352,7 @@ a2=e*(1-b*0.06)
 a3=B.c.cc(0.9-b*0.1,0.2,0.9)
 $.a_()
 a4=new A.hq(B.bF,B.bd,B.bu)
-a4.stH(new A.k2(B.a0,0.5,B.ca,a5,0,A.c([n[h].cJ(a3),n[h].cJ(a3*0.6),n[h].cJ(0)],k),B.Jl,a5).ad9(A.oo(new A.i(d,a1),a2)))
+a4.stH(new A.k2(B.a0,0.5,B.ca,a5,0,A.c([n[h].cJ(a3),n[h].cJ(a3*0.6),n[h].cJ(0)],k),B.Jo,a5).ad9(A.oo(new A.i(d,a1),a2)))
 c=a4.dk()
 s.drawCircle(d,a1,a2,c)
 c.delete()}}s.restore()},
@@ -40523,7 +40523,7 @@ A.adL.prototype={
 $1(a){return this.a.NW(a.a)},
 $S:341}
 A.adJ.prototype={
-$3(a,b,c){var s=null,r=b.length!==0,q=A.d_(20),p=this.b?B.IB:B.Jo,o=r?B.iN:B.CQ
+$3(a,b,c){var s=null,r=b.length!==0,q=A.d_(20),p=this.b?B.IB:B.Jr,o=r?B.iN:B.CQ
 o=A.kV(o,r?4:1.5)
 return A.dt(s,A.apH(A.d_(18),A.amB(new A.adI(this.a))),B.q,s,s,new A.bX(s,s,o,q,s,new A.iz(B.f6,B.dH,B.ca,p,s,s),B.a4),s,380,s,s,s,s,1/0)},
 $S:343}
@@ -40617,7 +40617,7 @@ return A.N($async$v4,r)},
 I(a){var s,r,q,p,o,n,m,l=null,k=A.aor(a),j=k?A.pO(l,l,l,l,l,l,l,l,l,l,l,B.yS,l,l):A.amm(B.nl,l,new A.adU(a),l,B.yS),i=t.p,h=A.c([B.Xn,B.bC,B.XI,B.du],i)
 for(s=$.axs(),r=s.length,q=0;q<s.length;s.length===r||(0,A.r)(s),++q){p=s[q]
 o=A.c([new A.bO(B.EO,A.aC(p,l,l,l,B.T1,l),l)],i)
-for(n=B.b.gS(B.nI),m=new A.kk(n,new A.adV(p));m.q();)B.b.K(o,A.c([new A.Nl(n.gJ(),l),B.cL],i))
+for(n=B.b.gS(B.nG),m=new A.kk(n,new A.adV(p));m.q();)B.b.K(o,A.c([new A.Nl(n.gJ(),l),B.cL],i))
 B.b.K(h,o)}h.push(B.bC)
 h.push(B.XA)
 i=A.iO(!0,A.ar7(h,B.fK),B.af,!0)
@@ -44656,7 +44656,7 @@ A.tm.prototype={
 F(){return"_CornerId."+this.b}}
 A.kq.prototype={}
 A.qY.prototype={
-jp(){var s,r,q,p=this,o=A.aGW(B.Jk,new A.a2c(p,p.b.gb0().a7(0,p.a.gb0()))),n=p.a
+jp(){var s,r,q,p=this,o=A.aGW(B.Jn,new A.a2c(p,p.b.gb0().a7(0,p.a.gb0()))),n=p.a
 n.toString
 s=o.a
 r=p.ni(n,s)
@@ -45530,7 +45530,7 @@ A.ahl.prototype={
 $2(a,b){return this.a.D$.c1(a,this.b)},
 $S:17}
 A.Mk.prototype={
-gHm(){return B.IU},
+gHm(){return B.IV},
 Py(a){var s
 switch(a.a){case 0:s=this.d.b
 break
@@ -48076,7 +48076,7 @@ return s.b}}
 A.i3.prototype={
 F(){return"_ListTileSlot."+this.b}}
 A.On.prototype={
-gHm(){return B.Jg},
+gHm(){return B.Ji},
 Py(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -48699,7 +48699,7 @@ $3(a,b,c){return new A.mv(b,this.a,!1,c,null)},
 $S:106}
 A.IF.prototype={
 ZQ(a){var s=t.Tr
-s=A.Y(new A.a6(B.Jj,new A.a3p(a),s),s.h("az.E"))
+s=A.Y(new A.a6(B.Jm,new A.a3p(a),s),s.h("az.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -50711,7 +50711,7 @@ gcn(){return new A.b6(new A.aiS(this),t.mN)},
 gvq(){return 14},
 gwZ(){return 14},
 gxI(){return 14},
-gy6(){return B.K3},
+gy6(){return B.K4},
 gp0(){return 31},
 gp6(){return 51},
 gye(){return B.RY},
@@ -50809,7 +50809,7 @@ gxI(){return 14},
 gYV(){return 48},
 gYW(){return 40},
 gIc(){return 52},
-gy6(){return B.Jx},
+gy6(){return B.JB},
 gp0(){return 32},
 gp6(){return 52},
 gye(){return B.RZ},
@@ -53584,7 +53584,7 @@ U0(a){var s=this.b,r=s.a.c.GG(a.a7(0,s.gfZ()))
 if(r==null||s.gfZ().j(0,B.h))return r
 return new A.la(r.a.cM(s.gfZ()),r.b,r.c)},
 vN(){var s,r,q=this.b,p=q.gfZ()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Jv
+if(!isFinite(p.a)||!isFinite(p.b))return B.Jz
 s=q.f
 if(s==null){s=q.a.c.vN()
 q.f=s}if(p.j(0,B.h))r=s
@@ -53768,7 +53768,7 @@ p=h.glS()
 o=h.r
 o=o==null?g:o*a2+a1
 n=h.w
-n=n==null?g:B.K8[B.i.cc(n.gou(),0,8)]
+n=n==null?g:B.Ka[B.i.cc(n.gou(),0,8)]
 m=h.y
 m=m==null?g:m*a6+a5
 l=h.z
@@ -61606,7 +61606,7 @@ break
 case 1:return A.M(q,r)}})
 return A.N($async$AI,r)},
 a1K(a,b){var s,r,q,p
-if(a===b)return B.JD
+if(a===b)return B.JH
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.jR(B.eg,a)
@@ -62956,7 +62956,7 @@ A.lI.prototype={}
 A.IZ.prototype={
 jU(a,b){var s,r,q,p,o,n=$.a1.an$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.E,r=0;r<2;++r){q=B.Jr[r]
+for(s=t.E,r=0;r<2;++r){q=B.Ju[r]
 p=n.e
 p.toString
 o=A.alE(p,q,s)
@@ -63261,7 +63261,7 @@ r=l.ga55()
 q=l.a
 q=q.ch
 q.toString
-j.a=A.aAL(!0,A.arr(B.q,r,s,q,A.avn(),l.ga6j(),k,l.ga6D(),B.JC,!0,"nav",B.XR),"Navigator Scope",!0,k,k,k,k)}else l.a.toString
+j.a=A.aAL(!0,A.arr(B.q,r,s,q,A.avn(),l.ga6j(),k,l.ga6D(),B.JG,!0,"nav",B.XR),"Navigator Scope",!0,k,k,k,k)}else l.a.toString
 j.b=null
 s=l.a
 s.toString
@@ -67289,7 +67289,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.U(b)!==A.v(s))return!1
 return b instanceof A.bS&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cN(null,null)},
-gu(a){return A.Q(this.a,this.b,null,this.d,A.bm(B.JF),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.Q(this.a,this.b,null,this.d,A.bm(B.JJ),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.t_(B.i.li(this.a,16).toUpperCase(),5,"0")+")"}}
 A.nD.prototype={
 bW(a){return!this.w.j(0,a.w)},
@@ -68574,7 +68574,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.xs(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.vR(a1),B.JA,e===!0,d,c,b,a3,A.aBH(a2))
+a=new A.xs(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.vR(a1),B.JE,e===!0,d,c,b,a3,A.aBH(a2))
 if(!a.j(0,a0.e))a0.aj(new A.ag7(a0,a))},
 w7(){if(this.d==null)this.nK()},
 Q5(){this.nK()},
@@ -74856,7 +74856,7 @@ r.vg()
 return s.aV()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gAK(),p=0;p<s.length;s.length===r||(0,A.r)(s),++p)s[p].L(q)
-o.b=B.JB
+o.b=B.JF
 o.y=!1
 o.ef()},
 dt(a,b){return a.kS(b)},
@@ -81390,7 +81390,7 @@ B.Bg=new A.aaj()
 B.ad=new A.aam()
 B.cY=new A.aao()
 B.dz=new A.Li(0,0,0,0)
-B.JA=s([],A.ag("w<Ww>"))
+B.JE=s([],A.ag("w<Ww>"))
 B.a_u=new A.aat()
 B.aR={}
 B.k6=new A.bl(B.aR,[],t.li)
@@ -82015,10 +82015,83 @@ B.HQ=new A.nO(2,"top")
 B.nF=new A.nO(3,"center")
 B.HR=new A.nO(4,"bottom")
 B.HT=s([0,6,12,18],t.t)
-B.Jm=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.J6=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
-B.Ka=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.HV=s([B.Jm,B.J6,B.Ka],t.zg)
+B.Jp=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.J7=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.Kc=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
+B.HV=s([B.Jp,B.J7,B.Kc],t.zg)
+B.YM=new A.j0("volcano","assets/experiments/volcano.webp",1.311,240,null)
+B.FO=new A.h1(0,"foamEruption")
+B.jC=new A.ca("baking_soda","Baking soda","assets/experiments/jar_baking_soda.webp",4294111986,4282351574,"Baking soda is a base, so the cabbage juice turns blue. Bases are slippery and bitter.",null,null)
+B.fO=new A.ca("dish_soap","Dish soap","assets/experiments/bottle_soap.webp",4294430776,4280264858,"Dish soap is a stronger base, so the cabbage juice turns blue-green.",null,null)
+B.Iw=s([B.jC,B.fO],t.wv)
+B.fN=new A.ca("vinegar","Vinegar","assets/experiments/bottle_vinegar.webp",4293452464,4293950368,"Vinegar is a mild acid, so the cabbage juice turns pink. Acids taste sour.",null,null)
+B.a_B=s(["assets/experiments/foam_a.webp","assets/experiments/foam_b.webp","assets/experiments/drop.webp"],t.s)
+B.Ge=new A.eG("Fizz and foam","Erupting Volcano","Baking soda meets vinegar and the lava foams over!",B.YM,B.FO,B.Iw,!1,B.fN,"Lava color",0,"Acid + Base","NaHCO\u2083 + CH\u2083COOH -> CH\u2083COONa + H\u2082O + CO\u2082","Vinegar is an acid and baking soda is a base. When they meet they make carbon dioxide, the same gas in fizzy drinks. The gas forms millions of tiny bubbles, and the dish soap traps them so the lava turns into thick foam.","Every piece in the equation has 1 of each part, so the numbers are all 1. The gas (CO\u2082) is what pushes the foam up and out.","Eruption! Carbon dioxide gas made the lava foam over.",4200,!1)
+B.YJ=new A.p0(0.42,0.9,0.34,0.66,0.12,0.88)
+B.zb=new A.j0("bottle","assets/experiments/flask.webp",0.67,220,B.YJ)
+B.FP=new A.h1(1,"balloonInflate")
+B.J5=s([B.jC],t.wv)
+B.a_C=s(["assets/experiments/balloon.webp"],t.s)
+B.Gg=new A.eG("Fizz and foam","Self-Inflating Balloon","Fill a balloon without blowing into it.",B.zb,B.FP,B.J5,!1,B.fN,"Balloon color",4,"Acid + Base","NaHCO\u2083 + CH\u2083COOH -> CH\u2083COONa + H\u2082O + CO\u2082","Baking soda and vinegar react and make carbon dioxide gas. The gas has nowhere to go but up the neck of the bottle, so it fills the balloon and stretches it.","Gas takes up much more room than powder and liquid, which is why a spoonful of baking soda can fill a whole balloon.","The gas inflated the balloon!",4200,!1)
+B.G3=new A.ca("peroxide","Peroxide","assets/experiments/bottle_peroxide.webp",4292667632,null,null,null,null)
+B.IO=s([B.G3,B.fO],t.wv)
+B.G0=new A.ca("yeast","Yeast","assets/experiments/packet_yeast.webp",4291995257,null,null,null,null)
+B.a_D=s(["assets/experiments/foam_a.webp","assets/experiments/foam_b.webp"],t.s)
+B.Gc=new A.eG("Fizz and foam","Elephant Toothpaste","A giant column of foam shoots out of the bottle.",B.zb,B.nb,B.IO,!1,B.G0,"Foam color",5,"Decomposition","2 H\u2082O\u2082 -> 2 H\u2082O + O\u2082","Peroxide slowly breaks down into water and oxygen gas. Yeast is a catalyst, so it makes this happen super fast without being used up. The oxygen gets trapped by the soap and squirts out as foam.","O\u2082 is a pair of oxygen atoms, so we need 2 H\u2082O\u2082 to get 4 oxygen atoms: 2 go into the 2 H\u2082O and 2 make the O\u2082.","Whoosh! Yeast made the peroxide release oxygen foam.",4200,!1)
+B.YK=new A.p0(0.22,0.88,0.16,0.89,0.2,0.85)
+B.za=new A.j0("beaker","assets/experiments/beaker.webp",0.86,240,B.YK)
+B.FQ=new A.h1(3,"indicator")
+B.Gb=new A.ca("lemon_juice","Lemon juice","assets/experiments/lemon.webp",4294239082,4293412203,"Lemon juice is a strong acid, so the cabbage juice turns pink-red. Acids taste sour.",null,null)
+B.jB=new A.ca("water","Water","assets/experiments/water_glass.webp",4291815157,4287513773,"Plain water is neutral, not an acid or a base, so the cabbage juice stays purple.",null,null)
+B.Jb=s([B.Gb,B.fN,B.jB,B.jC,B.fO],t.wv)
+B.G7=new A.ca("cabbage_juice","Cabbage juice","assets/experiments/cabbage_bottle.webp",null,null,null,null,null)
+B.jQ=s([],t.s)
+B.Gj=new A.eG("Color and change","Cabbage pH Rainbow","Turn purple cabbage juice pink, blue or green.",B.za,B.FQ,B.Jb,!0,B.G7,null,0,"Acid-base indicator",null,"Red cabbage juice has a natural dye that changes color. Acids turn it pink or red, bases turn it blue or green, and neutral things leave it purple.","Scientists measure this with the pH scale. Low numbers are acids, 7 is neutral and high numbers are bases. The dye is an indicator: its color tells you where on the scale something is.","Color change! The cabbage juice shows acid or base.",4200,!1)
+B.FR=new A.h1(4,"rust")
+B.FY=new A.ca("nail","Iron nail","assets/experiments/nail.webp",null,null,null,null,null)
+B.nd=new A.ca("salt","Salt","assets/experiments/salt_shaker.webp",null,null,null,null,null)
+B.Jw=s([B.FY,B.jB,B.nd],t.wv)
+B.nf=new A.ca("wait","Let time pass","assets/experiments/hourglass.webp",null,null,null,null,null)
+B.Gh=new A.eG("Color and change","Rusting Nail","Watch a shiny nail turn orange over a few days.",B.za,B.FR,B.Jw,!1,B.nf,null,0,"Oxidation","4 Fe + 3 O\u2082 -> 2 Fe\u2082O\u2083","Iron slowly combines with oxygen from the air and water to make rust. Salt helps water carry tiny electric charges, so the nail rusts faster. Rust is a brand new material, not just dirt.","Rust (Fe\u2082O\u2083) has 2 iron and 3 oxygen. O\u2082 comes in pairs, so 3 O\u2082 gives 6 oxygen atoms. That fits 2 Fe\u2082O\u2083, which needs 4 iron.","Five days later: the nail is covered in orange rust.",5000,!1)
+B.YG=new A.p0(0.3,0.78,0.1,0.9,0.26,0.74)
+B.YO=new A.j0("bowl","assets/experiments/bowl.webp",1.885,160,B.YG)
+B.FS=new A.h1(5,"pennyClean")
+B.G9=new A.ca("penny","Dull penny","assets/experiments/penny.webp",null,null,null,null,4288319608)
+B.K7=s([B.G9,B.fN],t.wv)
+B.Gk=new A.eG("Color and change","Penny Cleaning","Make a dull old penny shiny again.",B.YO,B.FS,B.K7,!1,B.nd,null,0,"Acid + Metal oxide","CuO + 2 CH\u2083COOH -> Cu(CH\u2083COO)\u2082 + H\u2082O","Old pennies get a dull layer of copper oxide. Vinegar is an acid and salt helps it work faster. Together they dissolve the layer, so the shiny copper underneath shows through.","Copper acetate needs 2 acetate pieces (CH\u2083COO), so we use 2 vinegar (CH\u2083COOH). The leftover hydrogen joins the oxygen from the copper oxide and leaves as water.","Sparkle! The vinegar dissolved the dull layer.",4200,!1)
+B.YI=new A.p0(0.2,0.93,0.1,0.9,0.1,0.9)
+B.YL=new A.j0("jar","assets/experiments/jar_glass.webp",0.54,300,B.YI)
+B.FT=new A.h1(6,"crystals")
+B.FX=new A.ca("warm_water","Warm water","assets/experiments/water_glass.webp",4291815157,null,null,null,null)
+B.G4=new A.ca("sugar","Sugar","assets/experiments/sugar_jar.webp",null,null,null,null,null)
+B.G6=new A.ca("stick","Wooden stick","assets/experiments/skewer.webp",null,null,null,null,null)
+B.Jj=s([B.FX,B.G4,B.G6],t.wv)
+B.a_E=s(["assets/experiments/crystal_a.webp","assets/experiments/crystal_b.webp"],t.s)
+B.Gf=new A.eG("Mix and watch","Crystal Growing","Grow sparkly sugar crystals on a stick.",B.YL,B.FT,B.Jj,!1,B.nf,"Crystal color",5,"Crystallization",null,"Warm water can dissolve a lot of sugar. As the water cools and slowly dries up, the sugar has nowhere to go. The sugar pieces line up in neat patterns on the stick, and those patterns are crystals.","Nothing new is made. It is the same sugar, just rearranged. That is called a physical change, so there is no equation.","Five days later: crystals grew all over the stick!",5000,!1)
+B.YP=new A.j0("dish","assets/experiments/milk_dish.webp",1,280,null)
+B.FU=new A.h1(7,"magicMilk")
+B.ne=new A.ca("food_coloring","Food coloring","assets/experiments/food_coloring.webp",null,null,null,null,null)
+B.IR=s([B.ne],t.wv)
+B.Gd=new A.eG("Mix and watch","Magic Milk","Drop in color, add soap and watch it swirl.",B.YP,B.FU,B.IR,!1,B.fO,"Drop color",4,"Surface tension",null,"Milk has tiny bits of fat floating in it. Dish soap pushes the surface of the milk around and chases after the fat, and the food coloring gets dragged along. That makes the swirls.","Soap is attracted to fat. It rushes through the milk and stirs everything up, so no equation is needed: the soap is moving things, not making something new.","Swirl! The soap chased the fat and the colors followed.",5000,!1)
+B.YH=new A.p0(0.04,0.95,0.08,0.92,0.1,0.9)
+B.YQ=new A.j0("glass","assets/experiments/tall_glass.webp",0.295,310,B.YH)
+B.FV=new A.h1(8,"lavaLamp")
+B.G8=new A.ca("oil","Cooking oil","assets/experiments/oil_bottle.webp",4293441827,null,null,null,null)
+B.IU=s([B.jB,B.G8,B.ne],t.wv)
+B.G1=new A.ca("fizz_tablet","Fizz tablet","assets/experiments/fizz_tablet.webp",null,null,null,null,null)
+B.a_F=s(["assets/experiments/blob.webp"],t.s)
+B.Gi=new A.eG("Mix and watch","Lava Lamp","Colorful blobs rise and fall in a glass.",B.YQ,B.FV,B.IU,!1,B.G1,"Blob color",3,"Acid + Base","C\u2086H\u2088O\u2087 + 3 NaHCO\u2083 -> Na\u2083C\u2086H\u2085O\u2087 + 3 H\u2082O + 3 CO\u2082","Oil is lighter than water, so it floats on top and the colored water stays underneath. The fizz tablet makes carbon dioxide bubbles that grab blobs of colored water and lift them up. At the top the bubbles pop and the blobs sink back down.","The tablet is citric acid (C\u2086H\u2088O\u2087) plus baking soda. One acid reacts with 3 baking soda, so we get 3 water and 3 carbon dioxide.","The gas bubbles are carrying the blobs up and down!",6500,!1)
+B.YN=new A.j0("burner","assets/experiments/burner.webp",1.036,150,null)
+B.FZ=new A.ca("salt_sodium","Sodium","assets/experiments/salt_sodium.webp",null,4294947584,"Sodium glows yellow-orange. Many street lamps are the same color because they use sodium.","Na",null)
+B.Ga=new A.ca("salt_copper","Copper","assets/experiments/salt_copper.webp",null,4282244228,"Copper makes a bright green flame. It is used in green fireworks.","Cu",null)
+B.G5=new A.ca("salt_strontium","Strontium","assets/experiments/salt_strontium.webp",null,4294916923,"Strontium glows red. It is what makes red fireworks and emergency flares.","Sr",null)
+B.G2=new A.ca("salt_potassium","Potassium","assets/experiments/salt_potassium.webp",null,4290809087,"Potassium makes a pale lilac, almost purple, flame.","K",null)
+B.FW=new A.ca("salt_lithium","Lithium","assets/experiments/salt_lithium.webp",null,4292879454,"Lithium makes a deep crimson flame.","Li",null)
+B.K1=s([B.FZ,B.Ga,B.G5,B.G2,B.FW],t.wv)
+B.G_=new A.ca("match","Light it","assets/experiments/match.webp",null,null,null,null,null)
+B.a_G=s(["assets/experiments/flame.webp"],t.s)
+B.Gl=new A.eG("Mix and watch","Flame Colors","See how each metal makes its own firework color.",B.YN,B.nc,B.K1,!0,B.G_,null,0,"Energy and light",null,"Heat gives the metal atoms extra energy. When they settle back down they give off that energy as light, and every metal gives off its own color. This is how fireworks get their colors.","Each element has its own pattern of light, like a fingerprint. Scientists use flame colors to tell elements apart. Find these elements on the periodic table!","The flame shows this metal's color!",3600,!0)
+B.nG=s([B.Ge,B.Gg,B.Gc,B.Gj,B.Gh,B.Gk,B.Gf,B.Gd,B.Gi,B.Gl],A.ag("w<eG>"))
 B.Ij=s([4,9,14,19],t.t)
 B.JR=s([137,80,78,71,13,10,26,10],t.Z)
 B.Hd=new A.lf(0,"png")
@@ -82026,8 +82099,8 @@ B.Hl=new A.is(B.Hd,!1,0,"png")
 B.Hb=new A.jJ(B.JR,B.Hl,0,"png")
 B.JS=s([71,73,70,56,55,97],t.Z)
 B.Ha=new A.jJ(B.JS,B.fU,1,"gif87a")
-B.Ji=s([71,73,70,56,57,97],t.Z)
-B.H9=new A.jJ(B.Ji,B.fU,2,"gif89a")
+B.Jl=s([71,73,70,56,57,97],t.Z)
+B.H9=new A.jJ(B.Jl,B.fU,2,"gif89a")
 B.HX=s([255,216,255],t.Z)
 B.He=new A.lf(2,"jpeg")
 B.Hp=new A.is(B.He,!1,3,"jpeg")
@@ -82042,11 +82115,11 @@ B.Il=s([B.Hb,B.Ha,B.H9,B.Hc,B.H8,B.H7],A.ag("w<jJ>"))
 B.ln=new A.CF(0,"named")
 B.zz=new A.CF(1,"anonymous")
 B.Iu=s([B.ln,B.zz],A.ag("w<CF>"))
-B.J7=s([0.41233895,0.35762064,0.18051042],t.n)
+B.J8=s([0.41233895,0.35762064,0.18051042],t.n)
 B.IT=s([0.2126,0.7152,0.0722],t.n)
-B.K4=s([0.01932141,0.11916382,0.95034478],t.n)
-B.Ix=s([B.J7,B.IT,B.K4],t.zg)
-B.nG=s([0,4,12,1,5,13,3,7,15],t.t)
+B.K5=s([0.01932141,0.11916382,0.95034478],t.n)
+B.Ix=s([B.J8,B.IT,B.K5],t.zg)
+B.nH=s([0,4,12,1,5,13,3,7,15],t.t)
 B.D5=new A.n(1,0.11764705882352941,0.16470588235294117,0.22745098039215686,B.e)
 B.Cq=new A.n(1,0.058823529411764705,0.09019607843137255,0.16470588235294117,B.e)
 B.IB=s([B.D5,B.Cq],t.g)
@@ -82060,86 +82133,13 @@ B.IJ=s([B.bD,B.dx,B.aL,B.eR,B.aW,B.hP],A.ag("w<ke>"))
 B.IM=s(["Arial"],t.s)
 B.IN=s([B.io,B.ip],A.ag("w<uU>"))
 B.IP=s(["-apple-system","BlinkMacSystemFont"],t.s)
-B.nH=s(["BlinkMacSystemFont"],t.s)
+B.nI=s(["BlinkMacSystemFont"],t.s)
 B.IS=s([18,15,10,12,15,18,15,12,12],t.n)
 B.aY=new A.j2(0,"label")
 B.aK=new A.j2(1,"avatar")
 B.bE=new A.j2(2,"deleteIcon")
-B.IU=s([B.aY,B.aK,B.bE],A.ag("w<j2>"))
-B.IV=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
-B.YL=new A.j0("volcano","assets/experiments/volcano.png",1.311,240,null)
-B.FO=new A.h1(0,"foamEruption")
-B.jB=new A.ca("baking_soda","Baking soda","assets/experiments/jar_baking_soda.png",4294111986,4282351574,"Baking soda is a base, so the cabbage juice turns blue. Bases are slippery and bitter.",null,null)
-B.fO=new A.ca("dish_soap","Dish soap","assets/experiments/bottle_soap.png",4294430776,4280264858,"Dish soap is a stronger base, so the cabbage juice turns blue-green.",null,null)
-B.Kb=s([B.jB,B.fO],t.wv)
-B.fN=new A.ca("vinegar","Vinegar","assets/experiments/bottle_vinegar.png",4293452464,4293950368,"Vinegar is a mild acid, so the cabbage juice turns pink. Acids taste sour.",null,null)
-B.a_C=s(["assets/experiments/foam_a.png","assets/experiments/foam_b.png","assets/experiments/drop.png"],t.s)
-B.Gi=new A.eG("Fizz and foam","Erupting Volcano","Baking soda meets vinegar and the lava foams over!",B.YL,B.FO,B.Kb,!1,B.fN,"Lava color",0,"Acid + Base","NaHCO\u2083 + CH\u2083COOH -> CH\u2083COONa + H\u2082O + CO\u2082","Vinegar is an acid and baking soda is a base. When they meet they make carbon dioxide, the same gas in fizzy drinks. The gas forms millions of tiny bubbles, and the dish soap traps them so the lava turns into thick foam.","Every piece in the equation has 1 of each part, so the numbers are all 1. The gas (CO\u2082) is what pushes the foam up and out.","Eruption! Carbon dioxide gas made the lava foam over.",4200,!1)
-B.YJ=new A.p0(0.42,0.9,0.34,0.66,0.12,0.88)
-B.za=new A.j0("bottle","assets/experiments/flask.png",0.67,220,B.YJ)
-B.FP=new A.h1(1,"balloonInflate")
-B.Kd=s([B.jB],t.wv)
-B.a_E=s(["assets/experiments/balloon.png"],t.s)
-B.Ge=new A.eG("Fizz and foam","Self-Inflating Balloon","Fill a balloon without blowing into it.",B.za,B.FP,B.Kd,!1,B.fN,"Balloon color",4,"Acid + Base","NaHCO\u2083 + CH\u2083COOH -> CH\u2083COONa + H\u2082O + CO\u2082","Baking soda and vinegar react and make carbon dioxide gas. The gas has nowhere to go but up the neck of the bottle, so it fills the balloon and stretches it.","Gas takes up much more room than powder and liquid, which is why a spoonful of baking soda can fill a whole balloon.","The gas inflated the balloon!",4200,!1)
-B.FX=new A.ca("peroxide","Peroxide","assets/experiments/bottle_peroxide.png",4292667632,null,null,null,null)
-B.JH=s([B.FX,B.fO],t.wv)
-B.FW=new A.ca("yeast","Yeast","assets/experiments/packet_yeast.png",4291995257,null,null,null,null)
-B.a_D=s(["assets/experiments/foam_a.png","assets/experiments/foam_b.png"],t.s)
-B.Gh=new A.eG("Fizz and foam","Elephant Toothpaste","A giant column of foam shoots out of the bottle.",B.za,B.nb,B.JH,!1,B.FW,"Foam color",5,"Decomposition","2 H\u2082O\u2082 -> 2 H\u2082O + O\u2082","Peroxide slowly breaks down into water and oxygen gas. Yeast is a catalyst, so it makes this happen super fast without being used up. The oxygen gets trapped by the soap and squirts out as foam.","O\u2082 is a pair of oxygen atoms, so we need 2 H\u2082O\u2082 to get 4 oxygen atoms: 2 go into the 2 H\u2082O and 2 make the O\u2082.","Whoosh! Yeast made the peroxide release oxygen foam.",4200,!1)
-B.YK=new A.p0(0.22,0.88,0.16,0.89,0.2,0.85)
-B.zb=new A.j0("beaker","assets/experiments/beaker.png",0.86,240,B.YK)
-B.FQ=new A.h1(3,"indicator")
-B.Gb=new A.ca("lemon_juice","Lemon juice","assets/experiments/lemon.png",4294239082,4293412203,"Lemon juice is a strong acid, so the cabbage juice turns pink-red. Acids taste sour.",null,null)
-B.jC=new A.ca("water","Water","assets/experiments/water_glass.png",4291815157,4287513773,"Plain water is neutral, not an acid or a base, so the cabbage juice stays purple.",null,null)
-B.IQ=s([B.Gb,B.fN,B.jC,B.jB,B.fO],t.wv)
-B.G7=new A.ca("cabbage_juice","Cabbage juice","assets/experiments/cabbage_bottle.png",null,null,null,null,null)
-B.jQ=s([],t.s)
-B.Gj=new A.eG("Color and change","Cabbage pH Rainbow","Turn purple cabbage juice pink, blue or green.",B.zb,B.FQ,B.IQ,!0,B.G7,null,0,"Acid-base indicator",null,"Red cabbage juice has a natural dye that changes color. Acids turn it pink or red, bases turn it blue or green, and neutral things leave it purple.","Scientists measure this with the pH scale. Low numbers are acids, 7 is neutral and high numbers are bases. The dye is an indicator: its color tells you where on the scale something is.","Color change! The cabbage juice shows acid or base.",4200,!1)
-B.FR=new A.h1(4,"rust")
-B.G4=new A.ca("nail","Iron nail","assets/experiments/nail.png",null,null,null,null,null)
-B.nd=new A.ca("salt","Salt","assets/experiments/salt_shaker.png",null,null,null,null,null)
-B.JQ=s([B.G4,B.jC,B.nd],t.wv)
-B.ne=new A.ca("wait","Let time pass","assets/experiments/hourglass.png",null,null,null,null,null)
-B.Gf=new A.eG("Color and change","Rusting Nail","Watch a shiny nail turn orange over a few days.",B.zb,B.FR,B.JQ,!1,B.ne,null,0,"Oxidation","4 Fe + 3 O\u2082 -> 2 Fe\u2082O\u2083","Iron slowly combines with oxygen from the air and water to make rust. Salt helps water carry tiny electric charges, so the nail rusts faster. Rust is a brand new material, not just dirt.","Rust (Fe\u2082O\u2083) has 2 iron and 3 oxygen. O\u2082 comes in pairs, so 3 O\u2082 gives 6 oxygen atoms. That fits 2 Fe\u2082O\u2083, which needs 4 iron.","Five days later: the nail is covered in orange rust.",5000,!1)
-B.YG=new A.p0(0.3,0.78,0.1,0.9,0.26,0.74)
-B.YP=new A.j0("bowl","assets/experiments/bowl.png",1.885,160,B.YG)
-B.FS=new A.h1(5,"pennyClean")
-B.G8=new A.ca("penny","Dull penny","assets/experiments/penny.webp",null,null,null,null,4288319608)
-B.J4=s([B.G8,B.fN],t.wv)
-B.Gc=new A.eG("Color and change","Penny Cleaning","Make a dull old penny shiny again.",B.YP,B.FS,B.J4,!1,B.nd,null,0,"Acid + Metal oxide","CuO + 2 CH\u2083COOH -> Cu(CH\u2083COO)\u2082 + H\u2082O","Old pennies get a dull layer of copper oxide. Vinegar is an acid and salt helps it work faster. Together they dissolve the layer, so the shiny copper underneath shows through.","Copper acetate needs 2 acetate pieces (CH\u2083COO), so we use 2 vinegar (CH\u2083COOH). The leftover hydrogen joins the oxygen from the copper oxide and leaves as water.","Sparkle! The vinegar dissolved the dull layer.",4200,!1)
-B.YI=new A.p0(0.2,0.93,0.1,0.9,0.1,0.9)
-B.YM=new A.j0("jar","assets/experiments/jar_glass.png",0.54,300,B.YI)
-B.FT=new A.h1(6,"crystals")
-B.G2=new A.ca("warm_water","Warm water","assets/experiments/water_glass.png",4291815157,null,null,null,null)
-B.G6=new A.ca("sugar","Sugar","assets/experiments/sugar_jar.png",null,null,null,null,null)
-B.Ga=new A.ca("stick","Wooden stick","assets/experiments/skewer.png",null,null,null,null,null)
-B.JG=s([B.G2,B.G6,B.Ga],t.wv)
-B.a_B=s(["assets/experiments/crystal_a.png","assets/experiments/crystal_b.png"],t.s)
-B.Gg=new A.eG("Mix and watch","Crystal Growing","Grow sparkly sugar crystals on a stick.",B.YM,B.FT,B.JG,!1,B.ne,"Crystal color",5,"Crystallization",null,"Warm water can dissolve a lot of sugar. As the water cools and slowly dries up, the sugar has nowhere to go. The sugar pieces line up in neat patterns on the stick, and those patterns are crystals.","Nothing new is made. It is the same sugar, just rearranged. That is called a physical change, so there is no equation.","Five days later: crystals grew all over the stick!",5000,!1)
-B.YO=new A.j0("dish","assets/experiments/milk_dish.png",1,280,null)
-B.FU=new A.h1(7,"magicMilk")
-B.nf=new A.ca("food_coloring","Food coloring","assets/experiments/food_coloring.png",null,null,null,null,null)
-B.IO=s([B.nf],t.wv)
-B.Gd=new A.eG("Mix and watch","Magic Milk","Drop in color, add soap and watch it swirl.",B.YO,B.FU,B.IO,!1,B.fO,"Drop color",4,"Surface tension",null,"Milk has tiny bits of fat floating in it. Dish soap pushes the surface of the milk around and chases after the fat, and the food coloring gets dragged along. That makes the swirls.","Soap is attracted to fat. It rushes through the milk and stirs everything up, so no equation is needed: the soap is moving things, not making something new.","Swirl! The soap chased the fat and the colors followed.",5000,!1)
-B.YH=new A.p0(0.04,0.95,0.08,0.92,0.1,0.9)
-B.YQ=new A.j0("glass","assets/experiments/tall_glass.png",0.295,310,B.YH)
-B.FV=new A.h1(8,"lavaLamp")
-B.G0=new A.ca("oil","Cooking oil","assets/experiments/oil_bottle.png",4293441827,null,null,null,null)
-B.JL=s([B.jC,B.G0,B.nf],t.wv)
-B.G1=new A.ca("fizz_tablet","Fizz tablet","assets/experiments/fizz_tablet.png",null,null,null,null,null)
-B.a_F=s(["assets/experiments/blob.png"],t.s)
-B.Gk=new A.eG("Mix and watch","Lava Lamp","Colorful blobs rise and fall in a glass.",B.YQ,B.FV,B.JL,!1,B.G1,"Blob color",3,"Acid + Base","C\u2086H\u2088O\u2087 + 3 NaHCO\u2083 -> Na\u2083C\u2086H\u2085O\u2087 + 3 H\u2082O + 3 CO\u2082","Oil is lighter than water, so it floats on top and the colored water stays underneath. The fizz tablet makes carbon dioxide bubbles that grab blobs of colored water and lift them up. At the top the bubbles pop and the blobs sink back down.","The tablet is citric acid (C\u2086H\u2088O\u2087) plus baking soda. One acid reacts with 3 baking soda, so we get 3 water and 3 carbon dioxide.","The gas bubbles are carrying the blobs up and down!",6500,!1)
-B.YN=new A.j0("burner","assets/experiments/burner.png",1.036,150,null)
-B.FZ=new A.ca("salt_sodium","Sodium","assets/experiments/salt_sodium.png",null,4294947584,"Sodium glows yellow-orange. Many street lamps are the same color because they use sodium.","Na",null)
-B.G5=new A.ca("salt_copper","Copper","assets/experiments/salt_copper.png",null,4282244228,"Copper makes a bright green flame. It is used in green fireworks.","Cu",null)
-B.G_=new A.ca("salt_strontium","Strontium","assets/experiments/salt_strontium.png",null,4294916923,"Strontium glows red. It is what makes red fireworks and emergency flares.","Sr",null)
-B.G9=new A.ca("salt_potassium","Potassium","assets/experiments/salt_potassium.png",null,4290809087,"Potassium makes a pale lilac, almost purple, flame.","K",null)
-B.G3=new A.ca("salt_lithium","Lithium","assets/experiments/salt_lithium.png",null,4292879454,"Lithium makes a deep crimson flame.","Li",null)
-B.Iw=s([B.FZ,B.G5,B.G_,B.G9,B.G3],t.wv)
-B.FY=new A.ca("match","Light it","assets/experiments/match.png",null,null,null,null,null)
-B.a_G=s(["assets/experiments/flame.png"],t.s)
-B.Gl=new A.eG("Mix and watch","Flame Colors","See how each metal makes its own firework color.",B.YN,B.nc,B.Iw,!0,B.FY,null,0,"Energy and light",null,"Heat gives the metal atoms extra energy. When they settle back down they give off that energy as light, and every metal gives off its own color. This is how fireworks get their colors.","Each element has its own pattern of light, like a fingerprint. Scientists use flame colors to tell elements apart. Find these elements on the periodic table!","The flame shows this metal's color!",3600,!0)
-B.nI=s([B.Gi,B.Ge,B.Gh,B.Gj,B.Gf,B.Gc,B.Gg,B.Gd,B.Gk,B.Gl],A.ag("w<eG>"))
+B.IV=s([B.aY,B.aK,B.bE],A.ag("w<j2>"))
+B.IW=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
 B.Ke=new A.nQ("en",null,"US")
 B.nJ=s([B.Ke],t.ss)
 B.nK=s([0,41,61,101,131,181,251,301,360],t.n)
@@ -82151,7 +82151,7 @@ B.Zj=new A.kr(8,0.12)
 B.Zi=new A.kr(12,0.14)
 B.nL=s([B.Zh,B.Zm,B.Zk,B.Zl,B.Zj,B.Zi],A.ag("w<kr>"))
 B.nM=s([0,21,51,121,151,191,271,321,360],t.n)
-B.J5=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.J6=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.c2=new A.em(5,"nonmetal")
 B.P2=new A.W(1,"H","Hydrogen","1.008",B.c2,1,1,"1s1","1766","Hydrogen is the lightest element and stars use it for fuel.","Henry Cavendish")
 B.OB=new A.W(2,"He","Helium","4.0026",B.bL,1,18,"1s2","1868","Helium helps balloons float because it is lighter than air.","Pierre Janssen and Norman Lockyer")
@@ -82280,24 +82280,24 @@ B.Oi=new A.W(118,"Og","Oganesson","294",B.bL,7,18,"[Rn] 5f14 6d10 7s2 7p6","2002
 B.c5=s([B.P2,B.OB,B.Nr,B.OU,B.Ni,B.OD,B.NV,B.NL,B.Nw,B.OA,B.No,B.OQ,B.O8,B.Nx,B.Os,B.NG,B.NM,B.NR,B.Oo,B.OJ,B.NW,B.OX,B.NY,B.OT,B.O6,B.P1,B.NK,B.ND,B.Np,B.NH,B.OC,B.Ne,B.NB,B.Od,B.NU,B.OW,B.OV,B.Nl,B.O3,B.Nu,B.P3,B.OY,B.Oy,B.Ok,B.NP,B.Ob,B.Nq,B.Ox,B.NC,B.NN,B.O0,B.Om,B.OI,B.Ou,B.ON,B.O4,B.NJ,B.OS,B.NS,B.Oj,B.O5,B.Oc,B.Nf,B.Oz,B.OP,B.Nk,B.NA,B.OR,B.NF,B.Oa,B.O2,B.O7,B.Nh,B.OK,B.On,B.Nm,B.OM,B.Nv,B.Oe,B.OO,B.OF,B.OZ,B.O1,B.OH,B.Oh,B.Ns,B.Ng,B.NQ,B.O9,B.Nn,B.Oq,B.Op,B.NE,B.P0,B.OE,B.NO,B.Or,B.NX,B.OL,B.P_,B.Nt,B.O_,B.Ol,B.Ow,B.Og,B.P4,B.Of,B.Ny,B.NI,B.Ov,B.Nj,B.P5,B.Nz,B.NZ,B.Ot,B.NT,B.OG,B.Oi],A.ag("w<W>"))
 B.yx=new A.zN(0,"left")
 B.yy=new A.zN(1,"right")
-B.J8=s([B.yx,B.yy],A.ag("w<zN>"))
+B.J9=s([B.yx,B.yy],A.ag("w<zN>"))
 B.am=new A.zR(0,"upstream")
 B.n=new A.zR(1,"downstream")
-B.J9=s([B.am,B.n],A.ag("w<zR>"))
+B.Ja=s([B.am,B.n],A.ag("w<zR>"))
 B.an=new A.zW(0,"rtl")
 B.Z=new A.zW(1,"ltr")
 B.jP=s([B.an,B.Z],A.ag("w<zW>"))
 B.Bq=new A.pY(0,"auto")
 B.Br=new A.pY(1,"full")
 B.Bs=new A.pY(2,"chromium")
-B.Je=s([B.Bq,B.Br,B.Bs],A.ag("w<pY>"))
+B.Jg=s([B.Bq,B.Br,B.Bs],A.ag("w<pY>"))
 B.cf=new A.i3(0,"leading")
 B.be=new A.i3(1,"title")
 B.cg=new A.i3(2,"subtitle")
 B.dD=new A.i3(3,"trailing")
-B.Jg=s([B.cf,B.be,B.cg,B.dD],A.ag("w<i3>"))
+B.Ji=s([B.cf,B.be,B.cg,B.dD],A.ag("w<i3>"))
 B.b2=new A.es(1,"fuchsia")
-B.Jj=s([B.al,B.b2,B.ag,B.aT,B.aU,B.aV],A.ag("w<es>"))
+B.Jm=s([B.al,B.b2,B.ag,B.aT,B.aU,B.aV],A.ag("w<es>"))
 B.zf=new A.tm(0,"topLeft")
 B.zi=new A.tm(3,"bottomRight")
 B.Zb=new A.kq(B.zf,B.zi)
@@ -82306,39 +82306,39 @@ B.zg=new A.tm(1,"topRight")
 B.zh=new A.tm(2,"bottomLeft")
 B.Zc=new A.kq(B.zg,B.zh)
 B.Zd=new A.kq(B.zh,B.zg)
-B.Jk=s([B.Zb,B.Ze,B.Zc,B.Zd],A.ag("w<kq>"))
-B.Jl=s([0,0.55,1],t.n)
-B.Jn=s([35,30,20,25,30,35,30,25,25],t.n)
+B.Jn=s([B.Zb,B.Ze,B.Zc,B.Zd],A.ag("w<kq>"))
+B.Jo=s([0,0.55,1],t.n)
+B.Jq=s([35,30,20,25,30,35,30,25,25],t.n)
 B.BQ=new A.n(1,0.9176470588235294,0.9529411764705882,1,B.e)
 B.CI=new A.n(1,0.8392156862745098,0.9019607843137255,0.9686274509803922,B.e)
-B.Jo=s([B.BQ,B.CI],t.g)
+B.Jr=s([B.BQ,B.CI],t.g)
 B.fZ=s([B.cs,B.ct,B.D,B.b0,B.cu,B.c2,B.cv,B.bL,B.as,B.at],A.ag("w<em>"))
-B.Jq=s(["click","scroll"],t.s)
+B.Jt=s(["click","scroll"],t.s)
 B.Aj=new A.pI()
 B.kt=new A.JZ(1,"page")
 B.ku=new A.fd(B.b6,B.kt)
-B.Jr=s([B.Aj,B.ku],A.ag("w<aW>"))
-B.JD=s([],t.QP)
-B.Jx=s([],t.sq)
+B.Ju=s([B.Aj,B.ku],A.ag("w<aW>"))
+B.JH=s([],t.QP)
+B.JB=s([],t.sq)
 B.nP=s([],A.ag("w<aJv>"))
-B.Jw=s([],t.D)
-B.Jz=s([],t.fJ)
-B.Jv=s([],t.ER)
+B.JA=s([],t.D)
+B.JD=s([],t.fJ)
+B.Jz=s([],t.ER)
 B.nO=s([],t.tc)
 B.h0=s([],t.jl)
 B.nQ=s([],t.wi)
-B.JC=s([],A.ag("w<iI<@>>"))
+B.JG=s([],A.ag("w<iI<@>>"))
 B.jR=s([],t.AO)
-B.JB=s([],t.D1)
+B.JF=s([],t.D1)
 B.h_=s([],t.QF)
 B.aG=s([],t.oU)
-B.JE=s([],t.Lx)
+B.JI=s([],t.Lx)
 B.cy=s([],t.p)
 B.d9=s([],t.p_)
-B.Jy=s([],t.n)
-B.Ju=s([],t.t)
+B.JC=s([],t.n)
+B.Jy=s([],t.t)
 B.nR=s([],t.ee)
-B.JF=s([],t.XS)
+B.JJ=s([],t.XS)
 B.FL=new A.hv("Red",4293216333)
 B.FI=new A.hv("Orange",4294283819)
 B.FN=new A.hv("Yellow",4294430776)
@@ -82351,9 +82351,9 @@ B.ef=s([B.FL,B.FI,B.FN,B.FH,B.FG,B.FK,B.FJ,B.FM],A.ag("w<hv>"))
 B.eg=s([B.cj,B.c_,B.f8,B.f9,B.im],t.QP)
 B.JT=s(["pointerdown","keydown","touchstart"],t.s)
 B.ID=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.Js=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.IR=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.JW=s([B.ID,B.Js,B.IR],t.zg)
+B.Jv=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.IQ=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.JW=s([B.ID,B.Jv,B.IQ],t.zg)
 B.JX=s([45,95,45,20,45,90,45,45,45],t.n)
 B.JY=s([120,120,20,45,20,15,20,120,120],t.n)
 B.MP=new A.i(-0.7,-0.2)
@@ -82372,14 +82372,14 @@ B.kc=new A.fF(7,"functionModifier")
 B.tY=new A.fF(8,"symbolModifier")
 B.nS=s([B.dd,B.de,B.df,B.dg,B.k9,B.ka,B.kb,B.kc,B.tY],A.ag("w<fF>"))
 B.jS=s([!0,!1],t.HZ)
-B.K2=s([B.ma,B.mb,B.mc],A.ag("w<dT>"))
+B.K3=s([B.ma,B.mb,B.mc],A.ag("w<dT>"))
 B.BU=new A.n(0.14901960784313725,0,0,0,B.e)
 B.u3=new A.i(0,3)
 B.Ad=new A.dr(0,B.cV,B.BU,B.u3,8)
 B.Dn=new A.n(0.058823529411764705,0,0,0,B.e)
 B.Ae=new A.dr(0,B.cV,B.Dn,B.u3,1)
-B.K3=s([B.Ad,B.Ae],t.sq)
-B.K5=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.K4=s([B.Ad,B.Ae],t.sq)
+B.K6=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.Cm=new A.n(1,0.12156862745098039,0.43529411764705883,0.8784313725490196,B.e)
 B.Cc=new A.n(1,0.19215686274509805,0.4980392156862745,0.8784313725490196,B.e)
 B.M7=new A.fE(B.Cm,B.Cc)
@@ -82401,12 +82401,12 @@ B.Mb=new A.fE(B.D0,B.Cd)
 B.C9=new A.n(1,0.6509803921568628,0.10980392156862745,0.17254901960784313,B.e)
 B.Cb=new A.n(1,0.8509803921568627,0.24313725490196078,0.24313725490196078,B.e)
 B.M5=new A.fE(B.C9,B.Cb)
-B.K6=s([B.M7,B.M9,B.M6,B.M8,B.Ma,B.Mb,B.M5],A.ag("w<fE>"))
+B.K8=s([B.M7,B.M9,B.M6,B.M8,B.Ma,B.Mb,B.M5],A.ag("w<fE>"))
 B.jG=new A.f3(100)
 B.Gs=new A.f3(200)
 B.Gt=new A.f3(300)
-B.K8=s([B.jG,B.Gs,B.Gt,B.o,B.a1,B.c3,B.U,B.c4,B.d6],A.ag("w<f3>"))
-B.K9=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
+B.Ka=s([B.jG,B.Gs,B.Gt,B.o,B.a1,B.c3,B.U,B.c4,B.d6],A.ag("w<f3>"))
+B.Kb=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
 B.l=new A.xg(0,"ignored")
 B.aH=new A.e(4294967304)
 B.ei=new A.e(4294967323)
@@ -82946,79 +82946,79 @@ B.Ip=s([54,null,null,8589935158],t.Z)
 B.Iq=s([55,null,null,8589935159],t.Z)
 B.Ir=s([56,null,null,8589935160],t.Z)
 B.It=s([57,null,null,8589935161],t.Z)
-B.Ja=s([8589934852,8589934852,8589934853,null],t.Z)
+B.Jc=s([8589934852,8589934852,8589934853,null],t.Z)
 B.I1=s([4294967555,null,4294967555,null],t.Z)
 B.I2=s([4294968065,null,null,8589935154],t.Z)
 B.I3=s([4294968066,null,null,8589935156],t.Z)
 B.I4=s([4294968067,null,null,8589935158],t.Z)
 B.I5=s([4294968068,null,null,8589935160],t.Z)
 B.Ia=s([4294968321,null,null,8589935157],t.Z)
-B.Jb=s([8589934848,8589934848,8589934849,null],t.Z)
+B.Jd=s([8589934848,8589934848,8589934849,null],t.Z)
 B.I0=s([4294967423,null,null,8589935150],t.Z)
 B.I6=s([4294968069,null,null,8589935153],t.Z)
 B.I_=s([4294967309,null,null,8589935117],t.Z)
 B.I7=s([4294968070,null,null,8589935159],t.Z)
 B.Ib=s([4294968327,null,null,8589935152],t.Z)
-B.Jc=s([8589934854,8589934854,8589934855,null],t.Z)
+B.Je=s([8589934854,8589934854,8589934855,null],t.Z)
 B.I8=s([4294968071,null,null,8589935155],t.Z)
 B.I9=s([4294968072,null,null,8589935161],t.Z)
-B.Jd=s([8589934850,8589934850,8589934851,null],t.Z)
-B.tT=new A.d1(["*",B.Ic,"+",B.Id,"-",B.Ie,".",B.If,"/",B.Ig,"0",B.Ih,"1",B.Ii,"2",B.Ik,"3",B.Im,"4",B.In,"5",B.Io,"6",B.Ip,"7",B.Iq,"8",B.Ir,"9",B.It,"Alt",B.Ja,"AltGraph",B.I1,"ArrowDown",B.I2,"ArrowLeft",B.I3,"ArrowRight",B.I4,"ArrowUp",B.I5,"Clear",B.Ia,"Control",B.Jb,"Delete",B.I0,"End",B.I6,"Enter",B.I_,"Home",B.I7,"Insert",B.Ib,"Meta",B.Jc,"PageDown",B.I8,"PageUp",B.I9,"Shift",B.Jd],A.ag("d1<z,V<q?>>"))
+B.Jf=s([8589934850,8589934850,8589934851,null],t.Z)
+B.tT=new A.d1(["*",B.Ic,"+",B.Id,"-",B.Ie,".",B.If,"/",B.Ig,"0",B.Ih,"1",B.Ii,"2",B.Ik,"3",B.Im,"4",B.In,"5",B.Io,"6",B.Ip,"7",B.Iq,"8",B.Ir,"9",B.It,"Alt",B.Jc,"AltGraph",B.I1,"ArrowDown",B.I2,"ArrowLeft",B.I3,"ArrowRight",B.I4,"ArrowUp",B.I5,"Clear",B.Ia,"Control",B.Jd,"Delete",B.I0,"End",B.I6,"Enter",B.I_,"Home",B.I7,"Insert",B.Ib,"Meta",B.Je,"PageDown",B.I8,"PageUp",B.I9,"Shift",B.Jf],A.ag("d1<z,V<q?>>"))
 B.Is=s([B.nZ,null,null,B.tF],t.L)
-B.JI=s([B.tr,null,null,B.tG],t.L)
-B.IX=s([B.ts,null,null,B.tH],t.L)
-B.Jf=s([B.tt,null,null,B.cB],t.L)
+B.JK=s([B.tr,null,null,B.tG],t.L)
+B.IY=s([B.ts,null,null,B.tH],t.L)
+B.Jh=s([B.tt,null,null,B.cB],t.L)
 B.HS=s([B.tu,null,null,B.tI],t.L)
 B.JU=s([B.tv,null,null,B.k1],t.L)
-B.JP=s([B.tw,null,null,B.er],t.L)
+B.JQ=s([B.tw,null,null,B.er],t.L)
 B.IC=s([B.tx,null,null,B.cC],t.L)
-B.K1=s([B.ty,null,null,B.es],t.L)
-B.JO=s([B.tz,null,null,B.cD],t.L)
+B.K2=s([B.ty,null,null,B.es],t.L)
+B.JP=s([B.tz,null,null,B.cD],t.L)
 B.Iz=s([B.tA,null,null,B.k2],t.L)
 B.HY=s([B.tB,null,null,B.cE],t.L)
 B.IL=s([B.tC,null,null,B.et],t.L)
-B.JJ=s([B.tD,null,null,B.cF],t.L)
-B.JK=s([B.tE,null,null,B.eu],t.L)
+B.JL=s([B.tD,null,null,B.cF],t.L)
+B.JM=s([B.tE,null,null,B.eu],t.L)
 B.IE=s([B.ep,B.ep,B.h7,null],t.L)
 B.JV=s([B.h3,null,B.h3,null],t.L)
-B.IZ=s([B.by,null,null,B.cC],t.L)
-B.J_=s([B.bk,null,null,B.cD],t.L)
-B.J0=s([B.bl,null,null,B.cE],t.L)
+B.J_=s([B.by,null,null,B.cC],t.L)
+B.J0=s([B.bk,null,null,B.cD],t.L)
+B.J1=s([B.bl,null,null,B.cE],t.L)
 B.K_=s([B.bz,null,null,B.cF],t.L)
-B.JM=s([B.jW,null,null,B.k2],t.L)
+B.JN=s([B.jW,null,null,B.k2],t.L)
 B.IF=s([B.en,B.en,B.h6,null],t.L)
-B.Jp=s([B.aI,null,null,B.cB],t.L)
-B.J1=s([B.cz,null,null,B.er],t.L)
+B.Js=s([B.aI,null,null,B.cB],t.L)
+B.J2=s([B.cz,null,null,B.er],t.L)
 B.Iy=s([B.h2,null,null,B.k0],t.L)
-B.J2=s([B.cA,null,null,B.et],t.L)
-B.JN=s([B.em,null,null,B.k1],t.L)
+B.J3=s([B.cA,null,null,B.et],t.L)
+B.JO=s([B.em,null,null,B.k1],t.L)
 B.IG=s([B.eq,B.eq,B.h8,null],t.L)
-B.J3=s([B.ek,null,null,B.es],t.L)
-B.Jt=s([B.el,null,null,B.eu],t.L)
+B.J4=s([B.ek,null,null,B.es],t.L)
+B.Jx=s([B.el,null,null,B.eu],t.L)
 B.IH=s([B.da,B.da,B.eo,null],t.L)
-B.LS=new A.d1(["*",B.Is,"+",B.JI,"-",B.IX,".",B.Jf,"/",B.HS,"0",B.JU,"1",B.JP,"2",B.IC,"3",B.K1,"4",B.JO,"5",B.Iz,"6",B.HY,"7",B.IL,"8",B.JJ,"9",B.JK,"Alt",B.IE,"AltGraph",B.JV,"ArrowDown",B.IZ,"ArrowLeft",B.J_,"ArrowRight",B.J0,"ArrowUp",B.K_,"Clear",B.JM,"Control",B.IF,"Delete",B.Jp,"End",B.J1,"Enter",B.Iy,"Home",B.J2,"Insert",B.JN,"Meta",B.IG,"PageDown",B.J3,"PageUp",B.Jt,"Shift",B.IH],A.ag("d1<z,V<e?>>"))
+B.LS=new A.d1(["*",B.Is,"+",B.JK,"-",B.IY,".",B.Jh,"/",B.HS,"0",B.JU,"1",B.JQ,"2",B.IC,"3",B.K2,"4",B.JP,"5",B.Iz,"6",B.HY,"7",B.IL,"8",B.JL,"9",B.JM,"Alt",B.IE,"AltGraph",B.JV,"ArrowDown",B.J_,"ArrowLeft",B.J0,"ArrowRight",B.J1,"ArrowUp",B.K_,"Clear",B.JN,"Control",B.IF,"Delete",B.Js,"End",B.J2,"Enter",B.Iy,"Home",B.J3,"Insert",B.JO,"Meta",B.IG,"PageDown",B.J4,"PageUp",B.Jx,"Shift",B.IH],A.ag("d1<z,V<e?>>"))
 B.Mz={H:0,O:1,N:2,Na:3,C:4}
 B.Ff=new A.bw("O","H2O","Water","Hydrogen and oxygen combine to make water.")
-B.IY=s([B.Ff],t.WI)
+B.IZ=s([B.Ff],t.WI)
 B.Fj=new A.bw("H","H2O","Water","Oxygen and hydrogen combine to make water.")
 B.IK=s([B.Fj],t.WI)
 B.Fk=new A.bw("H","NH3","Ammonia",u.P)
 B.K0=s([B.Fk],t.WI)
 B.Fb=new A.bw("Cl","NaCl","Sodium Chloride","Sodium and chlorine combine to make table salt.")
-B.Kc=s([B.Fb],t.WI)
+B.Kd=s([B.Fb],t.WI)
 B.Fd=new A.bw("O","CO2","Carbon Dioxide","Carbon and oxygen combine to make carbon dioxide.")
-B.IW=s([B.Fd],t.WI)
-B.LT=new A.bl(B.Mz,[B.IY,B.IK,B.K0,B.Kc,B.IW],A.ag("bl<z,V<bw>>"))
+B.IX=s([B.Fd],t.WI)
+B.LT=new A.bl(B.Mz,[B.IZ,B.IK,B.K0,B.Kd,B.IX],A.ag("bl<z,V<bw>>"))
 B.My={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.tU=new A.bl(B.My,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Mx={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
 B.jO=s(["Noto Sans TC"],t.s)
-B.Jh=s(["Noto Sans HK","Noto Sans TC"],t.s)
+B.Jk=s(["Noto Sans HK","Noto Sans TC"],t.s)
 B.Iv=s(["Noto Sans JP"],t.s)
 B.HZ=s(["Noto Sans KR"],t.s)
 B.nN=s(["Noto Sans SC"],t.s)
-B.K7=s(["Noto Sans SC","Noto Sans TC"],t.s)
-B.hc=new A.bl(B.Mx,[B.jO,B.jO,B.jO,B.Jh,B.Iv,B.HZ,B.nN,B.nN,B.K7],t.VJ)
+B.K9=s(["Noto Sans SC","Noto Sans TC"],t.s)
+B.hc=new A.bl(B.Mx,[B.jO,B.jO,B.jO,B.Jk,B.Iv,B.HZ,B.nN,B.nN,B.K9],t.VJ)
 B.Mr={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.wQ=new A.k(458907)
 B.ww=new A.k(458873)
@@ -84489,7 +84489,7 @@ s($,"aNp","ay5",()=>{var q="TextBaseline"
 return A.c([A.F(A.F(A.ae(),q),"Alphabetic"),A.F(A.F(A.ae(),q),"Ideographic")],t.O)})
 r($,"aGx","axy",()=>A.aG3())
 r($,"aNa","axV",()=>A.cB().gQY()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
-s($,"aME","axA",()=>A.aBV(B.J5))
+s($,"aME","axA",()=>A.aBV(B.J6))
 s($,"aMD","alu",()=>A.a00(A.az9($.axA())))
 s($,"aJP","cs",()=>{var q,p=A.F(A.F(A.mG(),"window"),"screen")
 p=p==null?null:A.F(p,"width")
@@ -84621,7 +84621,7 @@ s($,"aLU","ax_",()=>A.iA(B.c5,!0,t.sY))
 s($,"aMy","aoT",()=>new A.ak9().$0())
 s($,"aNu","ay9",()=>new A.akx().$0())
 s($,"aMs","axs",()=>{var q,p=A.as(t.N)
-for(q=0;q<10;++q)p.E(0,B.nI[q].b)
+for(q=0;q<10;++q)p.E(0,B.nG[q].b)
 return p.dN(0)})
 s($,"aJo","aoA",()=>{var q=A.f4(null,t.H),p=new A.GW()
 B.c6.jj(p.gai2())
