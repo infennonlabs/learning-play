@@ -10625,8 +10625,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.b4(A.vY(s+240),40)
-r=A.b4(A.Ur(l,B.mN,B.GP),24)
-q=A.b4(A.Ur(l,B.mN,B.GQ),32)
+r=A.b4(A.Ur(l,B.mN,B.GO),24)
+q=A.b4(A.Ur(l,B.mN,B.GP),32)
 p=A.b4(l.a+15,8)
 o=A.b4(l.a+15,12)
 l.d===$&&A.a()
@@ -19323,7 +19323,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 avu(a,b){var s=A.Z(b).h("aa<1,cN>")
 s=A.V(new A.aa(b,new A.Uz(),s),s.h("aw.E"))
-return A.auU(!0,s,a,B.Gs,!0,B.Ci,null)},
+return A.auU(!0,s,a,B.Gr,!0,B.Ci,null)},
 ai6(a){var s
 try{a.cT()}catch(s){a.Im()}a.w=B.Tq
 try{a.bk(A.aDm())}catch(s){}},
@@ -22825,7 +22825,7 @@ if($.ao6||!A.ao7())return
 $.ao6=!0
 s=new A.a5Z()
 r=A.dI(new A.a5X(s))
-for(q=v.G,p=0;p<3;++p){o=B.GL[p]
+for(q=v.G,p=0;p<3;++p){o=B.GK[p]
 q.window.addEventListener(o,r)}n=A.dI(new A.a5Y(s))
 q.window.addEventListener("pointermove",n)},
 ao8(){if(!A.ao7())return!1
@@ -23212,7 +23212,7 @@ WS(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 aii(a){var s=Math.pow(Math.abs(a),0.42)
 return A.mS(a)*400*s/(s+27.13)},
-aij(a){var s=A.aiD(a,B.GO),r=A.aii(s[0]),q=A.aii(s[1]),p=A.aii(s[2])
+aij(a){var s=A.aiD(a,B.GN),r=A.aii(s[0]),q=A.aii(s[1]),p=A.aii(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 awg(a,b){var s,r,q,p,o,n=B.h.bl(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -24237,7 +24237,7 @@ r9(){var s=this.as
 s===$&&A.a()
 return s},
 ra(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.GA
+if(a<0||b<0)return B.Gz
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -29601,7 +29601,7 @@ if(m.f!==B.ml){m.f=B.ml
 m.K3()}}return m.d.a.T9(a)},
 K3(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-T8(a){if(B.b.n(B.Gl,a))return this.f===B.f7
+T8(a){if(B.b.n(B.Gk,a))return this.f===B.f7
 return!1}}
 A.Va.prototype={
 $0(){return new A.hQ(Date.now(),0,!1)},
@@ -36270,7 +36270,7 @@ if(o>0)return s
 return null}}
 A.a8D.prototype={
 D(a,b){this.HR(b,0,b.length,!1)},
-bg(){this.HR(B.Gp,0,0,!0)}}
+bg(){this.HR(B.Go,0,0,!0)}}
 A.afw.prototype={
 HR(a,b,c,d){var s=this.b.ab6(a,b,c,d)
 if(s!=null)this.a.lb(s,0,s.length,d)}}
@@ -38510,7 +38510,7 @@ l.f.M(0)
 l.r.M(0)
 l.w.M(0)
 l.y=null
-s=A.V(B.Gj,t.cj)
+s=A.V(B.GT,t.cj)
 r=l.a
 B.b.xt(s,r)
 l.b=A.hp(s,0,A.lx(4,"count",t.S),A.Z(s).c).dn(0)
@@ -38862,7 +38862,7 @@ return s.J2(s.d.ghn())},
 $S:0}
 A.xX.prototype={
 aj(){var s=t.N
-s=new A.xW(B.A5,B.Gt,B.dG,B.dG,A.r(s,s),A.r(s,s),A.ar(s),A.ar(s),$.aD())
+s=new A.xW(B.A5,B.Gs,B.dG,B.dG,A.r(s,s),A.r(s,s),A.ar(s),A.ar(s),$.aD())
 s.Ao()
 return new A.Bo(s)}}
 A.Bo.prototype={
@@ -38951,7 +38951,7 @@ return new A.bW(new A.aJ(q,q,q,q),A.cg(new A.pe(B.yf,!1,b,s,s,s,A.avP(c==null?B.
 I5(a){var s=this,r=null,q=A.bY(a,r,r,r,B.PG,r),p=s.f?new A.TR(s,a):r
 return s.zy(q,p,s.w===a?$.akr():r)},
 J(a){var s,r,q,p,o,n,m=this,l=t.p,k=A.c([],l)
-for(s=0;s<3;++s){r=B.GT[s]
+for(s=0;s<3;++s){r=B.GS[s]
 q=A.c([],l)
 for(p=B.b.gT(r);p.p();)q.push(m.I5(p.gI()))
 k.push(A.dn(q,B.E,B.R,B.aC,0))}q=m.f
@@ -41972,7 +41972,7 @@ r=n.z
 n=n.cx
 q=p.ga3d()
 p.a.toString
-return new A.z1(o,o,o,new A.aca(),o,o,o,o,o,m,B.IE,o,r,o,B.Gq,p.ga3k(),n,o,B.PM,s,o,q,o,o,B.mK,!1,!1,o,o,o,new A.mr(p,t.bT))},
+return new A.z1(o,o,o,new A.aca(),o,o,o,o,o,m,B.IE,o,r,o,B.Gp,p.ga3k(),n,o,B.PM,s,o,q,o,o,B.mK,!1,!1,o,o,o,new A.mr(p,t.bT))},
 J(a){var s,r=this.Yk(a)
 this.a.toString
 s=this.d
@@ -47363,7 +47363,7 @@ gwp(){return 14},
 gX0(){return 48},
 gX1(){return 40},
 gGE(){return 52},
-gwJ(){return B.Gu},
+gwJ(){return B.Gt},
 go3(){return 32},
 go5(){return 52},
 gwQ(){return B.MN},
@@ -50090,7 +50090,7 @@ S6(a){var s=this.b,r=s.a.c.Ff(a.af(0,s.gfD()))
 if(r==null||s.gfD().j(0,B.j))return r
 return new A.kc(r.a.cQ(s.gfD()),r.b,r.c)},
 uy(){var s,r,q=this.b,p=q.gfD()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Gr
+if(!isFinite(p.a)||!isFinite(p.b))return B.Gq
 s=q.f
 if(s==null){s=q.a.c.uy()
 q.f=s}if(p.j(0,B.j))r=s
@@ -57852,7 +57852,7 @@ break
 case 1:return A.M(q,r)}})
 return A.N($async$zj,r)},
 a_u(a,b){var s,r,q,p
-if(a===b)return B.Gx
+if(a===b)return B.Gw
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.jn(B.dH,a)
@@ -59196,7 +59196,7 @@ A.kG.prototype={}
 A.H9.prototype={
 jp(a,b){var s,r,q,p,o,n=$.a1.ak$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.r,r=0;r<2;++r){q=B.Gm[r]
+for(s=t.r,r=0;r<2;++r){q=B.Gl[r]
 p=n.e
 p.toString
 o=A.ahy(p,q,s)
@@ -63173,7 +63173,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.S(b)!==A.w(s))return!1
 return b instanceof A.bA&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cQ(null,null)},
-gu(a){return A.Q(this.a,this.b,null,this.d,A.bm(B.GB),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.Q(this.a,this.b,null,this.d,A.bm(B.GA),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.qU(B.h.kG(this.a,16).toUpperCase(),5,"0")+")"}}
 A.mz.prototype={
 bL(a){return!this.w.j(0,a.w)}}
@@ -63909,7 +63909,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.w0(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.uj(a1),B.Gv,e===!0,d,c,b,a3,A.awR(a2))
+a=new A.w0(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.uj(a1),B.Gu,e===!0,d,c,b,a3,A.awR(a2))
 if(!a.j(0,a0.e))a0.ae(new A.acv(a0,a))},
 uV(){if(this.d==null)this.mW()},
 On(){this.mW()},
@@ -64269,7 +64269,7 @@ r.O(0,s.Ro(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Gy[p]
+for(;!1;++p){o=B.Gx[p]
 n=l.c
 n.toString
 m=new A.fm(o.BO(n),null,!0,B.kp,B.bp,new A.og(new ($.Rq())(B.bp)),B.bp)
@@ -64624,7 +64624,7 @@ J(a){var s,r,q=this,p=null,o=q.ga1z(),n=A.pg(a),m=q.bu$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gbi()==null){r=q.gGY()
-r=J.pt(r.slice(0),A.Z(r).c)}else r=B.Gz
+r=J.pt(r.slice(0),A.Z(r).c)}else r=B.Gy
 return new A.mv(p,new A.dd(new A.a0m(q,a),A.vN(B.bL,new A.D5(!1,A.aia(A.pf(!0,p,A.a7o(m,new A.pQ(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),p,n),p),o,q.ga1s(),p,p,o),p,t.w3),p)}}
 A.a0l.prototype={
 $1(a){var s,r=this.a
@@ -69732,7 +69732,7 @@ r.u2()
 return s.aM()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gzl(),p=0;p<s.length;s.length===r||(0,A.t)(s),++p)s[p].L(q)
-o.b=B.Gw
+o.b=B.Gv
 o.y=!1
 o.dG()},
 d6(a,b){return a.kl(b)},
@@ -75940,7 +75940,7 @@ B.A_=new A.a7s()
 B.a2=new A.a7v()
 B.ct=new A.a7x()
 B.d1=new A.Ju(0,0,0,0)
-B.Gv=s([],A.ad("x<aEP>"))
+B.Gu=s([],A.ad("x<aEP>"))
 B.UC=new A.a7C()
 B.ax={}
 B.jh=new A.bi(B.ax,[],t.li)
@@ -76479,12 +76479,12 @@ B.H0=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
 B.EW=s([B.Gh,B.G0,B.H0],t.zg)
 B.F_=s([3,3,4],t.t)
 B.Fk=s([4,9,14,19],t.t)
-B.GJ=s([137,80,78,71,13,10,26,10],t.Z)
+B.GI=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ef=new A.kh(0,"png")
 B.En=new A.hY(B.Ef,!1,0,"png")
-B.Ed=new A.iX(B.GJ,B.En,0,"png")
-B.GK=s([71,73,70,56,55,97],t.Z)
-B.Ec=new A.iX(B.GK,B.fb,1,"gif87a")
+B.Ed=new A.iX(B.GI,B.En,0,"png")
+B.GJ=s([71,73,70,56,55,97],t.Z)
+B.Ec=new A.iX(B.GJ,B.fb,1,"gif87a")
 B.Gd=s([71,73,70,56,57,97],t.Z)
 B.Eb=new A.iX(B.Gd,B.fb,2,"gif89a")
 B.EX=s([255,216,255],t.Z)
@@ -76569,53 +76569,46 @@ B.Tn=new A.jy(B.y9,B.ya)
 B.To=new A.jy(B.ya,B.y9)
 B.Gg=s([B.Tm,B.Tp,B.Tn,B.To],A.ad("x<jy>"))
 B.Gi=s([35,30,20,25,30,35,30,25,25],t.n)
-B.D1=new A.fy("house_fire","Fire at home","\ud83d\udd25","firefighter","Firefighters put out fires!","assets/ludo/house_fire.png")
-B.D3=new A.fy("forest_fire","Forest fire","\ud83c\udf32","wildfire","Wildfire crews stop forest fires!","assets/ludo/forest_fire.png")
-B.D4=new A.fy("burglar","Stranger breaking in","\ud83e\udd77","police","Police officers keep us safe!","assets/ludo/burglar.png")
-B.D0=new A.fy("hurt","Someone is hurt","\ud83e\udd15","ambulance","An ambulance takes hurt people to the hospital!","assets/ludo/hurt_child.png")
-B.D_=new A.fy("lost","Lost on a trail","\ud83e\udd7e","ranger","Park rangers help people who are lost!","assets/ludo/lost_hiker.png")
-B.D2=new A.fy("telephone","Telephone","\ud83d\udcf1","call911","Dial 9-1-1 to get help fast!",null)
-B.Gj=s([B.D1,B.D3,B.D4,B.D0,B.D_,B.D2],t.c8)
-B.Gl=s(["click","scroll"],t.s)
+B.Gk=s(["click","scroll"],t.s)
 B.z3=new A.ov()
 B.jD=new A.Ib(1,"page")
 B.jE=new A.eM(B.aP,B.jD)
-B.Gm=s([B.z3,B.jE],A.ad("x<aQ>"))
-B.Dl=new A.dW("call_911","9-1-1","\ud83d\udcde","Dial 9-1-1 when someone is hurt, there is a fire, or you are in danger. Stay on the phone and tell them what happened.","assets/ludo/sign_911.png")
-B.Do=new A.dW("medic","Medic","\ud83e\uddd1\u200d\u2695\ufe0f","Medics and ambulance crews help people who are hurt or sick. They come fast in an ambulance.","assets/ludo/medic.png")
-B.Dv=new A.dW("firefighter","Firefighter","\ud83e\uddd1\u200d\ud83d\ude92","Firefighters put out fires and rescue people. They drive big red fire trucks.","assets/ludo/firefighter.png")
-B.Ds=new A.dW("police","Police Officer","\ud83d\udc6e","Police officers keep us safe. They help when someone is in danger or a stranger breaks in.","assets/ludo/police_officer.png")
-B.Dm=new A.dW("ranger","Park Ranger","\ud83c\udf32","Park rangers take care of parks and forests. They help people who are lost or hurt outdoors.","assets/ludo/park_ranger.png")
-B.Dn=new A.dW("wildfire","Wildfire Crew","\ud83d\udd25","Wildfire crews stop fires in forests and fields so animals and neighborhoods stay safe.","assets/ludo/wildfire_crew.png")
-B.dF=s([B.Dl,B.Do,B.Dv,B.Ds,B.Dm,B.Dn],t.mA)
-B.Gx=s([],t.QP)
-B.Gu=s([],t.sq)
+B.Gl=s([B.z3,B.jE],A.ad("x<aQ>"))
+B.Dq=new A.dW("call_911","9-1-1","\ud83d\udcde","Dial 9-1-1 when someone is hurt, there is a fire, or you are in danger. Stay on the phone and tell them what happened.","assets/ludo/sign_911.webp")
+B.Dm=new A.dW("medic","Medic","\ud83e\uddd1\u200d\u2695\ufe0f","Medics and ambulance crews help people who are hurt or sick. They come fast in an ambulance.","assets/ludo/medic.webp")
+B.Ds=new A.dW("firefighter","Firefighter","\ud83e\uddd1\u200d\ud83d\ude92","Firefighters put out fires and rescue people. They drive big red fire trucks.","assets/ludo/firefighter.webp")
+B.Dn=new A.dW("police","Police Officer","\ud83d\udc6e","Police officers keep us safe. They help when someone is in danger or a stranger breaks in.","assets/ludo/police_officer.webp")
+B.Dp=new A.dW("ranger","Park Ranger","\ud83c\udf32","Park rangers take care of parks and forests. They help people who are lost or hurt outdoors.","assets/ludo/park_ranger.webp")
+B.Dk=new A.dW("wildfire","Wildfire Crew","\ud83d\udd25","Wildfire crews stop fires in forests and fields so animals and neighborhoods stay safe.","assets/ludo/wildfire_crew.webp")
+B.dF=s([B.Dq,B.Dm,B.Ds,B.Dn,B.Dp,B.Dk],t.mA)
+B.Gw=s([],t.QP)
+B.Gt=s([],t.sq)
 B.mQ=s([],A.ad("x<aEx>"))
-B.Gs=s([],t.D)
-B.Gt=s([],t.c8)
-B.Gr=s([],t.ER)
-B.Gq=s([],t.tc)
+B.Gr=s([],t.D)
+B.Gs=s([],t.c8)
+B.Gq=s([],t.ER)
+B.Gp=s([],t.tc)
 B.fh=s([],t.jl)
-B.Gz=s([],t.wi)
-B.Gy=s([],A.ad("x<and<@>>"))
+B.Gy=s([],t.wi)
+B.Gx=s([],A.ad("x<and<@>>"))
 B.j_=s([],t.AO)
-B.Gw=s([],t.D1)
+B.Gv=s([],t.D1)
 B.fg=s([],t.g)
 B.dG=s([],t.s)
 B.as=s([],t.oU)
-B.GA=s([],t.Lx)
+B.Gz=s([],t.Lx)
 B.mP=s([],t.p)
-B.Gp=s([],t.t)
+B.Go=s([],t.t)
 B.mR=s([],t.ee)
-B.GB=s([],t.XS)
+B.GA=s([],t.XS)
 B.dH=s([B.bV,B.bI,B.ev,B.ew,B.hq],t.QP)
-B.GL=s(["pointerdown","keydown","touchstart"],t.s)
+B.GK=s(["pointerdown","keydown","touchstart"],t.s)
 B.FC=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.Gn=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.Gm=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.FN=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.GO=s([B.FC,B.Gn,B.FN],t.zg)
-B.GP=s([45,95,45,20,45,90,45,45,45],t.n)
-B.GQ=s([120,120,20,45,20,15,20,120,120],t.n)
+B.GN=s([B.FC,B.Gm,B.FN],t.zg)
+B.GO=s([45,95,45,20,45,90,45,45,45],t.n)
+B.GP=s([120,120,20,45,20,15,20,120,120],t.n)
 B.cH=new A.fd(0,"controlModifier")
 B.cI=new A.fd(1,"shiftModifier")
 B.cJ=new A.fd(2,"altModifier")
@@ -76630,7 +76623,14 @@ B.j0=s([!0,!1],t.HZ)
 B.Gf=s(["1","2","3"],t.s)
 B.G4=s(["4","5","6"],t.s)
 B.FT=s(["7","8","9"],t.s)
-B.GT=s([B.Gf,B.G4,B.FT],A.ad("x<U<v>>"))
+B.GS=s([B.Gf,B.G4,B.FT],A.ad("x<U<v>>"))
+B.D3=new A.fy("house_fire","Fire at home","\ud83d\udd25","firefighter","Firefighters put out fires!","assets/ludo/house_fire.webp")
+B.D4=new A.fy("forest_fire","Forest fire","\ud83c\udf32","wildfire","Wildfire crews stop forest fires!","assets/ludo/forest_fire.webp")
+B.D0=new A.fy("burglar","Stranger breaking in","\ud83e\udd77","police","Police officers keep us safe!","assets/ludo/burglar.webp")
+B.D_=new A.fy("hurt","Someone is hurt","\ud83e\udd15","ambulance","An ambulance takes hurt people to the hospital!","assets/ludo/hurt_child.webp")
+B.D2=new A.fy("lost","Lost on a trail","\ud83e\udd7e","ranger","Park rangers help people who are lost!","assets/ludo/lost_hiker.webp")
+B.D1=new A.fy("telephone","Telephone","\ud83d\udcf1","call911","Dial 9-1-1 to get help fast!",null)
+B.GT=s([B.D3,B.D4,B.D0,B.D_,B.D2,B.D1],t.c8)
 B.Ay=new A.m(0.14901960784313725,0,0,0,B.e)
 B.t1=new A.o(0,3)
 B.yY=new A.dK(0,B.hx,B.Ay,B.t1,8)
@@ -77165,13 +77165,13 @@ B.IB=new A.bi(B.t_,[4294970632,4294970633,4294967553,4294968577,4294968578,42949
 B.Jr={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
 B.IC=new A.bi(B.Jr,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.li)
 B.Ji={firefighter:0,wildfire:1,police:2,ambulance:3,ranger:4,call911:5}
-B.Dp=new A.dW("firefighter","Firefighter","\ud83d\ude92","","assets/ludo/firefighter.png")
-B.Dr=new A.dW("wildfire","Wildfire Crew","\ud83e\uddd1\u200d\ud83d\ude92","","assets/ludo/wildfire_crew.png")
-B.Dq=new A.dW("police","Police Officer","\ud83d\udc6e","","assets/ludo/police_officer.png")
-B.Dk=new A.dW("ambulance","Ambulance","\ud83d\ude91","","assets/ludo/ambulance.png")
-B.Dt=new A.dW("ranger","Park Ranger","\ud83c\udf32","","assets/ludo/park_ranger.png")
-B.Du=new A.dW("call911","9-1-1","\ud83d\udcde","","assets/ludo/sign_911.png")
-B.rL=new A.bi(B.Ji,[B.Dp,B.Dr,B.Dq,B.Dk,B.Dt,B.Du],A.ad("bi<v,dW>"))
+B.Dl=new A.dW("firefighter","Firefighter","\ud83d\ude92","","assets/ludo/firefighter.webp")
+B.Du=new A.dW("wildfire","Wildfire Crew","\ud83e\uddd1\u200d\ud83d\ude92","","assets/ludo/wildfire_crew.webp")
+B.Dr=new A.dW("police","Police Officer","\ud83d\udc6e","","assets/ludo/police_officer.webp")
+B.Dt=new A.dW("ambulance","Ambulance","\ud83d\ude91","","assets/ludo/ambulance.webp")
+B.Dv=new A.dW("ranger","Park Ranger","\ud83c\udf32","","assets/ludo/park_ranger.webp")
+B.Do=new A.dW("call911","9-1-1","\ud83d\udcde","","assets/ludo/sign_911.webp")
+B.rL=new A.bi(B.Ji,[B.Dl,B.Du,B.Dr,B.Dt,B.Dv,B.Do],A.ad("bi<v,dW>"))
 B.MB=new A.Y(B.at,!1,!1,!1,!1,B.k)
 B.M7=new A.Y(B.at,!1,!0,!1,!1,B.k)
 B.x8=new A.Y(B.au,!1,!1,!1,!1,B.k)
@@ -77227,38 +77227,38 @@ B.Fa=s([4294968072,null,null,8589935161],t.Z)
 B.G8=s([8589934850,8589934850,8589934851,null],t.Z)
 B.rR=new A.cu(["*",B.Fd,"+",B.Fe,"-",B.Ff,".",B.Fg,"/",B.Fh,"0",B.Fi,"1",B.Fj,"2",B.Fl,"3",B.Fn,"4",B.Fo,"5",B.Fp,"6",B.Fq,"7",B.Fr,"8",B.Fs,"9",B.Fu,"Alt",B.G5,"AltGraph",B.F2,"ArrowDown",B.F3,"ArrowLeft",B.F4,"ArrowRight",B.F5,"ArrowUp",B.F6,"Clear",B.Fb,"Control",B.G6,"Delete",B.F1,"End",B.F7,"Enter",B.F0,"Home",B.F8,"Insert",B.Fc,"Meta",B.G7,"PageDown",B.F9,"PageUp",B.Fa,"Shift",B.G8],A.ad("cu<v,U<p?>>"))
 B.Ft=s([B.mZ,null,null,B.rF],t.L)
-B.GC=s([B.rr,null,null,B.rG],t.L)
+B.GB=s([B.rr,null,null,B.rG],t.L)
 B.FS=s([B.rs,null,null,B.rH],t.L)
 B.Ga=s([B.rt,null,null,B.c6],t.L)
 B.ET=s([B.ru,null,null,B.rI],t.L)
-B.GM=s([B.rv,null,null,B.ja],t.L)
-B.GI=s([B.rw,null,null,B.dS],t.L)
+B.GL=s([B.rv,null,null,B.ja],t.L)
+B.GH=s([B.rw,null,null,B.dS],t.L)
 B.FB=s([B.rx,null,null,B.c7],t.L)
-B.GS=s([B.ry,null,null,B.dT],t.L)
-B.GH=s([B.rz,null,null,B.c8],t.L)
+B.GR=s([B.ry,null,null,B.dT],t.L)
+B.GG=s([B.rz,null,null,B.c8],t.L)
 B.Fz=s([B.rA,null,null,B.jb],t.L)
 B.EY=s([B.rB,null,null,B.c9],t.L)
 B.FJ=s([B.rC,null,null,B.dU],t.L)
-B.GD=s([B.rD,null,null,B.ca],t.L)
-B.GE=s([B.rE,null,null,B.dV],t.L)
+B.GC=s([B.rD,null,null,B.ca],t.L)
+B.GD=s([B.rE,null,null,B.dV],t.L)
 B.FD=s([B.dQ,B.dQ,B.fo,null],t.L)
-B.GN=s([B.fk,null,B.fk,null],t.L)
+B.GM=s([B.fk,null,B.fk,null],t.L)
 B.FU=s([B.bi,null,null,B.c7],t.L)
 B.FV=s([B.b3,null,null,B.c8],t.L)
 B.FW=s([B.b4,null,null,B.c9],t.L)
-B.GR=s([B.bj,null,null,B.ca],t.L)
-B.GF=s([B.j4,null,null,B.jb],t.L)
+B.GQ=s([B.bj,null,null,B.ca],t.L)
+B.GE=s([B.j4,null,null,B.jb],t.L)
 B.FE=s([B.dO,B.dO,B.fn,null],t.L)
-B.Gk=s([B.au,null,null,B.c6],t.L)
+B.Gj=s([B.au,null,null,B.c6],t.L)
 B.FX=s([B.c4,null,null,B.dS],t.L)
 B.Fy=s([B.fj,null,null,B.j9],t.L)
 B.FY=s([B.c5,null,null,B.dU],t.L)
-B.GG=s([B.dN,null,null,B.ja],t.L)
+B.GF=s([B.dN,null,null,B.ja],t.L)
 B.FF=s([B.dR,B.dR,B.fp,null],t.L)
 B.FZ=s([B.dL,null,null,B.dT],t.L)
-B.Go=s([B.dM,null,null,B.dV],t.L)
+B.Gn=s([B.dM,null,null,B.dV],t.L)
 B.FG=s([B.cE,B.cE,B.dP,null],t.L)
-B.IH=new A.cu(["*",B.Ft,"+",B.GC,"-",B.FS,".",B.Ga,"/",B.ET,"0",B.GM,"1",B.GI,"2",B.FB,"3",B.GS,"4",B.GH,"5",B.Fz,"6",B.EY,"7",B.FJ,"8",B.GD,"9",B.GE,"Alt",B.FD,"AltGraph",B.GN,"ArrowDown",B.FU,"ArrowLeft",B.FV,"ArrowRight",B.FW,"ArrowUp",B.GR,"Clear",B.GF,"Control",B.FE,"Delete",B.Gk,"End",B.FX,"Enter",B.Fy,"Home",B.FY,"Insert",B.GG,"Meta",B.FF,"PageDown",B.FZ,"PageUp",B.Go,"Shift",B.FG],A.ad("cu<v,U<e?>>"))
+B.IH=new A.cu(["*",B.Ft,"+",B.GB,"-",B.FS,".",B.Ga,"/",B.ET,"0",B.GL,"1",B.GH,"2",B.FB,"3",B.GR,"4",B.GG,"5",B.Fz,"6",B.EY,"7",B.FJ,"8",B.GC,"9",B.GD,"Alt",B.FD,"AltGraph",B.GM,"ArrowDown",B.FU,"ArrowLeft",B.FV,"ArrowRight",B.FW,"ArrowUp",B.GQ,"Clear",B.GE,"Control",B.FE,"Delete",B.Gj,"End",B.FX,"Enter",B.Fy,"Home",B.FY,"Insert",B.GF,"Meta",B.FF,"PageDown",B.FZ,"PageUp",B.Gn,"Shift",B.FG],A.ad("cu<v,U<e?>>"))
 B.Jo={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.rS=new A.bi(B.Jo,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Jn={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
