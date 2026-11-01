@@ -41998,7 +41998,7 @@ E(){return"Season."+this.b}}
 A.cT.prototype={
 i3(a){var s=a===1?this.c:this.d
 return""+a+" "+s},
-gSq(){return"assets/art/harvest_"+this.a+".png"},
+gSq(){return"assets/art/harvest_"+this.a+".webp"},
 gI7(){return this.w},
 Vw(a){return this.e.m(0,a)},
 gnm(){var s=this.e
@@ -42096,7 +42096,7 @@ q=""+n
 p=t.t
 return new A.iP(s+" "+c+" at $"+r+" each cost $"+q+l,A.b([d,o,n],p),m.kN(A.b([d,o,n],p)),m.kX(a),u.d,s+" \xd7 $"+r+" = $"+q+".")}}
 A.hn.prototype={
-gSq(){return"assets/art/good_"+this.a+".png"},
+gSq(){return"assets/art/good_"+this.a+".webp"},
 gI7(){return null},
 i3(a){var s=a===1?this.c:this.d
 return""+a+" "+s},
@@ -43545,7 +43545,7 @@ if(a.length===0)s.push(A.S("Nothing grows",f,A.dF(f,f,B.cn,f,f,f,f,f,f,f,f,13,f,
 else{b=A.b([],b)
 for(r=a.length,i=0;i<a.length;a.length===r||(0,A.p)(a),++i){h=a[i]
 q=h.b
-b.push(new A.aP(B.o1,A.auh(new A.c6(28,28,new A.eQ("assets/art/harvest_"+h.a+".png",q,B.y,f),f),q),f))}s.push(A.bs(b,B.k,f,B.l,B.v,0))}g=A.bi(s,B.du,f,B.l,B.v)
+b.push(new A.aP(B.o1,A.auh(new A.c6(28,28,new A.eQ("assets/art/harvest_"+h.a+".webp",q,B.y,f),f),q),f))}s.push(A.bs(b,B.k,f,B.l,B.v,0))}g=A.bi(s,B.du,f,B.l,B.v)
 b=B.i.c8(0.78)
 s=A.cw(18)
 p=A.eg(p,2.5)
@@ -43713,7 +43713,7 @@ l=p>=m
 k=n.b
 j=A.S(k+"  $"+m,h,B.Ao,h)
 p=l?"":"\nSave $"+(m-p)+" more."
-s.push(A.jM(A.i2(!1,h,h,h,l,h,h,h,!0,!0,new A.R("housing_"+q,r),new A.c6(64,64,new A.eQ("assets/art/building_"+q+".png",k,B.y,h),h),h,h,h,h,new A.afs(i,n),!1,h,h,h,h,A.S(n.e+"\nHolds up to 4 animals."+p,h,h,h),h,j,h,h),h,h,h))}s.push(A.tr(B.Ap,h,i.a.f,h))
+s.push(A.jM(A.i2(!1,h,h,h,l,h,h,h,!0,!0,new A.R("housing_"+q,r),new A.c6(64,64,new A.eQ("assets/art/building_"+q+".webp",k,B.y,h),h),h,h,h,h,new A.afs(i,n),!1,h,h,h,h,A.S(n.e+"\nHolds up to 4 animals."+p,h,h,h),h,j,h,h),h,h,h))}s.push(A.tr(B.Ap,h,i.a.f,h))
 return A.bi(s,B.k,h,B.l,B.v)}}
 A.afq.prototype={
 $0(){var s=this.a,r=s.d=this.b,q=s.a.c,p=this.c,o=r.b
@@ -43751,7 +43751,7 @@ i=A.S(j+"  $"+k,a0,B.Ao,a0)
 h=A.pX(n.f)
 g=n.r
 g=g===1?"every day":"every "+g+" days"
-s.push(A.jM(A.i2(!1,a0,a0,a0,l>=k,a0,a0,a0,!0,!0,new A.R("animal_"+m,p),new A.c6(60,60,new A.eQ(a1+m+".png",j,B.y,a0),a0),a0,a0,a0,a0,new A.afd(a,n),!1,a0,a0,a0,a0,A.S(n.w+"\nMakes "+h.d+": "+g+".",a0,a0,a0),a0,i,a0,a0),a0,a0,a0))}s.push(A.tr(B.Ap,a0,a.a.f,a0))
+s.push(A.jM(A.i2(!1,a0,a0,a0,l>=k,a0,a0,a0,!0,!0,new A.R("animal_"+m,p),new A.c6(60,60,new A.eQ(a1+m+".webp",j,B.y,a0),a0),a0,a0,a0,a0,new A.afd(a,n),!1,a0,a0,a0,a0,A.S(n.w+"\nMakes "+h.d+": "+g+".",a0,a0,a0),a0,i,a0,a0),a0,a0,a0))}s.push(A.tr(B.Ap,a0,a.a.f,a0))
 return A.bi(s,B.k,a0,B.l,B.v)
 case 1:a2.toString
 f=a.a.d.gpS()
@@ -43761,7 +43761,7 @@ d=Math.max(1,Math.min(f,e))
 c=Math.min(a.f,d)
 b=s*c
 s=A.S("How many "+a2.c+"?",a0,B.aw,B.u)
-r=A.bT(A.fH(a1+a2.a+".png",B.y,a2.b),90,a0)
+r=A.bT(A.fH(a1+a2.a+".webp",B.y,a2.b),90,a0)
 q=A.hX(B.dC,B.YI,c>1?new A.afe(a,c):a0)
 p=A.S(A.i(c),B.YG,B.e_,a0)
 m=t.p
@@ -43777,7 +43777,7 @@ r=a.a.c.e.i(0,B.db).a
 q=a.a.r
 p=A.b([],t.s)
 for(o=0;o<6;++o)p.push(B.eO[o].b)
-return A.aBR(p,s,r,new A.afi(a,a2),q,new A.LM(a2.b,a1+a2.a+".png"),a0)
+return A.aBR(p,s,r,new A.afi(a,a2),q,new A.LM(a2.b,a1+a2.a+".webp"),a0)
 case 3:a2.toString
 s=a.a
 r=s.c.c
@@ -43874,7 +43874,7 @@ s.toString
 r=g.a.d.y
 o=r==null?f:A.jB(r)
 if(o==null){r=s.b
-return A.bi(A.b([new A.aP(B.aG,A.S("Empty "+r.toLowerCase(),f,B.aw,B.u),f),A.bT(A.fH("assets/art/building_"+s.a+".png",B.y,r),110,f),A.S(s.e,f,B.bn,B.u),B.ak,A.dj(B.ow,B.AH,B.WZ,new A.alj(g))],t.p),B.k,f,B.l,B.v)}n=A.pX(o.f)
+return A.bi(A.b([new A.aP(B.aG,A.S("Empty "+r.toLowerCase(),f,B.aw,B.u),f),A.bT(A.fH("assets/art/building_"+s.a+".webp",B.y,r),110,f),A.S(s.e,f,B.bn,B.u),B.ak,A.dj(B.ow,B.AH,B.WZ,new A.alj(g))],t.p),B.k,f,B.l,B.v)}n=A.pX(o.f)
 s=g.a.d
 r=s.y
 m=r==null?f:A.jB(r)
@@ -43892,9 +43892,9 @@ k=s}}s=o.c
 r=A.S(A.auR(s)+" ("+g.a.d.z+")",f,B.aw,B.u)
 q=t.p
 p=A.b([],q)
-for(j="assets/art/animal_"+o.a+".png",i=o.b,h=0;h<g.a.d.z;++h)p.push(new A.hV(1,B.cR,new A.eQ(j,i,B.y,f),f))
+for(j="assets/art/animal_"+o.a+".webp",i=o.b,h=0;h<g.a.d.z;++h)p.push(new A.hV(1,B.cR,new A.eQ(j,i,B.y,f),f))
 p.push(B.c5)
-p.push(A.bT(A.fH("assets/art/good_"+n.a+".png",B.y,n.b),f,64))
+p.push(A.bT(A.fH("assets/art/good_"+n.a+".webp",B.y,n.b),f,64))
 r=A.b([new A.aP(B.aG,r,f),A.bT(A.bs(p,B.k,f,B.b8,B.D,0),84,f),B.bx,A.bs(A.b([A.fP(A.S(k,B.Zp,B.An,B.u),1),new A.ig(k,f)],q),B.k,f,B.l,B.D,0)],q)
 p=g.a.d
 if(p.Q&&p.at===0){p=p.as
@@ -44042,7 +44042,7 @@ l=n.b
 k=A.S(l+"  \xd7"+A.i(c.a.c.w.i(0,m)),b,b,b)
 j=A.S(c.a.c.oZ(n)==null?"Grows in "+n.gnm():"Wrong season (grows in "+n.gnm()+")",b,b,b)
 i=c.a.c.oZ(n)==null?B.on:B.H_
-q.push(A.jM(A.i2(!1,b,b,b,!0,b,b,b,!0,b,new A.R("seed_"+m,o),new A.c6(44,52,new A.eQ("assets/art/seed_"+m+".png",l,B.y,b),b),b,b,b,b,new A.alG(c,n),!1,b,b,b,b,j,b,k,A.eY(i,c.a.c.oZ(n)==null?B.ac:B.hE,b,b),b),b,b,b))}return A.bi(q,B.k,b,B.l,B.v)}h=c.a.c.w.i(0,r.a)
+q.push(A.jM(A.i2(!1,b,b,b,!0,b,b,b,!0,b,new A.R("seed_"+m,o),new A.c6(44,52,new A.eQ("assets/art/seed_"+m+".webp",l,B.y,b),b),b,b,b,b,new A.alG(c,n),!1,b,b,b,b,j,b,k,A.eY(i,c.a.c.oZ(n)==null?B.ac:B.hE,b,b),b),b,b,b))}return A.bi(q,B.k,b,B.l,B.v)}h=c.a.c.w.i(0,r.a)
 if(h==null)h=0
 g=Math.min(6,h)
 f=Math.min(c.r,g)
@@ -44182,7 +44182,7 @@ j=new A.aN(14,14)
 i=new A.bc(n?B.ac:B.B,3,B.A,-1)
 h=B.K3[o-1]
 n=n?B.ao:B.a5
-e.push(new A.nv(1,B.eH,new A.vd(A.cy(g,A.bi(A.b([new A.c6(g,78,new A.eQ(q+l+".png",r,B.bP,g),g),A.S(h,g,new A.k(!0,g,g,g,g,g,13,n,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g),g)],f),B.k,g,B.l,B.D),B.m,g,new A.bu(k,g,new A.cs(i,i,i,i),new A.ci(j,j,j,j),g,g,B.O),g,g,new A.R("stage_"+l,p),B.bW,B.Gd,g,g,g),m,B.Z,B.cq,g,g),g))}return A.bs(e,B.k,g,B.b8,B.D,0)}}
+e.push(new A.nv(1,B.eH,new A.vd(A.cy(g,A.bi(A.b([new A.c6(g,78,new A.eQ(q+l+".webp",r,B.bP,g),g),A.S(h,g,new A.k(!0,g,g,g,g,g,13,n,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g),g)],f),B.k,g,B.l,B.D),B.m,g,new A.bu(k,g,new A.cs(i,i,i,i),new A.ci(j,j,j,j),g,g,B.O),g,g,new A.R("stage_"+l,p),B.bW,B.Gd,g,g,g),m,B.Z,B.cq,g,g),g))}return A.bs(e,B.k,g,B.b8,B.D,0)}}
 A.arQ.prototype={
 $1(a){var s=$.mZ()
 return new A.nQ("Farm Kids","farming",s.gW3(),A.aQA(),s.a.a,$.Vi().a,null)},
@@ -44236,7 +44236,7 @@ if(d==null)d=0
 s=t.O
 r=A.cw(12)
 q=h.b
-p=A.bT(A.fH("assets/art/seed_"+e+".png",B.y,q),88,72)
+p=A.bT(A.fH("assets/art/seed_"+e+".webp",B.y,q),88,72)
 q=A.S(q,i,B.c7,i)
 o=A.S(""+h.r+" seeds for $"+h.w,i,B.cB,i)
 n=t.p
@@ -44280,7 +44280,7 @@ h.a.toString
 r=A.nl(e,"spell")
 q=A.b([],t.s)
 for(p=0;p<6;++p)q.push(B.aV[p].b)
-return A.aBR(q,f,s,new A.aga(h,e,d),g,new A.LM(d.b,"assets/art/seed_"+d.a+".png"),r)
+return A.aBR(q,f,s,new A.aga(h,e,d),g,new A.LM(d.b,"assets/art/seed_"+d.a+".webp"),r)
 case 1:f=h.r
 f===$&&A.a()
 return new A.rL(f,new A.agb(h),"Continue",new A.agc(e),g)
@@ -44377,7 +44377,7 @@ n=q.i(0,o.gj8())
 if((n==null?0:n)>0)h.push(o)}g=A.b([],t.uJ)
 for(s=B.fj.gP(B.fj);s.q();){n=s.gJ()
 m=q.i(0,n)
-if((m==null?0:m)>0)g.push(A.fF(n))}s=A.bT(A.fH("assets/art/good_feed.png",B.y,"Feed"),56,56)
+if((m==null?0:m)>0)g.push(A.fF(n))}s=A.bT(A.fH("assets/art/good_feed.webp",B.y,"Feed"),56,56)
 n=r.y
 m=n===1?"":"s"
 l=t.p
@@ -44440,7 +44440,7 @@ a5(){return new A.Nt()}}
 A.Nt.prototype={
 G(a){var s,r,q,p,o,n=this,m=null,l=n.e,k=n.a.c.c,j=Math.max(1,Math.min(8,B.f.cM(k,2))),i=Math.min(n.d,j),h=i*2
 if(l!=null)return A.bi(A.b([new A.p4(k,h,m),A.pV("Pay $"+h,new A.ag1(n,i,a),l,m,m)],t.p),B.k,m,B.l,B.v)
-k=A.bT(A.fH("assets/art/good_feed.png",B.y,"Feed"),80,m)
+k=A.bT(A.fH("assets/art/good_feed.webp",B.y,"Feed"),80,m)
 s=A.hX(B.dC,B.Z3,i>1?new A.ag2(n,i):m)
 r=A.S(A.i(i),B.Z0,B.e_,m)
 q=t.p
@@ -44605,7 +44605,7 @@ $1(a){var s=this.a
 if(s.c!=null)s.a.c.am7()},
 $S:6}
 A.aj7.prototype={
-$2(a,b){var s,r,q,p=null,o=this.a,n=A.b([new A.f6(A.nl(o.a.c,"house"),p),A.bT(A.fH("assets/art/farmhouse.png",B.y,"Farmhouse"),180,p),B.a1,new A.aP(B.hb,A.S("Your equipment",p,B.c7,p),p)],t.p)
+$2(a,b){var s,r,q,p=null,o=this.a,n=A.b([new A.f6(A.nl(o.a.c,"house"),p),A.bT(A.fH("assets/art/farmhouse.webp",B.y,"Farmhouse"),180,p),B.a1,new A.aP(B.hb,A.S("Your equipment",p,B.c7,p),p)],t.p)
 for(s=B.b.gP(B.kp),r=new A.f8(s,new A.aj4());r.q();){q=s.gJ()
 n.push(new A.ua(o.a.c,q,p))}n.push(B.ak)
 n.push(new A.aP(B.hb,A.S("Upgrades",p,B.c7,p),p))
@@ -44635,7 +44635,7 @@ o=A.lq(A.S("$"+s,l,l,l),new A.R("buy_"+i,t.O),p,l)}else if(j.c===B.d9)o=A.a5V(A.
 else o=B.Dh
 p=j.c===B.d8?"tool":"cloth"
 n=j.b
-i=A.bT(A.fH("assets/art/"+p+"_"+i+".png",B.y,n),56,56)
+i=A.bT(A.fH("assets/art/"+p+"_"+i+".webp",B.y,n),56,56)
 n=A.S(n,l,B.Tz,l)
 q=q&&!r
 j=j.e
@@ -44665,7 +44665,7 @@ else{m=A.b([],g)
 for(l=B.b.gP(B.aV),k=new A.f8(l,new A.VL(p));k.q();){j=l.gJ()
 i=j.a
 j=j.b
-m.push(A.bi(A.b([new A.c6(56,56,new A.eQ("assets/art/harvest_"+i+".png",j,B.y,h),h),A.S(j,h,h,h)],g),B.k,h,B.l,B.D))}n.push(new A.Bc(B.bN,12,0,B.aN,m,h))}f.push(A.jM(new A.aP(B.jx,A.bi(n,B.aU,h,B.l,B.D),h),o,new A.R("season_"+p.b,r),h))}return A.ri(f,B.eD,!1)},
+m.push(A.bi(A.b([new A.c6(56,56,new A.eQ("assets/art/harvest_"+i+".webp",j,B.y,h),h),A.S(j,h,h,h)],g),B.k,h,B.l,B.D))}n.push(new A.Bc(B.bN,12,0,B.aN,m,h))}f.push(A.jM(new A.aP(B.jx,A.bi(n,B.aU,h,B.l,B.D),h),o,new A.R("season_"+p.b,r),h))}return A.ri(f,B.eD,!1)},
 $S:68}
 A.VL.prototype={
 $1(a){return a.e.m(0,this.a)},
@@ -44790,13 +44790,13 @@ k=l.a
 l=l.b
 p.push(new A.a4(m,new A.j(a3*(k+l),n*(1-k+l))))}B.b.dd(p,new A.VO())
 a3="assets/art/animal_"+q
-j=$.abk.i(0,a3+"_sheet.png")
+j=$.abk.i(0,a3+"_sheet.webp")
 q=j==null
 if(q)i=1.2
 else{n=j.a
 i=n.c/6/(n.d/6)}h=o*i
 n=A.b([],t.p)
-for(l=p.length,k=this.e,g=a2.a,f=0.11*g,a2="animal_"+g+"_"+a2.b+"_",g=t.O,e=h/2,d=o*0.92,a3+=".png",c=a4.b,b=0;b<p.length;p.length===l||(0,A.p)(p),++b){a=p[b]
+for(l=p.length,k=this.e,g=a2.a,f=0.11*g,a2="animal_"+g+"_"+a2.b+"_",g=t.O,e=h/2,d=o*0.92,a3+=".webp",c=a4.b,b=0;b<p.length;p.length===l||(0,A.p)(p),++b){a=p[b]
 m=a.a
 a0=a.b
 a=q?new A.eQ(a3,c,B.y,a1):new A.qB(new A.FB(j,k,B.c.aL(m*0.23+f,1),(m&1)===1,k),a1,B.a0,a1,a1)
@@ -44828,7 +44828,7 @@ s=m.a
 r=s==="barn"?0.6:0.5
 q=n.a*r
 p=n.ig(0.86,0.2)
-return A.ih(B.bO,A.b([A.j9(o,A.fH("assets/art/building_"+s+".png",B.bP,m.b),q,o,p.a-q/2,o,p.b-q*0.95,q)],t.p),B.m,B.by)}}
+return A.ih(B.bO,A.b([A.j9(o,A.fH("assets/art/building_"+s+".webp",B.bP,m.b),q,o,p.a-q/2,o,p.b-q*0.95,q)],t.p),B.m,B.by)}}
 A.Jz.prototype={
 G(a){var s,r,q,p,o,n,m,l,k,j=null,i=this.c,h=i.y,g=h==null?j:A.jB(h)
 if(g==null||i.z===0)return B.b_
@@ -44842,7 +44842,7 @@ p=r?B.co:B.i.c8(0.94)
 o=A.cw(s)
 n=A.eg(r?B.bC:B.ev,2)
 m=s*1.8
-l=r?"assets/art/good_"+A.pX(g.f).a+".png":"assets/art/good_feed.png"
+l=r?"assets/art/good_"+A.pX(g.f).a+".webp":"assets/art/good_feed.webp"
 m=A.bT(A.fH(l,B.y,r?A.pX(g.f).b:"Feed"),m,m)
 l=A.bT(j,j,s*0.3)
 k=r?""+i.at+" ready!":"Hungry"
@@ -44956,13 +44956,13 @@ var $async$oq=A.F(function(b,c){if(b===1)return A.B(c,r)
 for(;;)switch(s){case 0:if(p.d){s=1
 break}p.d=!0
 s=3
-return A.r(A.mR(a,"assets/art/ground_wild.png"),$async$oq)
+return A.r(A.mR(a,"assets/art/ground_wild.webp"),$async$oq)
 case 3:p.a=c
 s=4
-return A.r(A.mR(a,"assets/art/ground_cleared.png"),$async$oq)
+return A.r(A.mR(a,"assets/art/ground_cleared.webp"),$async$oq)
 case 4:p.b=c
 s=5
-return A.r(A.mR(a,"assets/art/ground_tilled.png"),$async$oq)
+return A.r(A.mR(a,"assets/art/ground_tilled.webp"),$async$oq)
 case 5:p.c=c
 case 1:return A.C(q,r)}})
 return A.D($async$oq,r)},
@@ -44987,9 +44987,9 @@ case 2:s=0
 break
 default:s=null}return s},
 gWk(){var s=null
-switch(this.a.a){case 0:s="assets/art/vehicle_tractor.png"
+switch(this.a.a){case 0:s="assets/art/vehicle_tractor.webp"
 break
-case 1:s="assets/art/vehicle_horse_plow.png"
+case 1:s="assets/art/vehicle_horse_plow.webp"
 break
 case 2:break}return s}}
 A.I3.prototype={
@@ -45288,8 +45288,8 @@ s.toString
 r=A.ax6(s)
 s=t.P
 $.avI().oq(r).bn(new A.ajI(n),s)
-q=A.b(["assets/art/vehicle_tractor.png","assets/art/vehicle_horse_plow.png"],t.s)
-for(p=0;p<6;++p)q.push("assets/art/animal_"+B.eO[p].a+"_sheet.png")
+q=A.b(["assets/art/vehicle_tractor.webp","assets/art/vehicle_horse_plow.webp"],t.s)
+for(p=0;p<6;++p)q.push("assets/art/animal_"+B.eO[p].a+"_sheet.webp")
 o=q.length
 p=0
 for(;p<q.length;q.length===o||(0,A.p)(q),++p)A.abl(r,q[p]).bn(new A.ajJ(n),s)},
@@ -45509,7 +45509,7 @@ j=k.a
 k=k.b
 o.push(new A.a4(l,new A.j(b*(j+k),a*(1-j+k))))}B.b.dd(o,new A.a_p())
 b=A.b([],t.p)
-for(a=o.length,k=""+r,j="plant_"+p+"_"+k+"_",i=t.O,h=m/2,g=n*0.92,k="assets/art/plant_"+p+"_"+k+".png",p=a0.b,f=0;f<o.length;o.length===a||(0,A.p)(o),++f){e=o[f]
+for(a=o.length,k=""+r,j="plant_"+p+"_"+k+"_",i=t.O,h=m/2,g=n*0.92,k="assets/art/plant_"+p+"_"+k+".webp",p=a0.b,f=0;f<o.length;o.length===a||(0,A.p)(o),++f){e=o[f]
 l=e.a
 d=e.b
 b.push(new A.j8(d.a-h,d.b-g,c,c,m,n,new A.QY(new A.eQ(k,p,B.bP,c),new A.aH(1000*(90*l)),c),new A.R(j+l,i)))}return A.ih(B.bO,b,B.m,B.by)}}
@@ -85442,7 +85442,7 @@ B.fF=new A.hN(2,"inactive")
 B.fG=new A.hN(3,"hidden")
 B.iN=new A.hN(4,"paused")
 B.mq=new A.G2(1,"contain")
-B.Br=new A.eQ("assets/art/farmhouse.png","Farmhouse",B.bP,null)
+B.Br=new A.eQ("assets/art/farmhouse.webp","Farmhouse",B.bP,null)
 B.iO=new A.vs(0,"polite")
 B.iP=new A.vs(1,"assertive")
 B.mf=new A.n9(0,"log")
