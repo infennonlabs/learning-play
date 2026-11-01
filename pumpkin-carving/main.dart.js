@@ -74345,7 +74345,7 @@ var $async$ng=A.I(function(a,b){if(a===1)return A.E(b,r)
 for(;;)switch(s){case 0:if(q.f==null)q.f=q.uj()
 if(q.r==null)q.r=q.uj()
 s=2
-return A.y(q.u7(q.f,"audio/night_ambience.wav",0.35),$async$ng)
+return A.y(q.u7(q.f,"audio/night_ambience.mp3",0.35),$async$ng)
 case 2:s=3
 return A.y(q.u7(q.r,"audio/candle_crackle.mp3",0.4),$async$ng)
 case 3:return A.F(null,r)}})
