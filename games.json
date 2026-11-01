@@ -112,6 +112,14 @@
     "devPath": "dev/does-it-solve/"
   },
   {
+    "id": "earth_lab",
+    "title": "Earth Lab",
+    "slug": "earth",
+    "channelPolicy": "both",
+    "stablePath": "earth/",
+    "devPath": "dev/earth/"
+  },
+  {
     "id": "emergency_kids",
     "title": "Emergency Kids",
     "slug": "emergency-response",
