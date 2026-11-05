@@ -278,5 +278,13 @@
     "channelPolicy": "both",
     "stablePath": "contractions/",
     "devPath": "dev/contractions/"
+  },
+  {
+    "id": "thanksgiving_kids",
+    "title": "Thanksgiving Fun",
+    "slug": "thanksgiving",
+    "channelPolicy": "both",
+    "stablePath": "thanksgiving/",
+    "devPath": "dev/thanksgiving/"
   }
 ]
