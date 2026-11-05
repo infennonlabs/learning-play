@@ -23606,7 +23606,7 @@ $iFZ:1}
 A.afW.prototype={
 $1(a){var s=A.cm().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/":s)+a},
+return(s==null?"canvaskit/":s)+a},
 $S:176}
 A.Gf.prototype={
 gu(a){var s=this.a
@@ -72328,7 +72328,7 @@ K(a){var s=this,r=null,q=A.X(a),p=A.c([],t.p),o=s.w.a
 if(o.n(0,B.bo))p.push(A.eC(new A.ra(s.mL(B.bo),s.l9(B.bo),s.c,s.pH(B.bo),r),1))
 if(o.n(0,B.bp)){if(p.length!==0)p.push(B.fR)
 p.push(A.eC(new A.ra(s.mL(B.bp),s.l9(B.bp),s.d,s.pH(B.bp),r),1))}if(o.n(0,B.du)){if(p.length!==0)p.push(B.fR)
-p.push(A.eC(new A.ra(s.mL(B.du),s.l9(B.du),s.gA5(),s.gty(),r),1))}return A.nr(!0,A.kt(!1,B.K,!0,r,new A.cj(B.Cj,A.eh(p,B.R,B.a_,B.a0,0),r),B.I,q.ax.k2,8,r,r,r,r,r,B.bc),B.aq,!1)}}
+p.push(A.eC(new A.ra(s.mL(B.du),s.l9(B.du),s.gA5(),s.gty(),r),1))}return A.kt(!1,B.K,!0,r,A.nr(!0,new A.cj(B.Cj,A.eh(p,B.R,B.a_,B.a0,0),r),B.aq,!1),B.I,q.ax.k2,8,r,r,r,r,r,B.bc)}}
 A.ra.prototype={
 K(a){var s=null,r=A.mB(this.d,s,s,s),q=A.dp(this.c,s,s,s,s,s),p=A.ie(new A.uS(B.Sl,!0,this.e,s,s,s,s,B.I,s,!1,s,!0,s,new A.zH(q,r,s,s,s),s),48,s)
 return p}}

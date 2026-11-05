@@ -25820,7 +25820,7 @@ $iXA:1}
 A.aoj.prototype={
 $1(a){var s=A.cJ().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/":s)+a},
+return(s==null?"canvaskit/":s)+a},
 $S:84}
 A.Jf.prototype={
 gt(a){var s=this.a
