@@ -26614,7 +26614,7 @@ $S:2}
 A.aqZ.prototype={
 $1(a){var s=A.cF().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/":s)+a},
+return(s==null?"canvaskit/":s)+a},
 $S:128}
 A.HN.prototype={
 VZ(){var s=this.abn(),r=$.bb.b9().ImageFilter.MakeColorFilter(s,null)
@@ -83464,7 +83464,7 @@ K(a){var s=this,r=null,q=A.J(a),p=A.b([],t.p)
 if(B.it.m(0,B.bS))p.push(A.eG(new A.uR(s.pi(B.bS),s.nq(B.bS),s.c,s.pz(B.bS),r)))
 if(B.it.m(0,B.ca)){if(p.length!==0)p.push(B.dg)
 p.push(A.eG(new A.uR(s.pi(B.ca),s.nq(B.ca),s.d,s.pz(B.ca),r)))}if(B.it.m(0,B.cE)){if(p.length!==0)p.push(B.dg)
-p.push(A.eG(new A.uR(s.pi(B.cE),s.nq(B.cE),s.gEn(),s.gwI(),r)))}return A.mv(!0,A.ic(!1,B.M,!0,r,new A.bH(B.G6,A.dy(p,B.a4,B.O,B.Z,0),r),B.r,q.ax.k2,8,r,r,r,r,r,B.cf),B.an,!1)}}
+p.push(A.eG(new A.uR(s.pi(B.cE),s.nq(B.cE),s.gEn(),s.gwI(),r)))}return A.ic(!1,B.M,!0,r,A.mv(!0,new A.bH(B.G6,A.dy(p,B.a4,B.O,B.Z,0),r),B.an,!1),B.r,q.ax.k2,8,r,r,r,r,r,B.cf)}}
 A.uR.prototype={
 K(a){var s=null,r=A.cE(A.axs(A.j1(this.d,s,s,s),A.bn(this.c,s,s,s,s,s,s,s),this.e),48,s)
 return r}}
@@ -84719,8 +84719,9 @@ A.a77.prototype={
 $1(a){return a.b},
 $S:97}
 A.Kx.prototype={
-K(a){var s=null,r=A.aQ3(A.aQF(A.aM2())),q=A.awO(B.ak,s,s,B.jD),p=A.ue(B.Bk,s,new A.nL(s,s,s,s,0,s,new A.cD(A.c5(16),B.o)),q,B.DF,!0),o=r==null?s:new A.a6X(s)
-return new A.wD(new A.uI(new A.a6Y(r),s,s,A.aQo(),A.aPp(),t.Dj),s,s,new A.yV(new A.ow(s,s),o,s,"Math Adventures Kids",p,!1,s),s,t.gz)}}
+K(a){var s=null,r=A.aQ3(A.aQF(A.aM2())),q=A.awO(B.ak,s,s,B.jD),p=A.ue(B.Bk,s,new A.nL(s,s,s,s,0,s,new A.cD(A.c5(16),B.o)),q,B.DF,!0),o=r==null,n=o?new A.ow(s,s):s
+o=o?s:new A.a6X(s)
+return new A.wD(new A.uI(new A.a6Y(r),s,s,A.aQo(),A.aPp(),t.Dj),s,s,new A.yV(n,o,s,"Math Adventures Kids",p,!1,s),s,t.gz)}}
 A.a6Y.prototype={
 $1(a){var s,r=new A.kk(B.na,B.dP,B.kZ,B.kZ,B.T,$.af())
 r.b=new A.a71(B.na)
