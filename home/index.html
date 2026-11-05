@@ -19,7 +19,6 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Free early learning games for kids ages 3-12, PreK through 5th grade. No subscription required. Alphabet, counting, math, reading, science and more.">
-  <meta name="google-adsense-account" content="ca-pub-8017542409324420">
   <meta name="theme-color" content="#0B5E8B">
   <meta property="og:title" content="InfennonLabs: Free Early Learning Games for Kids">
   <meta property="og:description" content="Free early learning games for kids ages 3-12, PreK through 5th grade. No subscription required. Alphabet, counting, math, reading, science and more.">
@@ -58,28 +57,6 @@
       });
       observer.observe(document.documentElement, { childList: true, subtree: true });
       setTimeout(function () { observer.disconnect(); }, 60000);
-    })();
-  </script>
-  <script>
-    // Load Google AdSense after Flutter's first frame so it does not compete with app startup
-    // (it added ~1.1s to first paint on mobile). Same script and publisher ID as before; ad
-    // units queued by adsbygoogle.push() run when it arrives. The google-adsense-account meta
-    // tag above and ads.txt are unchanged.
-    (function () {
-      var loaded = false;
-      function loadAds() {
-        if (loaded) return;
-        loaded = true;
-        var script = document.createElement('script');
-        script.async = true;
-        script.crossOrigin = 'anonymous';
-        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8017542409324420';
-        document.head.appendChild(script);
-      }
-      // Flutter dispatches this on window after the first frame renders.
-      window.addEventListener('flutter-first-frame', function () { setTimeout(loadAds, 1500); }, { once: true });
-      // Fallback if the event never fires (older engine, load error): 10s after window load.
-      window.addEventListener('load', function () { setTimeout(loadAds, 10000); }, { once: true });
     })();
   </script>
 
@@ -131,6 +108,7 @@
 <li><a href="https://infennonlabs.com/contractions/">Word Blend Kids – Build and match word joiners</a></li>
 <li><a href="https://infennonlabs.com/fantasy/">Realm Breaker – Break bricks, follow a quest, and read picture books</a></li>
 <li><a href="https://infennonlabs.com/pumpkin-carving/">Pumpkin Carving – Carve a pumpkin by finger, then light it up for the night</a></li>
+<li><a href="https://infennonlabs.com/thanksgiving/">Thanksgiving Fun – Festive educational fun for Thanksgiving</a></li>
 <li><a href="https://infennonlabs.com/piano/">Piano Practice – Play piano by ear with songs, chords, and matching music symbols</a></li>
 <li><a href="https://infennonlabs.com/cooking/">Cooking Kids – Cook up reading, spelling, and math with ingredients and recipes</a></li>
 <li><a href="https://infennonlabs.com/coloring/">Paint by Number – Color a picture by number, or paint it any way you like</a></li>
