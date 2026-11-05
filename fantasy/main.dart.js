@@ -25553,7 +25553,7 @@ $iWT:1}
 A.amM.prototype={
 $1(a){var s=A.cA().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/":s)+a},
+return(s==null?"canvaskit/":s)+a},
 $S:109}
 A.IT.prototype={
 gu(a){var s=this.a
@@ -79732,8 +79732,9 @@ s.eu(new A.E(p,104,p+30*q,108),o)
 r.a+=38},
 $S:516}
 A.K1.prototype={
-J(a){var s=null,r=A.aMF(A.aMG(A.aHI())),q=A.aqt(B.al,s,B.bY,!0),p=r==null?s:new A.a7c(this,s,r)
-return new A.y0(new A.o9(this.c,this.d,s,s),p,s,"Realm Breaker",q,!1,s)}}
+J(a){var s=null,r=A.aMF(A.aMG(A.aHI())),q=A.aqt(B.al,s,B.bY,!0),p=r==null,o=p?new A.o9(this.c,this.d,s,s):s
+p=p?s:new A.a7c(this,s,r)
+return new A.y0(o,p,s,"Realm Breaker",q,!1,s)}}
 A.a7c.prototype={
 $1(a){var s=this.a
 return A.c([A.hR(new A.a7b(s,this.b),null,t.H),A.ays(this.c,s.d,s.c)],t.k7)},
