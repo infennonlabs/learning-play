@@ -4987,7 +4987,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 flutter_lints
 path_provider_windows
 plugin_platform_interface
-url_launcher
 url_launcher_platform_interface
 xdg_directories
 
@@ -20800,6 +20799,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 jni_flutter
+jni_util
 
 Copyright 2026, the Dart project authors.
 
@@ -24152,6 +24152,7 @@ path_provider_android
 path_provider_foundation
 path_provider_linux
 path_provider_platform_interface
+url_launcher
 url_launcher_android
 url_launcher_ios
 url_launcher_linux
