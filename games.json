@@ -72,6 +72,14 @@
     "devPath": "dev/chemistry/"
   },
   {
+    "id": "christmas_kids",
+    "title": "Christmas Kids",
+    "slug": "christmas",
+    "channelPolicy": "both",
+    "stablePath": "christmas/",
+    "devPath": "dev/christmas/"
+  },
+  {
     "id": "clockwork",
     "title": "Clockwork",
     "slug": "clockwork",
@@ -134,6 +142,14 @@
     "channelPolicy": "both",
     "stablePath": "farming/",
     "devPath": "dev/farming/"
+  },
+  {
+    "id": "find_it",
+    "title": "Hidden Treasures",
+    "slug": "hide-and-seek",
+    "channelPolicy": "both",
+    "stablePath": "hide-and-seek/",
+    "devPath": "dev/hide-and-seek/"
   },
   {
     "id": "grammar_adventures_kids",
@@ -272,19 +288,19 @@
     "devPath": "dev/speak-repeat/"
   },
   {
-    "id": "word_blend_kids",
-    "title": "Word Blend Kids",
-    "slug": "contractions",
-    "channelPolicy": "both",
-    "stablePath": "contractions/",
-    "devPath": "dev/contractions/"
-  },
-  {
     "id": "thanksgiving_kids",
     "title": "Thanksgiving Fun",
     "slug": "thanksgiving",
     "channelPolicy": "both",
     "stablePath": "thanksgiving/",
     "devPath": "dev/thanksgiving/"
+  },
+  {
+    "id": "word_blend_kids",
+    "title": "Word Blend Kids",
+    "slug": "contractions",
+    "channelPolicy": "both",
+    "stablePath": "contractions/",
+    "devPath": "dev/contractions/"
   }
 ]
