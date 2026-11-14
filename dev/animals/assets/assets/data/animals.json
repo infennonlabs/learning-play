@@ -1,0 +1,279 @@
+{
+  "habitats": [
+    {
+      "id": "farm",
+      "name": "Farm"
+    },
+    {
+      "id": "savanna",
+      "name": "Savanna"
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle"
+    },
+    {
+      "id": "forest",
+      "name": "Forest"
+    },
+    {
+      "id": "desert",
+      "name": "Desert"
+    },
+    {
+      "id": "pond",
+      "name": "Pond"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean"
+    }
+  ],
+  "animals": [
+    {
+      "id": "cow",
+      "name": "Cow",
+      "habitat": "farm"
+    },
+    {
+      "id": "pig",
+      "name": "Pig",
+      "habitat": "farm"
+    },
+    {
+      "id": "sheep",
+      "name": "Sheep",
+      "habitat": "farm"
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "habitat": "farm"
+    },
+    {
+      "id": "duck",
+      "name": "Duck",
+      "habitat": "pond"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "habitat": "farm"
+    },
+    {
+      "id": "rooster",
+      "name": "Rooster",
+      "habitat": "farm"
+    },
+    {
+      "id": "dog",
+      "name": "Dog",
+      "habitat": "farm"
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "habitat": "farm"
+    },
+    {
+      "id": "frog",
+      "name": "Frog",
+      "habitat": "pond"
+    },
+    {
+      "id": "lion",
+      "name": "Lion",
+      "habitat": "savanna"
+    },
+    {
+      "id": "elephant",
+      "name": "Elephant",
+      "habitat": "savanna"
+    },
+    {
+      "id": "monkey",
+      "name": "Monkey",
+      "habitat": "jungle"
+    },
+    {
+      "id": "owl",
+      "name": "Owl",
+      "habitat": "forest"
+    },
+    {
+      "id": "bee",
+      "name": "Bee",
+      "habitat": "farm"
+    },
+    {
+      "id": "snake",
+      "name": "Snake",
+      "habitat": "jungle"
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "habitat": "forest"
+    },
+    {
+      "id": "bird",
+      "name": "Bird",
+      "habitat": "forest"
+    },
+    {
+      "id": "donkey",
+      "name": "Donkey",
+      "habitat": "farm"
+    },
+    {
+      "id": "seal",
+      "name": "Seal",
+      "habitat": "ocean"
+    },
+    {
+      "id": "zebra",
+      "name": "Zebra",
+      "habitat": "savanna"
+    },
+    {
+      "id": "hippo",
+      "name": "Hippo",
+      "habitat": "savanna"
+    },
+    {
+      "id": "gorilla",
+      "name": "Gorilla",
+      "habitat": "jungle"
+    },
+    {
+      "id": "hyena",
+      "name": "Hyena",
+      "habitat": "savanna"
+    },
+    {
+      "id": "cheetah",
+      "name": "Cheetah",
+      "habitat": "savanna"
+    },
+    {
+      "id": "crocodile",
+      "name": "Crocodile",
+      "habitat": "savanna"
+    },
+    {
+      "id": "flamingo",
+      "name": "Flamingo",
+      "habitat": "pond"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "habitat": "savanna"
+    },
+    {
+      "id": "tiger",
+      "name": "Tiger",
+      "habitat": "jungle"
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "habitat": "jungle"
+    },
+    {
+      "id": "parrot",
+      "name": "Parrot",
+      "habitat": "jungle"
+    },
+    {
+      "id": "leopard",
+      "name": "Leopard",
+      "habitat": "jungle"
+    },
+    {
+      "id": "camel",
+      "name": "Camel",
+      "habitat": "desert"
+    },
+    {
+      "id": "dolphin",
+      "name": "Dolphin",
+      "habitat": "ocean"
+    },
+    {
+      "id": "whale",
+      "name": "Whale",
+      "habitat": "ocean"
+    },
+    {
+      "id": "walrus",
+      "name": "Walrus",
+      "habitat": "ocean"
+    },
+    {
+      "id": "penguin",
+      "name": "Penguin",
+      "habitat": "ocean"
+    }
+  ],
+  "lines": {
+    "who_says": "Who makes this sound?",
+    "which_sound": "Which sound does it make?",
+    "listen_then_pick": "Tap a speaker to listen. Then tap the check for the one you think.",
+    "memory_prompt": "Match each animal to its sound.",
+    "habitat_where": "Drag it to where it lives.",
+    "explorer_prompt": "Tap an animal to hear it.",
+    "great_job": "Great job!",
+    "yes": "Yes!",
+    "nice": "Nice work!",
+    "try_again": "Try again.",
+    "good_listening": "Good listening!",
+    "hint_dim": "I took one away.",
+    "hint_pair": "I found a pair for you.",
+    "level_up": "Wow, you are getting good at this!",
+    "name_cow": "Cow",
+    "name_pig": "Pig",
+    "name_sheep": "Sheep",
+    "name_horse": "Horse",
+    "name_duck": "Duck",
+    "name_chicken": "Chicken",
+    "name_rooster": "Rooster",
+    "name_dog": "Dog",
+    "name_cat": "Cat",
+    "name_frog": "Frog",
+    "name_lion": "Lion",
+    "name_elephant": "Elephant",
+    "name_monkey": "Monkey",
+    "name_owl": "Owl",
+    "name_bee": "Bee",
+    "name_snake": "Snake",
+    "name_wolf": "Wolf",
+    "name_bird": "Bird",
+    "name_donkey": "Donkey",
+    "name_seal": "Seal",
+    "name_zebra": "Zebra",
+    "name_hippo": "Hippo",
+    "name_gorilla": "Gorilla",
+    "name_hyena": "Hyena",
+    "name_cheetah": "Cheetah",
+    "name_crocodile": "Crocodile",
+    "name_flamingo": "Flamingo",
+    "name_rhino": "Rhino",
+    "name_tiger": "Tiger",
+    "name_peacock": "Peacock",
+    "name_parrot": "Parrot",
+    "name_leopard": "Leopard",
+    "name_camel": "Camel",
+    "name_dolphin": "Dolphin",
+    "name_whale": "Whale",
+    "name_walrus": "Walrus",
+    "name_penguin": "Penguin",
+    "habitat_farm": "Farm",
+    "habitat_savanna": "Savanna",
+    "habitat_jungle": "Jungle",
+    "habitat_forest": "Forest",
+    "habitat_desert": "Desert",
+    "habitat_pond": "Pond",
+    "habitat_ocean": "Ocean"
+  }
+}
