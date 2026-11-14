@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T16:07:18Z",
+  "generatedAt": "2026-11-14T16:35:40Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -17,6 +17,38 @@
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
       "lastDeployedAt": "2026-11-14T16:07:18Z"
+    },
+    "be_with_god": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "book_fixers": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "clockwork": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "cooking_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "earth_lab": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "find_it": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "make_change": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
+    },
+    "make_it": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:35:40Z"
     }
   },
   "pins": []
