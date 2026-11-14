@@ -264,6 +264,14 @@
     "devPath": "dev/fantasy/"
   },
   {
+    "id": "shape_pals",
+    "title": "Shape Pals",
+    "slug": "shapes-and-colors",
+    "channelPolicy": "both",
+    "stablePath": "shapes-and-colors/",
+    "devPath": "dev/shapes-and-colors/"
+  },
+  {
     "id": "sight_word_search",
     "title": "Sight Word Search",
     "slug": "sight-word-search",
@@ -302,5 +310,21 @@
     "channelPolicy": "both",
     "stablePath": "contractions/",
     "devPath": "dev/contractions/"
+  },
+  {
+    "id": "discovery_lab",
+    "title": "Discovery Lab",
+    "slug": "discovery-science",
+    "channelPolicy": "both",
+    "stablePath": "discovery-science/",
+    "devPath": "dev/discovery-science/"
+  },
+  {
+    "id": "trace_lab",
+    "title": "Trace Lab",
+    "slug": "writing",
+    "channelPolicy": "both",
+    "stablePath": "writing/",
+    "devPath": "dev/writing/"
   }
 ]
