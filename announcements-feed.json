@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14T16:07:18Z",
+  "games": {
+    "animal_sounds": {
+      "firstDeployedAt": "2026-11-14T16:07:18Z",
+      "lastDeployedAt": "2026-11-14T16:07:18Z"
+    },
+    "discovery_lab": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:07:18Z"
+    },
+    "home": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-14T16:07:18Z"
+    },
+    "key_quest": {
+      "firstDeployedAt": "2026-11-14T16:07:18Z",
+      "lastDeployedAt": "2026-11-14T16:07:18Z"
+    }
+  },
+  "pins": []
+}
