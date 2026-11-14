@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T19:13:46Z",
+  "generatedAt": "2026-11-14T22:38:15Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -20,7 +20,7 @@
     },
     "be_with_god": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-14T19:13:46Z"
+      "lastDeployedAt": "2026-11-14T22:38:15Z"
     },
     "book_fixers": {
       "firstDeployedAt": null,
