@@ -16,6 +16,14 @@
     "devPath": "dev/anatomy/"
   },
   {
+    "id": "animal_sounds",
+    "title": "Animal Sounds",
+    "slug": "animals",
+    "channelPolicy": "both",
+    "stablePath": "animals/",
+    "devPath": "dev/animals/"
+  },
+  {
     "id": "arcade_lab",
     "title": "Arcade Lab",
     "slug": "arcade",
@@ -112,6 +120,14 @@
     "devPath": "dev/countin-kids/"
   },
   {
+    "id": "discovery_lab",
+    "title": "Discovery Lab",
+    "slug": "discovery-science",
+    "channelPolicy": "both",
+    "stablePath": "discovery-science/",
+    "devPath": "dev/discovery-science/"
+  },
+  {
     "id": "does_it_solve",
     "title": "Does It Solve",
     "slug": "does-it-solve",
@@ -166,6 +182,14 @@
     "channelPolicy": "both",
     "stablePath": "home/",
     "devPath": "dev/home/"
+  },
+  {
+    "id": "key_quest",
+    "title": "Key Quest",
+    "slug": "learn-to-type",
+    "channelPolicy": "both",
+    "stablePath": "learn-to-type/",
+    "devPath": "dev/learn-to-type/"
   },
   {
     "id": "mahjong",
@@ -304,27 +328,19 @@
     "devPath": "dev/thanksgiving/"
   },
   {
-    "id": "word_blend_kids",
-    "title": "Word Blend Kids",
-    "slug": "contractions",
-    "channelPolicy": "both",
-    "stablePath": "contractions/",
-    "devPath": "dev/contractions/"
-  },
-  {
-    "id": "discovery_lab",
-    "title": "Discovery Lab",
-    "slug": "discovery-science",
-    "channelPolicy": "both",
-    "stablePath": "discovery-science/",
-    "devPath": "dev/discovery-science/"
-  },
-  {
     "id": "trace_lab",
     "title": "Trace Lab",
     "slug": "writing",
     "channelPolicy": "both",
     "stablePath": "writing/",
     "devPath": "dev/writing/"
+  },
+  {
+    "id": "word_blend_kids",
+    "title": "Word Blend Kids",
+    "slug": "contractions",
+    "channelPolicy": "both",
+    "stablePath": "contractions/",
+    "devPath": "dev/contractions/"
   }
 ]
