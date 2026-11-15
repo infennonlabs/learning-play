@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T02:58:21Z",
+  "generatedAt": "2026-11-15T05:07:13Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -81,6 +81,38 @@
     "trace_lab": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T02:58:21Z"
+    },
+    "alpha_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "anatomy_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "arcade_lab": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "brick_builder": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "calendar_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "chem_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "christmas_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "comic_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T05:07:13Z"
     }
   },
   "pins": []
