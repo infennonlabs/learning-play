@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T22:53:41Z",
+  "generatedAt": "2026-11-15T23:01:51Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-14T16:11:45Z"
+      "lastDeployedAt": "2026-11-15T23:01:51Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -80,7 +80,7 @@
     },
     "trace_lab": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T02:58:21Z"
+      "lastDeployedAt": "2026-11-15T23:01:51Z"
     },
     "alpha_kids": {
       "firstDeployedAt": null,
@@ -132,7 +132,7 @@
     },
     "grammar_adventures_kids": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T14:49:33Z"
+      "lastDeployedAt": "2026-11-15T23:01:51Z"
     },
     "mahjong": {
       "firstDeployedAt": null,
