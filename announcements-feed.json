@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T05:07:13Z",
+  "generatedAt": "2026-11-15T14:49:33Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -113,6 +113,30 @@
     "comic_kids": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T05:07:13Z"
+    },
+    "countin_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
+    },
+    "does_it_solve": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
+    },
+    "emergency_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
+    },
+    "farm_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
+    },
+    "grammar_adventures_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
+    },
+    "mahjong": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T14:49:33Z"
     }
   },
   "pins": []
