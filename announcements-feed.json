@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T22:52:19Z",
+  "generatedAt": "2026-11-15T22:58:23Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-14T16:07:18Z"
+      "lastDeployedAt": "2026-11-15T22:58:23Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -80,7 +80,7 @@
     },
     "trace_lab": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T02:49:52Z"
+      "lastDeployedAt": "2026-11-15T22:58:23Z"
     },
     "alpha_kids": {
       "firstDeployedAt": null,
@@ -132,7 +132,7 @@
     },
     "grammar_adventures_kids": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T14:43:14Z"
+      "lastDeployedAt": "2026-11-15T22:58:23Z"
     },
     "mahjong": {
       "firstDeployedAt": null,
@@ -165,10 +165,6 @@
     "word_blend_kids": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T17:20:33Z"
-    },
-    "puzzle_puzzle": {
-      "firstDeployedAt": "2026-11-15T22:52:19Z",
-      "lastDeployedAt": "2026-11-15T22:52:19Z"
     }
   },
   "pins": []
