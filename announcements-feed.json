@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T14:43:14Z",
+  "generatedAt": "2026-11-15T17:20:33Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -137,6 +137,34 @@
     "mahjong": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T14:43:14Z"
+    },
+    "memory_match": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "piano_synth_demo": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "pumpkin_carver": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "sight_word_search": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "speak_repeat": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "thanksgiving_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "word_blend_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T17:20:33Z"
     }
   },
   "pins": []
