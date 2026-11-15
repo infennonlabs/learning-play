@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T17:26:08Z",
+  "generatedAt": "2026-11-15T22:53:41Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -165,6 +165,10 @@
     "word_blend_kids": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T17:26:08Z"
+    },
+    "puzzle_puzzle": {
+      "firstDeployedAt": "2026-11-15T22:53:41Z",
+      "lastDeployedAt": "2026-11-15T22:53:41Z"
     }
   },
   "pins": []

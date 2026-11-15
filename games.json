@@ -272,6 +272,14 @@
     "devPath": "dev/pumpkin-carving/"
   },
   {
+    "id": "puzzle_puzzle",
+    "title": "Puzzle Puzzle",
+    "slug": "puzzle",
+    "channelPolicy": "both",
+    "stablePath": "puzzle/",
+    "devPath": "dev/puzzle/"
+  },
+  {
     "id": "reading_writing_kids",
     "title": "Reading Writing Kids",
     "slug": "reading-writing-kids",
