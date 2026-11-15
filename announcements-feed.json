@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T23:14:07Z",
+  "generatedAt": "2026-11-15T02:49:52Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -49,6 +49,38 @@
     "make_it": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-14T23:14:07Z"
+    },
+    "math_adventures_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "measure_it": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "paint_by_number": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "reading_writing_kids": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "realm_breaker": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "shape_pals": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "slice_it": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
+    },
+    "trace_lab": {
+      "firstDeployedAt": null,
+      "lastDeployedAt": "2026-11-15T02:49:52Z"
     }
   },
   "pins": []
