@@ -6,7 +6,7 @@
     "background_color": "#2B9AA8",
     "theme_color": "#2B9AA8",
     "description": "Find hidden items, from a toy room to a coral reef",
-    "orientation": "portrait-primary",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {
