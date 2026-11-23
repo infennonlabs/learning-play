@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T01:32:38Z",
+  "generatedAt": "2026-11-23T01:52:31Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T22:58:23Z"
+      "lastDeployedAt": "2026-11-23T01:52:31Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -24,7 +24,7 @@
     },
     "book_fixers": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-14T23:14:07Z"
+      "lastDeployedAt": "2026-11-23T01:52:31Z"
     },
     "clockwork": {
       "firstDeployedAt": null,
