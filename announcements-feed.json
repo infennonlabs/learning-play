@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T05:26:47Z",
+  "generatedAt": "2026-11-23T15:32:18Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
@@ -96,7 +96,7 @@
     },
     "brick_builder": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T05:07:13Z"
+      "lastDeployedAt": "2026-11-23T15:32:18Z"
     },
     "calendar_kids": {
       "firstDeployedAt": null,
