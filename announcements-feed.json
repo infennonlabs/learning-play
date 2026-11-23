@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T15:30:41Z",
+  "generatedAt": "2026-11-23T16:38:53Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-23T05:25:14Z"
+      "lastDeployedAt": "2026-11-23T16:38:53Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
