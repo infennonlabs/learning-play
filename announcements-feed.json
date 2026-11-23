@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T23:01:51Z",
+  "generatedAt": "2026-11-23T01:39:21Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
-      "lastDeployedAt": "2026-11-14T16:11:45Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "discovery_lab": {
       "firstDeployedAt": null,
@@ -16,7 +16,7 @@
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:11:45Z",
-      "lastDeployedAt": "2026-11-14T16:11:45Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "be_with_god": {
       "firstDeployedAt": null,
@@ -40,7 +40,7 @@
     },
     "find_it": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-14T23:21:16Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "make_change": {
       "firstDeployedAt": null,
@@ -80,7 +80,7 @@
     },
     "trace_lab": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T23:01:51Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "alpha_kids": {
       "firstDeployedAt": null,
@@ -108,7 +108,7 @@
     },
     "christmas_kids": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T05:07:13Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "comic_kids": {
       "firstDeployedAt": null,
@@ -144,7 +144,7 @@
     },
     "piano_synth_demo": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T17:26:08Z"
+      "lastDeployedAt": "2026-11-23T01:39:21Z"
     },
     "pumpkin_carver": {
       "firstDeployedAt": null,
