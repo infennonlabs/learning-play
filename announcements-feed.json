@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T02:33:17Z",
+  "generatedAt": "2026-11-23T03:02:59Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-23T02:33:17Z"
+      "lastDeployedAt": "2026-11-23T03:02:59Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -167,5 +167,22 @@
       "lastDeployedAt": "2026-11-15T17:20:33Z"
     }
   },
-  "pins": []
+  "pins": [
+    {
+      "id": "download-google-play",
+      "text": "Download on Google Play",
+      "note": "Tap Download on any game card",
+      "target": "filter",
+      "priority": 5,
+      "endsAt": "2026-12-06"
+    },
+    {
+      "id": "download-amazon-appstore",
+      "text": "Download on the Amazon Appstore",
+      "note": "Tap Download on any game card, Fire tablets too",
+      "target": "filter",
+      "priority": 6,
+      "endsAt": "2026-12-06"
+    }
+  ]
 }
