@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T16:38:53Z",
+  "generatedAt": "2026-11-26T05:45:13Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-23T16:38:53Z"
+      "lastDeployedAt": "2026-11-26T05:45:13Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -183,6 +183,14 @@
       "target": "filter",
       "priority": 6,
       "endsAt": "2026-12-06"
+    },
+    {
+      "id": "privacy-policy-update",
+      "text": "Privacy Policy Update",
+      "note": "Parents and guardians, please take a look",
+      "target": "filter",
+      "priority": 9,
+      "endsAt": "2026-11-27T06:00:00Z"
     }
   ]
 }
