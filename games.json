@@ -192,6 +192,14 @@
     "devPath": "dev/house-builder/"
   },
   {
+    "id": "garage_racers",
+    "title": "Garage Racers",
+    "slug": "racers",
+    "channelPolicy": "both",
+    "stablePath": "racers/",
+    "devPath": "dev/racers/"
+  },
+  {
     "id": "key_quest",
     "title": "Key Quest",
     "slug": "learn-to-type",
