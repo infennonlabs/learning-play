@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T04:05:43Z",
+  "generatedAt": "2026-11-27T17:32:21Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-27T03:39:48Z"
+      "lastDeployedAt": "2026-11-27T17:32:21Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -108,7 +108,7 @@
     },
     "christmas_kids": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-23T01:32:38Z"
+      "lastDeployedAt": "2026-11-27T17:32:21Z"
     },
     "comic_kids": {
       "firstDeployedAt": null,
@@ -160,7 +160,7 @@
     },
     "thanksgiving_kids": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-15T17:20:33Z"
+      "lastDeployedAt": "2026-11-27T17:32:21Z"
     },
     "word_blend_kids": {
       "firstDeployedAt": null,
@@ -169,6 +169,10 @@
     "house_builder": {
       "firstDeployedAt": "2026-11-27T03:39:48Z",
       "lastDeployedAt": "2026-11-27T04:05:43Z"
+    },
+    "garage_racers": {
+      "firstDeployedAt": "2026-11-27T17:32:21Z",
+      "lastDeployedAt": "2026-11-27T17:32:21Z"
     }
   },
   "pins": [
