@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T03:39:48Z",
+  "generatedAt": "2026-11-27T04:05:43Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -168,7 +168,7 @@
     },
     "house_builder": {
       "firstDeployedAt": "2026-11-27T03:39:48Z",
-      "lastDeployedAt": "2026-11-27T03:39:48Z"
+      "lastDeployedAt": "2026-11-27T04:05:43Z"
     }
   },
   "pins": [
