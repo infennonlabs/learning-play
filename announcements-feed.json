@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T05:45:13Z",
+  "generatedAt": "2026-11-27T03:39:48Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -12,7 +12,7 @@
     },
     "home": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-26T05:45:13Z"
+      "lastDeployedAt": "2026-11-27T03:39:48Z"
     },
     "key_quest": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -96,7 +96,7 @@
     },
     "brick_builder": {
       "firstDeployedAt": null,
-      "lastDeployedAt": "2026-11-23T15:30:41Z"
+      "lastDeployedAt": "2026-11-27T03:39:48Z"
     },
     "calendar_kids": {
       "firstDeployedAt": null,
@@ -165,6 +165,10 @@
     "word_blend_kids": {
       "firstDeployedAt": null,
       "lastDeployedAt": "2026-11-15T17:20:33Z"
+    },
+    "house_builder": {
+      "firstDeployedAt": "2026-11-27T03:39:48Z",
+      "lastDeployedAt": "2026-11-27T03:39:48Z"
     }
   },
   "pins": [
