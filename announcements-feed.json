@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T17:32:21Z",
+  "generatedAt": "2026-11-28T02:16:08Z",
   "games": {
     "animal_sounds": {
       "firstDeployedAt": "2026-11-14T16:07:18Z",
@@ -168,11 +168,15 @@
     },
     "house_builder": {
       "firstDeployedAt": "2026-11-27T03:39:48Z",
-      "lastDeployedAt": "2026-11-27T04:05:43Z"
+      "lastDeployedAt": "2026-11-28T02:16:08Z"
     },
     "garage_racers": {
       "firstDeployedAt": "2026-11-27T17:32:21Z",
-      "lastDeployedAt": "2026-11-27T17:32:21Z"
+      "lastDeployedAt": "2026-11-28T02:16:08Z"
+    },
+    "play_pack": {
+      "firstDeployedAt": "2026-11-28T02:16:08Z",
+      "lastDeployedAt": "2026-11-28T02:16:08Z"
     }
   },
   "pins": [
