@@ -168,6 +168,14 @@
     "devPath": "dev/hide-and-seek/"
   },
   {
+    "id": "garage_racers",
+    "title": "Garage Racers",
+    "slug": "racers",
+    "channelPolicy": "both",
+    "stablePath": "racers/",
+    "devPath": "dev/racers/"
+  },
+  {
     "id": "grammar_adventures_kids",
     "title": "Grammar Adventures Kids",
     "slug": "grammar",
@@ -190,14 +198,6 @@
     "channelPolicy": "both",
     "stablePath": "house-builder/",
     "devPath": "dev/house-builder/"
-  },
-  {
-    "id": "garage_racers",
-    "title": "Garage Racers",
-    "slug": "racers",
-    "channelPolicy": "both",
-    "stablePath": "racers/",
-    "devPath": "dev/racers/"
   },
   {
     "id": "key_quest",
@@ -278,6 +278,14 @@
     "channelPolicy": "both",
     "stablePath": "piano/",
     "devPath": "dev/piano/"
+  },
+  {
+    "id": "play_pack",
+    "title": "Play Pack",
+    "slug": "play-pack",
+    "channelPolicy": "both",
+    "stablePath": "play-pack/",
+    "devPath": "dev/play-pack/"
   },
   {
     "id": "pumpkin_carver",
